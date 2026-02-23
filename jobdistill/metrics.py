@@ -1,4 +1,4 @@
-"""Metrics collection and JSON/log output for pipeline health monitoring."""
+"""Metrics collection, quality guardrails, and JSON/log output."""
 
 from __future__ import annotations
 
@@ -12,6 +12,14 @@ from typing import Any, Dict, List, Optional
 import numpy as np
 
 logger = logging.getLogger(__name__)
+
+# Generic boilerplate markers for the quality guardrail.
+# Kept intentionally small (<15 terms) and in one place for easy auditing.
+BOILERPLATE_MARKERS = frozenset({
+    "application", "submit", "posting", "students", "canada",
+    "apply", "employment", "employer", "accommodation", "deadline",
+    "applicant", "hire", "resume",
+})
 
 
 @dataclass
@@ -27,6 +35,12 @@ class PipelineMetrics:
     extraction_start: float = 0.0
     extraction_end: float = 0.0
     rejected_phrases: List[str] = field(default_factory=list)
+
+    boilerplate_lines_total: int = 0
+    boilerplate_lines_removed_total: int = 0
+    boilerplate_lines_removed_ratio: float = 0.0
+    top_removed_lines: List[tuple] = field(default_factory=list)
+    classifier_floor_triggered_count: int = 0
 
     def start_timer(self) -> None:
         self.extraction_start = time.time()
@@ -50,6 +64,41 @@ class PipelineMetrics:
         if remaining > 0:
             self.rejected_phrases.extend(phrases[:remaining])
 
+    def record_boilerplate(self, stats: Any) -> None:
+        """Record boilerplate removal stats from BoilerplateStats."""
+        self.boilerplate_lines_total = stats.total_lines
+        self.boilerplate_lines_removed_total = stats.removed_lines
+        self.boilerplate_lines_removed_ratio = stats.removed_ratio
+        self.top_removed_lines = [(line, count) for line, count in stats.top_removed[:20]]
+
+    def _compute_quality_check(self, top_skills: List[tuple]) -> Dict[str, Any]:
+        """Run quality guardrail on top-50 skills."""
+        top50 = top_skills[:50]
+        if not top50:
+            return {"quality_failed": False, "boilerplate_pct_top50": 0.0}
+
+        flagged = 0
+        for skill, _ in top50:
+            tokens = set(skill.lower().split())
+            if tokens & BOILERPLATE_MARKERS:
+                flagged += 1
+
+        pct = flagged / len(top50)
+        failed = pct > 0.30
+
+        if failed:
+            logger.warning(
+                "QUALITY CHECK FAILED: %.0f%% of top-50 skills contain boilerplate markers",
+                pct * 100,
+            )
+
+        return {
+            "quality_failed": failed,
+            "boilerplate_pct_top50": round(pct * 100, 1),
+            "flagged_count": flagged,
+            "checked_count": len(top50),
+        }
+
     def to_dict(self, top_skills: Optional[List[tuple]] = None) -> Dict[str, Any]:
         elapsed = self.extraction_end - self.extraction_start if self.extraction_end else 0
         chars = np.array(self.chars_per_pdf) if self.chars_per_pdf else np.array([0])
@@ -57,14 +106,20 @@ class PipelineMetrics:
         skills = np.array(self.skills_per_pdf) if self.skills_per_pdf else np.array([0])
 
         total = self.num_pdfs_total or 1
-        single_token_skills = 0
-        lowercase_only_skills = 0
-        if top_skills:
-            for skill, _ in top_skills:
-                if len(skill.split()) == 1:
-                    single_token_skills += 1
-                if skill == skill.lower():
-                    lowercase_only_skills += 1
+
+        all_skills = top_skills or []
+        multiword = sum(1 for s, _ in all_skills if " " in s)
+        lowercase = sum(1 for s, _ in all_skills if s == s.lower())
+
+        apply_terms = set()
+        for phrase in self.rejected_phrases[:100]:
+            for tok in phrase.lower().split():
+                if tok in BOILERPLATE_MARKERS:
+                    apply_terms.add(tok)
+        apply_count = sum(
+            1 for s, _ in all_skills
+            if set(s.lower().split()) & BOILERPLATE_MARKERS
+        )
 
         result: Dict[str, Any] = {
             "num_pdfs_total": self.num_pdfs_total,
@@ -76,20 +131,36 @@ class PipelineMetrics:
             "pdfs_per_second": round(total / elapsed, 2) if elapsed > 0 else 0,
             "avg_candidates_per_pdf": float(cands.mean()),
             "avg_skills_per_pdf": float(skills.mean()),
+            "boilerplate": {
+                "lines_total": self.boilerplate_lines_total,
+                "lines_removed_total": self.boilerplate_lines_removed_total,
+                "lines_removed_ratio": round(self.boilerplate_lines_removed_ratio, 4),
+                "top_removed_lines": [
+                    {"line": line, "doc_freq": df} for line, df in self.top_removed_lines[:20]
+                ],
+            },
             "diagnostics": {
-                "pct_single_token_skills": round(
-                    single_token_skills / max(len(top_skills or []), 1) * 100, 1
+                "pct_skills_with_space": round(
+                    multiword / max(len(all_skills), 1) * 100, 1
                 ),
-                "pct_lowercase_only_skills": round(
-                    lowercase_only_skills / max(len(top_skills or []), 1) * 100, 1
+                "pct_skills_all_lowercase": round(
+                    lowercase / max(len(all_skills), 1) * 100, 1
+                ),
+                "pct_skills_containing_apply_terms": round(
+                    apply_count / max(len(all_skills), 1) * 100, 1
                 ),
                 "top_rejected_phrases": self.rejected_phrases[:20],
             },
         }
+
+        result["classifier_floor_triggered_count"] = self.classifier_floor_triggered_count
+
         if top_skills:
             result["top20_skills"] = [
                 {"skill": s, "count": c} for s, c in top_skills[:20]
             ]
+            result["quality_guardrail"] = self._compute_quality_check(top_skills)
+
         return result
 
     def write_json(self, path: str, top_skills: Optional[List[tuple]] = None) -> None:
@@ -103,10 +174,13 @@ class PipelineMetrics:
         d = self.to_dict(top_skills)
         logger.info(
             "Pipeline summary: %d PDFs total, %d OK, %d empty text, "
-            "%.1f avg chars, %.2f PDFs/sec",
+            "%.1f avg chars, %.2f PDFs/sec, "
+            "%d boilerplate lines removed (%.1f%%)",
             d["num_pdfs_total"],
             d["num_pdfs_extracted_ok"],
             d["num_pdfs_empty_text"],
             d["avg_chars_per_pdf"],
             d["pdfs_per_second"],
+            d["boilerplate"]["lines_removed_total"],
+            d["boilerplate"]["lines_removed_ratio"] * 100,
         )

@@ -2,11 +2,15 @@
 
 import os
 import tempfile
+from collections import Counter
 from pathlib import Path
+from unittest.mock import MagicMock, patch
 
 import pandas as pd
 import pytest
 
+from jobdistill.boilerplate import strip_boilerplate_corpus
+from jobdistill.extractors.base import ExtractionResult
 from jobdistill.extractors.regex_extractor import RegexSkillExtractor
 from jobdistill.metrics import PipelineMetrics
 from jobdistill.pipeline import build_extractor, collect_pdf_files, run_pipeline
@@ -117,7 +121,40 @@ class TestPipelineMetrics:
         assert "num_pdfs_total" in d
         assert "extraction_seconds_total" in d
         assert "top20_skills" in d
+        assert "boilerplate" in d
+        assert "quality_guardrail" in d
         assert d["num_pdfs_total"] == 1
+        assert d["quality_guardrail"]["quality_failed"] is False
+        assert "lines_total" in d["boilerplate"]
+        assert "classifier_floor_triggered_count" in d
+
+    def test_quality_guardrail_fails_on_boilerplate(self):
+        m = PipelineMetrics()
+        m.start_timer()
+        m.record_pdf("text", candidates=3, skills=2)
+        m.stop_timer()
+        bad_skills = [
+            ("canada application", 50),
+            ("submit posting", 45),
+            ("students employer", 40),
+            ("application deadline", 35),
+            ("apply employer", 30),
+            ("accommodation hire", 25),
+            ("applicant resume", 20),
+            ("submit deadline", 15),
+            ("posting employer", 10),
+            ("canada posting", 9),
+            ("employer accommodation", 8),
+            ("submit applicant", 7),
+            ("application students", 6),
+            ("deadline application", 5),
+            ("employer submit", 4),
+            ("hire applicant", 3),
+            ("Python", 2),
+            ("Git", 1),
+        ]
+        d = m.to_dict(top_skills=bad_skills)
+        assert d["quality_guardrail"]["quality_failed"] is True
 
     def test_write_json(self, tmp_path):
         m = PipelineMetrics()
@@ -140,3 +177,74 @@ class TestOutputCSVColumns:
         )
         assert "Skill" in df.columns
         assert "Count" in df.columns
+
+
+class TestMLPipelineSmoke:
+    """Simulate 5 docs through the ML pipeline, ensure >5 skills overall."""
+
+    def test_ml_pipeline_produces_skills(self, tmp_path):
+        fake_results = [
+            ExtractionResult(
+                skills={"python": 0.9, "javascript": 0.8, "react": 0.7, "docker": 0.8, "aws": 0.85, "sql": 0.9, "git": 0.7},
+                candidates_considered=20,
+            ),
+            ExtractionResult(
+                skills={"java": 0.9, "c++": 0.8, "linux": 0.7, "kubernetes": 0.8, "ci/cd": 0.75},
+                candidates_considered=15,
+            ),
+            ExtractionResult(
+                skills={"typescript": 0.9, "angular": 0.8, "node.js": 0.7, "redis": 0.8, "postgresql": 0.85},
+                candidates_considered=15,
+            ),
+            ExtractionResult(
+                skills={"python": 0.9, "docker": 0.8, "aws": 0.85, "jenkins": 0.7, "terraform": 0.8},
+                candidates_considered=18,
+            ),
+            ExtractionResult(
+                skills={"javascript": 0.9, "react": 0.8, "sql": 0.85, "mongodb": 0.8},
+                candidates_considered=12,
+            ),
+        ]
+
+        docs = [
+            "Python JavaScript React Docker AWS SQL Git\n" * 3,
+            "Java C++ Linux Kubernetes CI/CD\n" * 3,
+            "TypeScript Angular Node.js Redis PostgreSQL\n" * 3,
+            "Python Docker AWS Jenkins Terraform\n" * 3,
+            "JavaScript React SQL MongoDB\n" * 3,
+        ]
+
+        d = tmp_path / "pdfs"
+        d.mkdir()
+        pdf_files = []
+        for i in range(5):
+            p = d / f"doc{i}.pdf"
+            p.write_text("fake pdf")
+            pdf_files.append(str(p))
+
+        mock_extractor = MagicMock()
+        mock_extractor.name = "ml"
+        mock_extractor.extract = MagicMock(side_effect=fake_results)
+        mock_extractor.classifier_floor_triggered_count = 0
+
+        with patch(
+            "jobdistill.pipeline.extract_pdf_with_lines",
+            side_effect=lambda path, cache_dir=None: docs[pdf_files.index(path)],
+        ):
+            df, metrics = run_pipeline(
+                pdf_files=pdf_files,
+                extractor=mock_extractor,
+                disable_boilerplate=True,
+            )
+
+        assert len(df) > 5, f"Expected >5 skills, got {len(df)}"
+
+        skill_names = set(df["Skill"].tolist())
+        real = {"python", "aws", "docker", "git", "javascript", "sql", "react"}
+        found = real & skill_names
+        assert len(found) >= 4, f"Expected >=4 real skills, got: {found}"
+
+        multi_count = df[df["Count"] > 1]
+        assert len(multi_count) >= 3, "Expected >=3 skills with count > 1"
+
+        assert df.iloc[0]["Count"] >= df.iloc[-1]["Count"], "Should be sorted desc"

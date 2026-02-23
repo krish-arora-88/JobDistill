@@ -1,0 +1,225 @@
+Job Posting:167144 - Position: S25 Software Engineer 167144B
+
+Co-op Work Term Posted:
+
+2025 - Summer
+
+App Deadline
+
+Application Method:
+
+Posting Goes Live:
+
+Job Posting Status:
+
+02/20/2025 09:00 AM
+
+Through UBC Science Co-op
+
+02/14/2025 02:52 PM
+
+Expired
+
+ORGANIZATION INFORMATION
+
+Organization
+
+City
+
+Province / State
+
+Country
+
+Introspect Technology
+
+Montreal
+
+QC
+
+Canada
+
+JOB POSTING INFORMATION
+
+Placement Term
+
+<b> Job Title <b>
+
+Position Type
+
+Job Location
+
+Country
+
+Duration
+
+Work Mode
+
+2025 - Summer
+
+S25 Software Engineer 167144B
+
+Co-op Position
+
+Vancouver, BC
+
+Canada
+
+4 months
+
+To be confirmed
+
+Salary Currency
+
+CAD
+
+Salary
+
+Job Description
+
+Division: R&D
+
+4600.0 per month for 0 Major List
+
+Location: Montreal or Vancouver, Canada
+
+Industry: Electronic Test and Measurement Equipment
+
+Company Overview
+
+Founded in 2012, Introspect Technology designs and manufactures innovative test and measurement equipment for high-speed
+
+digital applications. Whether it is the next augmented reality headset or the level-4 autonomy engine in a mobility solution, our
+
+award-winning tools are used to develop, test, and manufacture next-generation products. In short, we help the leading global
+
+technology companies make tomorrow's technology today's possibility.
+
+Why Introspect
+
+Drive Tomorrow's Technology
+
+At Introspect, we're solving the most difficult problems encountered in electrical engineering with a passionate team that is
+
+inventing the world's most innovative test instruments. You will have the opportunity to create state-of-the-art test and
+
+measurement equipment - tools which will empower engineers to produce their finest work. You'll not only make a meaningful
+
+difference in our customers' careers, but you'll also impact the lives of people around the world with work that propels global
+
+innovation forward.
+
+Collaborate with Driven Colleagues
+
+You will work with a team of diverse and intelligent colleagues as well as with customers at the top technology companies in the
+
+world. At Introspect, you'll gain a rich, multi-disciplinary experience with colleagues and mentors committed to helping you learn
+
+and achieve your career goals.
+
+Pursue your Passions
+
+We'll provide the support you need to do what you love and help you pursue a career which aligns with your values, passions, and
+
+aspirations. We also offer a competitive employee benefits package that
+
+includes medical and dental coverage. Join us to achieve your maximum potential, produce the best work of your career, and
+
+deliver meaningful value to customers.
+
+Job Description
+
+As the company is entering new markets and expanding its portfolio of products, Introspect Technology is seeking an experienced
+
+Software Engineer to join our R&D team in Montreal or Vancouver. As a Software Engineer, you will participate in maintaining
+
+Introspect's Pinetree software, a development and scripting environment aimed to help test engineers around the world to validate
+
+their high-speed electronics designs.
+
+This position offers a unique opportunity to work at a rapidly growing global company and to serve leading edge technologies such
+
+as MIPI, PCI Express, DisplayPort, USB, DDR, and next-generation telecommunications standards. It also offers the possibility to
+
+obtain multi-disciplinary experience in embedded systems, register-transfer languages (RTL), signal validation, and more. The
+
+ideal candidate is a driven, self-motivated, and highly cooperative top performer who thrives in a flexible engineering environment.
+
+Responsibilities
+
+•
+
+Design and maintain Python software to drive multiple variants of our physical products
+
+•
+
+Create application-specific data analysis routines
+
+•
+
+Translate low-level digital specifications (DisplayPort, DDR5 memory, PCIe, etc.) into easy-to-use, high-level software suites
+
+•
+
+Document usage models and options for the developed software
+
+Implement software optimizations to improve user experience
+•
+Job Requirements
+
+Qualifications
+
+Working towards a Bachelor's or Master's degree in computer engineering or a related field
+Pertinent experience in software development
+
+•
+
+•
+
+•
+
+Strong experience with object-oriented programming
+
+•
+
+Experience in one or more of the following topics:
+
+•
+
+Python3
+
+•
+
+Desktop GUI frameworks (.NET, QT, wxWidgets, etc)
+
+•
+
+C / C++
+
+•
+
+Digital signal processing
+
+•
+
+Software performance profiling and optimization
+
+Electronics technical specifications (HDMI, DisplayPort, USB, DDR memory, etc.)
+•
+Citizenship Requirement
+
+N/A
+
+APPLICATION INFORMATION
+
+Application Procedure
+
+Through UBC Science Co-op
+
+Cover Letter Required?
+
+Yes
+
+Address Cover Letter to
+
+Hiring Manager
+

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
-from typing import Dict, List
+from typing import Any, Dict, List, Optional
 
 
 @dataclass
@@ -14,6 +14,7 @@ class ExtractionResult:
     skills: Dict[str, float]  # skill_phrase -> confidence (1.0 for regex)
     candidates_considered: int = 0
     example_mentions: Dict[str, List[str]] = field(default_factory=dict)
+    debug_info: Optional[Dict[str, Any]] = None
 
     @property
     def skill_names(self) -> List[str]:

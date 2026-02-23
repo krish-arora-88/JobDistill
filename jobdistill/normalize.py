@@ -30,9 +30,12 @@ _JUNK_PHRASES = frozenset({
     "cover letter", "resume", "salary", "compensation", "benefits",
 })
 
-# Matches strings that are purely numeric or single punctuation
 _PURE_NUMERIC_RE = re.compile(r"^[\d.,/%$€£¥+\-×÷=<>]+$")
 _WHITESPACE_RE = re.compile(r"\s+")
+
+_TECH_SYMBOL_RE = re.compile(r"[.+#/\-]")
+_UPPER_ACRONYM_RE = re.compile(r"^[A-Z][A-Z0-9]{1,5}$")
+_MIXED_CASE_RE = re.compile(r"[a-z][A-Z]")
 
 
 def normalize_whitespace(text: str) -> str:
@@ -54,6 +57,18 @@ def clean_text(text: str) -> str:
     text = normalize_unicode(text)
     text = normalize_whitespace(text)
     return text
+
+
+def clean_text_preserve_newlines(text: str) -> str:
+    """Unicode normalize, collapse whitespace within lines, keep line breaks.
+
+    Critical for boilerplate detection: line boundaries must survive so that
+    document-frequency of individual lines can be computed.
+    """
+    text = normalize_unicode(text)
+    lines = text.split("\n")
+    cleaned = [normalize_whitespace(line) for line in lines]
+    return "\n".join(cleaned)
 
 
 def normalize_phrase(phrase: str) -> str:
@@ -91,14 +106,99 @@ def token_count(phrase: str) -> int:
     return len(phrase.split())
 
 
+def stopword_ratio(phrase: str) -> float:
+    """Fraction of tokens in the phrase that are stopwords."""
+    tokens = phrase.lower().split()
+    if not tokens:
+        return 0.0
+    return sum(1 for t in tokens if t in _STOPWORDS) / len(tokens)
+
+
+_APPLICATION_VERBS = frozenset({
+    # Application process vocabulary
+    "submit", "apply", "posting", "postings", "hire", "hiring",
+    "employer", "employment", "candidate", "candidates", "deadline",
+    "accommodation", "opportunity", "looking", "applicant", "applicants",
+    "application", "applications", "students", "equal",
+    "position", "description", "responsibilities", "qualifications",
+    "preferred", "required", "requirements", "salary", "benefits",
+    "compensation", "company", "organization", "department",
+    # Common non-skill words that appear capitalized in job postings
+    "job", "role", "team", "work", "working", "student",
+    "experience", "ability", "knowledge", "understanding",
+    "engineer", "developer", "analyst", "manager", "intern",
+    "software", "hardware", "computer", "program", "service",
+    "product", "level", "process", "environment", "use",
+    "basic", "system", "systems", "language", "languages",
+    "platform", "framework", "frameworks", "engineering",
+    "development", "develop", "documents", "documentation",
+    "technology", "technologies", "collaborate", "support", "create", "manage",
+    "developing", "implementing", "building", "designing", "testing",
+    "maintaining", "learning", "creating", "communicating", "tools",
+})
+
+
+def has_tech_indicator(phrase: str) -> bool:
+    """True if the phrase looks like a tech skill (symbol, acronym, camelCase, etc).
+
+    Indicators checked in order (any one suffices):
+    - Contains a symbol typical of tech names: . + # / -  (e.g. .NET, C++, C#)
+    - Contains an uppercase acronym token of length 2–6  (AI, ML, AWS, SQL)
+    - Contains a token with mixed case (JavaScript, TypeScript)
+    - Contains a capitalized non-stopword token (Python, React, Docker)
+    - Single token: alphanumeric and >= 3 chars and not a stopword or app verb
+    """
+    tokens = phrase.split()
+
+    for tok in tokens:
+        if _TECH_SYMBOL_RE.search(tok):
+            return True
+
+        if _UPPER_ACRONYM_RE.match(tok):
+            return True
+
+        if _MIXED_CASE_RE.search(tok):
+            return True
+
+    for tok in tokens:
+        if (
+            len(tok) >= 2
+            and tok[0].isupper()
+            and tok.lower() not in _STOPWORDS
+            and tok.lower() not in _APPLICATION_VERBS
+        ):
+            return True
+
+    if len(tokens) == 1:
+        cleaned = re.sub(r"[^a-zA-Z0-9]", "", tokens[0])
+        if (
+            len(cleaned) >= 3
+            and cleaned.lower() not in _STOPWORDS
+            and cleaned.lower() not in _APPLICATION_VERBS
+        ):
+            return True
+
+    for tok in tokens:
+        cleaned = re.sub(r"[^a-zA-Z0-9]", "", tok)
+        if (
+            re.search(r"\d", cleaned)
+            and re.search(r"[a-zA-Z]", cleaned)
+            and len(cleaned) <= 4
+            and (cleaned[0].isdigit() or cleaned.isupper())
+        ):
+            return True
+
+    return False
+
+
 def is_valid_candidate(
     phrase: str,
     min_tokens: int = 1,
-    max_tokens: int = 5,
+    max_tokens: int = 4,
     min_chars: int = 1,
     max_chars: int = 60,
 ) -> bool:
-    """Check whether a candidate phrase passes basic quality filters.
+    """Check whether a candidate phrase passes quality filters.
 
     Filters:
     - Token count within [min_tokens, max_tokens]
@@ -106,6 +206,8 @@ def is_valid_candidate(
     - Not stopword-only
     - Not a junk phrase
     - Not purely numeric
+    - Stopword ratio <= 0.5
+    - Must have at least one tech indicator
     """
     phrase = phrase.strip()
     if not phrase:
@@ -120,6 +222,10 @@ def is_valid_candidate(
     if is_junk_phrase(phrase):
         return False
     if is_pure_numeric(phrase):
+        return False
+    if stopword_ratio(phrase) > 0.5:
+        return False
+    if not has_tech_indicator(phrase):
         return False
     return True
 

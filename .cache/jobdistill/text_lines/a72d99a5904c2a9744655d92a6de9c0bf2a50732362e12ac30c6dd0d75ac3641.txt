@@ -1,0 +1,193 @@
+Job Posting:166698 - Position: S25 Software Engineer 166698
+
+Co-op Work Term Posted:
+
+2025 - Summer
+
+App Deadline
+
+Application Method:
+
+Posting Goes Live:
+
+Job Posting Status:
+
+02/12/2025 09:00 AM
+
+Through UBC Science Co-op
+
+02/05/2025 11:38 AM
+
+Expired
+
+ORGANIZATION INFORMATION
+
+Organization
+
+City
+
+Province / State
+
+Yakoa
+
+San Jose
+
+CA
+
+JOB POSTING INFORMATION
+
+Placement Term
+
+<b> Job Title <b>
+
+Position Type
+
+Job Location
+
+Country
+
+Duration
+
+Salary Currency
+
+Salary
+
+Job Description
+
+About Yakoa:
+
+2025 - Summer
+
+S25 Software Engineer 166698
+
+Co-op Position
+
+Vancouver, BC
+
+Canada
+
+4 months
+
+CAD
+
+4500.0 per month for 40 Major List
+
+At Yakoa, we protect the most recognizable brands in the world from infringement that happens on blockchain networks. We do
+
+this using large-scale data indexing systems to take inventory of digital assets as they get listed, while our AI sorts the legitimate
+
+works from the infringing ones.
+
+About the role:
+
+We are looking for a motivated and talented co-op student with a strong interest in developing scalable systems. As a data systems
+
+architect, you will play a critical role in architecting and implementing data infrastructure vital for analytics, data science, machine
+
+learning, and AI projects. You'll have the chance to engage with extensive datasets and be integral in shaping the data framework
+
+that supports Yakoa's diverse product range. Working across disciplines, you'll contribute to data infrastructure spanning multiple
+
+systems and business functions.
+
+The development process is fast-paced, so you must be able to think strategically and take calculated risks. The position involves
+
+working at the intersection of AI, blockchain, and intellectual property, so a strong desire to learn and grow is essential.
+
+Requirements and Qualifications:
+
+•
+
+Developing and maintaining data infrastructure that supports large-scale analytics, data science, machine learning, and AI
+
+workloads
+
+•
+
+Partnering with cross-functional teams to unify data infrastructure across Yakoa's product offerings
+
+•
+
+Analyzing and interpreting large datasets and identifying trends and patterns
+
+•
+
+Participating in the design and development of new data management and analytics tools
+
+•
+
+Communicating with stakeholders to understand their data needs and providing solutions
+
+•
+
+Keeping abreast of new technologies and trends in the field of blockchain, AI, and intellectual property
+
+This is a full-time co-op position for a 4-month duration, with the possibility to extend. You will be working closely with a team of
+
+experienced engineers and will have the opportunity to learn from them and contribute to the development of cutting-edge
+
+technologies. If you are a highly motivated student looking for an exciting opportunity to work in the field of AI, blockchain, and
+
+intellectual property, we encourage you to apply!
+Job Requirements
+
+The requirements for this position are:
+
+•
+
+Fluent in Python
+
+•
+
+Rock-solid SQL skills
+
+•
+
+Experience with big data ecosystems for computing (Spark, Kafka, Hive etc.), orchestration tools (dagster, airflow, oozie etc.),
+
+cloud computing (AWS, GCP etc.), or modern databases (PostgreSQL, Redshift, MongoDB etc.) are a plus
+
+•
+
+Strong understanding of data structures and algorithms
+
+•
+
+Experience in data infrastructure development and management
+
+•
+
+Familiarity with analytics and data science tools and techniques
+
+•
+
+Strong problem-solving skills and ability to think strategically
+
+•
+
+Excellent communication and collaboration skills
+
+•
+
+Strong desire to learn and adapt to new technologies and domains
+
+Ability to work in a fast-paced and dynamic environment
+•
+Citizenship Requirement
+
+N/A
+
+APPLICATION INFORMATION
+
+Application Procedure
+
+Through UBC Science Co-op
+
+Cover Letter Required?
+
+Yes
+
+Address Cover Letter to
+
+Mr. Shayan Lakhani
+

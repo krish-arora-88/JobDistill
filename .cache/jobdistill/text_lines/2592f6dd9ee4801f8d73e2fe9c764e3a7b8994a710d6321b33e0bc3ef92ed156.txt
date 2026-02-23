@@ -1,0 +1,226 @@
+Job Posting:168159 - Position: S25 Software Engineer Intern 168159
+
+Co-op Work Term Posted:
+
+2025 - Summer
+
+App Deadline
+
+Application Method:
+
+Posting Goes Live:
+
+Job Posting Status:
+
+04/01/2025 09:00 AM
+
+Through UBC Science Co-op
+
+03/25/2025 12:16 PM
+
+Approved
+
+ORGANIZATION INFORMATION
+
+Organization
+
+Website
+
+Address Line 1
+
+Address Line 2
+
+City
+
+Postal Code / Zip Code
+
+Province / State
+
+Country
+
+Infoblox
+
+http://www.infoblox.com
+
+Metrotower 1 - 4710 Kingsway
+
+Suite 1100
+
+Burnaby
+
+V5H 4M2
+
+BC
+
+Canada
+
+JOB POSTING INFORMATION
+
+Placement Term
+
+<b> Job Title <b>
+
+Position Type
+
+Job Location
+
+Country
+
+Duration
+
+Work Mode
+
+Salary Currency
+
+Salary
+
+Salary Range $
+
+Job Description
+
+2025 - Summer
+
+S25 Software Engineer Intern 168159
+
+Co-op Position
+
+Burnaby, BC
+
+Canada
+
+8 months
+
+Hybrid
+
+CAD
+
+30.0 per hour for 0 Major List
+
+$27-32
+
+Infoblox is seeking a Software Engineer Intern to join our NIOS-X as a Service team. The ideal intern should be passionate about
+
+learning about SaaS, cloud computing, cutting-edge technology, open-source initiatives, and micro-services architecture to build
+
+state-of-the-art SaaS-based solutions.
+
+•
+
+You will join an agile and highly collaborative team to develop and deploy features for Infoblox's next-generation NIOS-XaaS
+
+team.
+
+•
+
+You will engage with an experienced cross-disciplinary staff to conceive and design innovative features for the current and future
+
+market-leading solutions.
+
+•
+
+You'll be in the position to begin using what you have learned in the classroom on real business activities such as requirements
+
+gathering and analysis, design, feature implementation, deployment, operations, and maintenance.
+
+Join a highly collaborative team with a culture that embraces diversity, equity, and inclusion and rewards innovation, curiosity, and
+
+creativity. We achieve remarkable results by working together in a caring, collaborative work environment that focuses on
+
+continuous learning and embraces change.
+
+What You'll Do:
+
+•
+
+•
+
+•
+
+•
+
+Develop and deploy software for a large-scale, cloud-based SaaS solution using open-source technologies.
+
+Develop unit and functional tests for Continuous Integration, Continuous Deployment running under Jenkins.
+
+Work closely with peer engineers, QA, and Support in a highly collaborative environment
+
+Benchmark, optimize and fine-tune software performance
+
+Education:
+
+•
+
+Enrolled in 3
+
+rd
+
+or 4 year of bachelor's degree or enrolled in master's degree in Computer Science, Software Engineering,
+
+Electrical Engineering or related field
+
+While we may be working remotely from different locations, collaboration and teamwork is built into all we do. This is a paid, full-
+
+time 40 hours per week internship that could lead to a permanent full-time position post-graduation.
+
+Check out what our Bloxer interns were up to in years past:
+
+https://youtu.be/n0NcA8rQJvU?si=vswv9Cd-vM3TBRgl
+
+Job Requirements
+
+What You'll Bring:
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+Experience programming in an object-oriented language such as Go, Java, C++, Python
+
+Experience in micro-services architecture and container-based software using Docker or other container technologies is preferred
+Familiarity with Kubernetes and containerization concepts.
+
+Understanding of software engineering principles, data structures, and algorithms
+
+Excellent problem-solving and debugging skills.
+
+Effective communication skills and ability to work in a collaborative team environment.
+
+Familiarity with cloud platforms (e.g., AWS, GCP, or Azure)
+
+Knowledge of Unix/Linux environments
+•
+Citizenship Requirement
+
+N/A
+
+Position Start Date
+
+Position End Date
+
+May 05, 2025 12:00 AM
+
+December 19, 2025 12:00 AM
+
+APPLICATION INFORMATION
+
+Application Procedure
+
+Through UBC Science Co-op
+
+Cover Letter Required?
+
+Preferred
+
+Address Cover Letter to
+
+Metrotower 1
+

@@ -1,0 +1,264 @@
+Job Posting:167858 - Position: S25 Full-Stack Software Developer Intern
+167858B
+
+Co-op Work Term Posted:
+
+2025 - Summer
+
+App Deadline
+
+Application Method:
+
+Posting Goes Live:
+
+Job Posting Status:
+
+03/19/2025 09:00 AM
+
+Through UBC Science Co-op
+
+03/12/2025 12:08 PM
+
+Approved
+
+ORGANIZATION INFORMATION
+
+Organization
+
+Address Line 1
+
+City
+
+Postal Code / Zip Code
+
+Province / State
+
+Country
+
+Grid Insights INC
+
+#204-7164 120st Scottsdale Square Business Centre
+
+Surrey
+
+V3W 3M8
+
+BC
+
+Canada
+
+JOB POSTING INFORMATION
+
+Placement Term
+
+<b> Job Title <b>
+
+Position Type
+
+Job Location
+
+Country
+
+Duration
+
+Work Mode
+
+Salary Currency
+
+Salary
+
+Salary Range $
+
+Job Description
+
+2025 - Summer
+
+S25 Full-Stack Software Developer Intern 167858B
+
+Co-op Position
+
+Surrey, BC
+
+Canada
+
+4 or 8 months
+
+Hybrid
+
+Fully Remote
+
+CAD
+
+0.0 per hour for 35 Major List
+
+$20- $40 per hour
+
+Location: In-person (preferred) or remote
+
+Salary Range: $25 - $40/hr
+
+ANote: The actual salary will be determined based on the student's capabilities, skillset, and prior experience.
+
+Start/End Dates:
+
+Work term
+
+Start date
+
+Summer 2025 - 4 months May 5, 2025
+
+Summer 2025 - 8 months May 5, 2025
+
+End date
+
+Aug 31, 2025
+
+Dec 22, 2025
+
+May 5, 2025
+
+April 30, 2026
+
+Summer 2025 - 12
+
+months
+
+About Us
+
+Total work weeks
+
+Hours per week
+
+16
+
+32
+
+48
+
+35
+
+35
+
+35
+
+Grid Insights INC. is a forward-thinking tech company operating in the renewable energy sector. We specialize in utilizing machine
+
+learning and AI to develop innovative solutions that drive efficiency and sustainability in energy management. Our current
+
+engineering team is working on projects to provide our clients with reliable, interactive, and advantageous insights about grid
+
+positioning and energy market. This includes working with terabytes of data, creating simulation scenarios, and developing full-
+
+stack applications.
+
+We are looking for a talented Software Developer Intern to join our team, starting Summer 2025. This is an in-person based
+
+position designed to accommodate students currently enrolled in their co-op terms. The team has recently relocated to a beautiful
+
+office in the heart of Surrey Central, with access to cutting-edge hardware resources and amenities. This position incorporates an
+
+exciting blend of being immersed in the development of robust backend systems for our flagship product; a SaaS platform
+
+designed to provide renewable energy developers with data-driven insights on the grid.
+
+Note: this position is also available remote for students constrained to not relocating to Vancouver.
+
+Key Responsibilities
+
+•
+
+Design and build responsive React components for our SaaS platform
+
+•
+
+Implement intuitive user experience interfaces with modern UI/UX principles
+
+•
+
+•
+
+Develop interactive GIS visualizations using Azure Maps
+Create dynamic data dashboards for renewable energy metrics
+
+•
+
+Integrate frontend and backend components with RESTful APIs
+
+•
+
+Optimize application performance and responsiveness
+
+Collaborate with backend developers to ensure seamless data integration
+•
+Job Requirements
+Required Skills
+
+•
+
+Strong JavaScript, React.js, and Python development experience
+
+•
+
+Experience with frontend build tools and package managers
+
+Understanding of cross-browser compatibility issues and solutions
+•
+Familiarity with version control systems (Git)
+•Preferred Experience
+Background or interest in renewable energy sector
+•
+
+•
+
+Experience with mapping libraries or GIS visualization
+
+•
+
+Experience with UI component libraries
+
+•
+
+Basic understanding of RESTful API integration
+
+Familiarity with Azure services, particularly Azure Maps
+•
+Why Join Us?
+
+We are a nimble but powerful team of engineers, designers and consultants on a mission to deploy cutting-edge technology to a
+
+legacy industry. As a growing startup with huge upside potential, we believe that hiring early talent is a catalyst to success. Our
+
+interns contribute directly to our client-facing projects, from ideation to production. You are a good fit if you are a builder that likes
+
+to tinker with new tools and is not afraid to demonstrate passion through impressive software development.
+
+Work Authorization
+
+Open to candidates who are eligible working in Canada, including international students.
+Citizenship Requirement
+
+N/A
+
+Position Start Date
+
+September 16, 2024 12:00 AM
+
+APPLICATION INFORMATION
+
+Application Procedure
+
+Through UBC Science Co-op
+
+Cover Letter Required?
+
+Optional
+
+Address Cover Letter to
+
+Rodrigo Del Aguila
+
+Special Application Instructions
+Interested candidates are encouraged to send their resume and a brief cover letter explaining
+their interest in the position to our hiring manager, Rodrigo Daguilla. Please include any
+relevant project work or portfolio links.
+

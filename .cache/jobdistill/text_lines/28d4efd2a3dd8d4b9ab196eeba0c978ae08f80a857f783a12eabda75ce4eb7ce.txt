@@ -1,0 +1,161 @@
+Job Posting:167767 - Position: S25 Software Developer 167767B
+
+Co-op Work Term Posted:
+
+2025 - Summer
+
+App Deadline
+
+Application Method:
+
+Posting Goes Live:
+
+Job Posting Status:
+
+03/17/2025 09:00 AM
+
+Through UBC Science Co-op
+
+03/10/2025 02:16 PM
+
+Approved
+
+ORGANIZATION INFORMATION
+
+Organization
+
+Address Line 1
+
+City
+
+Postal Code / Zip Code
+
+Country
+
+StandardFusion
+
+300 - 303 W Pender St.
+
+Vancouver
+
+V6B 1T3
+
+Canada
+
+JOB POSTING INFORMATION
+
+Placement Term
+
+<b> Job Title <b>
+
+Position Type
+
+Job Location
+
+Country
+
+Duration
+
+2025 - Summer
+
+S25 Software Developer 167767B
+
+Co-op Position
+
+Vancouver, BC
+
+Canada
+
+4 or 8 months
+
+Salary Currency
+
+CAD
+
+Salary
+
+Salary Range $
+
+Job Description
+
+0.0 per hour for 0 Major List
+
+$24/h - $26/h
+
+Due to an exciting period of growth, StandardFusion currently has an opportunity for a
+
+Software Developer intern to join our team in Vancouver, BC for summer 2025 (ideally May -
+
+August 2025).
+
+As our new Software Developer, some of your responsibilities will include:
+
+Collaborating with other developers, and departments to design and create technical solutions
+
+that exceed customer expectations
+
+Promoting good modern software engineering practices through design and code reviews
+
+Being a team player who enjoys collaborating with, learning from, mentoring, and teaching
+other team members to create a positive work environment
+
+Translating customer and team needs into functional, intuitive, and appealing applications to
+
+ensure a great user experience
+
+Troubleshooting problems and optimizing applications for speed and responsiveness
+
+Helping us grow. We need someone who's willing to go the extra mile and help to generate
+
+ideas, solve problems and grow with the company. Add to the discussion, take on your own
+
+projects, and see how you can impact the overall business.
+Job Requirements
+
+Previous experience with any of the following will be considered an asset:
+
+.NET (C# or VB), MVC, Visual Studio, and other Microsoft-centric development technologies
+
+HTML/CSS/JavaScript/TypeScript
+
+SQL Server, MySQL, or other relational databases
+
+Linux-based operating systems and tools
+
+Hosting websites, managing servers, or working with AWS, Azure, etc.
+
+UI/UX Design
+
+Front-end frameworks such as React
+
+Unit testing or end-to-end testing frameworks
+
+Understanding of CI/CD pipelines and practices
+
+As our ideal candidate, you have a solid understanding of PCs and Windows, networking
+
+fundamentals, security/cryptography, and general IT troubleshooting. You have impeccable
+
+written and spoken English language skills, as well as effective critical thinking and problem-
+
+solving skills. Above all, you are an enthusiastic self-starter who's keen to contribute to a
+
+rapidly growing organization.
+
+Candidates with an entrepreneurial mindset who are eager to learn and interested in growing
+
+with StandardFusion are strongly encouraged to apply.
+Citizenship Requirement
+
+N/A
+
+APPLICATION INFORMATION
+
+Application Procedure
+
+Through UBC Science Co-op
+
+Cover Letter Required?
+
+Optional
+

@@ -1,0 +1,185 @@
+Job Posting:167199 - Position: S25 Firmware Developer Co-op 167199 E2
+
+Co-op Work Term Posted:
+
+2025 - Summer
+
+App Deadline
+
+Application Method:
+
+Posting Goes Live:
+
+Job Posting Status:
+
+03/18/2025 09:00 AM
+
+Through Employer Website
+
+03/04/2025 09:46 AM
+
+Approved
+
+ORGANIZATION INFORMATION
+
+Organization
+
+Country
+
+Arlo Technologies
+
+Canada
+
+JOB POSTING INFORMATION
+
+Placement Term
+
+<b> Job Title <b>
+
+Position Type
+
+Job Location
+
+Country
+
+Duration
+
+Work Mode
+
+2025 - Summer
+
+S25 Firmware Developer Co-op 167199 E2
+
+Co-op Position
+
+Richmond, BC
+
+Canada
+
+8 months
+
+To be confirmed
+
+Salary Currency
+
+CAD
+
+Salary
+
+Salary Range $
+
+Job Description
+
+About Arlo:
+
+Salary Not Available, 37.5 Major List
+
+$3,700 - $4,300
+
+At Arlo, we're passionate about creating innovative and reliable solutions that help people protect what matters most to them. Our
+
+team is dedicated to delivering products that exceed our customers' expectations, while always pushing the boundaries of what's
+
+possible in the world of protection technology. We believe that everyone deserves to feel safe and secure, whether they're at home
+
+or away, and we're committed to providing our customers with the peace of mind they need to live their lives without worry. Arlo's
+
+deep expertise in AI- and CV-powered analytics, cloud services, user experience, product design, and innovative wireless and RF
+
+connectivity enables the delivery of a seamless, smart security experience for Arlo users that is easy to set up and interact with
+
+every day.
+
+Arlo is looking for top students for an 8-month work term with a strong interest in developing embedded software and tools. As a
+
+developer Co-op, you will work on products by maintaining existing features or adding new ones. Most development is on a Linux
+
+environment, but there may be some work on Windows with Visual Studio or app development for iOS and Android devices.
+
+Responsibilities include design, coding, unit testing, as well as the debugging and system level testing.
+
+We thank all applicants for their interest in this position but only candidates for consideration will be contacted.
+
+The pay range for this position reflects the minimum and maximum target for new hire salaries at commencement of employment
+
+and is expected to be between CAD$3,700 - $4,300/month. However, base pay offered may vary depending on multiple factors,
+
+including role, job-related knowledge, skills, relevant education and experience. The total compensation package for this position
+
+may also include other elements, including bonus, equity, and a full range of benefits. Details of all benefits will be provided if an
+
+employee receives an offer of employment.
+
+We are proud to be an equal opportunity employer. We do not discriminate based on race, color, religion, gender, gender identity,
+
+sexual orientation, age, national origin, disability, or veteran status or any other characteristic prohibited by federal, state and/or
+
+local laws. All qualified applicants will receive consideration for employment without regard to any of these factors.
+
+Job Requirements
+
+Qualifications:
+
+•
+
+Good knowledge of the C programming language.
+
+•
+
+Experience with Linux or Visual Studio.
+
+•
+
+Debugging and problem-solving skills.
+
+•
+
+Understanding of real-time OS concepts.
+
+•
+
+Ability to work independently and within a team environment.
+
+Preferably students in 3rd or 4th year.
+
+•
+Application must include:
+
+•
+
+Student Summary
+
+•
+
+Cover Letter
+
+•
+
+Resume
+
+•
+
+Transcript
+
+Citizenship Requirement
+
+N/A
+
+APPLICATION INFORMATION
+
+Application Procedure
+
+Through Employer Website
+
+Special Application Instructions
+
+Apply for job here: Firmware Developer Co-op
+
+Please click the "I intend to apply to this position" button on SCOPE and also submit your application via the employer's website.
+
+Applications are accepted on a rolling basis and the posting may be expired at any time by the employer as submissions are
+
+received.
+
+Students should submit their applications as soon as they are ready.
+

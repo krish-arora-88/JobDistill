@@ -1,0 +1,196 @@
+Job Posting:166998 - Position: S25 Embedded Test Engineer Co-op 166998
+
+Co-op Work Term Posted:
+
+2025 - Summer
+
+App Deadline
+
+Application Method:
+
+Posting Goes Live:
+
+Job Posting Status:
+
+02/19/2025 09:00 AM
+
+Through UBC Science Co-op
+
+02/12/2025 01:04 PM
+
+Expired
+
+ORGANIZATION INFORMATION
+
+Organization
+
+Address Line 1
+
+City
+
+Postal Code / Zip Code
+
+Province / State
+
+Country
+
+Stryker
+
+8329 Eastlake Drive, Unit 101,
+
+Burnaby
+
+V5A 4W2
+
+British Columbia
+
+Canada
+
+JOB POSTING INFORMATION
+
+Placement Term
+
+<b> Job Title <b>
+
+Position Type
+
+Job Location
+
+Country
+
+Duration
+
+Salary Currency
+
+Salary
+
+Salary Range $
+
+Job Description
+
+2025 - Summer
+
+S25 Embedded Test Engineer Co-op 166998
+
+Co-op Position
+
+Burnaby, BC
+
+Canada
+
+8 months
+
+CAD
+
+5000.0 per month for 40 Major List
+
+$50-55k range.
+
+Position: Embedded Test Engineer Co-op
+
+Department: EndoBU - R&D Test
+
+General Description:
+
+You will be joining Stryker Endoscopy's R&D Test team. We partner closely with Design & Development to experiment with early
+
+prototypes and vet out products throughout the design process. What this really means, is we get to be the Mythbusters of our
+
+division. Just like the show, we quickly design, build, and code fixtures or scripts to simulate real life situations. This
+
+experimentation is mission critical so we find the issues when we can solve them and prevent them from impacting our customers
+
+and ultimately patients. You will directly be making healthcare better.
+
+As an Embedded Software Test Engineer Co-op, we'll need you to consider the software, firmware, and hardware together. Many
+
+of our products have a limited user interface, so you'll need to use the command line, log files, and physically probe to test the
+
+system. In addition to this hands-on test development and automation, you will also contribute to design verification for the SW/FW
+
+on the product: from the test plan, writing protocols and test cases, presenting defects, and ultimately writing test reports that are
+
+included in regulatory submissions. Communication and coordination are essential skills as you will share and/or coordinate
+
+samples, test execution, test results, and timelines with a cross-functional project team. As part of the co-op program, you'll be
+
+paired with an onsite technical mentor and gain exposure to the full product development cycle.
+
+Team description
+
+In addition to your project team, you will be a part of Endoscopy's R&D Test team. We are a diverse, close-knit team of twenty-five
+
+engineers, specialists, and managers. Our experience ranges from <1 year to 35+ with technical specialties including sterilization
+
+reliability, mechanical, electrical, software, and optics. Our team is located in Burnaby, BC, San Jose, CA, and Flower Mound, TX
+
+with additional partners around the globe. We are often described as hard-working, analytical, and collaborative by others. If this
+
+sounds like you and you have the magic ability to break things - we want you!
+Job Requirements
+
+Required QUALIFICATIONS & Skills:
+
+•
+
+Working towards a Bachelor's degree (B.S.) in Electrical Engineer, Computer Engineering, Software Engineering, Computer
+
+Science, Biomedical Engineering, or equivalent
+
+•
+
+Excellent analytical skills
+
+•
+
+Demonstrated software problem-solving skills
+
+Exhibit initiative, dependability, independence, motivation, and be detail-oriented
+
+•
+Preferred QUALIFICATIONS & Skills:
+
+•
+
+•
+
+Test engineering experience in medical device industry or other regulated industry
+
+Execute all levels of testing (System, Integration, and Regression) to detect and track software/hardware defects, inconsistencies,
+
+and performance issues
+
+•
+
+Experience in debug, troubleshooting, and failure analysis investigation
+
+•
+
+Ability to build collaborative relationships quickly
+
+•
+•
+
+Familiarity with common software test principles and methodologies (SDLC, Agile, Waterfall, black box, white box, gray box, etc.)
+Strong technical writing skills
+
+Automation or scripting experience: preferably LabView, python, and/or Arduino
+•
+Citizenship Requirement
+
+N/A
+
+APPLICATION INFORMATION
+
+Application Procedure
+
+Through UBC Science Co-op
+
+Cover Letter Required?
+
+Yes
+
+Address Cover Letter to
+
+Liya D Souza
+

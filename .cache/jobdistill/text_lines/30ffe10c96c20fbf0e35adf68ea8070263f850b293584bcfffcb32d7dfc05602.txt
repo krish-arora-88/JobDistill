@@ -1,0 +1,272 @@
+Job Posting:165979 - Position: S25 Software Developer 165979 E1
+
+Co-op Work Term Posted:
+
+2025 - Summer
+
+App Deadline
+
+Application Method:
+
+Posting Goes Live:
+
+Job Posting Status:
+
+02/26/2025 09:00 AM
+
+Through Employer Website
+
+02/05/2025 11:53 AM
+
+Expired
+
+ORGANIZATION INFORMATION
+
+Organization
+
+Address Line 1
+
+City
+
+Postal Code / Zip Code
+
+Province / State
+
+Country
+
+Siemens Canada Limited
+
+1577 North Service Road East
+
+Oakville
+
+L6H 0H6
+
+Ontario
+
+Canada
+
+JOB POSTING INFORMATION
+
+Placement Term
+
+<b> Job Title <b>
+
+Position Type
+
+Job Location
+
+Country
+
+Duration
+
+Work Mode
+
+2025 - Summer
+
+S25 Software Developer 165979 E1
+
+Co-op Position
+
+Winnipeg, MB
+
+Canada
+
+4 months
+
+To be confirmed
+
+Salary Currency
+
+CAD
+
+Salary
+
+Job Description
+
+Salary Not Available, 0 Major List
+
+Do you want to join us in helping to fight the world's most threatening diseases and enabling access to care for more people
+
+around the world? At Siemens Healthineers, we pioneer breakthroughs in healthcare. For everyone. Everywhere. Sustainably.
+
+At Siemens Healthineers, we offer you a flexible and dynamic environment with opportunities to go beyond your comfort zone in
+
+order to grow personally and professionally.
+
+Our Global Team:
+
+We are a team of more than 72,000 highly dedicated employees across more than 70 countries passionately pushing the
+
+boundaries of what's possible in healthcare to help improve people's lives around the world. As a leader in the industry, we aspire
+
+to create better outcomes and experiences for patients no matter where they live or what health issues they are facing. Our
+
+portfolio, spanning from in-vitro and in-vivo diagnostics to image-guided therapy and innovative cancer care, is crucial for clinical
+
+decision-making and treatment pathways.
+
+Our Culture:
+
+We are part of an incredible community of scientists, clinicians, developers, researchers, professionals, and skilled specialists
+
+pushing the boundaries of what's possible, to improve people's lives around the world. We embrace a culture of inclusivity in which
+
+the power and potential of every individual can be unleashed. We spark ideas that lead to positive impact and continued success.
+
+Acquires and learns practical knowledge and working experience in different technical fields of expertise, in the course of an
+
+academic education.
+
+Do you want to join us in helping to fight the world's most threatening diseases and enabling access to care for more people
+
+around the world? At Siemens Healthineers, we pioneer breakthroughs in healthcare. For everyone. Everywhere.
+
+At Siemens Healthineers, we offer you a flexible and dynamic environment with opportunities to go beyond your comfort zone in
+
+order to grow personally and professionally. Sound interesting? Then come and join our global team as a Software Developer [Co-
+
+op] to build a world class Oncology specific EMR and Treatment Management System that will be used to treat patients here in
+
+Canada as well as every other part of the world.
+
+Our global team: We are a team of more than 68,000 highly dedicated employees across more than 70 countries passionately
+
+pushing the boundaries of what's possible in healthcare to help improve people's lives around the world. As a leader in the
+
+industry, we aspire to create better outcomes and experiences for patients no matter where they live or what health issues they are
+
+facing. Our portfolio, spanning from in-vitro and in-vivo diagnostics to image-guided therapy and innovative cancer care, is crucial
+
+for clinical decision-making and treatment pathways.
+
+Our culture: We are part of an incredible community of scientists, clinicians, developers, researchers, professionals, and skilled
+
+specialists pushing the boundaries of what's possible, to improve people's lives around the world. We embrace a culture of
+
+inclusivity in which the power and potential of every individual can be unleashed. We spark ideas that lead to positive impact and
+
+continued success. Check our Careers Site at https://www.siemens-healthineers.com/en-us/careers.
+
+This is a role well suited for a highly motivated student looking to build their skill set and gain hands-on experience. As a
+
+Software Developer [Co-op], you will be responsible for:
+
+•
+
+You will play a key role in analyzing, designing, developing, and documenting software enhancements for Oncology focused
+
+products using modern development technologies such as .NET Core, C#, Java, Typescript, Angular, HTML, CSS, RESTful web
+
+services, SQL Server, etc.
+
+•
+
+You will be involved in conducting and participating in design and code reviews, unit, feature, and regression testing, and will
+
+collaborate with software development teams and other departments worldwide on developing application solutions.
+
+•
+
+You will use your analytical and proactive mind set and feel comfortable working on complex problems. You will work with talented
+
+people in a multicultural working environment and will bring the best in quality and value every.
+
+•
+
+You'll join a cross functional team in building a world class Oncology specific EMR and Treatment Management System that will
+
+be used to treat patients here in Canada as well as every other part of the world. Siemens Healthineers contributes to the fight
+
+against cancer in over 100 countries across the globe.
+Job Requirements
+
+This position may suit you best if you are familiar with the areas and concepts below, and would like to develop your
+
+skills within Healthineers:
+
+•
+
+Developing software systems.
+
+•
+
+Software testing procedures.
+
+•
+
+Performing meaningful peer code reviews.
+
+•
+
+Required skills and education to have for the success of this role:
+
+•
+
+Experience using at least one of the following technologies .NET Core, Java, JavaScript, Typescript, Angular (or similar JavaScript
+
+frameworks).
+
+•
+
+Ability to be analytical, communicative and focused. In addition, can express and sell ideas.
+
+•
+
+Aptitude to work independently and openly discuss ideas and solutions with colleagues.
+
+•
+
+Currently enrolled in a bachelor's degree program, majoring in computer science.
+
+Minimum 3.0 GPA (preferred)
+
+•
+At Siemens Healthineers, we value those who dedicate their energy and passion to a greater cause. Our people make us unique
+
+as an employer in the med-tech industry. What unites and motivates our global team is the inspiration of our common purpose: To
+
+innovate for healthcare, building on our remarkable legacy of pioneering ideas that translate into even better healthcare products
+
+and services. We recognize that taking ownership of our work allows both us and the company to grow. We offer you a flexible and
+
+dynamic environment and the space to move beyond your comfort zone to grow both personally and professionally.
+Citizenship Requirement
+
+N/A
+
+APPLICATION INFORMATION
+
+Application Procedure
+
+Through Employer Website
+
+Cover Letter Required?
+
+Optional
+
+Special Application Instructions
+
+Please apply via the links here:
+
+Software Developer [Co-op]-1
+
+•
+
+R-19048
+
+Software Developer [Co-op]-2
+
+R-19054
+
+•
+Please click the "I intend to apply to this position" button on SCOPE and also submit your application via the employer's
+
+website.
+
+Applications are accepted on a rolling basis and the posting may be expired at any time by the employer as submissions are
+
+received.
+
+Students should submit their applications as soon as they are ready.
+

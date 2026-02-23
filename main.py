@@ -55,6 +55,10 @@ def main() -> None:
         cache_dir=args.cache_dir,
         include_confidence=args.include_confidence_cols,
         metrics_out=metrics_out,
+        boilerplate_df_threshold=args.boilerplate_df_threshold,
+        disable_boilerplate=args.disable_boilerplate_removal,
+        debug_samples=args.debug_samples,
+        debug_dump_path=args.debug_dump_path,
     )
 
     print("\nSkill Counts:")

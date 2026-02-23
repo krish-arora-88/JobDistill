@@ -1,4 +1,4 @@
-"""Skill-likeness binary classifier: embedding + logistic regression."""
+"""Skill-likeness scoring: trained classifier OR anchor-phrase fallback."""
 
 from __future__ import annotations
 
@@ -14,23 +14,81 @@ import numpy as np
 
 logger = logging.getLogger(__name__)
 
+TECH_ANCHOR_PHRASES = [
+    "programming language",
+    "software framework",
+    "cloud service",
+    "database system",
+    "devops tool",
+    "machine learning library",
+    "version control system",
+    "container orchestration",
+    "web development framework",
+    "operating system",
+]
+
+
+class AnchorPhraseScorer:
+    """Fallback skill-likeness scorer using cosine similarity to tech anchors.
+
+    Used when no trained LogisticRegression classifier is available.
+    Does NOT depend on the legacy skills list.
+    """
+
+    def __init__(self, embedding_model: str = "all-MiniLM-L6-v2") -> None:
+        self.embedding_model_name = embedding_model
+        self._embedder: Optional[object] = None
+        self._anchor_embeddings: Optional[np.ndarray] = None
+
+    def _ensure_ready(self) -> None:
+        if self._anchor_embeddings is not None:
+            return
+        from sentence_transformers import SentenceTransformer  # type: ignore[import-untyped]
+
+        logger.info("AnchorPhraseScorer: loading %s", self.embedding_model_name)
+        self._embedder = SentenceTransformer(self.embedding_model_name)
+        self._anchor_embeddings = self._embedder.encode(  # type: ignore[union-attr]
+            TECH_ANCHOR_PHRASES, show_progress_bar=False
+        )
+        norms = np.linalg.norm(self._anchor_embeddings, axis=1, keepdims=True)
+        norms = np.where(norms == 0, 1, norms)
+        self._anchor_embeddings = self._anchor_embeddings / norms
+
+    def score(self, phrases: List[str]) -> List[float]:
+        """Return skill-likeness score in [0, 1] for each phrase.
+
+        Score = max cosine similarity to any anchor phrase, clamped to [0, 1].
+        """
+        if not phrases:
+            return []
+        self._ensure_ready()
+        embeddings = self._embedder.encode(phrases, show_progress_bar=False, batch_size=256)  # type: ignore[union-attr]
+        norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
+        norms = np.where(norms == 0, 1, norms)
+        normed = embeddings / norms
+        sims = normed @ self._anchor_embeddings.T  # type: ignore[union-attr]
+        max_sims = sims.max(axis=1)
+        return np.clip(max_sims, 0.0, 1.0).tolist()
+
 
 class SkillClassifier:
     """Lightweight skill vs. not-skill classifier.
 
     Uses sentence-transformer embeddings + sklearn LogisticRegression.
+    Falls back to AnchorPhraseScorer when no trained model is available.
     Supports train / predict_proba / save / load.
     """
 
     def __init__(
         self,
         embedding_model: str = "all-MiniLM-L6-v2",
-        threshold: float = 0.60,
+        threshold: float = 0.75,
     ) -> None:
         self.embedding_model_name = embedding_model
         self.threshold = threshold
         self._embedder: Optional[object] = None
         self._clf: Optional[object] = None
+        self._anchor_scorer: Optional[AnchorPhraseScorer] = None
         self._meta: Dict = {}
 
     def _ensure_embedder(self) -> None:
@@ -49,6 +107,11 @@ class SkillClassifier:
     def is_trained(self) -> bool:
         return self._clf is not None
 
+    def _ensure_anchor_scorer(self) -> AnchorPhraseScorer:
+        if self._anchor_scorer is None:
+            self._anchor_scorer = AnchorPhraseScorer(self.embedding_model_name)
+        return self._anchor_scorer
+
     def train(
         self,
         phrases: List[str],
@@ -56,10 +119,7 @@ class SkillClassifier:
         eval_phrases: Optional[List[str]] = None,
         eval_labels: Optional[List[int]] = None,
     ) -> Dict:
-        """Train logistic regression on phrase embeddings.
-
-        Returns dict of training metrics.
-        """
+        """Train logistic regression on phrase embeddings."""
         from sklearn.linear_model import LogisticRegression  # type: ignore[import-untyped]
         from sklearn.metrics import (  # type: ignore[import-untyped]
             accuracy_score,
@@ -105,14 +165,19 @@ class SkillClassifier:
         return metrics
 
     def predict_proba(self, phrases: List[str]) -> List[float]:
-        """Return P(skill) for each phrase."""
-        if not self.is_trained:
-            raise RuntimeError("Classifier not trained; call train() or load() first.")
+        """Return P(skill) for each phrase.
+
+        Uses trained LR if available, otherwise falls back to anchor similarity.
+        """
         if not phrases:
             return []
-        X = self._embed(phrases)
-        probas = self._clf.predict_proba(X)[:, 1]  # type: ignore[union-attr]
-        return probas.tolist()
+        if self.is_trained:
+            X = self._embed(phrases)
+            probas = self._clf.predict_proba(X)[:, 1]  # type: ignore[union-attr]
+            return probas.tolist()
+        else:
+            scorer = self._ensure_anchor_scorer()
+            return scorer.score(phrases)
 
     def predict(self, phrases: List[str], threshold: Optional[float] = None) -> List[Tuple[str, float]]:
         """Return (phrase, probability) pairs for phrases above threshold."""

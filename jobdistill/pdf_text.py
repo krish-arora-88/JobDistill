@@ -11,7 +11,7 @@ from typing import Optional
 
 from pdfminer.high_level import extract_text
 
-from jobdistill.normalize import clean_text
+from jobdistill.normalize import clean_text, clean_text_preserve_newlines
 
 logger = logging.getLogger(__name__)
 
@@ -42,6 +42,29 @@ def extract_pdf(pdf_path: str, cache_dir: Optional[str] = None) -> str:
 
     if cache_dir:
         cache_path = Path(cache_dir) / "text" / f"{_cache_key(pdf_path)}.txt"
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text(text, encoding="utf-8")
+
+    return text
+
+
+def extract_pdf_with_lines(pdf_path: str, cache_dir: Optional[str] = None) -> str:
+    """Extract text from a PDF, preserving newlines for boilerplate analysis.
+
+    Unlike extract_pdf(), this keeps line boundaries intact so that
+    corpus-level document-frequency can be computed per line.
+    Uses a separate cache subfolder ("text_lines") to avoid conflicts.
+    """
+    if cache_dir:
+        cache_path = Path(cache_dir) / "text_lines" / f"{_cache_key(pdf_path)}.txt"
+        if cache_path.exists():
+            return cache_path.read_text(encoding="utf-8")
+
+    text = _raw_extract(pdf_path)
+    text = clean_text_preserve_newlines(text)
+
+    if cache_dir:
+        cache_path = Path(cache_dir) / "text_lines" / f"{_cache_key(pdf_path)}.txt"
         cache_path.parent.mkdir(parents=True, exist_ok=True)
         cache_path.write_text(text, encoding="utf-8")
 

@@ -5,6 +5,7 @@ import pytest
 from jobdistill.normalize import (
     clean_text,
     deduplicate_phrases,
+    has_tech_indicator,
     is_junk_phrase,
     is_pure_numeric,
     is_stopword_only,
@@ -12,6 +13,7 @@ from jobdistill.normalize import (
     normalize_phrase,
     normalize_unicode,
     normalize_whitespace,
+    stopword_ratio,
     token_count,
 )
 

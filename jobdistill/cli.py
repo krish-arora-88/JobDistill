@@ -38,14 +38,20 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--min_confidence",
         type=float,
-        default=0.60,
-        help="Minimum P(skill) threshold for ML extractor (default: 0.60)",
+        default=0.75,
+        help="Minimum P(skill) threshold for ML extractor (default: 0.75)",
     )
     parser.add_argument(
         "--top_k_phrases",
         type=int,
         default=30,
         help="Max candidate keyphrases per document before classifier (default: 30)",
+    )
+    parser.add_argument(
+        "--boilerplate_df_threshold",
+        type=float,
+        default=0.05,
+        help="Document-frequency threshold for corpus boilerplate removal (default: 0.05 = 5%%)",
     )
     parser.add_argument(
         "--include_confidence_cols",
@@ -82,6 +88,24 @@ def build_parser() -> argparse.ArgumentParser:
         type=str,
         default=None,
         help="Output CSV path (default: skill_analysis_results.csv)",
+    )
+    parser.add_argument(
+        "--debug_samples",
+        type=int,
+        default=0,
+        help="Log detailed extraction info for the first N docs (default: 0 = off)",
+    )
+    parser.add_argument(
+        "--debug_dump_path",
+        type=str,
+        default=None,
+        help="Write per-doc debug JSONL to this path (requires --debug_samples > 0)",
+    )
+    parser.add_argument(
+        "--disable_boilerplate_removal",
+        action="store_true",
+        default=False,
+        help="Skip corpus boilerplate removal (for debugging)",
     )
 
     return parser

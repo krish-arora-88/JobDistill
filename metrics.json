@@ -1,0 +1,193 @@
+{
+  "num_pdfs_total": 50,
+  "num_pdfs_extracted_ok": 50,
+  "num_pdfs_empty_text": 0,
+  "avg_chars_per_pdf": 4094.0,
+  "p95_chars_per_pdf": 7452.349999999998,
+  "extraction_seconds_total": 83.8,
+  "pdfs_per_second": 0.6,
+  "avg_candidates_per_pdf": 57.04,
+  "avg_skills_per_pdf": 7.34,
+  "boilerplate": {
+    "lines_total": 5963,
+    "lines_removed_total": 3456,
+    "lines_removed_ratio": 0.5796,
+    "top_removed_lines": [
+      {
+        "line": "co-op work term posted:",
+        "doc_freq": 50
+      },
+      {
+        "line": "<NUM> - summer",
+        "doc_freq": 50
+      },
+      {
+        "line": "app deadline",
+        "doc_freq": 50
+      },
+      {
+        "line": "application method:",
+        "doc_freq": 50
+      },
+      {
+        "line": "posting goes live:",
+        "doc_freq": 50
+      },
+      {
+        "line": "job posting status:",
+        "doc_freq": 50
+      },
+      {
+        "line": "organization information",
+        "doc_freq": 50
+      },
+      {
+        "line": "organization",
+        "doc_freq": 50
+      },
+      {
+        "line": "country",
+        "doc_freq": 50
+      },
+      {
+        "line": "job posting information",
+        "doc_freq": 50
+      },
+      {
+        "line": "placement term",
+        "doc_freq": 50
+      },
+      {
+        "line": "<b> job title <b>",
+        "doc_freq": 50
+      },
+      {
+        "line": "position type",
+        "doc_freq": 50
+      },
+      {
+        "line": "job location",
+        "doc_freq": 50
+      },
+      {
+        "line": "duration",
+        "doc_freq": 50
+      },
+      {
+        "line": "salary currency",
+        "doc_freq": 50
+      },
+      {
+        "line": "salary",
+        "doc_freq": 50
+      },
+      {
+        "line": "co-op position",
+        "doc_freq": 50
+      },
+      {
+        "line": "citizenship requirement",
+        "doc_freq": 50
+      },
+      {
+        "line": "n/a",
+        "doc_freq": 50
+      }
+    ]
+  },
+  "diagnostics": {
+    "pct_skills_with_space": 0.6,
+    "pct_skills_all_lowercase": 100.0,
+    "pct_skills_containing_apply_terms": 0.0,
+    "top_rejected_phrases": []
+  },
+  "classifier_floor_triggered_count": 50,
+  "top20_skills": [
+    {
+      "skill": "python",
+      "count": 27
+    },
+    {
+      "skill": "c++",
+      "count": 17
+    },
+    {
+      "skill": "java",
+      "count": 12
+    },
+    {
+      "skill": "cloud",
+      "count": 10
+    },
+    {
+      "skill": "javascript",
+      "count": 10
+    },
+    {
+      "skill": "linux",
+      "count": 10
+    },
+    {
+      "skill": "aws",
+      "count": 9
+    },
+    {
+      "skill": "sql",
+      "count": 8
+    },
+    {
+      "skill": "devops",
+      "count": 7
+    },
+    {
+      "skill": "programming",
+      "count": 6
+    },
+    {
+      "skill": "windows",
+      "count": 6
+    },
+    {
+      "skill": "agile",
+      "count": 5
+    },
+    {
+      "skill": "ai",
+      "count": 5
+    },
+    {
+      "skill": "automation",
+      "count": 5
+    },
+    {
+      "skill": "docker",
+      "count": 5
+    },
+    {
+      "skill": "git",
+      "count": 5
+    },
+    {
+      "skill": "security",
+      "count": 5
+    },
+    {
+      "skill": "api",
+      "count": 4
+    },
+    {
+      "skill": "business",
+      "count": 4
+    },
+    {
+      "skill": "c#",
+      "count": 4
+    }
+  ],
+  "quality_guardrail": {
+    "quality_failed": false,
+    "boilerplate_pct_top50": 0.0,
+    "flagged_count": 0,
+    "checked_count": 50
+  }
+}

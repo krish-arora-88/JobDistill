@@ -56,15 +56,47 @@ class KeyBERTExtractor:
 
         self._kw_model: Optional[object] = None
         self._nlp: Optional[object] = None
+        self._available = True
+        self._warned = False
+
+    @property
+    def available(self) -> bool:
+        return self._available
 
     def _ensure_model(self) -> None:
         """Lazy-load KeyBERT (and optionally spaCy) on first use."""
         if self._kw_model is not None:
             return
-        from keybert import KeyBERT  # type: ignore[import-untyped]
+        if not self._available:
+            return
 
-        logger.info("Loading KeyBERT with model %s", self.embedding_model_name)
-        self._kw_model = KeyBERT(model=self.embedding_model_name)
+        try:
+            from keybert import KeyBERT  # type: ignore[import-untyped]
+        except ImportError:
+            if not self._warned:
+                logger.warning(
+                    "keybert package not installed; KeyBERT extractor unavailable. "
+                    "Install with: pip install keybert"
+                )
+                self._warned = True
+            self._available = False
+            return
+        except Exception as exc:
+            if not self._warned:
+                logger.warning("Failed to import keybert: %s", exc)
+                self._warned = True
+            self._available = False
+            return
+
+        try:
+            logger.info("Loading KeyBERT with model %s", self.embedding_model_name)
+            self._kw_model = KeyBERT(model=self.embedding_model_name)
+        except Exception as exc:
+            if not self._warned:
+                logger.warning("Failed to load KeyBERT model: %s", exc)
+                self._warned = True
+            self._available = False
+            return
 
         if self.use_noun_chunks:
             try:
@@ -84,7 +116,7 @@ class KeyBERTExtractor:
     def extract_candidates(self, text: str) -> List[Tuple[str, float]]:
         """Return deduplicated (phrase, best_score) list from the document."""
         self._ensure_model()
-        if not text or not text.strip():
+        if not self._available or not text or not text.strip():
             return []
 
         chunks = _chunk_text(text, self.chunk_size, self.chunk_overlap)
@@ -106,7 +138,7 @@ class KeyBERTExtractor:
                     seed_keywords=seed_keywords,
                 )
             except Exception as e:
-                logger.debug("KeyBERT extraction failed on chunk: %s", e)
+                logger.warning("KeyBERT extraction failed on chunk: %s", e)
                 continue
 
             for phrase, score in keywords:
