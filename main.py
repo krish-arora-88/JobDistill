@@ -17,8 +17,8 @@ logging.basicConfig(level=logging.INFO,
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Analyze skills in job postings')
-    parser.add_argument('--pdf_dir', default='Summer_2025_Co-op',
-                        help='Directory containing PDF files')
+    parser.add_argument('--pdf_dirs', nargs='+', default=['Summer_2025_Co-op', 'Fall_2025_Co-op', 'Winter_2026_Co-op', 'Summer_2026_Co-op'],
+                        help='Directories containing PDF files')
     parser.add_argument('--batch_size', type=int, default=20,
                         help='Number of PDFs to process in each batch')
     return parser.parse_args()
@@ -280,23 +280,31 @@ def process_batch(pdf_batch, compiled_patterns, skill_mapping):
 def main():
     args = parse_arguments()
     
-    # Ensure the PDF directory exists
-    if not os.path.exists(args.pdf_dir):
-        logging.error(f"Directory not found: {args.pdf_dir}")
-        print(f"Error: Directory not found: {args.pdf_dir}")
-        return
+    # Get list of PDF files from all directories
+    pdf_files = []
+    for pdf_dir in args.pdf_dirs:
+        if not os.path.exists(pdf_dir):
+            logging.error(f"Directory not found: {pdf_dir}")
+            print(f"Error: Directory not found: {pdf_dir}")
+            continue
+            
+        dir_files = glob.glob(f"{pdf_dir}/*.pdf")
+        if len(dir_files) == 0:
+            logging.error(f"No PDF files found in {pdf_dir}")
+            print(f"Error: No PDF files found in {pdf_dir}")
+            continue
+            
+        pdf_files.extend(dir_files)
     
-    # Get list of PDF files
-    pdf_files = glob.glob(f"{args.pdf_dir}/*.pdf")
     total_files = len(pdf_files)
     
     if total_files == 0:
-        logging.error(f"No PDF files found in {args.pdf_dir}")
-        print(f"Error: No PDF files found in {args.pdf_dir}")
+        logging.error("No PDF files found in any directory")
+        print("Error: No PDF files found in any directory")
         return
     
     print(f"Found {total_files} PDF files to analyze")
-    logging.info(f"Found {total_files} PDF files in {args.pdf_dir}")
+    logging.info(f"Found {total_files} PDF files across all directories")
     
     # Define possible skills
     possible_skills = [
@@ -341,12 +349,13 @@ def main():
         "Argo Workflows","particle.js","ROS","Gazebo","BuildBot","Solidity","TailwindCSS","SMACSS",
         "Tauri","Astro","SvelteKit","Qwik","MobX","SolidJS","SAML","Kerberos","SSO","ABAP",
         "SAP HANA","Nuxt 3","Firebase","Firestore","Web3","Gatsby","VIM","ThreeJS","GLSL","JAMStack",
-        "Elm","Webpack","LevelDB", "Discord.js", "Star Schema", "Waterfall"
+        "Elm","Webpack","LevelDB", "Discord.js", "Star Schema", "Waterfall", "Hive", "Beeline", "HDFS",
+        "Sqoop", "MinIO", "Airflow", "Trino", "PyHive", "PySpark", "Korn"
     ]
     
     special_regex_skills = {
         "C": r"\bC(?!\+)\b|\bC programming\b|\bC language\b|\bC developer\b",
-        "R": r"\bR\b|\bR programming\b|\bR language\b|\bR developer\b",
+        "R": r"\bR\b|\bR programming\b|\bR language\b|\bR developer\fb",
         # Other abbreviations that need specific matching
         "ARM": r"\bARM\b|\bARM processor\b|\bARM architecture\b",
         "API": r"\bAPI\b|\bAPIs\b|\bREST API\b|\bWeb API\b",
@@ -400,7 +409,7 @@ def main():
     
     # Save to CSV
     results_df = pd.DataFrame(sorted_skills, columns=['Skill', 'Count'])
-    output_path = os.path.join(os.path.dirname(args.pdf_dir), 'skill_analysis_results.csv')
+    output_path = os.path.join(os.path.dirname(args.pdf_dirs[0]), 'skill_analysis_results.csv')
     results_df.to_csv(output_path, index=False)
     print(f"\nResults saved to: {output_path}")
 

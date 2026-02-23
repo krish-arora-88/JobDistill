@@ -1,332 +1,352 @@
 Skill,Count
-Java,370
-JavaScript,330
-Python,312
-Git,297
-C,288
-Cloud,283
-ML,262
-C++,228
-Go,207
-.NET,199
-AI,170
-SQL,165
-Agile,157
-REST,140
-TypeScript,126
-API,125
-Linux,125
-Access,115
-C#,106
-React,106
-DevOps,106
-Jira,90
-HTML,85
-AWS,78
-CSS,70
-Object-Oriented,66
-Microservices,66
-GitHub,62
-Node,61
-Relational Databases,58
-Docker,54
-R,52
-Vue,52
-Scrum,50
-Azure,50
-CI/CD,49
-PyTorch,48
-Excel,47
-Windows,47
-Kubernetes,47
-Angular,47
-TensorFlow,42
-Regression,42
-Blockchain,40
-Spring,38
-Google Cloud,37
-Unit Testing,36
-Shell,35
-LLMs,34
-MySQL,34
-BitBucket,32
-PostgreSQL,30
-Perl,29
-Jenkins,28
-Unix,26
-Oracle,26
-HTTP,24
-SaaS,23
-Ruby,22
-IoT,22
-Word,22
-Microsoft Office,21
-Express,19
-Kotlin,19
-Swift,19
-Selenium,18
-Rust,18
-SDLC,18
-PowerPoint,18
-TCP/IP,18
-Pandas,18
-Cloud Computing,18
-NoSQL,17
-XML,16
-Matlab,16
-GUI,15
-Kafka,15
-JSON,15
-Ethernet,15
-Visual Studio,14
-5G,14
-PowerBI,14
-Salesforce,14
-MongoDB,14
-Scala,13
-Data Structure,13
-SDK,13
-bash,13
-GitLab,13
-Kanban,13
-Terraform,13
-SharePoint,12
-GPU,12
-Big Data,12
-Assembly,11
-PHP,11
-NLP,11
-Databricks,11
-TLS,10
-Helm,10
-Bootstrap,10
-Django,10
-Multithreading,10
-npm,10
-Db2,10
-Integration Testing,9
-Redis,9
-GenAI,9
-GraphQL,9
-RTOS,9
-Postman,8
-Outlook,8
-Eclipse,8
-Hadoop,7
-JQuery,7
-CLI,7
-VBA,7
-FPGA,7
-OpenCV,7
-S3,7
-DSP,6
-gRPC,6
-Groovy,6
-scikit-learn,6
-Redux,6
-Next.js,6
-ETL,6
-Unity,6
-LangChain,6
-Cypress,6
-ARM,6
-Xcode,6
-Networking Protocols,6
-Tableau,6
-RxJS,6
-Rails,5
-Tcl,5
-SOAP,5
-Gradle,5
-Hugging Face,5
-LabVIEW,5
-OpenAI,5
-PCIe,5
-Waterfall,5
-SSL,5
-SVN,5
-SPI,5
-I2C,5
-UML,5
-Xamarin,5
-Spring Boot,5
-React Native,5
-VMWare,4
-Elixir,4
-Linear Programming,4
-Springboot,4
-Verilog,4
-Jupyter,4
-Matplotlib,4
-Raspberry Pi,4
-Keras,4
-DNS,4
-SystemVerilog,4
-Jetpack,4
-BGP,4
-Figma,4
-Flask,4
-NetSuite,4
-Playwright,4
-T-SQL,4
-UDP,4
-Bamboo,4
-CRM,4
-D3,4
-Rush,4
-RabbitMQ,4
-Ansible,4
-Metal,4
-CXL,4
-Flux,4
-K8S,3
-Unreal Engine,3
-Artifactory,3
-Arduino,3
-WebGL,3
-Gerrit,3
-Vulnerability Management,3
-Simulink,3
-Kickstart,3
-Cassandra,3
-OSPF,3
-GitHub Actions,3
-Apache Spark,3
-Android Studio,3
-Websocket,3
-BigQuery,3
-Vite,3
-TeamCity,3
+AI,1896
+Git,1884
+Python,1852
+ML,1775
+Java,1710
+Cloud,1579
+JavaScript,1576
+C,1322
+SQL,1079
+C++,937
+Go,922
+.NET,874
+Agile,821
+Access,791
+REST,770
+API,721
+DevOps,658
+TypeScript,622
+Linux,611
+AWS,554
+GitHub,534
+React,524
+Excel,522
+R,500
+C#,484
+Jira,458
+Azure,433
+HTML,404
+CSS,362
+Docker,354
+CI/CD,350
+PyTorch,348
+Relational Databases,328
+Node,321
+Microservices,310
+TensorFlow,306
+Kubernetes,287
+Regression,276
+Object-Oriented,275
+Microsoft Office,249
+Google Cloud,247
+Vue,244
+LLMs,236
+Scrum,232
+Word,228
+Windows,223
+PowerPoint,212
+Jenkins,203
+Pandas,196
+Angular,189
+PowerBI,184
+Unit Testing,166
+BitBucket,158
+Shell,152
+Spring,149
+PostgreSQL,148
+IoT,147
+Unix,145
+Tableau,135
+bash,123
+Matlab,120
+Outlook,118
+Perl,115
+MySQL,108
+SaaS,107
+Kotlin,106
+Selenium,105
+Terraform,98
+GitLab,98
+Ruby,96
+SharePoint,96
+SDLC,94
+HTTP,91
+Oracle,89
+XML,89
+Ethernet,85
+NoSQL,83
+Cloud Computing,82
+Rust,81
+Databricks,79
+GenAI,78
+Visual Studio,78
+JSON,77
+MongoDB,76
+Blockchain,76
+VBA,76
+Kafka,74
+TCP/IP,73
+Swift,72
+Hadoop,72
+ETL,72
+scikit-learn,70
+NLP,70
+GUI,66
+Django,65
+Express,65
+SDK,64
+Big Data,60
+GitHub Actions,58
+Scala,54
+5G,54
+PHP,54
+GraphQL,53
+Redis,51
+Kanban,51
+Multithreading,51
+Redux,51
+Figma,51
+Bootstrap,50
+Assembly,50
+OpenAI,48
+Helm,48
+ARM,48
+S3,48
+BigQuery,48
+LangChain,47
+Ansible,46
+FPGA,44
+Data Structure,44
+Unity,44
+Playwright,43
+GPU,41
+Airflow,40
+JQuery,38
+Salesforce,38
+Db2,38
+Next.js,37
+Postman,37
+Integration Testing,37
+Tcl,37
+Flask,36
+Waterfall,35
+RTOS,35
+Matplotlib,33
+Rails,33
+FastAPI,32
+Kickstart,32
+BGP,31
+Eclipse,31
+Cypress,31
+Groovy,30
+Spring Boot,30
+npm,30
+TLS,29
+Jupyter,29
+Verilog,28
+Raspberry Pi,27
+UML,27
+DSP,26
+gRPC,25
+SOAP,25
+PCIe,25
+SPI,25
+I2C,25
+Perforce,24
+RxJS,24
+OpenCV,23
+OSPF,23
+React Native,23
+Springboot,22
+Xcode,22
+CLI,22
+Flux,22
+Keras,21
+CRM,21
+D3,21
+SVN,19
+Unreal Engine,19
+PySpark,19
+Hugging Face,18
+Gradle,18
+Apache Spark,18
+T-SQL,18
+Networking Protocols,18
+K8S,17
+VMWare,17
+UDP,17
+Rush,17
+OpenStack,16
+Artifactory,16
+Webpack,16
+DNS,15
+Jetpack,15
+Vite,15
+Metal,15
+SSL,14
+Electron,14
+VHDL,14
+Arduino,13
+Flink,13
+OpenShift,13
+Hibernate,12
+Gerrit,12
+sklearn,12
+Objective-C,12
+XUnit,12
+LabVIEW,11
+Adobe Creative,11
+LAN,11
+cmake,11
+TeamCity,11
+Elixir,10
+Apollo,10
+OAuth,10
+SystemVerilog,10
+Sagemaker,10
+ROS,10
+Android Studio,9
+Flutter,9
+Ember,9
+Hive,9
+NetSuite,9
+Simulink,9
+ORM,9
+Remix,9
+CXL,9
+RabbitMQ,9
+Trello,9
+SSRS,9
+Bamboo,8
+Linear Programming,8
+Xamarin,8
+AutoCAD,8
+Compute Engine,8
+Digital Signal Processing,8
+Cassandra,7
+HBase,7
+Pub/Sub,7
+ShadCN,7
+MUI,7
+VS Code,7
+Julia,7
+UIKit,7
+UDS,7
+Vulnerability Management,6
+SSO,6
+WebGL,6
+ngrx,6
+OpenGL,6
+Websocket,6
+PNPM,6
+Tanstack,6
+YAML,6
+SAML,6
+JNI,6
+Security Operations,6
+SIEM,5
+Vagrant,5
+ESXi,5
+asyncio,5
+RadixUI,5
+Web Sockets,5
+SCM,5
+Apex,5
+WAN,5
+OData,5
+LIN,5
+CANApe,5
+Dojo,5
+Open RAN,5
+JPA2,4
+PKI,4
+DHCP,4
+VLANS,4
+Vercel,4
+XSL,4
+OpenCL,4
+ECMAScript,4
+JTAG,4
+ABAP,4
+Packer,4
+LiDAR,4
+ERD,4
+LSTM,4
+NDK,4
+VFX,4
+DirectX,4
+HDFS,4
+CVE,3
+Anaconda,3
+Metaflow,3
 ARP,3
-FastAPI,2
-asyncio,2
-ESXi,2
-OpenStack,2
-Vagrant,2
-sklearn,2
-Vercel,2
-Hibernate,2
-SIEM,2
-JPA2,2
+Zero Trust,3
+Knockout,3
+MS Build,3
+SVM,3
+Firebase,3
+TestCafe,2
+SuiteBuilder,2
+SuiteBundler,2
+SuiteFlow,2
+SuiteTalk,2
+Celigo,2
+Integrator.io,2
+Dell Boomi,2
+SPS,2
+SuiteScript,2
+Direct3D,2
 Cloudant,2
 Argo Workflows,2
-HBase,2
-Flink,2
-LAN,2
-ngrx,2
-Apollo,2
-Perforce,2
-Flutter,2
-DHCP,2
-SSO,2
-Objective-C,2
-OpenGL,2
-cmake,2
-Remix,2
-Apex,2
-Robot Framework,2
-Julia,2
+Pyautogui,2
+Kerberos,2
+SAP HANA,2
 random forest,2
-Packer,2
-SAML,2
+ARIMA,2
+Robot Framework,2
+Maui,2
+RS232,2
 XSD,2
-SCM,2
-JTAG,2
-Webpack,2
-OpenShift,2
+ATOM,2
+JSCON,2
 JBoss,2
-SSRS,2
-UIKit,2
 Multi-tiered Systems,2
-XUnit,2
-PKI,1
-Razor,1
-AutoCAD,1
-TestCafe,1
+Vulkan,2
+Gazebo,2
+GLSL,2
+Trino,2
+Computer Vision Algorithms,2
 Endpoint Protection,1
 Web Proxy,1
-Pyautogui,1
-ORM,1
-SuiteBuilder,1
-SuiteBundler,1
-SuiteFlow,1
-SuiteTalk,1
-Celigo,1
-Integrator.io,1
-Dell Boomi,1
-SPS,1
-XSL,1
-OAuth,1
-SuiteScript,1
-Adobe Creative,1
-Ember,1
 CCNA,1
-VLANS,1
 Xen,1
 InfluxDB,1
 JAAS,1
+Razor,1
 DAST,1
 SAST,1
 SCA,1
-CVE,1
 CVSS,1
 CWE,1
 QEMU,1
-OpenCL,1
-Direct3D,1
-Electron,1
-Compute Engine,1
-Pub/Sub,1
-ECMAScript,1
-Anaconda,1
-LIN,1
-UDS,1
-CANApe,1
-Maui,1
-ISOBUS,1
-RS232,1
-LiDAR,1
-ATOM,1
-Threat Containment,1
-Zero Trust,1
-Trello,1
-VS Code,1
-Sagemaker,1
-Metaflow,1
-WAN,1
 IQR,1
 K-S test,1
-ARIMA,1
 Cloud-Init,1
-Knockout,1
-JSCON,1
-OData,1
-MS Build,1
-PNPM,1
-Tanstack,1
-ShadCN,1
-RadixUI,1
-MUI,1
-Web Sockets,1
-YAML,1
-Kerberos,1
-ABAP,1
-SAP HANA,1
+ISOBUS,1
+Threat Containment,1
 Apache Tomcat,1
-ERD,1
-NDK,1
-JNI,1
-VFX,1
-DirectX,1
-Vulkan,1
-VHDL,1
-Digital Signal Processing,1
-Open RAN,1
 DQN,1
-LSTM,1
-SVM,1
 Metabase,1
-Dojo,1
-ROS,1
-Gazebo,1
 BuildBot,1
+FME Flow Hosted,1
+VIM,1
+SAP Analytics,1
+Gatsby,1
+Beeline,1
+Sqoop,1
+MinIO,1
+PyHive,1
+Korn,1
+SolidJS,1
+TailwindCSS,1
