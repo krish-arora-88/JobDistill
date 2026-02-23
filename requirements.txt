@@ -1,0 +1,16 @@
+# Core
+pdfminer.six>=20221105
+pandas>=2.0
+tqdm>=4.60
+numpy>=1.24,<2
+
+# ML extraction
+keybert>=0.8.0
+sentence-transformers>=2.2.0
+scikit-learn>=1.3
+
+# Optional: better candidate phrases via noun chunks
+spacy>=3.6
+
+# Testing
+pytest>=7.0
