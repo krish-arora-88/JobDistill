@@ -1,0 +1,285 @@
+Category,Canonical (Highest Count),Count,Aliases,Num Aliases
+AI/ML,Artificial Intelligence,216,Artificial Intelligence (AI),1
+AI/ML,Generative AI,122,generative AI,1
+AI/ML,Large Language Models,113,Large Language Model | Large Language Models (LLM) | Large Language Models (LLMs) | Large Language Model (LLM) | large language models,5
+AI/ML,Computer Vision,85,computer vision,1
+AI/ML,Natural Language Processing,70,Natural Language Processing (NLP),1
+AI/ML,Unsupervised Learning,16,Unsupervised learning,1
+AI/ML,Retrieval-Augmented Generation,14,Retrieval Augmented Generation | Retrieval-Augmented Generation (RAG) | Retrieval Augmented Generation (RAG) | Retrieval-augmented generation,4
+AI/ML,Supervised Learning,13,Supervised learning,1
+AI/ML,Time Series Forecasting,10,Time-Series Forecasting,1
+AI/ML,Multi-agent Systems,5,Multi-Agent Systems,1
+AI/ML,Ollama,5,OLLAMA,1
+AI/ML,Few-shot Learning,2,Few-Shot Learning,1
+AI/ML,Self-supervised Learning,2,Self-Supervised Learning,1
+AI/ML,Semi-supervised Learning,2,Semi-Supervised Learning,1
+AI/ML,Multimodal AI,2,Multimodal Learning,1
+AI/ML,Feature Extraction,1,Feature extraction,1
+AI/ML,LLaMa,1,Llama | LLaMA,2
+AI/ML,Model Fine-Tuning,1,Model Fine-tuning,1
+AI/ML,Online learning,1,Online Learning,1
+AI/ML,TensorFlow,131,Tensorflow,1
+AI/ML,scikit-learn,57,Scikit-learn | Scikit-Learn,2
+AI/ML,LangChain,41,Langchain | langchain,2
+AI/ML,Hugging Face,17,HuggingFace,1
+AI/ML,JAX,11,Jax,1
+AI/ML,LangGraph,11,langgraph,1
+AI/ML,LlamaIndex,5,llamaindex,1
+AI/ML,MCP,5,Model Context Protocol | Model Context Protocol (MCP),2
+AI/ML,Hugging Face Transformers,4,HuggingFace Transformers,1
+AI/ML,Compute graph optimization,1,Compute Graph Optimization,1
+Frameworks / Libraries,REST,120,REST API | RESTful API | RESTful APIs | REST APIs | RESTful,5
+Other,WebSockets,10,Websockets,1
+Other,Socket Programming,7,Socket programming,1
+Other,AJAX,3,Ajax,1
+Other,Server-Sent Events,3,Server Sent Events,1
+Frameworks / Libraries,Node.js,165,NodeJS,1
+Frameworks / Libraries,Spring Boot,55,SpringBoot,1
+Frameworks / Libraries,Ruby on Rails,23,Rails,1
+Frameworks / Libraries,Express.js,16,Express,1
+Frameworks / Libraries,Wildfly,3,WildFly,1
+Frameworks / Libraries,Glassfish,2,GlassFish,1
+Cloud & DevOps,AWS,438,Amazon Web Services,1
+Cloud & DevOps,CI/CD,285,Continuous Integration/Continuous Deployment | Continuous Integration/Continuous Delivery | CICD,3
+Cloud & DevOps,Azure,271,Microsoft Azure,1
+Cloud & DevOps,GCP,98,Google Cloud Platform | Google Cloud | Google Cloud Platform (GCP),3
+Cloud & DevOps,Cloud Computing,64,Cloud computing,1
+Cloud & DevOps,Infrastructure as Code,41,IaC | Infrastructure-as-code | Infrastructure-as-Code,3
+Cloud & DevOps,DynamoDB,12,AWS DynamoDB,1
+Cloud & DevOps,OpenShift,9,Red Hat OpenShift,1
+Cloud & DevOps,ArgoCD,8,Argo CD,1
+Cloud & DevOps,Cloud Native,7,Cloud-Native | Cloud-native,2
+Cloud & DevOps,Cloud Infrastructure,5,Cloud infrastructure,1
+Cloud & DevOps,GPU Programming,3,GPU programming,1
+Cloud & DevOps,High-Performance Computing,3,High-Performance Computing (HPC),1
+Cloud & DevOps,AWS SageMaker,2,AWS Sagemaker,1
+Cloud & DevOps,Kubeflow,2,KubeFlow,1
+Cloud & DevOps,Point Cloud Processing,2,Point cloud processing,1
+Cloud & DevOps,Cosmos DB,2,Azure Cosmos DB,1
+Cloud & DevOps,Minio,1,MinIO,1
+Cloud & DevOps,Route53,1,Route 53,1
+Other,Data Structures,108,data structures,1
+Other,Algorithms,106,algorithms,1
+Other,Multithreading,16,Multi-threading,1
+Other,Algorithm Design,8,Algorithm design,1
+Other,Linear Algebra,5,Linear algebra,1
+Other,Linear Programming,4,Linear programming,1
+Other,Nonlinear Optimization,4,Nonlinear optimization,1
+Other,Control Theory,3,Control theory,1
+Other,Mathematical Modeling,3,Mathematical modeling,1
+Other,Memory Management,3,Memory management,1
+Databases,Power BI,175,PowerBI | Microsoft Power BI | Microsoft PowerBI | MS Power BI,4
+Databases,Data Analysis,74,Data analysis,1
+Frameworks / Libraries,Kafka,56,Apache Kafka,1
+Databases,NumPy,51,Numpy | numpy,2
+Databases,Pandas,46,pandas,1
+Databases,Spark,41,Apache Spark,1
+Databases,Matplotlib,30,matplotlib,1
+Databases,Apache Airflow,20,Airflow,1
+Databases,dbt,14,DBT,1
+Databases,Plotly,12,plotly,1
+Databases,Jupyter Notebook,9,Jupyter Notebooks,1
+Databases,Seaborn,7,seaborn,1
+Databases,Time Series Analysis,6,Time-series analysis,1
+Databases,Dataflow,3,Data Flow,1
+Databases,Apache NiFi,2,Apache Nifi,1
+Databases,SiteCatalyst,1,Site Catalyst,1
+Databases,statsmodels,1,StatsModels,1
+Databases,SQL Server,73,Microsoft SQL Server | MS SQL Server,2
+Databases,Elasticsearch,27,ElasticSearch,1
+Databases,Entity Framework,10,EntityFramework,1
+Databases,Prisma,4,Prisma ORM,1
+Databases,MS SQL,3,MSSQL,1
+Databases,Database Fundamentals,2,database fundamentals,1
+Databases,Database Systems,2,Database systems,1
+Databases,NHibernate,2,nHibernate,1
+Databases,Non-Relational Databases,1,Non-relational Databases | Non-relational databases,2
+Other,UI/UX Design,13,UI/UX design,1
+Other,UX Design,11,UX design,1
+Other,User Experience,5,UX | User Experience (UX),2
+Other,Figjam,3,FigJam,1
+Other,Human-Computer Interaction,3,Human Computer Interaction,1
+Other,3D Graphics,2,3D graphics,1
+Other,3D Modeling,2,3D modeling,1
+Other,3D programming,1,3D Programming,1
+Other,3ds Max,1,3DSMax,1
+Frameworks / Libraries,React,351,ReactJS | React.js,2
+Frameworks / Libraries,Angular,155,AngularJS,1
+Frameworks / Libraries,Vue.js,60,Vue,1
+Frameworks / Libraries,Next.js,48,NextJS,1
+Frameworks / Libraries,jQuery,26,JQuery,1
+Frameworks / Libraries,Tailwind CSS,11,TailwindCSS,1
+Frameworks / Libraries,SASS,9,Sass,1
+Frameworks / Libraries,Svelte,6,SvelteKit,1
+Frameworks / Libraries,Less,4,LESS,1
+Frameworks / Libraries,Material-UI,4,Material UI,1
+Frameworks / Libraries,Radix UI,4,RadixUI,1
+Frameworks / Libraries,Cross-browser compatibility,3,Cross-Browser Compatibility,1
+Frameworks / Libraries,NgRx,3,NGRX,1
+Frameworks / Libraries,Tanstack,3,TanStack,1
+Frameworks / Libraries,Cross-Browser Development,2,Cross-browser Development,1
+Frameworks / Libraries,Micro Frontend,2,Micro-frontend,1
+Frameworks / Libraries,ExtJs,1,Ext JS,1
+Frameworks / Libraries,Solid.js,1,SolidJS,1
+Frameworks / Libraries,Styled-components,1,styled-components,1
+Other,Jira,152,JIRA,1
+Other,Quality Assurance,34,QA | Quality Assurance (QA),2
+Other,OpenAI,24,OpenAI API,1
+Other,Lua,23,LUA,1
+Other,Transformers,12,transformers,1
+Other,Copilot,10,Co-Pilot | CoPilot,2
+Other,End-to-End Testing,9,End-to-end Testing,1
+Other,IP Networking,9,IP networking,1
+Other,Object Detection,6,Object detection,1
+Other,Hive,6,Apache Hive,1
+Other,Mujoco,4,MuJoCo,1
+Other,UiPath,4,UI Path | UIPath,2
+Other,Cross Browser Testing,2,Cross-Browser Testing,1
+Other,FORTRAN,2,Fortran,1
+Other,OpenAPI,2,Open API,1
+Other,Testing Frameworks,2,Testing frameworks,1
+Other,User Testing,2,UserTesting,1
+Other,Multifactor Authentication,1,Multi-Factor Authentication,1
+Other,Resource scheduling,1,Resource Scheduling,1
+Other,Webdriver,1,WebDriver,1
+Other,Entity Relationship Diagram (ERD),1,ERD,1
+Other,JTBD,1,Jobs To Be Done (JTBD),1
+Other,IoT,33,IOT,1
+Other,ARM,15,Arm,1
+Cloud & DevOps,Signal Processing,15,Signal processing,1
+Cloud & DevOps,Digital Signal Processing,15,DSP | Digital Signal Processing (DSP),2
+Other,SystemVerilog,11,System Verilog,1
+Other,Real-time Systems,10,Real-time systems | Real-Time Systems,2
+Other,LabVIEW,9,LabView,1
+Other,Real-time Operating System,7,Real-Time Operating System,1
+Other,ASIC Design,5,ASIC design,1
+Other,CAN bus,4,CAN Bus | CANbus,2
+Other,Sensor Fusion,4,Sensor fusion,1
+Other,CANApe,3,CANape,1
+Other,Real-time Programming,3,Real-time programming,1
+Other,Hardware/Software Integration,2,Hardware-Software Integration,1
+Other,LiDAR,2,LIDAR,1
+Other,Modbus,2,MODBUS,1
+Other,RS-422,2,RS422,1
+Other,State estimation,2,State Estimation,1
+Other,Hardware-Software Co-design,1,Hardware-Software Co-Design,1
+Other,OPC UA,1,OPC-UA,1
+Other,RS232,1,RS-232,1
+Other,Real-time Processing,1,Real-time processing,1
+Other,Scrum,174,SCRUM,1
+Other,Microservices,139,Microservices Architecture | Microservice Architecture,2
+Other,Object-Oriented Programming,112,Object-oriented programming | Object Oriented Programming | Object-Oriented Programming (OOP) | Object-oriented Programming,4
+Other,Object-Oriented Design,74,Object-oriented design,1
+Other,Software Development Life Cycle,63,Software Development Lifecycle | Software Development Life Cycle (SDLC),2
+Other,Hadoop,61,Apache Hadoop,1
+Other,Design Patterns,40,Design patterns,1
+Other,UML,17,Unified Modeling Language | Unified Modeling Language (UML),2
+Other,Functional Programming,14,Functional programming | functional programming,2
+Other,Software Design Patterns,8,Software design patterns,1
+Other,Service-Oriented Architecture,6,SOA | Service-oriented architecture,2
+Other,Agile Methodology,5,Agile methodology,1
+Other,Backend Development,5,Back-end Development,1
+Other,Front-end Development,5,Frontend Development,1
+Other,Client-Server Architecture,4,Client/Server Architecture,1
+Other,Event-Driven Architecture,4,Event-driven architecture | Event-driven Architecture,2
+Other,Multithreaded Programming,4,Multi-threaded Programming | Multi-threaded programming | Multithreaded programming,3
+Other,Software Development Best Practices,4,Software development best practices,1
+Other,Hardware-in-the-Loop (HIL),4,HIL | Hardware-in-the-Loop,2
+Other,Agile methodologies,3,Agile Methodologies,1
+Other,Full-stack Development,3,Full Stack Development,1
+Other,Object-Oriented Analysis and Design,3,Object-oriented analysis and design,1
+Other,Object-Oriented Development,3,Object-oriented development,1
+Other,SIL,2,Software-in-the-Loop (SIL) | Software-in-the-Loop,2
+Other,Model-driven development,1,Model-Driven Development,1
+Other,Microsoft Excel,185,Excel | MS Excel,2
+Other,Microsoft Word,132,Word,1
+Other,Microsoft PowerPoint,123,PowerPoint | MS PowerPoint,2
+Other,Microsoft Outlook,72,Outlook,1
+Other,SharePoint,66,Microsoft SharePoint,1
+Other,Microsoft Teams,61,MS Teams,1
+Other,Visual Studio,57,Microsoft Visual Studio,1
+Other,Microsoft Access,21,Access,1
+Other,Power Apps,15,PowerApps,1
+Other,VS Code,13,Visual Studio Code | VSCode,2
+Other,Power Query,4,PowerQuery,1
+Other,Microsoft Power Apps,2,Microsoft PowerApps,1
+Frameworks / Libraries,iOS,103,iOS Development | IOS,2
+Cloud & DevOps,Datadog,16,DataDog,1
+Cloud & DevOps,Elastic Stack,2,ELK Stack,1
+Other,YANG,20,Yang,1
+Other,Wi-Fi,14,WiFi,1
+Other,IS-IS,12,ISIS,1
+Other,OSI Model,12,OSI model,1
+Other,NETCONF,10,Netconf,1
+Other,SDN,9,Software Defined Networking | Software-Defined Networking | Software-Defined Networking (SDN),3
+Other,DPDK,2,dpdk,1
+Other,Radio Access Network (RAN),1,RAN,1
+Languages,TypeScript,264,Typescript,1
+Languages,Go,170,Golang | GoLang,2
+Languages,.NET,122,NET,1
+Languages,Swift,52,SWIFT,1
+Languages,TCL,24,Tcl,1
+Languages,.NET Core,22,NET Core,1
+Other,MATLAB,49,Matlab,1
+Other,Risk Assessment,7,Risk assessment,1
+Other,Stata,3,STATA,1
+Other,REDCap,2,RedCap,1
+Other,GMP,2,Good Manufacturing Practices | Good Manufacturing Practices (GMP),2
+Other,IFRS17,1,IFRS 17,1
+Other,Mixed-Effects Models,1,Mixed Effects Models,1
+Other,PathWise,1,Pathwise,1
+Other,Statistical Analysis Software,1,Statistical analysis software,1
+Other,Statistical Process Control (SPC),1,Statistical Process Control,1
+Languages,Bash,92,BASH | bash,2
+Languages,Unix,67,UNIX,1
+Languages,PowerShell,47,Powershell,1
+Languages,Shell Scripting,42,Shell scripting | shell scripting,2
+Languages,Command Line Interface,7,Command-line Interface | Command-line interface,2
+Languages,Linux command line,2,Linux Command Line,1
+Languages,Unix Shell,1,Unix shell,1
+Cloud & DevOps,Cybersecurity,20,Cyber Security,1
+Cloud & DevOps,Incident Response,6,Incident response,1
+Cloud & DevOps,WebAuthN,4,WebAuthn,1
+Cloud & DevOps,Vulnerability Scanning,3,Vulnerability scanning,1
+Cloud & DevOps,OAuth 2.0,2,OAuth2.0,1
+Cloud & DevOps,Antivirus,1,Anti-Virus,1
+Cloud & DevOps,Hashicorp Vault,1,HashiCorp Vault,1
+Testing,Unit Testing,147,Unit testing,1
+Testing,Selenium,84,Selenium WebDriver,1
+Testing,Test Automation,80,Test automation,1
+Testing,Automated Testing,67,Automated testing,1
+Testing,JUnit,40,Junit,1
+Testing,Test-Driven Development,32,Test Driven Development | Test-driven development | Test-driven Development | Test-Driven Development (TDD),4
+Testing,pytest,22,Pytest | PyTest,2
+Testing,Google Test,9,GoogleTest,1
+Testing,XUnit,8,xUnit,1
+Testing,Black Box Testing,6,Black-box Testing | Black box testing,2
+Testing,SoapUI,5,SOAPUI | SOAP UI,2
+Testing,White Box Testing,4,White box testing | White-box Testing,2
+Testing,Behavior Driven Development,3,Behavior-driven Development | Behavior-Driven Development,2
+Testing,Rest Assured,3,RestAssured | REST Assured,2
+Testing,Acceptance Test Driven Development,1,Acceptance Test-Driven Development,1
+Other,Code Review,48,Code review,1
+Other,macOS,36,MacOS,1
+Other,SAP,29,SAP ERP,1
+Other,GDB,27,gdb,1
+Other,Xcode,18,XCode,1
+Other,MuleSoft,9,Mulesoft,1
+Other,npm,9,NPM,1
+Other,Technical Documentation,7,Technical documentation,1
+Other,VMware,7,VMWare,1
+Other,PNPM,3,pnpm,1
+Other,Code Generation,2,Code generation,1
+Other,Mac,2,MAC,1
+Other,ZooKeeper,2,Zookeeper,1
+Other,cal.com,1,Cal.com,1
+Other,Data Sheets,1,Datasheets,1
+Other,ESRI,1,Esri,1
+Other,FFMPEG,1,FFmpeg,1
+Other,G-Suite,1,G Suite,1
+Other,Pyautogui,1,PyAutoGUI,1
+Cloud & DevOps,Git,569,GIT | git,2
+Cloud & DevOps,Bitbucket,75,BitBucket,1
+Cloud & DevOps,Version Control,33,Version control,1
+Cloud & DevOps,Version Control Systems,4,Version control systems,1
+Cloud & DevOps,PlasticSCM,1,Plastic SCM,1

@@ -1,3 +1,3 @@
-"""JobDistill: ML/NLP-based skill extraction from job posting PDFs."""
+"""JobDistill: LLM-powered skill extraction from job posting PDFs."""
 
-__version__ = "2.2.0"
+__version__ = "3.0.0"

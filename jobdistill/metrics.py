@@ -4,12 +4,11 @@ from __future__ import annotations
 
 import json
 import logging
+import statistics
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Dict, List, Optional
-
-import numpy as np
 
 logger = logging.getLogger(__name__)
 
@@ -40,7 +39,9 @@ class PipelineMetrics:
     boilerplate_lines_removed_total: int = 0
     boilerplate_lines_removed_ratio: float = 0.0
     top_removed_lines: List[tuple] = field(default_factory=list)
-    classifier_floor_triggered_count: int = 0
+
+    gemini_request_count: int = 0
+    gemini_error_count: int = 0
 
     def start_timer(self) -> None:
         self.extraction_start = time.time()
@@ -99,12 +100,19 @@ class PipelineMetrics:
             "checked_count": len(top50),
         }
 
+    def _safe_mean(self, values: List[int]) -> float:
+        return statistics.mean(values) if values else 0.0
+
+    def _safe_percentile(self, values: List[int], pct: float) -> float:
+        if not values:
+            return 0.0
+        sorted_vals = sorted(values)
+        idx = int(len(sorted_vals) * pct / 100)
+        idx = min(idx, len(sorted_vals) - 1)
+        return float(sorted_vals[idx])
+
     def to_dict(self, top_skills: Optional[List[tuple]] = None) -> Dict[str, Any]:
         elapsed = self.extraction_end - self.extraction_start if self.extraction_end else 0
-        chars = np.array(self.chars_per_pdf) if self.chars_per_pdf else np.array([0])
-        cands = np.array(self.candidates_per_pdf) if self.candidates_per_pdf else np.array([0])
-        skills = np.array(self.skills_per_pdf) if self.skills_per_pdf else np.array([0])
-
         total = self.num_pdfs_total or 1
 
         all_skills = top_skills or []
@@ -125,12 +133,12 @@ class PipelineMetrics:
             "num_pdfs_total": self.num_pdfs_total,
             "num_pdfs_extracted_ok": self.num_pdfs_extracted_ok,
             "num_pdfs_empty_text": self.num_pdfs_empty_text,
-            "avg_chars_per_pdf": float(chars.mean()),
-            "p95_chars_per_pdf": float(np.percentile(chars, 95)) if len(chars) > 0 else 0,
+            "avg_chars_per_pdf": self._safe_mean(self.chars_per_pdf),
+            "p95_chars_per_pdf": self._safe_percentile(self.chars_per_pdf, 95),
             "extraction_seconds_total": round(elapsed, 2),
             "pdfs_per_second": round(total / elapsed, 2) if elapsed > 0 else 0,
-            "avg_candidates_per_pdf": float(cands.mean()),
-            "avg_skills_per_pdf": float(skills.mean()),
+            "avg_candidates_per_pdf": self._safe_mean(self.candidates_per_pdf),
+            "avg_skills_per_pdf": self._safe_mean(self.skills_per_pdf),
             "boilerplate": {
                 "lines_total": self.boilerplate_lines_total,
                 "lines_removed_total": self.boilerplate_lines_removed_total,
@@ -151,9 +159,9 @@ class PipelineMetrics:
                 ),
                 "top_rejected_phrases": self.rejected_phrases[:20],
             },
+            "gemini_request_count": self.gemini_request_count,
+            "gemini_error_count": self.gemini_error_count,
         }
-
-        result["classifier_floor_triggered_count"] = self.classifier_floor_triggered_count
 
         if top_skills:
             result["top20_skills"] = [

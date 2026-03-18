@@ -76,9 +76,9 @@ class TestBuildExtractor:
         assert ext.name == "regex"
         assert isinstance(ext, RegexSkillExtractor)
 
-    def test_ml(self):
-        ext = build_extractor("ml", model_dir=None)
-        assert ext.name == "ml"
+    def test_gemini(self):
+        ext = build_extractor("gemini", gemini_model="gemini-2.5-flash")
+        assert ext.name == "gemini"
 
     def test_invalid(self):
         with pytest.raises(ValueError):
@@ -126,7 +126,8 @@ class TestPipelineMetrics:
         assert d["num_pdfs_total"] == 1
         assert d["quality_guardrail"]["quality_failed"] is False
         assert "lines_total" in d["boilerplate"]
-        assert "classifier_floor_triggered_count" in d
+        assert "gemini_request_count" in d
+        assert "gemini_error_count" in d
 
     def test_quality_guardrail_fails_on_boilerplate(self):
         m = PipelineMetrics()
@@ -179,30 +180,35 @@ class TestOutputCSVColumns:
         assert "Count" in df.columns
 
 
-class TestMLPipelineSmoke:
-    """Simulate 5 docs through the ML pipeline, ensure >5 skills overall."""
+class TestGeminiPipelineSmoke:
+    """Simulate 5 docs through the Gemini pipeline with mocked API."""
 
-    def test_ml_pipeline_produces_skills(self, tmp_path):
+    def test_gemini_pipeline_produces_skills(self, tmp_path):
         fake_results = [
             ExtractionResult(
-                skills={"python": 0.9, "javascript": 0.8, "react": 0.7, "docker": 0.8, "aws": 0.85, "sql": 0.9, "git": 0.7},
-                candidates_considered=20,
+                skills={"Python": 1.0, "JavaScript": 1.0, "React": 1.0, "Docker": 1.0, "AWS": 1.0, "SQL": 1.0, "Git": 1.0},
+                candidates_considered=7,
+                debug_info={"categories": {"Python": "Language", "JavaScript": "Language", "React": "Framework", "Docker": "Tool", "AWS": "Cloud", "SQL": "Database", "Git": "Tool"}},
             ),
             ExtractionResult(
-                skills={"java": 0.9, "c++": 0.8, "linux": 0.7, "kubernetes": 0.8, "ci/cd": 0.75},
-                candidates_considered=15,
+                skills={"Java": 1.0, "C++": 1.0, "Linux": 1.0, "Kubernetes": 1.0, "CI/CD": 1.0},
+                candidates_considered=5,
+                debug_info={"categories": {"Java": "Language", "C++": "Language", "Linux": "Platform", "Kubernetes": "Tool", "CI/CD": "Methodology"}},
             ),
             ExtractionResult(
-                skills={"typescript": 0.9, "angular": 0.8, "node.js": 0.7, "redis": 0.8, "postgresql": 0.85},
-                candidates_considered=15,
+                skills={"TypeScript": 1.0, "Angular": 1.0, "Node.js": 1.0, "Redis": 1.0, "PostgreSQL": 1.0},
+                candidates_considered=5,
+                debug_info={"categories": {"TypeScript": "Language", "Angular": "Framework", "Node.js": "Framework", "Redis": "Database", "PostgreSQL": "Database"}},
             ),
             ExtractionResult(
-                skills={"python": 0.9, "docker": 0.8, "aws": 0.85, "jenkins": 0.7, "terraform": 0.8},
-                candidates_considered=18,
+                skills={"Python": 1.0, "Docker": 1.0, "AWS": 1.0, "Jenkins": 1.0, "Terraform": 1.0},
+                candidates_considered=5,
+                debug_info={"categories": {"Python": "Language", "Docker": "Tool", "AWS": "Cloud", "Jenkins": "Tool", "Terraform": "Tool"}},
             ),
             ExtractionResult(
-                skills={"javascript": 0.9, "react": 0.8, "sql": 0.85, "mongodb": 0.8},
-                candidates_considered=12,
+                skills={"JavaScript": 1.0, "React": 1.0, "SQL": 1.0, "MongoDB": 1.0},
+                candidates_considered=4,
+                debug_info={"categories": {"JavaScript": "Language", "React": "Framework", "SQL": "Database", "MongoDB": "Database"}},
             ),
         ]
 
@@ -223,24 +229,24 @@ class TestMLPipelineSmoke:
             pdf_files.append(str(p))
 
         mock_extractor = MagicMock()
-        mock_extractor.name = "ml"
+        mock_extractor.name = "gemini"
         mock_extractor.extract = MagicMock(side_effect=fake_results)
-        mock_extractor.classifier_floor_triggered_count = 0
+        mock_extractor.gemini_request_count = 0
+        mock_extractor.gemini_error_count = 0
 
         with patch(
-            "jobdistill.pipeline.extract_pdf_with_lines",
+            "jobdistill.pipeline.extract_pdf",
             side_effect=lambda path, cache_dir=None: docs[pdf_files.index(path)],
         ):
-            df, metrics = run_pipeline(
+            df, metrics, categories = run_pipeline(
                 pdf_files=pdf_files,
                 extractor=mock_extractor,
-                disable_boilerplate=True,
             )
 
         assert len(df) > 5, f"Expected >5 skills, got {len(df)}"
 
         skill_names = set(df["Skill"].tolist())
-        real = {"python", "aws", "docker", "git", "javascript", "sql", "react"}
+        real = {"Python", "AWS", "Docker", "Git", "JavaScript", "SQL", "React"}
         found = real & skill_names
         assert len(found) >= 4, f"Expected >=4 real skills, got: {found}"
 
@@ -248,3 +254,7 @@ class TestMLPipelineSmoke:
         assert len(multi_count) >= 3, "Expected >=3 skills with count > 1"
 
         assert df.iloc[0]["Count"] >= df.iloc[-1]["Count"], "Should be sorted desc"
+
+        # Verify categories were collected
+        assert len(categories) > 0
+        assert "Python" in categories

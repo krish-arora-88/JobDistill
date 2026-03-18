@@ -13,7 +13,6 @@ from collections import Counter
 import pytest
 
 from jobdistill.boilerplate import strip_boilerplate_corpus
-from jobdistill.extractors.ml_extractor import extract_tech_tokens
 from jobdistill.normalize import has_tech_indicator, is_valid_candidate
 
 BOILERPLATE = """\
@@ -171,53 +170,6 @@ class TestTechIndicatorIntegration:
     )
     def test_tech_indicator(self, phrase: str, expected: bool):
         assert has_tech_indicator(phrase) == expected, f"Failed for: {phrase}"
-
-
-class TestTechTokenExtraction:
-    """Verify the regex-based tech-token candidate pass."""
-
-    def test_extracts_real_skills(self):
-        text = (
-            "Submit applications soon. We need Python, Git, AWS, "
-            "C++ and .NET developers with SQL experience."
-        )
-        candidates = extract_tech_tokens(text)
-        names = {c[0] for c in candidates}
-        assert "python" in names
-        assert "git" in names
-        assert "aws" in names
-        assert "c++" in names
-        assert ".net" in names
-        assert "sql" in names
-
-    def test_filters_application_verbs(self):
-        text = "Submit your Application to the Company Position."
-        candidates = extract_tech_tokens(text)
-        names = {c[0] for c in candidates}
-        assert "submit" not in names
-        assert "application" not in names
-        assert "company" not in names
-        assert "position" not in names
-
-    def test_catches_acronyms_and_camelcase(self):
-        text = "Experience with REST APIs, JavaScript, TypeScript, and CI/CD."
-        candidates = extract_tech_tokens(text)
-        names = {c[0] for c in candidates}
-        assert "rest" in names or "REST" in names
-        assert "javascript" in names or "JavaScript" in names
-        assert "typescript" in names or "TypeScript" in names
-        assert "ci/cd" in names or "CI/CD" in names
-
-    def test_mixed_content_prioritizes_skills(self):
-        text = (
-            "Canada job posting for Students.\n"
-            "Requirements: Python, Git, AWS, C++ and .NET\n"
-            "Submit before deadline."
-        )
-        candidates = extract_tech_tokens(text)
-        names = {c[0] for c in candidates}
-        skill_hits = {"python", "git", "aws", "c++", ".net"} & names
-        assert len(skill_hits) >= 4, f"Expected >=4 skills, got: {skill_hits}"
 
 
 class TestFullPipelineSmoke:

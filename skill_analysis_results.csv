@@ -1,165 +1,3862 @@
 Skill,Count
-python,27
-c++,17
-java,12
-cloud,10
-javascript,10
-linux,10
-aws,9
-sql,8
-devops,7
-programming,6
-windows,6
-agile,5
-ai,5
-automation,5
-docker,5
-git,5
-security,5
-api,4
-business,4
-c#,4
-data,4
-microsoft,4
-ms,4
-products,4
-azure,3
-code,3
-design,3
-google,3
-html,3
-ui,3
-web,3
-.net,2
-4th year computer,2
-algorithms,2
-android,2
-basics,2
-bc,2
-communication,2
-core,2
-css,2
-customers,2
-digital,2
-drive,2
-education,2
-excel,2
-gcp,2
-github,2
-https,2
-implement,2
-infrastructure,2
-jobs,2
-kubernetes,2
-management,2
-monitoring,2
-net,2
-network,2
-outlook,2
-pc,2
-processing,2
-project,2
-ruby,2
-services,2
-ui/ux,2
-using,2
-access,1
-adobe,1
-amazon,1
-apis,1
-apps,1
-arduino,1
-automate,1
-automated,1
-basic,1
-benchmarking,1
-bitbucket,1
-blog,1
-browser,1
-bs/ms,1
-catalog,1
-cd,1
-clients,1
-command,1
-communicates,1
-compiler,1
-computing,1
-confluence,1
-controlled,1
-cs,1
-cyber,1
-database,1
-db,1
-desktop,1
-devsecops,1
-dockers,1
-document,1
-embedded,1
-english,1
-enterprise,1
-firmware,1
-frontend,1
-gdb,1
-geographic,1
-gis,1
-golang,1
-gpu,1
-graphics,1
-greenhouse,1
-gui,1
-guide,1
-immerse,1
-implementation,1
-install,1
-intel,1
-iot,1
-ip,1
-link,1
-mac,1
-maintain,1
-maintains,1
-mathematics,1
-mb,1
-messenger,1
-methodologies,1
-microservices,1
-networking,1
-nlp,1
-nokia,1
-office,1
-operating,1
+Python,1480
+C/C++,966
+JavaScript,676
+Java,674
+Agile,633
+SQL,621
+Git,575
+Linux,480
+Machine Learning,479
+AWS,440
+C#,415
+React,383
+Microsoft Excel,314
+Azure,311
+Docker,305
+CI/CD,288
+REST,281
+TypeScript,265
+HTML,256
+CSS,253
+Kubernetes,248
+Artificial Intelligence,234
+DevOps,220
+GCP,213
+Jira,211
+Power BI,189
+Angular,179
+Go,179
+Jenkins,179
+Scrum,176
+Microsoft PowerPoint,170
+Node.js,167
+.NET,158
+Microsoft Word,157
+GitHub,154
+Unit Testing,152
+Object-Oriented Programming,150
+PyTorch,148
+PostgreSQL,147
+Windows,145
+Microservices,144
+Android,138
+AI,137
+Large Language Models,135
+TensorFlow,132
+Tableau,129
+Generative AI,123
+SQL Server,110
+Data Structures,109
+R,109
+Microsoft Office,108
+Algorithms,107
+Bash,107
+iOS,105
+Unix,104
+Perl,97
+Selenium,92
+Microsoft Outlook,89
+Deep Learning,88
+MySQL,87
+Computer Vision,86
+Pandas,84
+Software Development Life Cycle,84
+Terraform,84
+Test Automation,81
+scikit-learn,81
+Bitbucket,80
+GitLab,80
+Object-Oriented Design,80
+Continuous Integration,78
+Kotlin,76
+Spark,76
+Data Analysis,75
+SDLC,75
+Vue.js,75
+MongoDB,74
+Natural Language Processing,74
+Confluence,73
+SharePoint,73
+JSON,71
+Kafka,71
+Automated Testing,70
+XML,70
+TCP/IP,69
+Ethernet,67
+Cloud Computing,66
+Ruby,66
+Rust,64
+Hadoop,63
+VBA,63
+Microsoft Teams,62
+Visual Studio,62
+ETL,61
+Test-Driven Development,61
+GitHub Actions,60
+Data Modeling,59
+Integration Testing,58
+Prompt Engineering,57
+Spring Boot,57
+Django,56
+NumPy,56
+MATLAB,54
+NoSQL,54
+Swift,54
+HTTP,51
+Code Review,49
+Next.js,49
+Snowflake,49
+PowerShell,48
+Data Visualization,47
+Infrastructure as Code,46
+Kanban,46
+Azure DevOps,45
+Databricks,45
+PHP,45
+Redis,44
+Shell Scripting,44
+Distributed Systems,43
+LangChain,43
+Ansible,42
+Debugging,42
+Design Patterns,42
+Figma,42
+JUnit,42
+Quality Assurance,42
+ASP.NET,41
+Microsoft 365,41
+Oracle,41
+Scala,41
+GraphQL,40
+Data Analytics,39
+Splunk,39
+pytest,39
+HTML5,38
+Playwright,38
+AWS Lambda,37
+MLOps,37
+macOS,37
+Google BigQuery,35
+OpenAI,35
+Redux,35
+Reinforcement Learning,35
+TCL,35
+IoT,34
+Version Control,34
+Apache Airflow,33
+Grafana,33
+Matplotlib,33
+Helm,32
+FPGA,31
+Postman,31
+SAP,31
+RTOS,30
+React Native,30
+Retrieval-Augmented Generation,30
+Spring,30
+Android Studio,29
+Groovy,29
+Power Automate,29
+jQuery,29
+Elasticsearch,28
+GDB,28
+Jest,28
+MPLS,28
+Bootstrap,27
+Eclipse,27
+Express.js,27
+FastAPI,27
+Flask,27
+Raspberry Pi,27
+ServiceNow,27
+Statistical Analysis,27
+Unreal Engine,27
+5G,26
+Cybersecurity,26
+Cypress,26
+Data Warehousing,26
+Ruby on Rails,26
+TLS,26
+Waterfall,26
+BGP,25
+CSS3,25
+Data Mining,25
+IP,25
+Lua,25
+Multithreading,25
+Oscilloscope,25
+Statistics,25
+Big Data,24
+ChatGPT,24
+Containerization,24
+QNX,24
+Unity,24
+Virtual Machines,24
+gRPC,24
+Design Thinking,23
+Microsoft Access,23
+Microsoft Office Suite,23
+Project Management,23
+SPI,23
+Feature Engineering,22
+I2C,22
+LLM,22
+OSPF,22
+Xcode,22
+Continuous Delivery,21
+Digital Signal Processing,21
+Maven,21
+TCP,21
+VS Code,21
+YANG,21
+CAN,20
+Google Sheets,20
+IBM Cloud,20
+Lean,20
+Operating Systems,20
+Perforce,20
+Salesforce,20
+T-SQL,20
+UML,20
+Verilog,20
+Visual Basic,20
+API Testing,19
+Active Directory,19
+Hugging Face,19
+OpenCV,19
+RISC-V,19
+Robot Framework,19
+SAS,19
+VB.NET,19
+A/B Testing,18
+Amazon S3,18
+Arduino,18
+CUDA,18
+Data Pipelines,18
+Functional Programming,18
+JMeter,18
+Looker,18
+MLflow,18
+MVC,18
+SwiftUI,18
+Blockchain,17
+Datadog,17
+Google Workspace,17
+Neural Networks,17
+OSI Model,17
+Power Apps,17
+SASS,17
+SVN,17
+Unsupervised Learning,17
+Virtualization,17
+Yocto,17
+ARM,16
+Artifactory,16
+Claude,16
+Haskell,16
+Image Processing,16
+Keras,16
+Microsoft Copilot,16
+Mocha,16
+PCIe,16
+PySpark,16
+Regression Testing,16
+SDN,16
+SOAP,16
+Signal Processing,16
+Spring Framework,16
+UART,16
+Windows Server,16
+Data Governance,15
+GCC,15
+Gradle,15
+Jupyter Notebook,15
+Microsoft Project,15
+Microsoft Visio,15
+Predictive Analytics,15
+Qt,15
+System Design,15
+Troubleshooting,15
+USB,15
+Webpack,15
+Wi-Fi,15
+dbt,15
+Bluetooth,14
+Classification,14
+Cursor,14
+DWDM,14
+Exploratory Data Analysis,14
+GitHub Copilot,14
+Google Test,14
+IS-IS,14
+MS Office,14
+Manual Testing,14
+Microsoft Power Platform,14
+Office 365,14
+Performance Testing,14
+Predictive Modeling,14
+Real-time Systems,14
+Supervised Learning,14
+UDP,14
+UI/UX Design,14
+WPF,14
+npm,14
+Cloud Native,13
+Copilot,13
+DynamoDB,13
+ERP,13
+Embedded Linux,13
+ISO 13485,13
+LLMs,13
+OpenStack,13
+Plotly,13
+Slack,13
+Transformers,13
+Amplitude,12
+Azure Data Factory,12
+CMake,12
+ELT,12
+End-to-End Testing,12
+GIS,12
+GPU,12
+JAX,12
+LabVIEW,12
+LangGraph,12
+Microcontrollers,12
+NETCONF,12
+New Relic,12
+Regression,12
+SAFe,12
+SaaS,12
+SystemVerilog,12
+Tailwind CSS,12
+UX Design,12
+Visio,12
+Vite,12
+WordPress,12
+Appium,11
+BigQuery,11
+Claude Code,11
+Clustering,11
+Computer Architecture,11
+Computer Graphics,11
+Continuous Deployment,11
+Delta Lake,11
+Entity Framework,11
+Gerrit,11
+IntelliJ,11
+Iterative Development,11
+Jupyter,11
+Logic Analyzer,11
+OTN,11
+Optimization,11
+Release Management,11
+SciPy,11
+Service-Oriented Architecture,11
+SolidWorks,11
+Statistical Modeling,11
+Thrift,11
+Time Series Forecasting,11
+Virtual Reality,11
+WebSockets,11
+XUnit,11
+Algorithm Design,10
+Bamboo,10
+Business Intelligence,10
+Data Lake,10
+Data Warehouse,10
+Gemini,10
+Hibernate,10
+Hybrid Cloud,10
+IP Networking,10
+ITIL,10
+Jetpack Compose,10
+Load Testing,10
+Machine Vision,10
+MuleSoft,10
+Multithreaded Programming,10
+NIST,10
+Network Virtualization,10
+OAuth,10
+Objective-C,10
+OpenShift,10
+PCoIP,10
+PL/SQL,10
+RIP,10
+Responsible AI,10
+SAP Analytics Cloud,10
+SSL,10
+Shell,10
+Source Control,10
+System Testing,10
+Ubuntu,10
+VHDL,10
+API Development,9
+ArgoCD,9
+Business Analysis,9
+CAD,9
+Code Reviews,9
+Command Line Interface,9
+Configuration Management,9
+Cucumber,9
+DNS,9
+Data Preprocessing,9
+Data Processing,9
+Data Quality,9
+Elixir,9
+Functional Testing,9
+GNSS,9
+Google Analytics,9
+Google Docs,9
+Hive,9
+ISO 14791,9
+Katalon Studio,9
+MSTest,9
+OneDrive,9
+OpenSearch,9
+PLC,9
+Penetration Testing,9
+Power Platform,9
+RabbitMQ,9
+Red Hat,9
+Remix,9
+Risk Management,9
+SQL Server Management Studio,9
+Seaborn,9
+Security-Driven Development,9
+Simulink,9
+Site Reliability Engineering,9
+Sketch,9
+Software Design Patterns,9
+TeamCity,9
+Trello,9
+User-Centered Design,9
+AWS S3,8
+Advanced Analytics,8
+Amazon SQS,8
+Android SDK,8
+ArcGIS,8
+Azure OpenAI,8
+Black Box Testing,8
+Cloud Messaging,8
+D3.js,8
+Data Cleaning,8
+Design Systems,8
+Encryption,8
+Event-Driven Architecture,8
+GPS,8
+GPT,8
+GitLab CI,8
+HBase,8
+Hardware-in-the-Loop (HIL),8
+Kibana,8
+LTE,8
+Less,8
+MCP,8
+Make,8
+Microsoft Windows,8
+Multimeter,8
+Pinecone,8
+Prometheus,8
+RAG,8
+ROS,8
+Real-time Operating System,8
+Responsive Design,8
+Risk Assessment,8
+RxJS,8
+SAP HANA,8
+SCADA,8
+SNMP,8
+SPSS,8
+Socket Programming,8
+Spring MVC,8
+Statistical Methods,8
+Streamlit,8
+Technical Documentation,8
+Test Planning,8
+UI Testing,8
+User Acceptance Testing,8
+VMware,8
+Virtual Desktop Infrastructure,8
+Vulnerability Assessment,8
+Weights & Biases,8
+AI Agents,7
+API Design,7
+AWS IAM,7
+Accessibility,7
+Adobe Creative Suite,7
+Adobe XD,7
+Agentic AI,7
+Assembly,7
+Augmented Reality,7
+Azure Functions,7
+Bloomberg,7
+Causal Machine Learning,7
+Chromium,7
+CircleCI,7
+DOM,7
+Data Integration,7
+Digital Logic,7
+Distributed Computing,7
+GNU,7
+Google Slides,7
+ISO 27001,7
+Incident Management,7
+Incident Response,7
+LLVM,7
+MQTT,7
+Microsoft Fabric,7
+Model Evaluation,7
+NVIDIA,7
+NestJS,7
+Object Detection,7
+Oscilloscopes,7
+Photoshop,7
+Prototyping,7
+RDBMS,7
+Red Hat Enterprise Linux,7
+Rush,7
+S3,7
+SONET/SDH,7
+SSIS,7
+Security Testing,7
+Sentiment Analysis,7
+SoapUI,7
+SonarQube,7
+Spinnaker,7
+Svelte,7
+Time Series Analysis,7
+UI Design,7
+UiPath,7
+User Experience,7
+Vulnerability Management,7
+Web API,7
+WebSocket,7
+YAML,7
+API Integration,6
+ASIC,6
+ASIC Design,6
+AWS Bedrock,6
+Adobe Creative Cloud,6
+Alteryx,6
+Amazon CloudWatch,6
+Amazon DynamoDB,6
+Apache,6
+AutoCAD,6
+Automation Testing,6
+Blender,6
+Blue Prism,6
+Boost,6
+CAN bus,6
+CXL,6
+Cassandra,6
+Client-Server Architecture,6
+Cloud Infrastructure,6
+Continuous Improvement,6
+Copilot Studio,6
+DB2,6
+DOORS,6
+Data Wrangling,6
+Device Drivers,6
+Edge Computing,6
+Electron,6
+Experimental Design,6
+Exploratory Testing,6
+Extreme Programming,6
+Financial Modeling,6
+FreeRTOS,6
+GitOps,6
+Google Suite,6
+Gulp,6
+HMI,6
+Hugging Face Transformers,6
+Hypothesis Testing,6
+ISO 26262,6
+Imitation Learning,6
+Insight,6
+Internet of Things,6
+LDP,6
+Linear Algebra,6
+LlamaIndex,6
+Logstash,6
+MS SQL,6
+Material-UI,6
+Miro,6
+Multi-agent Systems,6
+Neo4j,6
+OAuth2,6
+Observability,6
+Ollama,6
+PNPM,6
+Predictive Maintenance,6
+Redshift,6
+Root Cause Analysis,6
+Serial Communication,6
+Simulation,6
+Static Analysis,6
+System Integration,6
+Systems Engineering,6
+Transfer Learning,6
+UDS,6
+UIKit,6
+User Experience Design,6
+Vercel,6
+Version Control Systems,6
+Vertex AI,6
+Video Processing,6
+VxWorks,6
+WCAG,6
+White Box Testing,6
+Wireshark,6
+Zoom,6
+AWS EKS,5
+AWS RDS,5
+AWS Security Groups,5
+Amazon Redshift,5
+Android Jetpack,5
+Anomaly Detection,5
+Apache Flink,5
+Asana,5
+Assembler,5
+Azure Data Lake,5
+Azure Synapse Analytics,5
+Babel,5
+Backbone.js,5
+Behavior Driven Development,5
+CNNs,5
+CentOS,5
+Cloud Architecture,5
+CloudWatch,5
+Command Line,5
+Contentful,5
+Control Systems,5
+Cryptography,5
+D3,5
+DAX,5
+Data Architecture,5
+Embeddings,5
+FME,5
+Figjam,5
+Firebase,5
+Firewall,5
+Flink,5
+Flow,5
+GMP,5
+Gherkin,5
+Google Compute Engine,5
+HDFS,5
+Heroku,5
+IAM,5
+Identity and Access Management,5
+Illustrator,5
+Isaac Sim,5
+JNI,5
+Java EE,5
+Julia,5
+LAN,5
+LIN,5
+LLMOps,5
+Linear Programming,5
+Lucidchart,5
+MSBuild,5
+MapReduce,5
+MicroStrategy,5
+Mixed Reality,5
+Mujoco,5
+NUnit,5
+NgRx,5
+Nonlinear Optimization,5
+OLAP,5
+OLTP,5
+Open RAN,5
+OpenGL,5
+Page Object Model,5
+Power Query,5
+Prisma,5
+Push Notifications,5
+RHEL,5
+Radix UI,5
+Recommendation Systems,5
+Rest Assured,5
+SCCM,5
+SCSS,5
+SEO,5
+SIEM,5
+SIL,5
+SSH,5
+SSRS,5
+Secure Coding,5
+Sensor Fusion,5
+Serverless,5
+Serverless Computing,5
+ShadCN,5
+SharePoint Online,5
+Spectrum Analyzer,5
+Spring Cloud,5
+Storybook,5
+Tanstack,5
+Test Automation Framework,5
+Text Analytics,5
+Transformer,5
+User Stories,5
+VBScript,5
+VPN,5
+Vagrant,5
+WebAuthN,5
+WebGL,5
+WebRTC,5
+WebdriverIO,5
+Windows 10,5
+Zapier,5
+Zephyr,5
+asyncio,5
+n8n,5
+3D Printing,4
+AJAX,4
+AWS CloudWatch,4
+AWS ElastiCache,4
+AWS Glue,4
+Adobe,4
+Adobe Analytics,4
+Amazon EC2,4
+Amazon EKS,4
+Amazon Kinesis,4
+Amazon Route 53,4
+Amazon SNS,4
+Amazon SageMaker,4
+Android NDK,4
+Apache Superset,4
+Apache Tomcat,4
+Apollo,4
+Application Integration,4
+Argus Enterprise,4
+Azure Databricks,4
+Azure Machine Learning,4
+Azure SQL,4
+BIOS,4
+Batch,4
+Blueprints,4
+CANApe,4
+CMM,4
+CSV,4
+CVE,4
+Chrome DevTools,4
+Chromebook,4
+Cloud Storage,4
+Cloudflare,4
+Complexity Analysis,4
+Component Testing,4
+Computer Networking,4
+Control Theory,4
+Convolutional Neural Networks,4
+Cross-browser compatibility,4
+DO-178C,4
+Data Pipeline,4
+Data Transformation,4
+Dataflow,4
+Defect Management,4
+Defect Tracking,4
+Design of Experiments,4
+Drupal,4
+ECMP,4
+ERP Systems,4
+FORTRAN,4
+Federated Learning,4
+FinOps,4
+Flux,4
+Fraud Detection,4
+GPU Programming,4
+GSM,4
+GTest,4
+Game Development,4
+Google App Engine,4
+Google Vertex AI,4
+Guidewire,4
+HLSL,4
+Hardware Troubleshooting,4
+High-Performance Computing,4
+Human-Computer Interaction,4
+Information Retrieval,4
+Interaction Design,4
+Isaac Gym,4
+Isaac Lab,4
+Istio,4
+JDBC,4
+JPA,4
+JTAG,4
+Jinja,4
+LaTeX,4
+Laravel,4
+Low-code/No-code Development,4
+ML Pipelines,4
+Mathematical Modeling,4
+MediaPipe,4
+Memory Management,4
+Micro Frontend,4
+Microprocessors,4
+Microsoft,4
+Microsoft Forms,4
+Microsoft Planner,4
+Mobile App Testing,4
+Mobile Testing,4
+Model Training,4
+MongoDB Atlas,4
+NIST CSF,4
+NLP,4
+NuclearJS,4
+ONNX,4
+ONNX Runtime,4
+Object-Oriented Analysis and Design,4
+Object-Oriented Development,4
+Oozie,4
+OpenCL,4
+Oracle Cloud,4
+Oracle Database,4
+PKI,4
+PMLC,4
+Pair Programming,4
+Performance Optimization,4
+Presto,4
+Product Backlog,4
+Protocol Buffers,4
+QWEB,4
+Quantum Computing,4
+RS-422,4
+RSVP,4
+Ray,4
+React Testing Library,4
+Real-time Programming,4
+Regression Analysis,4
+Robotic Process Automation,4
+SAP BusinessObjects,4
+SAP Concur,4
+Scientific Computing,4
+Segment Routing,4
+Semantic Kernel,4
+Server Administration,4
+Server-Sent Events,4
+Smartsheet,4
+Solaris,4
+Stata,4
+Swagger,4
+Synthetic Data Generation,4
+System Administration,4
+TDD,4
+TFS,4
+Technical Writing,4
+TensorFlow Lite,4
+Testing Methodologies,4
+Testing Methodology,4
+Tomcat,4
+UVM,4
+UX Research,4
+UX/UI Design,4
+Unit Testing Frameworks,4
+Usability Testing,4
+Use Case,4
+User Research,4
+User Testing,4
+VLAN,4
+VPC,4
+Video Analytics,4
+Vulnerability Scanning,4
+WCDMA,4
+WCF,4
+Wiki,4
+Wildfly,4
+Wireless Communication,4
+XSL,4
+Xamarin,4
+gNMI,4
+iOS SDK,4
+vSphere,4
+3D Geometry,3
+3D Graphics,3
+3D Modeling,3
+3GPP,3
+ABAP,3
+AR,3
+AWS Fargate,3
+AWS Neuron,3
+AWS SageMaker,3
+AXIS,3
+Access Control,3
+Aha!,3
+Alibaba Cloud,3
+Amazon RDS,3
+Angular Material,3
+Apache NiFi,3
+Apple App Store,3
+Application Lifecycle Management,3
+Applications Integration,3
+Assembly Language,3
+Atlassian,3
+Atlassian Suite,3
+Authentication,3
+AutoGen,3
+Automation Framework,3
+Axon,3
+Azure AI,3
+Azure AI Services,3
+Azure App Services,3
+Azure Key Vault,3
+Azure Pipelines,3
+Azure SQL Database,3
+Azure Synapse,3
+BDD,3
+Bayesian Optimization,3
+Big Data Analytics,3
+Browser Developer Tools,3
+Burp Suite,3
+CANalyzer,3
+CARLA,3
+CPU Architecture,3
+CRM,3
+CSS-in-JS,3
+Canvas,3
+Canvas LMS,3
+Causal Inference,3
+Change Management,3
+Chatbots,3
+Clang,3
+ClickUp,3
+Cloud Security,3
+Cloud-Native Architecture,3
+CloudFormation,3
+Code Generation,3
+Codeium,3
+Codex,3
+Concurrency,3
+Coroutines,3
+Cosmos DB,3
+Cross Browser Testing,3
+Cross-Browser Development,3
+DCS,3
+DHCP,3
+DPDK,3
+DXL,3
+Dash,3
+Data Masking,3
+Data Migration,3
+Data Security,3
+Data Strategy,3
+Database Fundamentals,3
+Database Systems,3
+Detox,3
+Digital Twin,3
+DirectX,3
+Disaster Recovery,3
+Distributed Messaging,3
+Docker Compose,3
+Document Classification,3
+Driver Development,3
+Dynamic Analysis,3
+EKS,3
+ES6,3
+ESXi,3
+ETL/ELT,3
+EVPN,3
+Elastic Stack,3
+Ember.js,3
+Erlang,3
+Esri ArcGIS,3
+Failure Analysis,3
+Few-shot Learning,3
+Fiddler,3
+File Systems,3
+Firewalls,3
+Flutter,3
+Forecasting,3
+Forensics,3
+Foundation Models,3
+GPIO,3
+GenAI,3
+Generative Adversarial Networks,3
+GetFeedback,3
+GitLab CI/CD,3
+Glassfish,3
+Google Gemini,3
+Google Play Store,3
+Guice,3
+HackerRank,3
+Hardware Debugging,3
+Hardware Testing,3
+Hardware/Software Integration,3
+Houdini,3
+Human-Centered Design,3
+IIS,3
+IMU,3
+ISO,3
+IT Asset Management,3
+IT Governance,3
+IT Service Management,3
+ITSM,3
+InVision,3
+Incident Handling,3
+Informatica,3
+Information Security,3
+IntelliJ IDEA,3
+JSF,3
+JSP,3
+JWT,3
+Jasmine,3
+KNIME,3
+Kubeflow,3
+L2/L3 Services,3
+LDAP,3
+LLaMa,3
+Ladder Logic,3
+Lambda,3
+Leaflet,3
+Lean UX,3
+LiDAR,3
+Linux command line,3
+Lucene,3
+MISRA,3
+MLIR,3
+MS Access,3
+MUI,3
+MVVM,3
+MXNet,3
+Mac,3
+Markdown,3
+MassMotion,3
+Maya,3
+McCabe,3
+Mercurial,3
+Metaflow,3
+Metrology,3
+Micro Frontends,3
+Microsoft Dynamics,3
+Microsoft Power Apps,3
+Microsoft Power Automate,3
+Microsoft Purview,3
+Modbus,3
+Model Deployment,3
+Motion Planning,3
+Multi-core Programming,3
+Multimeters,3
+Multimodal AI,3
+Multimodal Models,3
+NFV,3
+NHibernate,3
+NIST Cybersecurity Framework,3
+NR,3
+Network Administration,3
+Network Security,3
+Non-Relational Databases,3
+Nutanix,3
+Nuxt.js,3
+Nx,3
+OAuth 2.0,3
+OpenAPI,3
+OpenTelemetry,3
+Opsgenie,3
+PHIPA,3
+PHPUnit,3
+PID Control,3
+POSIX,3
+Packer,3
+Performance Analysis,3
+Performance Profiling,3
+Performance Tuning,3
+Periscope,3
+Photogrammetry,3
+PixiJS,3
+Point Cloud Processing,3
+Power Supplies,3
+Process Automation,3
+Process Optimization,3
+Proligent Analytics,3
+Pub/Sub,3
+Pulumi,3
+Puppeteer,3
+PyQt,3
+QA Automation,3
+QGIS,3
+Qualcomm Snapdragon,3
+Qualitative Research,3
+RAID,3
+REDCap,3
+RF,3
+RPM,3
+Rancher,3
+Random Forest,3
+Real-time Operating Systems,3
+Remote Sensing,3
+Responsive Web Design,3
+Risk Analysis,3
+Roadmap,3
+SAE J1939,3
+SAE J3061,3
+SAP Business Technology Platform,3
+SCOM,3
+SLAM,3
+SRE,3
+STL,3
+Security Operations,3
+Seldon Core,3
+Self-supervised Learning,3
+Semantic Search,3
+Semi-supervised Learning,3
+Serial Protocols,3
+Service Design,3
+Simulator,3
+Sockets,3
+Software Deployment,3
+Soldering,3
+Solr,3
+SpecFlow,3
+State estimation,3
+Structured Text,3
+Supabase,3
+Support Vector Machine,3
+Surveys,3
+Survival Analysis,3
+System Integration Testing,3
+System Monitoring,3
+System on Chip,3
+Systems Design,3
+TVM,3
+Teradata,3
+Test Complete,3
+TestRail,3
+Threat Management,3
+Threat Modeling,3
+Topic Modeling,3
+UCMP,3
+UEFN,3
+UI Development,3
+Unity Catalog,3
+User Interviews,3
+V-Model,3
+VMware ESX,3
+VMware NSX,3
+VR,3
+Video Codecs,3
+Visual Design,3
+Visual Studio Debugger,3
+VoIP,3
+Vuex,3
+WAN,3
+Walkme,3
+Web Design,3
+Windows 11,3
+Windows Forms,3
+Wireframing,3
+Wireless Networks,3
+Wireless Protocols,3
+XLA,3
+XR,3
+Xamarin Forms,3
+Yocto Project,3
+YouTube,3
+Zendesk,3
+Zod,3
+ZooKeeper,3
+esbuild,3
+grep,3
+requests,3
+shadcn/ui,3
+x86,3
+3D Visualization,2
+3D programming,2
+3GPP NR,2
+3ds Max,2
+AEM,2
+AI Governance,2
+AI Strategy,2
+AI4Code,2
+AIOps,2
+API Management,2
+ARIMA,2
+ARIS,2
+ASIC Verification,2
+ATOM,2
+AWS Amplify,2
+AWS AppSync,2
+AWS Deep Learning AMIs,2
+AWS Deep Learning Containers,2
+AWS ECS,2
+AWS Inferentia,2
+AWS IoT,2
+AWS Route 53,2
+AWS Step Functions,2
+AWS Trainium,2
+Acceptance Test Driven Development,2
+Acceptance Testing,2
+Accessibility Testing,2
+Adobe Acrobat,2
+Adobe Experience Manager,2
+Adobe Illustrator,2
+Adobe Photoshop,2
+Agentic AI Framework,2
+Alerting,2
+Amazon Athena,2
+Amazon CloudFront,2
+Amazon ECS,2
+Amazon Q,2
+Anaconda,2
+Analog Circuit Design,2
+Android OS,2
+Android TV,2
+Android Testing Framework,2
+Ant,2
+Antivirus,2
+Anypoint Studio,2
+Apache JMeter,2
+Apache Parquet,2
+App Engine,2
+AppDynamics,2
+Apple TV,2
+Application Orchestration,2
+Application Security,2
+Application Support,2
+Argo Workflows,2
+ArkUI,2
+Asynchronous Programming,2
+Athena,2
+Audio and Video Protocols,2
+AutoML,2
+Autonomous Driving,2
+Azure AI Search,2
+Azure Blob Storage,2
+Azure Machine Learning Studio,2
+BERT,2
+BLE,2
+BPMN,2
+BSD,2
+Batch Processing,2
+Batch Scripting,2
+BigEye,2
+Bluetooth Low Energy,2
+Bug Tracking,2
+Bug Tracking Software,2
+Build Automation,2
+Builder.io,2
+Buildroot,2
+Business Continuity Planning,2
+Business Objects,2
+Business Process Analysis,2
+CANoe,2
+CAPL,2
+CBTC,2
+CIS Controls,2
+CMDB,2
+COSMOS,2
+CREO,2
+CSA,2
+CVSS,2
+Calculus,2
+Camtasia,2
+Captions AI,2
+Cflowd,2
+Chai,2
+Change Control,2
+Chef,2
+Chromecast,2
+Ciena Planner Plus,2
+Cisco,2
+Cliosoft,2
+Cloud Tasks,2
+Code Analysis,2
+Code Coverage,2
+Codeception,2
+Codility,2
+Cognos,2
+CometML,2
+Compliance,2
+Computational Design,2
+Compute graph optimization,2
+Consul,2
+Container Orchestration,2
+Continuous Testing,2
+Conversational AI,2
+Coremetrics,2
+Crimson Hexagon,2
+Customer Behavior Analysis,2
+DDR,2
+DDR4,2
+DDS,2
+DOS Scripting,2
+Dashboards,2
+Data Acquisition Systems,2
+Data Augmentation,2
+Data Clustering,2
+Data Communication,2
+Data Lineage,2
+Data Mapping,2
+Data Patterns,2
+Data Preparation,2
+Data Profiling,2
+Data Sheets,2
+Data Validation,2
+Datastore,2
+Dayforce,2
+DeepSpeed,2
+Deployment Automation,2
+Design System,2
+Device Driver Development,2
+Devin,2
+Diffusion Models,2
+Digital Circuit Design,2
+Digital Forensics,2
+Digital Multimeter,2
+Digital Oscilloscope,2
+Direct3D,2
+Disaster Recovery Planning,2
+Discord,2
+Discovery,2
+DoIP,2
+Docling,2
+DocuSign,2
+Dojo,2
+DrawIO,2
+Dynatrace,2
+ECMAScript,2
+EDA,2
+EF Core,2
+ESRI,2
+Edge AI,2
+Elastic,2
+Elementary,2
+ElevenLabs,2
+Embedded Firmware,2
+Entity Relationship Diagram (ERD),2
+Exchange Online,2
+Experiment Tracking,2
+Experimentation,2
+ExtJs,2
+FAIR Principles,2
+FAISS,2
+FCC,2
+FFMPEG,2
+FPGA Design,2
+FTIR Spectroscopy,2
+Facebook Insights,2
+Fastify,2
+Feature Extraction,2
+File System,2
+Financial Analysis,2
+Fine-tuning,2
+Fire TV,2
+Fivetran,2
+Flowcharts,2
+Flume,2
+Formal Verification,2
+Foundation,2
+Fourier Regression Analysis,2
+Framer,2
+Function Block Diagram,2
+Functionality Testing,2
+G-Suite,2
+GANs,2
+GD&T,2
+GLSL,2
+GPT-4o-mini,2
+GTK,2
+GUI Development,2
+Gas Chromatography,2
+Gaussian Splatting,2
+Gazebo,2
+Geographic Information Systems,2
+GitHub Workflows,2
+Godot,2
+Good Documentation Practice,2
+Good Manufacturing Practice,2
+Google ADK,2
+Google Ads,2
+Google Apps Script,2
+Google Cirq,2
+Google Tag Manager,2
+Graph Neural Networks,2
+Graphic Design,2
+Graphics,2
+Graphics Programming,2
+Group Policy,2
+Grunt,2
+Gurobi,2
+Gym,2
+HDLC,2
+HDMI,2
+HFSS,2
+HL7,2
+HL7 FHIR,2
+HP Anyware,2
+HTTPS,2
+Hardware-Software Co-design,2
+Hardware-in-the-Loop (HIL) Testing,2
+Hashicorp Vault,2
+Heuristic Evaluation,2
+Hightouch,2
+IATF 16949,2
+IBM Qiskit,2
+IBM Rational DOORS,2
+IFRS17,2
+IGMP,2
+INS,2
+IRAM2,2
+ISO 9001,2
+IXIA,2
+Image Analysis,2
+Image Annotation Tools,2
+Image Segmentation,2
+Industry 4.0,2
+InfluxDB,2
+Information Visualization,2
+Infrastructure Security,2
+Intelligent Automation,2
+Interpretability and Explainability,2
+Interrupts,2
+Intrusion Detection System,2
+Intune,2
+Inventor,2
+Issue Tracking,2
+JD Edwards,2
+JEE,2
+JTBD,2
+JavaFX,2
+Jira Service Desk,2
+Karl Fischer Titration,2
+Karma,2
+Kepler.gl,2
+Kernel Development,2
+Keynote,2
+Khoros,2
+Kinematics,2
+Kivy,2
+Knowledge Graphs,2
+LINQ,2
+LSTM,2
+LTspice,2
+Lakehouse,2
+Large Multimodal Models,2
+Lean Manufacturing,2
+Linear,2
+Linting,2
+Localization,2
+Logic Analyzers,2
+Logistic Regression,2
+Long Short-Term Memory,2
+Looker Studio,2
+Lovable,2
+Low-code,2
+Low-code Development,2
+MEMS,2
+MEMS IMU,2
+MLD,2
+MLDP,2
+MS Office Suite,2
+Magento,2
+Mapbox,2
+MariaDB,2
+Marketing Analytics,2
+Materialize,2
+Mathematics,2
+Megatron,2
+Memcache,2
+Meta Quest,2
+Micro:bit,2
+Microcontroller,2
+Microcontroller Programming,2
+Microsoft Copilot Studio,2
+Microsoft Dynamics 365,2
+Microsoft Entra,2
+Microsoft Exchange,2
+Microsoft Office 365,2
+Minio,2
+Mixed-Effects Models,2
+Mobile Device Management,2
+Mockito,2
+Model Development,2
+Model Fine-Tuning,2
+Model Validation,2
+Model-Based Systems Engineering,2
+Model-driven development,2
+Modelling,2
+Monday.com,2
+Multifactor Authentication,2
+Mural,2
+NERC CIP,2
+NLTK,2
+NVD,2
+Nagios,2
+Navsim,2
+Neptune.ai,2
+Network Analyzer,2
+Network File System,2
+NetworkX,2
+Networking Switches,2
+Nginx,2
+OCR,2
+OData,2
+OIDC,2
+OPC UA,2
+ORAN,2
+OWASP,2
+OWASP ZAP,2
+Object Storage,2
+Okta,2
+Omniverse Replicator,2
+Online learning,2
+OpenAI APIs,2
+OpenEmbedded,2
+Operating System,2
+Operational Technology,2
+Opnet,2
+Optical Spectrum Analyzer,2
+Optics,2
+Oracle APEX,2
+Oracle SQL,2
+PC,2
+PCI DSS,2
+PCL,2
+PID Tuning,2
+PIM,2
+PMBOK,2
+PON,2
+POS,2
+PWM,2
+Parallel Programming,2
+Parallel Systems,2
+Parquet,2
+Particle Systems,2
+Patch Management,2
+PathWise,2
+Pattern Recognition,2
+Perception,2
+Performance Engineering,2
+Phishing Simulation,2
+Phoenix,2
+Phoenix Framework,2
+Pinot,2
+Pivotal Cloud Foundry,2
+PlasticSCM,2
+Play Framework,2
+PocketPC,2
+Podman,2
+Polymer,2
+Potentiometric Titration,2
+Power Pages,2
+Power Supply,2
+Power Virtual Agents,2
+Problem Management,2
+Process Mapping,2
+Project Management Life Cycle,2
+Project Management Methodology,2
+Proof of Concept,2
+Protobuf,2
+Protocol Analyzer,2
+Protocol Stacks,2
+PyCharm,2
+PyTorch Mobile,2
+Pyautogui,2
+QA Best Practices,2
+QA Processes,2
+QML,2
+QMS,2
+Qlik,2
+Quality Assurance and Testing,2
+Quality Control,2
+Quality Management System,2
+Qualtrics,2
+Quantitative Research,2
+Quarkus,2
+R Shiny,2
+RAG (Retrieval Augmented Generation),2
+RAG Pipelines,2
+RBAC,2
+RESTCONF,2
+RFID,2
+RLlib,2
+RNNs,2
+RPA,2
+RPC,2
+RS232,2
+RTL,2
+RTP,2
+Radio Access Network (RAN),2
+Radish,2
+Reactive Programming,2
+ReadyAPI,2
+Real-time Processing,2
+Recommender Systems,2
+Redux Toolkit,2
+Refactoring,2
+Reliability Analytics,2
+Remote Desktop,2
+Rendering,2
+Renesas RX,2
+Requirement Analysis,2
+Requirements Analysis,2
+Requirements Gathering,2
+Resource scheduling,2
+Retool,2
+Reuters,2
+Revit,2
+Robot kinematics,2
+Roku,2
+Route53,2
+Routing,2
+RxJava,2
+RxSwift,2
+SAP Business Data Cloud,2
+SAST,2
+SCA,2
+SCPI,2
+SGLang,2
+SHAP,2
+SKILL,2
+SMS,2
+SOC 2,2
+SOME/IP,2
+SONET,2
+SQL Server Reporting Services,2
+SQLite,2
+SQS,2
+SR,2
+SRv6,2
+SSO,2
+STM32,2
+SYSBIOS,2
+Salesforce Marketing Cloud,2
+Salesforce Sales Cloud,2
+ScalaTest,2
+Scaled Agile Framework,2
+Scaled Agile Framework (SAFe),2
+Scientific Method,2
+Secure Development,2
+Security Groups,2
+Security Information and Event Management,2
+Security Monitoring,2
+Segmentation,2
+Sensor Simulation,2
+Shader Programming,2
+Shell Script,2
+Shopify,2
+Signal Generator,2
+SiteCatalyst,2
+Sitecore,2
+Skyspark,2
+SocialBee,2
+Software Development Kit,2
+Software Troubleshooting,2
+Software/Hardware Co-design,2
+Solid.js,2
+Source Code Management,2
+SpaceClaim,2
+Spanner,2
+Sphinx,2
+Spirent,2
+Spring Core,2
+Stable Diffusion,2
+Standard Operating Procedures,2
+Statistical Analysis Software,2
+Statistical Process Control (SPC),2
+Stencil,2
+Storage Systems,2
+Stream Processing,2
+Styled-components,2
+Subversion,2
+Superset,2
+Swift Concurrency,2
+Switch,2
+Switching,2
+Symfony,2
+System Architecture,2
+System Development Lifecycle,2
+System Scalability,2
+System and Technology Integration,2
+TI DSP,2
+TI MSP430,2
+TOGAF,2
+Talend,2
+TanStack Query,2
+Target Trial Emulation,2
+Telemetry,2
+TensorRT-LLM,2
+Test Automation Frameworks,2
+Test Design,2
+Test Management System,2
+Test Methodology,2
+TestCafe,2
+TestNG,2
+Text Embeddings,2
+Theano,2
+Thread,2
+Threat Intelligence,2
+Three.js,2
+Tizen,2
+Trajectory planning,2
+UI/UX,2
+Unix Shell,2
+Usability,2
+User Interface Design,2
+User-centric design,2
+VISA,2
+VLMs,2
+Vector Stores,2
+Vehicle Simulator,2
+Veracode,2
+Verification,2
+Verse,2
+VirtualBox,2
+Vision Systems,2
+Vision-Language Models,2
+Vitest,2
+Vivado,2
+Voltmeter,2
+Web Accessibility,2
+Web Application Development,2
+Web Experience Toolkit,2
+Webdriver,2
+Webhook,2
+Webhooks,2
+Wet Chemistry Titration,2
+Windows CE,2
+Windows Mobile,2
+Windows PowerShell,2
+Wiz,2
+Workday,2
+Workflow Automation,2
+Wwise,2
+X-Ray,2
+XGBoost,2
+XRP Ledger,2
+Xanadu PennyLane,2
+Xilinx,2
+YOLO,2
+Zeplin,2
+Zero Trust,2
+Zero-shot Learning,2
+Zigbee,2
+Zoho Deluge,2
+Zustand,2
+boto3,2
+cGMP,2
+cal.com,2
+dltHub,2
+ggplot2,2
+gmake,2
+pgvector,2
+spaCy,2
+statsmodels,2
+tidyverse,2
+uDeploy,2
+vLLM,2
+x86/64,2
+10 Gigabit Ethernet,1
+21 CFR Part 11,1
+21 CFR Part 820,1
+2D Visualization,1
+2D/3D Geometry Representation Learning,1
+3 Lines of Defense Model,1
+3D Graphics API,1
+3D Math,1
+3D Point Cloud Rendering,1
+3D Sensing,1
+3D Slicer,1
+3D Vision,1
+3DEXPERIENCE,1
+4G,1
+5G NR,1
+6-DoF Pose Estimation,1
+6G,1
+7250 Interconnect Router,1
+7330 SXR,1
+7750 Service Router,1
+@Risk,1
+AAA,1
+ABB,1
+ACH,1
+ACL,1
+ADQL,1
+AI Code Assistant,1
+AI Debuggers,1
+AI Model Fine-tuning,1
+AI Orchestration,1
+AI Pair Programming,1
+AI Platform,1
+AI Services,1
+AI agentic frameworks,1
+AI-900,1
+AI-Assisted Development Tools,1
+AI-assisted coding tools,1
+AI-assisted development workflows,1
+AIX,1
+ALM,1
+ALSA,1
+AMD,1
+AMPL,1
+ANYsec,1
+AOSP,1
+API Gateway,1
+API Programming,1
+API Security,1
+AR/VR,1
+AR/VR Development,1
+ARAP,1
+ARINC 429,1
+ARM Assembly,1
+ARM Microcontroller,1
+ARM processors,1
+ARP,1
+ARP-4754,1
+ARP-4761,1
+ASIC Integration,1
+ASIC Layout,1
+ASME Y14,1
+ATAC-seq,1
+ATE,1
+ATPG,1
+AUTOSAR,1
+AUTOSAR Adaptive Platform,1
+AVEVA,1
+AVEVA PI,1
+AVEVA PI System,1
+AVRO,1
+AWS API Gateway,1
+AWS Batch,1
+AWS CLI,1
+AWS Cloud Development Kit (CDK),1
+AWS CloudFormation,1
+AWS CodePipeline,1
+AWS Cognito,1
+AWS EMR,1
+AWS EventBridge,1
+AWS Q,1
+AWS Redshift,1
+AWS SQS,1
+AZ-900,1
+Accelerometer,1
+Accelerometers,1
+Access Management,1
+Access Point,1
+Accessibility Review,1
+Accounting,1
+Active Directory Certificate Services (ADCS),1
+Active Learning,1
+ActiveMQ,1
+AdWords,1
+Adaptive Difficulty Balancing,1
+Adaptive SoC,1
+Adaptive SoCs,1
+Addressables,1
+Adobe InDesign,1
+Adobe Premiere,1
+Adobe Suite,1
+Aeron,1
+Aerospike,1
+After Effects,1
+Agent Development,1
+Agentforce,1
+Agentic Frameworks,1
+Agentic Protocols,1
+Agentic Systems,1
+Agentic Workflows,1
+Agents,1
+AgilePlace,1
+AgilePoint,1
+Air,1
+Airbus ABD,1
+Airtable,1
+Akamai,1
+Alarm Lists,1
+AlertOps,1
+Algorithm Development,1
+Algorithmic Foundations of Optimization,1
+Algorithmics,1
+Alias,1
+Allegro,1
+Allegro APD,1
+Allen-Bradley PLCs,1
+Allure,1
+Altium,1
+Amazon API Gateway,1
+Amazon Aurora,1
+Amazon Bedrock,1
+Amazon QuickSight,1
+Amazon SES,1
+Amplify,1
+Analog Board Design,1
+Analog Hardware Design,1
+Analog Mixed-Signal,1
+Analytical Modeling,1
+Analytical Pipelines,1
+Analytics Interpretation,1
+Analytics Platforms,1
+Android Audio System,1
+Android Multimedia Framework,1
+AndroidX,1
+Ant Design,1
+Anthropic,1
+Anthropic API,1
+Anthropic Claude,1
+Anthropic Claude Code,1
+Anti-malware,1
+Antivirus Software,1
+Apache Beam,1
+Apache Camel,1
+Apache Flume,1
+Apache Hop,1
+Apache ZooKeeper,1
+Apex,1
+Apollo Android,1
+App Builder,1
+AppSync,1
+Appian,1
+Apple,1
+Apple Notarization,1
+Application Administration,1
+Application Architecture,1
+Application Development,1
+Application Logging,1
+Application Monitoring,1
+Application Security Testing,1
+Application Servers,1
+Applications Architecture,1
+Applied AI,1
+Applied Product Research,1
+Applitools,1
+Apptio,1
+Aqua Security,1
+ArcGIS Enterprise,1
+ArcGIS Field Maps,1
+ArcGIS Pro,1
+ArcPy,1
+Architectural Reviews,1
+ArduPilot,1
+Arena PLM,1
+Argo,1
+Argo Workflow,1
+Arista EOS,1
+Articulate 360,1
+Ascend,1
+AspenTech Inmation,1
+Aspentech IP.21,1
+Assemblers,1
+AssetBundles,1
+Atlas Platform,1
+Atlassian Tools,1
+Atomic,1
+Attribution,1
+Attrition Modeling,1
+Audio,1
+Audio Codecs,1
+Audio Generation,1
+Audio Processing,1
+Audio Protocol,1
+Audiovisual Equipment,1
+Audit,1
+Augmentation,1
+Aura Components,1
+Aurora,1
+Aurora PostgreSQL,1
+Auth0 Platform,1
+Authentication Protocols,1
+Authentication/Authorization,1
+Authorization Protocols,1
+AutoCAD Electrical,1
+AutoCAD LT,1
+Autodesk,1
+Autodesk Inventor,1
+Autogen Studio,1
+Automate,1
+Automated Deployment,1
+Automated Quality Gates,1
+Automated Reasoning,1
+Automated Tests,1
+Automated Unit Testing,1
+Automated Unit Testing Frameworks,1
+Automated software testing,1
+Automation APIs,1
+Automation Anywhere,1
+Automation Platforms,1
+Automation Test Framework,1
+Automotive Software,1
+Autonomous Systems,1
+Autonomous Vehicles,1
+Avigilon Control Center,1
+Awk,1
+Azure AD,1
+Azure AI Document Intelligence,1
+Azure AI Foundry,1
+Azure AI Studio,1
+Azure AI Vision,1
+Azure Active Directory,1
+Azure App Service,1
+Azure Application Insights,1
+Azure CLI,1
+Azure Cognitive Services,1
+Azure Data Pipelines,1
+Azure DevOps Server,1
+Azure Foundry,1
+Azure Integration Services,1
+Azure Maps,1
+Azure Monitor,1
+Azure Power Platform,1
+Azure Storage,1
+Azure Storage Insights,1
+BACnet,1
+BER Tester,1
+BIM,1
+BIST,1
+BMC Remedy,1
+BPMN 2.0,1
+Bandit,1
+Bare Metal,1
+Bash Scripting,1
+Batch Data Processing,1
+Batch File,1
+Bayesian Inference,1
+Bayesian Machine Learning,1
+Bayesian Statistics,1
+Bazel,1
+BeagleBoard,1
+BeagleBone Black,1
+Beats,1
+BeautifulSoup,1
+Beeline,1
+Behat,1
+Behavioral Analytics,1
+Bentley,1
+BiCMOS,1
+Bias Mitigation,1
+Bioconductor,1
+Biosensors,1
+BitLocker,1
+Blackduck,1
+Blazor,1
+Bloomberg Terminal,1
+Bluebeam,1
+Blueprint,1
+Bluetooth Mesh,1
+Board Design,1
+Board-level Debug,1
+Boeing D6,1
+Botpress,1
+Bourne Shell,1
+Brain-Computer Interface,1
+Brain-Computer Interfaces,1
+Budgeting,1
+Bug Tracking System,1
+Buildbot,1
+Building Automation,1
+Building Information Modeling,1
+Bundle Adjustment,1
+Business Analytics,1
+Business Automation,1
+Business Continuity,1
+Business Data Cloud,1
+Business Design,1
+Business Intelligence (BI) Dashboard Design,1
+Business Process Management,1
+Business Requirements Analysis,1
+Business Valuation,1
+C shell,1
+CA TDM,1
+CADC,1
+CANopen,1
+CAPA,1
+CATIA,1
+CCPA,1
+CDK,1
+CDMA,1
+CDN,1
+CDS,1
+CE,1
+CI Helpers,1
+CI/CD Pipelines,1
+CIS,1
+CIS Framework,1
+CISM,1
+CISSP,1
+CIVA,1
+CLR,1
+CMD,1
+CMM Programming,1
+CMOS,1
+CMS,1
+CNN,1
+CPPUnit,1
+CPU Debugger,1
+CPU Hardware Architectures,1
+CPU/GPU Performance Analysis,1
+CQRS,1
+CS Explorer,1
+CSS Frameworks,1
+CTF,1
+CVS,1
+CWE,1
+CWL,1
+CYME,1
+CYME TCC,1
+Caching technologies,1
+Caffe,1
+Calibration,1
+Calibrators,1
+Calibre,1
+Cameo,1
+Canadian Medical Device Regulations,1
+Cannex,1
+Capacitor,1
+Capstone DataPARC,1
+Carbon Design System,1
+Case Management Systems,1
+CatBoost,1
+Cause and Effects,1
+Cellular,1
+Cellular Communication Simulators,1
+Cellular Connectivity,1
+Ceres Solver,1
+ChIP-seq,1
+Chain of Custody,1
+Chain-of-Thought Prompting,1
+Chakra UI,1
+Channel Simulator,1
+Chaos Engineering,1
+Charles River,1
+ChatGPT Codex,1
+Chatter,1
+Chip Layout,1
+Chroma,1
+Chromatin Accessibility,1
+Chrome,1
+Circana,1
+Circuit Debugging,1
+Circuit Design,1
+Citavi,1
+Citrix,1
+CiviCRM,1
+Clarity PC,1
+Clarity PPM,1
+Classical Computer Vision,1
+Classical Machine Learning,1
+Claude Code Cursor,1
+Claude Sonnet 4.5,1
+Clean Code,1
+ClickHouse,1
+ClickOnce,1
+Climatic Chamber,1
+Clinical Data Management,1
+Closure,1
+Cloud APIs,1
+Cloud Build,1
+Cloud Computing Architecture,1
+Cloud Data Engineering,1
+Cloud Dataflow,1
+Cloud Datastore,1
+Cloud Endpoints,1
+Cloud Engineering,1
+Cloud IAM,1
+Cloud Pub/Sub,1
+Cloud Run,1
+Cloud SQL,1
+Cloud Spanner,1
+Cloud Technologies,1
+CloudFront,1
+CloudVision Appliance,1
+CloudVision Portal,1
+Cloudant,1
+Cobalt,1
+Code Assistants,1
+Code Deployment,1
+Code Management,1
+Code Management Tools,1
+Code Tracing,1
+Code pilot,1
+CodeIgniter,1
+Codecs,1
+Codespaces,1
+Codex API,1
+Coding Practices,1
+Cognitive Ergonomics,1
+Cohere,1
+Combinatorial Algorithms,1
+ComitML,1
+Communication Technologies,1
+Communication Theory,1
+CompTIA A*,1
+CompTIA Network*,1
+CompTIA Network+,1
+CompTIA Security+,1
+Compiler Design,1
+Complexity Theory,1
+Compliance Management,1
+Compliance Testing,1
+Component Libraries,1
+Component Selection,1
+Component-Driven Development,1
+Compose,1
+Composer,1
+Computational Biology,1
+Computational Geometry,1
+Computational Intelligence,1
+Compute Engine,1
+Computer Forensics,1
+Computer Imaging,1
+Computer Modeling,1
+Computer Science,1
+Computer Security,1
+Computer Systems,1
+Computer Vision Algorithms,1
+Conan,1
+Concur,1
+Conda,1
+Configuration Hardening,1
+Confluent Kafka,1
+Content Inspectors,1
+Content Management System,1
+Content Moderation,1
+Context Engineering,1
+Continual Learning,1
+Continuous Integration and Continuous Delivery,1
+Continuous Monitoring,1
+Contrastive Learning,1
+Control Automation,1
+Control Systems Engineering,1
+ControlNet,1
+Controls,1
+Copilot Chat,1
+Copilot for Power BI,1
+Copperleaf AIP,1
+Core Network,1
+Core Web Vitals,1
+Corel Draw,1
+Coverity,1
+Coverlet,1
+Cross-Site Request Forgery (CSRF),1
+Cross-Site Scripting (XSS),1
+Cross-platform,1
+Crossplane,1
+Cryptographic Algorithms,1
+Crystal Reports,1
+Curser,1
+Customer Journey Mapping,1
+Cyber Investigations,1
+Cyber Kill Chain,1
+Cybersecurity principles,1
+DAQ,1
+DAST,1
+DDR5,1
+DFD,1
+DITA,1
+DMA,1
+DNDAF,1
+DO-254,1
+DO-326A,1
+DOORS NG,1
+DRM,1
+DTC,1
+DWARF,1
+Dagger,1
+Dagster,1
+Dart,1
+Dask,1
+Data Acquisition Units,1
+Data Analysis Tools,1
+Data Annotation,1
+Data Anonymization,1
+Data Automation,1
+Data Cataloguing,1
+Data Center Operations,1
+Data Cleansing,1
+Data Cloud,1
+Data Collection,1
+Data Communication Protocols,1
+Data Concurrency,1
+Data Documentation,1
+Data Encryption,1
+Data Enrichment,1
+Data Ingestion,1
+Data Labelling,1
+Data Lifecycles,1
+Data Logger,1
+Data Logging,1
+Data Loss Prevention,1
+Data Manipulation,1
+Data Modelling,1
+Data Normalization,1
+Data Orchestration,1
+Data Parsing,1
+Data Pipelining,1
+Data Platforms,1
+Data Preservation,1
+Data Privacy,1
+Data Protection,1
+Data Quality Assessment,1
+Data Quality Assurance,1
+Data Quality Management,1
+Data Streaming,1
+Data Visualization Tools,1
+Data Warehouses,1
+Data-as-a-Service,1
+DataGrip,1
+DataOps,1
+Database Administration,1
+Database Development,1
+Database Kernel Development,1
+Database Queries,1
+Database Schema Design,1
+Database Scripting,1
+Database Testing,1
+Database methodologies,1
+Databricks Platform,1
+Datacenter Networks,1
+Dataiku,1
+Dataiku DSS,1
+Datalayer Tracking,1
+Datameer,1
+Dataset Creation,1
+Dataset Management,1
+Debuggers,1
+Declarative UI,1
+Deep Generative Models,1
+Deep Learning Fine-tuning,1
+Deep Neural Networks,1
+Deep Q-Network,1
+DeepLab,1
+Deepseek,1
+Defensive Coding,1
+DejaGnu,1
+Delphix,1
+Depth Estimation,1
+Depth Sensing,1
+Descriptive Statistics,1
+Design Control,1
+Design Copilots,1
+Design Documentation,1
+Design Principles,1
+Design Techniques,1
+Design Verification,1
+Design of Experiment (DoE),1
+Desktop Application Development,1
+Desktop Simulators,1
+Desktop Support,1
+DevExpress,1
+Deviation Management,1
+Differentiable Rendering,1
+Dify,1
+Digital Audio,1
+Digital Board Design,1
+Digital Design,1
+Digital Design Verification,1
+Digital Electronics,1
+Digital Hardware Design,1
+Digital Image Processing,1
+Digital Imaging,1
+Digital Mail,1
+Digital Marketing,1
+Digital Signal Processors (DSPs),1
+Digital Video,1
+Digital analytics,1
+Dijkstra's Algorithm,1
+Display Systems,1
+DisplayPort,1
+Distributed Analysis,1
+Distributed Control System,1
+Distributed Energy Resources (DER) analysis,1
+Distributed System Design,1
+Distribution protection schemes,1
+Django REST Framework,1
+DoDAF,1
+Docker Hub,1
+Documentation,1
+Domain Adaptation,1
+Domain Registration,1
+Domain-Driven Design,1
+Domain-Specific Language,1
+Drift Detection,1
+Drizzle ORM,1
+Dropbox,1
+Dynamic Context Management,1
+Dynamic Testing,1
+Dynamics 365,1
+E1,1
+EAS,1
+EC2,1
+ECM,1
+ECMAScript 6,1
+ECS,1
+EDA Tools,1
+EDGE,1
+EDM,1
+EDR,1
+EMX,1
+EN50128,1
+ETL Testing,1
+ETL Tools,1
+ETRM,1
+ETSI,1
+EU AI Act,1
+Eagle,1
+Early Stopping,1
+Editor Debuggers,1
+Editor Tooling,1
+EduClaud,1
+Eigen,1
+ElastiCache,1
+Elastic Beanstalk,1
+Electric Spectrum Analyzer,1
+Electrical Engineering,1
+Electrical Schematics,1
+Electrical Systems,1
+Electromagnetism,1
+Electromechanical Design,1
+Electronic Assembly,1
+Electronic Control Unit (ECU),1
+Electronic Data Analysis,1
+Electronic Hardware Development,1
+Electronic Load,1
+Electronic Loads,1
+Electronic Schematics,1
+Electronic Schematics Reading,1
+Electronics Manufacturing,1
+Element Plus,1
+Emacs,1
+Email,1
+Email Security,1
+Embedded Android,1
+Embedded C,1
+Embedded Debugging Tools,1
+Embedded Development Tools,1
+Embedded Devices,1
+Embedded Firmware Development,1
+Embedded Systems Development,1
+Embedded Systems Security,1
+Embedded Toolchains,1
+Emerson DeltaV,1
+Emotion,1
+Empirical Research,1
+Emulation,1
+Encoder-Decoder,1
+End-to-End Automation,1
+Endpoint Protection,1
+Endpoint Security,1
+Enhanced Input,1
+Enterprise Architecture,1
+Enterprise Resource Planning,1
+Entity Framework Core,1
+Entity Relationship Diagrams,1
+Epigenomics,1
+Error Proofing,1
+Espresso,1
+Esri ArcGIS Pro,1
+Esri Enterprise,1
+EtherCAT,1
+Ethical Hacking,1
+Euroclear,1
+Excel Macros,1
+Excel VBA,1
+Exchange,1
+Expect,1
+Experiment Design,1
+Experiment Tracing,1
+Experiment Tracking Frameworks,1
+Exploit Development,1
+Expo,1
+Exponential Smoothing,1
+FEA,1
+FEAF,1
+FHIR,1
+FINCAD,1
+FITS,1
+FIX Protocol,1
+FME AI Service,1
+FME Account,1
+FME Flow Hosted,1
+FME Hub,1
+FMEA,1
+FP5,1
+FP8,1
+FPGAs,1
+FSL,1
+FTA,1
+Facebook,1
+FactoryTalk Optix,1
+Failure Mode and Effects Analysis,1
+Fault calculations,1
+Feature Store,1
+Fiber Fusion Splicer,1
+Fiber Optics,1
+Field II,1
+FigJam AI,1
+Figma Make,1
+FileShare,1
+Finout,1
+Firefox,1
+Firestore,1
+Firmware Security,1
+Firmware Troubleshooting,1
+Fisheye,1
+Flame,1
+Flat File Storage,1
+Flexbox,1
+Flow Designer,1
+Flowise,1
+Folium,1
+Forensic Analysis,1
+ForgeRock,1
+Formal Specification,1
+Formik,1
+FpML,1
+FreeSync,1
+Freescale,1
+Frontend,1
+Frostbite,1
+Full Matrix Capture (FMC),1
+Function Block Diagrams,1
+Function Calling,1
+Functional Verification,1
+FundServ,1
+Fusion 360,1
+Fusion Algorithms,1
+G&W,1
+GA4,1
+GA4GH,1
+GAMS,1
+GCP Cloud Functions,1
+GDPR,1
+GLMs,1
+GMock,1
+GNN,1
+GNSS/INS,1
+GPP,1
+GPRS,1
+GPT-5,1
+GPU Architecture,1
+GPU Drivers,1
+GPU Tools,1
+GR00T,1
+GStreamer,1
+GTSAM,1
+GUI Programming,1
+GUI Testing,1
+GV AMPP,1
+Game Console,1
+Game Design,1
+Game Engines,1
+Gameplay Ability System,1
+Gameplay Debugger,1
+Gantt charts,1
+Gatsby,1
+Gauge Repeatability and Reproducibility (GRR),1
+Gauntlet,1
+Gemini 2.5 Flash Image,1
+GenICam,1
+General-Purpose Processors (GPPs),1
+Generative AI IDE,1
+Generative Image Models,1
+Generative Models,1
+Geographical Information Systems,1
+Geometric Dimensioning and Tolerancing (GD&T),1
+Geometry Processing,1
+Geospatial,1
+Geospatial Analysis,1
+Geospatial Data,1
+Geotab Platform,1
+Gesture Recognition,1
+GitHub Pages,1
+GitHub Runners,1
+GitLab Pipelines,1
+GitLeaks,1
+Glue,1
+Gmail,1
+Good Clinical Practice,1
+Google AI,1
+Google Agent Development Kit,1
+Google Cloud ML,1
+Google Cloud Storage,1
+Google Contact Center AI,1
+Google Data Studio,1
+Google DeepMind,1
+Google G-Suite,1
+Google LiveAPI,1
+Google Maps API,1
+Google Maps Platform,1
+Google Meet,1
+Google Pub/Sub,1
+Google Research,1
+Google Search Console,1
+Google SketchUp,1
+Google Tensor,1
+Governance,1
+Gradescope,1
+Graph Data Analysis,1
+GraphQL API,1
+Graphene,1
+Graphs and Optimization,1
+Gray Box Testing,1
+Green Hills,1
+Greensock,1
+Grey Box Testing,1
+Grok 4,1
+Groq APIs,1
+HACCP,1
+HANA Data Lake,1
+HAZOP,1
+HBM,1
+HDR,1
+HEVC,1
+HIP,1
+HIPA,1
+HIPAA,1
+HP ALM,1
+HP-UX,1
+HPLC,1
+HSDPA,1
+HSUPA,1
+HTC Vive,1
+Hand tools,1
+Hardware Abstraction Layer,1
+Hardware Architecture,1
+Hardware Bring-up,1
+Hardware Debugging Tools,1
+Hardware Development,1
+Hardware Drivers,1
+Hardware Installation,1
+Hardware-in-Loop,1
+HarmonyOS,1
+Harvester,1
+HashiCorp Configuration Language,1
+Hazelcast,1
+Headless,1
+Headless CMS,1
+Healenium,1
+High Assurance Guards,1
+High-Level Design,1
+High-Performance Liquid Chromatography,1
+High-speed Design,1
+High-speed Optical and Electrical Test Equipment,1
+Hilt,1
+Honeywell Forge,1
+Horde,1
+Horizontal Scaling,1
+Human Factors,1
+Human Machine Interface,1
+Hybrid Solver Service,1
+Hyper-V,1
+Hyperion,1
+Hypervisor,1
+I2S,1
+IBIS AMI,1
+IBM Cloud Paks,1
+IBM Data Studio,1
+IBM Granite,1
+IEC 61508,1
+IEC 62304,1
+IEC 62443,1
+IP Addressing,1
+IP Infrastructure,1
+IP Routing,1
+IP Telephony,1
+IP VPN,1
+IPC,1
+IPsec,1
+IPv4,1
+IPv6,1
+IPython,1
+IQR,1
+ISA,1
+ISA/IEC 62443,1
+ISED,1
+ISO 14001,1
+ISO 14971,1
+ISO 17025,1
+ISO 21434,1
+ISO 27002,1
+ISO 27005,1
+ISO 9001:2015,1
+ISOBUS,1
+ISTQB,1
+IT Change Management,1
+IT Compliance,1
+IT Controls,1
+IT Infrastructure Management,1
+IT Networking,1
+IT Operations,1
+IT Security,1
+IT Security Testing Tools,1
+IT Standards,1
+IT Ticketing System,1
+ITIL Foundations,1
+ITSG-33,1
+ITSM tools,1
+Ideagen,1
+Ideation,1
+Identity & Access Management,1
+Identity Access Management,1
+Identity Management,1
+Ignition,1
+Image Annotation,1
+Image Compression,1
+Image Deployment,1
+Image Generation,1
+Image Manipulation,1
+Image Optimization,1
+Image Pipelines,1
+Imagery,1
+Immutable.js,1
+Index Optimization,1
+Industrial Control Systems,1
+Industrial Internet of Things,1
+Industry Canada,1
+Inference,1
+Inferential Statistics,1
+Information Architecture,1
+Infrastructure Automation,1
+Infrastructure Management,1
+Infrastructure Provisioning,1
+Infrastructure as a Service,1
+Input/Output Lists,1
+Instagram,1
+Instrumentation,1
+Instrumentation and Automation,1
+Instruments,1
+Integrated Development Environment,1
+Integrity,1
+Intel,1
+Intel Xeon,1
+Inter-Process Communication,1
+Interface Standards,1
+Internationalization,1
+Internet Explorer,1
+Interviews,1
+Intrusion Detection Systems,1
+Intrusion Prevention Systems,1
+IoT (Internet of Things),1
+Iterative,1
+Iterative Closest Point,1
+J1939,1
+J2EE,1
+JAAS,1
+JBOD,1
+JBOG,1
+JBoss,1
+JD Edwards EnterpriseOne,1
+JD Edwards World,1
+JDK,1
+JESD204b,1
+JFrog,1
+JFrog Xray,1
+JMP,1
+JSON Schema,1
+JSON-LD,1
+JVM,1
+Jabber,1
+Jama,1
+Java Native Interface,1
+Java Web Services,1
+Javadocs,1
+Jelly,1
+Jetson,1
+Jira Service Management,1
+Jira Software,1
+Jira Xray,1
+Job Scheduling,1
+Jobs to be Done,1
+Jotai,1
+Jutro,1
+K-S Test,1
+K-Wave,1
+Kaizen,1
+Kaltura,1
+Kernel,1
+Key-value store,1
+Keycloak,1
+KeystoneJS,1
+Knative,1
+Knockout.js,1
+Knowledge Graph,1
+Knowledge Management,1
+Koin,1
+KornShell,1
+Kysely,1
+Kyverno,1
+L4T,1
+LAN/WAN,1
+LG,1
+LIMS,1
+LLBLGen,1
+LLDB,1
+LLM APIs,1
+LLM Application Development,1
+LLM Evaluation,1
+LLM Inference,1
+LLM Prompt Engineering,1
+LLM Prompting,1
+LLM-as-a-Judge,1
+LMM,1
+LORAs,1
+LPDDR4,1
+LPDDR5,1
+LPU,1
+Lab Debugging,1
+Lab Equipment,1
+Lab Management,1
+Lambda Expressions,1
+LangFuse,1
+LangSmith,1
+Laser Engraving,1
+Latency Based Routing,1
+Lattice,1
+Layer 1,1
+Layer 2,1
+Lazy Loading,1
+Lean Development,1
+LeanIX,1
+Learning Rate Tuning,1
+Lifecycle Governance,1
+Lifecycle Planning,1
+LightGBM,1
+Lightdash,1
+Lighting,1
+Lightning Web Components,1
+Linear Regression,1
+Link Budgets,1
+Linked Data,1
+Linker,1
+Linux Kernel,1
+Linux Kernel Module Development,1
+Linux Shell,1
+Linux Shell Script,1
+Linux/Unix shell,1
+Liquibase,1
+Live Service Development,1
+Livelink,1
+LoRA,1
+LoRaWAN,1
+Load Balancing,1
+Load flow analysis,1
+Log Correlation,1
+Logging as a Service,1
+Logic Design,1
+LogicMonitor,1
+Longview,1
+Loop closure,1
+Lottie,1
+Low-Level Design,1
+Low-code/No-code,1
+Lucid Charts,1
+MACsec,1
+MCDST,1
+MCP Server,1
+MCSE,1
+MDIO,1
+MDSAP,1
+MDT,1
+MIL Standards,1
+MIL-STD-100,1
+MIL-STD-1472G,1
+MIL-STD-1553,1
+MIL-STD-461,1
+MIL-STD-810,1
+MIPI,1
+MIPS,1
+ML Evaluation Metrics,1
+ML Libraries,1
+MMSIM,1
+MPEG,1
+MR,1
+MRP Systems,1
+MS Copilot,1
+MSFT 365 Copilot,1
+MSIX,1
+MVC Architecture,1
+Mabl,1
+Machine Learning Libraries,1
+Macro,1
+Makefile,1
+Makefiles,1
+Manufacturing,1
+Manufacturing Automation,1
+Manufacturing Test,1
+Mapping,1
+Mapping API,1
+Marketing Automation,1
+Marketing Cloud,1
+Mask R-CNN,1
+Mass Spectrometry,1
+Master Data Management,1
+Matching,1
+Material CSS,1
+Matlab Simulink,1
+Maximo,1
+Measurement Instruments,1
+Mechanical Design,1
+Mechanical Testing,1
+Mechatronics,1
+Medical Imaging,1
+Memcached,1
+Memory Mapping,1
+Memory Profiling,1
+Mentor CAD,1
+Message Bus,1
+Meta-Learning,1
+Meta-analysis,1
+Metabase,1
+Metal,1
+Metasploit,1
+Metrix,1
+Micro-kernel,1
+Microanimations,1
+Microchip PIC32,1
+Microcontroller Architectures,1
+Microcontrollers programming,1
+Microprocessor Programming,1
+Microsegmentation,1
+Microsimulation Modeling,1
+Microsoft 365 Copilot,1
+Microsoft Active Directory,1
+Microsoft Agent Framework,1
+Microsoft Authentication,1
+Microsoft Azure AI Foundry,1
+Microsoft Azure DevOps,1
+Microsoft CSP,1
+Microsoft Dataverse,1
+Microsoft Defender for Endpoint,1
+Microsoft Dynamics CRM,1
+Microsoft Entra ID,1
+Microsoft Foundation Classes,1
+Microsoft Graph,1
+Microsoft IDEs,1
+Microsoft Intune,1
+Microsoft Loop,1
+Microsoft Meeting Room Technologies,1
+Microsoft Project Online,1
+Microsoft SSRS,1
+Microsoft Security Suite,1
+Microsoft Sentinel,1
+Microsoft Team Foundation Services,1
+Microwaves,1
+Midjourney,1
+Milvus,1
+Minecraft,1
+Minitab,1
+Mistral,1
+Mixed-Signal Circuit Design,1
+Mixed-Signal Design,1
+Mixpanel,1
+Mixture of Experts,1
+Mob Programming,1
+Mobile App Development,1
+Mobile Application Design,1
+Mobile Application Testing,1
+Mobile Design,1
+Mobile Technologies,1
+Mobile-First Design,1
+Mobile-First Development,1
+Mockups,1
+Model Builder,1
+Model Customization Platforms,1
+Model Inference,1
+Model Lifecycle Management,1
+Model Optimization,1
+Model Registry,1
+Model Versioning,1
+Model-Based Design,1
+Model-Based Engineering,1
+Model-Based Testing,1
+ModelOps,1
+Modeling and Simulation,1
+Modelling Software,1
+Modem,1
+Modems,1
+Moderated Testing,1
+Module Federation,1
+Mongoose,1
+Monitoring Systems,1
+Monolithic Architecture,1
+Motion Design,1
+Motion Graphics,1
+Motorola,1
+Multi-instance Learning,1
+Multi-modal Architectures,1
+Multi-omics,1
+Multi-threaded Systems,1
+Multi-tiered Architecture,1
+Multicast,1
+Multimodal Foundation Models,1
+Multimodal Representation Learning,1
+Multimodality,1
+Multiprocessing,1
+Multivariate Statistics,1
+MyGeotab,1
+MySQL Heatwave,1
+NAND,1
+NFC,1
+NI-DAQ,1
+NIST 800-53,1
+NIST Framework,1
+NL-to-Analytics,1
+NMAP,1
+NPU,1
+NTFS File Access Management,1
+NVIDIA Omniverse,1
+Native Mobile Applications,1
+Natural Language Understanding,1
+NeRF,1
+NetSuite,1
+NetSuite ERP,1
+NetWorks GIS Explorer,1
+Netcode,1
+Network,1
+Network Automation,1
+Network Communication,1
+Network Design,1
+Network Development,1
+Network Management,1
+Network Orchestration,1
+Network Policy Server (NPS),1
+Network Programming,1
+Network Routing,1
+Network Security Protocols,1
+Network Services,1
+Network Simulators,1
+Network Storage,1
+Network Switching,1
+Network Systems,1
+Network Troubleshooting,1
+Network Video Management,1
+Networked Communication,1
+Networked data communication,1
+Networking Routers,1
+Networks,1
+Neural Fields,1
+NeuralSeek,1
+Nexpose,1
+Nextflow,1
+Nexus,1
+Ngrok,1
+Nipype,1
+No-code Tools,1
+Noise Figure Analyzer,1
+Nokia 7x50 Service Routers,1
+Notion,1
+NuGet,1
+NumFOCUS,1
+Numerical Methods,1
+Numerical Optimization,1
+Nvidia Jetpack SDK,1
+Nvidia Jetson AGX,1
+Nvidia Jetson NX,1
+Nvidia TensorRT,1
+OAM,1
+OBD-II,1
+OEM,1
+OHDSI,1
+OOS,1
+ORC,1
+OS Hardening,1
+OS Provisioning,1
+OS and system software,1
+OS/Storage Systems,1
+OSR,1
+OSS/BSS,1
+OT Networking,1
+OT/ICS Security,1
+OTA,1
+OWASP Top 10,1
+Object Recognition,1
+Object-Oriented Design Patterns,1
+Object-level security (OLS),1
+Observation,1
+Ocean,1
+Oculus Integration,1
+Oculus Passthrough,1
+Odroid,1
+Offensive Security,1
+OkHttp,1
+Okta Platform,1
+OmniScan,1
+On-premise Infrastructure,1
+OneDrive for Business,1
+OneLake,1
+OneNote,1
+OnePipeline,1
+OneTrust,1
+Onshape,1
+Open Source,1
+Open-source Development,1
+Open3d,1
+OpenAI Agents SDK,1
+OpenAI GPT,1
+OpenAI Platform,1
+OpenConfig,1
+OpenGL ES,1
+OpenID Connect,1
+OpenMAX,1
+OpenSSL,1
+OpenSpaces,1
+OpenTofu,1
+OpenWebUI,1
+OpenXR,1
+Openlink,1
+Openrouter API,1
+Operating System Concepts,1
+Operating System Security,1
+Operational Efficiency Improvement,1
+Operational Excellence,1
+Optical Networks,1
+Optical Power Meter,1
+Optical Systems,1
+Optical Testing,1
+Optimization Techniques,1
+Opus Studio,1
+Oracle DB,1
+Oracle Hyperion,1
+Oracle Internet Developer Suite,1
+Organizational Change Management,1
+Over-the-Air Update,1
+Oxygen,1
+Ozobot,1
+Ozobots,1
+P4,1
+PACS,1
+PCB Design,1
+PCB Manufacturing,1
+PCI Express,1
+PDCP,1
+PDF,1
+PEFT,1
+PGP,1
+PI Planning,1
+PII Redaction,1
+PIPEDA,1
+PLC Logic,1
+PMP,1
+PRISM,1
+PRTG Network Monitor,1
+PSIM,1
+PX4,1
+PYNQ,1
+PaaS,1
+PaperCut,1
+ParaView,1
+Parallel Computing,1
+Parallel Inferencing,1
+Parallelism,1
+Parallelized Workflows,1
+Pareto Analysis,1
+Passport.js,1
+Peer Code Review,1
+Per unit analysis,1
+Performance Analytics,1
+Performance Models,1
+Perplexity,1
+Persistent Memory,1
+PetaLinux,1
+Physical Design,1
+Physics Simulation,1
+Pillow,1
+Pinia,1
+Pipeline Management,1
+Piping and Instrumentation Diagrams,1
+Pivot Tables,1
+Place and Route,1
+Plane Wave Imaging (PWI),1
+PlannerPlus,1
+Planning Algorithms,1
+Planview,1
+Platform Engineering,1
+Platform as a Service,1
+PlayStation,1
+PlayStation 4,1
+PlayStation 5,1
+Playwright MCP,1
+Point Cloud Library,1
+Polarion,1
+Polars,1
+Policy Learning,1
+Policy-as-code,1
+Portfolio Construction,1
+Portfolio+,1
+Pose Graph Optimization,1
+PostGIS,1
+PostgREST,1
+Power Analyzer,1
+Power Electronics,1
+Power Grid Analysis,1
+Power Meter,1
+Power Pivot,1
+Power tools,1
+PowerBuilder,1
+PowerMock,1
+Practical Process Improvement,1
+Prediction,1
+Prefect,1
+PrimeNG,1
+Principal Component Analysis,1
+Principle,1
+Prisma.js,1
+Privacy,1
+Privacy and Fairness,1
+Private Cloud,1
+Procedural Content Generation,1
+Process Documentation,1
+Process Improvement,1
+Process Modeling,1
+Process and Instrumentation Diagram,1
+Product Analytics,1
+Product Design,1
+Product Lifecycle Management,1
+Product Thinking,1
+Programmable Logic Controller,1
+Programming Language Theory,1
+Progressive Delivery,1
+Progressive Enhancement,1
+Project Delivery,1
+Project Lifecycle,1
+Project Management Frameworks,1
+Prompting,1
+Prompting strategies,1
+Propensity Modeling,1
+Prophet,1
+Protocol Analyzers,1
+Prototyping Tools,1
+Pruning,1
+Pull Requests,1
+Puppet,1
+Pygame,1
+Pyproject,1
+QA Methodology,1
+QA Testing,1
+QEMU,1
+QLoRA,1
+QNX Multimedia Framework,1
+QoS,1
+Qualcomm,1
+Qualitative Data Analysis,1
+Quality Assurance Principles,1
+Quantitative Data Analysis,1
+Quantization,1
+Quantum Information Science,1
+Quantum Key Distribution,1
+Quantum Mechanics,1
+Quartus,1
+Quasar,1
+Query Optimization,1
+Query Processing,1
+Query Processing and Optimization,1
+Querying,1
+Questa,1
+QuickBooks,1
+RADIUS,1
+RCS,1
+RDS,1
+REST Architecture,1
+RESTful Services,1
+RF Circuit Design,1
+RF Connectivity,1
+RF Design,1
+RF Power Meter,1
+RLC,1
+RNA-seq,1
+RNN,1
+ROCm,1
+ROS2,1
+RPG,1
+RRM,1
+RStudio,1
+RTCA/DO-160,1
+RTL Design,1
+Radar,1
+Radeon Graphics,1
+Radio Technologies,1
+Ragas,1
+Rapid Prototyping,1
+Rational Team Concert,1
+Raylab,1
+Razor,1
+React Hook Form,1
+React Native Testing Library,1
+Read the Docs,1
+Real-time Communication,1
+Real-time Data Acquisition,1
+Real-time Data Processing,1
+Real-time OS,1
+Real-time Oscilloscope,1
+Real-time Rendering,1
+Reasoning Systems,1
+Recurrent Neural Networks,1
+Red Hat Data Grid,1
+Red Hat Satellite,1
+Red/Blue Team Operations,1
+Redgate SQL Source Control,1
+Regex,1
+Register-Transfer Level,1
+Regression Methods,1
+Relational Data Modeling,1
+Reliability Engineering,1
+Render,1
+Rendering Algorithms,1
+Renishaw Equator,1
+Renishaw Modus,1
+Replicate,1
+Report Builder,1
+Reporting Tools,1
+Representation Learning,1
+Requirements,1
+Requirements Engineering,1
+Requirements Management,1
+Requirements Management Tools,1
+Research,1
+Research Data Management,1
+Research Design,1
+Residue on Evaporation,1
+Residue on Ignition,1
+Resolver,1
+Resource Management,1
+Resource-based policies,1
+Respondus LockDown Browser,1
+Retell,1
+Retell AI,1
+Retrieval-Augmented Language Models,1
+Retrofit,1
+Rewind Debugger,1
+Rider,1
+Rigging,1
+Risk Quantification,1
+Risk-Based Testing,1
+Rivian Cloud,1
+Robolectric,1
+Robot Control,1
+Robot Operating System,1
+Robot Programming,1
+Robotic Control Algorithms,1
+Rockwell,1
+Router,1
+Routers,1
+Routing Protocols,1
+Row-level security (RLS),1
+Rtems,1
+Ryzen,1
+S&P Capital IQ,1
+SAE Standards,1
+SAML,1
+SANS,1
+SAP BW/4HANA,1
+SAP Cloud ALM,1
+SAP Cloud for Analytics,1
+SAP Converged Cloud,1
+SAP Customer Experience,1
+SAP ECC,1
+SAP HANA Cloud,1
+SAP S/4HANA Cloud,1
+SAR,1
+SARUS,1
+SAS/IXR Satellites,1
+SATA,1
+SCSI,1
+SD,1
+SDIO,1
+SEM,1
+SERDES,1
+SFTP,1
+SHA,1
+SIP,1
+SLURM,1
+SMBus,1
+SOC Operations,1
+SOLID Principles,1
+SOQL,1
+SOSL,1
+SOSS,1
+SOTI MobiControl,1
+SPM,1
+SQL Decoder,1
+SQL Developer,1
+SQL Injection,1
+SQL Server Integration Services,1
+SQL query optimization,1
+SQLAlchemy,1
+SR-MPLS,1
+SSAS,1
+SSAS Tabular Model,1
+SSM Methodology,1
+SSOPs,1
+STAR-RC,1
+STPA,1
+SWIG,1
+Safety-Critical Systems,1
+SageMaker,1
+SageMaker Studio,1
+SailPoint,1
+Sales Cloud,1
+Sales Methodology,1
+Salesforce Service Cloud,1
+SaltStack,1
+Sampling Oscilloscope,1
+Satellite Imagery,1
+Scalability Testing,1
+Schema Markup,1
+Schematic Capture,1
+Schneider Electric,1
+Scrapy,1
+Screenmeet,1
+Scriptable Render Pipeline,1
+Scrum Certification,1
+Search,1
+Search Engine Optimization,1
+Secure Coding Practices,1
+Secure System Design,1
+Security Architecture Design,1
+Security Audit,1
+Security Awareness Training,1
+Security Development Lifecycle,1
+Security Event Monitoring,1
+Security Incident Response,1
+Security Monitoring Tools,1
+Security Operations Center (SOC),1
+Security Scanning,1
+Security+,1
+SelTrac CBTC,1
+Self-healing Systems,1
+Semantic Communication,1
+Semantic HTML Markup,1
+Semiconductor Design,1
+Semrush,1
+SendGrid,1
+Sensor Integration,1
+Sensor Processing,1
+Sensors,1
+Sensu,1
+Sentence Transformers,1
+Sequential Learning,1
+Serial,1
+Serial data communication,1
+Serial/RS232,1
+Server Configuration,1
+Server Maintenance,1
+Server Monitoring,1
+Server Operating Systems,1
+Server-Driven UI,1
+Serverless Architecture,1
+Service Cloud,1
+Service Design Mapping,1
+Service Desk,1
+Service Mesh,1
+Service Orchestration,1
+Services-based Architecture,1
+Servlet,1
+Shader development,1
+Shakudo,1
+SharePoint Designer,1
+Shift-Left Testing,1
+ShotGrid,1
+Siemens,1
+Siemens NX,1
+Sigma,1
+Signal Analyzer,1
+Signal Generators,1
+Signal Integrity,1
+SikuliX,1
+Simulation Software,1
+Simulation Tools,1
+Simulators,1
+Single Line Diagrams,1
+Single Page Application,1
+Single Sign-On,1
+Singularity,1
+Sitemap,1
+Six Sigma,1
+SketchUp,1
+Sliding Windows,1
+Snakemake,1
+Snapdragon,1
+Snowplow,1
+SoC,1
+SoC Design,1
+Social Science Research,1
+Software Analysis,1
+Software Configuration,1
+Software Control,1
+Software Development Practices,1
+Software Development Processes,1
+Software Engineering Methodologies,1
+Software Engineering Principles,1
+Software Installation,1
+Software Instrumentation,1
+Software Provisioning,1
+Software QA,1
+Software Quality Analysis,1
+Software Security,1
+Software State Machines,1
+Software Systems,1
+Software Test Automation,1
+Software Verification,1
+Solace,1
+SolarWinds,1
+Solidity,1
+SonarCloud,1
+Sophos Central,1
+SoundSeed,1
+Source Control Management,1
+Spark SQL,1
+Spatial Analysis,1
+Spatial Computing,1
+Spatial Data Algorithms,1
+Spatial Data Analysis,1
+Spatial Databases,1
+Specific Rotation,1
+Spectral Analysis,1
+Spectrum Analyzers,1
+Speech Recognition,1
+Speech and Audio Processing,1
+Speedybee,1
+Split Learning,1
+Splunk ITSI,1
+Spotfire,1
+Spreadsheet Analysis,1
+Sprint Planning,1
+Sqoop,1
+Stack Traces,1
+Stackdriver,1
+Stackify,1
+Stakeholder Management,1
+Star Schema,1
+State Machines,1
+Static Testing,1
+Statistical Software,1
+SteamVR,1
+Storage,1
+Storage Management,1
+Storage Network,1
+Storage Networks,1
+Story Points,1
+Storyboarding,1
+Strata,1
+Strategy & Risk,1
+Streaming Pipelines,1
+Streamsets,1
+Stripe,1
+Structured Software Design,1
+Structured design,1
+Supertest,1
+Supervised Machine Learning,1
+Supply Chain Risk Management,1
+Survey Methodology,1
+Survey123,1
+SurveyMonkey,1
+Swift Package Manager,1
+Symantec,1
+Symantec Ghost,1
+Synthesis,1
+System Center Configuration Manager,1
+System Center Operations Manager,1
+System Hardening,1
+System Implementation,1
+System Maintenance,1
+System Reliability Engineering,1
+System Requirements Derivation,1
+System Software Development,1
+System modeling,1
+System on Chip (SoC),1
+System programming,1
+System-Level Testing,1
+System-on-Chip Integration,1
+System-on-a-Chip (SoC),1
+SystemC,1
+Systems Engineering Standards,1
+Systems Hardware,1
+Systems Integration,1
+Systems Thinking,1
+TBDR GPU,1
+TI,1
+TI C2000,1
+TIBCO Spotfire,1
+TIG Stack,1
+TLS/SSL,1
+TPU,1
+TRAC,1
+TSN,1
+TWS API,1
+Tableau Prep,1
+Tableau Server,1
+Taegis XDR/MDR,1
+Tailwind,1
+Tauri,1
+Taurus,1
+Tcl/Tk,1
+TeamViewer,1
+Teamcenter Active Workspace,1
+Teamcenter Product Data Management,1
+Teamcenter Visualization Mockup,1
+Teams,1
+Technical Design,1
+Technical Requirements Definition,1
+"Technology Business Requirements Definition, Analysis and Mapping",1
+Technology Service Management,1
+Telecommunications,1
+TensorRT,1
+Test Automation Tools,1
+Test Case Creation,1
+Test Case Management,1
+Test Cases,1
+Test Data Management,1
+Test Documentation,1
+Test Equipment,1
+Test Framework,1
+Test Harness,1
+Test Harnesses,1
+Test Management Systems,1
+Test Plan Development,1
+Test Plans,1
+Test Practices,1
+Test Script Development,1
+Test Station Fabrication,1
+Test Studio,1
+Test-Driven Design,1
+TestGorilla,1
+TestRails,1
+TestStand,1
+Testim,1
+Text data preprocessing,1
+Text-to-SQL,1
+Texturing,1
+Thermal Testing,1
+Thermalhydraulics Analysis,1
+ThoughtSpot,1
+Threading,1
+Threat Analysis,1
+Threat Assessment,1
+Threat Containment,1
+Threat Detection,1
+Threat Monitoring,1
+Threat Risk Assessment,1
+Three Lines of Defense Model,1
+TiLFA,1
+Tika,1
+Time Series Database,1
+Time-series modeling,1
+TimescaleDB,1
+Timing Analysis,1
+TinkerPop,1
+Tkinter,1
+Tokio,1
+Toolchain,1
+Topaz,1
+Tosca,1
+Total Focusing Method (TFM),1
+TraceGains,1
+Tracing,1
+Tracking,1
+Trade Study,1
+Trajectory Optimization,1
+Transcriptomics,1
+Travis CI,1
+Trifacta,1
+Trino,1
+Triton,1
+Triton Inference Server,1
+Trivy,1
+Tuleap,1
+Twitter,1
+Type Checking,1
+TypeORM,1
+U-Net,1
+UALink,1
+UAT Testing,1
+UDP/IP,1
+UFS,1
+UI,1
+UI Kits,1
+UMG,1
+UN-R155,1
+USD,1
+UWB,1
+UX Writing,1
+UiPath Task Capture,1
+Uncrewed Aerial Vehicles,1
+Unity ECS/DOTS,1
+Unity Netcode,1
+Unity UI Toolkit,1
+Unity VFX Graph,1
+Unity Visual Scripting Graph,1
+Unity XR Interaction Toolkit,1
+Unity3D,1
+Universal Verification Methodology,1
+Unix Scripting,1
+Unix-like OS,1
+Unmoderated Testing,1
+Unreal Blueprint,1
+Unreal Editor,1
+Unreal Engine 5,1
+Unreal Motion Graphics,1
+Unsupervised Machine Learning,1
+Use Cases,1
+User Account Administration,1
+User Flows,1
+User Interface,1
+User Interface Development,1
+User Personas,1
+User Research Methodologies,1
+V0,1
+VB Scripting,1
+VCS,1
+VFX Pipelines,1
+VLM,1
+VLOOKUP,1
+VLSI,1
+VPLS,1
+VTM,1
+VVC,1
+Valgrind,1
+Validation,1
+Validation Rules,1
+Value Added Chain Diagram,1
+Value Added Chain Notation,1
+ValueLens,1
+Valve Index,1
+Variance Analysis,1
+Variational Autoencoder,1
+VeRL,1
+Veeam Backup & Replication,1
+Vehicle systems,1
+Veo 3,1
+Verasonics,1
+Verification and Validation,1
+Vespa,1
+Video Image Processing,1
+Video Interfaces,1
+Video Production,1
+Video Protocol,1
+Vim,1
+Virtual Agents,1
+Virtual Desktop Technologies,1
+Virtual Environments,1
+Virtual Machine,1
+Virtual Simulation Machine,1
+Virtuoso,1
+Visual Basic 6,1
+Visual Basic for Applications,1
+Visual Regression Testing,1
+Visual Scripting,1
+Visual Studio Unit Test Framework,1
+Visualforce,1
+Visualization,1
+Vitis AI,1
+Vivado Design Suite,1
+Vizio,1
+Voice Recognition,1
+Volumetric Additive Manufacturing,1
+Vox,1
+Vuetify,1
+Vulkan,1
+Vulnerability Remediation,1
+Vulnerability Scanner,1
+Vulnerability Scanners,1
+Vulnerability Testing,1
+W3C Standards,1
+WCAG 2,1
+WDDM,1
+WDL,1
+WSDL,1
+Warp,1
+Watson,1
+Watson API,1
+Watson APIs,1
+Watsonx,1
+WeBWorK,1
+WealthServ,1
+Weaviate,1
+Web APIs,1
+Web Accessibility Standards,1
+Web Analytics,1
+Web Application,1
+Web Application Testing,1
+Web Applications,1
+Web Browsers,1
+Web Components,1
+Web Mapping,1
+Web Parts,1
+Web Performance,1
+Web Profiling,1
+Web Security,1
+Web Server,1
+Web Technologies,1
+Web Testing,1
+WebAssembly,1
+Webflow,1
+Webflux,1
+Website Performance Optimization,1
+Win32 API,1
+WinForms,1
+Windows 7,1
+Windows Active Directory,1
+Windows Application,1
+Windows CE/Embedded,1
+Windows Operating Systems,1
+Windows Server 2012,1
+Windsurf,1
+Wireframing Tools,1
+Wireless,1
+Wireless Communication Systems,1
+Wireless M2M,1
+Wix,1
+Wix Studio,1
+WolfSSL,1
+WooCommerce,1
+Workflow Editor,1
+Workflow Orchestration,1
+Workiva,1
+Workstation Administration,1
+World Model,1
+Wrike,1
+Wwise Automotive,1
+X.509,1
+XCMS,1
+XMPro,1
+XP,1
+XPath,1
+XSD,1
+XSLT,1
+XUL,1
+Xbox,1
+Xbox One,1
+Xbox Series S,1
+Xbox Series X,1
+Xilinx DSP,1
+Xplor Recreation,1
+Yard Smart,1
+Yardi,1
+Zeiss CMM,1
+ag-grid,1
+clang-format,1
+clang-tidy,1
+computer networking principles,1
+crewAI,1
+cuBLAS,1
+eEDGE,1
+g2o,1
+gRIBI,1
+glTF,1
+iClicker,1
+iMovie,1
+iPad,1
+iPeer,1
+iPhone,1
+matchms,1
+mobile applications testing,1
+mongodb-memory-server,1
 os,1
-pandora,1
-php,1
-pipelines,1
-profiling,1
-programs,1
-provision,1
-recognition,1
-recommendations,1
-region,1
-remove,1
-resource,1
-s25,1
-samsung,1
-search,1
-semantic,1
-server,1
-servicenow,1
-skills,1
-spam,1
-startups,1
-synopsys,1
-teaching,1
-technical,1
-terraform,1
-title,1
-tooling,1
-unix,1
-update,1
-usb,1
-whatsapp,1
-workloads,1
-workstation,1
-write,1
-writing,1
+pdfplumber,1
+plumber,1
+pyodbc,1
+qTest,1
+rLLM,1
+renv,1
+rippled,1
+rmarkdown,1
+scikit-image,1
+spec2vec,1
+systemd,1
+tSQLt,1
+test strategies,1
+torchserve,1
+usertesting.com,1
+web applications testing,1
+web services testing,1
+wxWidgets,1
+xSPI,1

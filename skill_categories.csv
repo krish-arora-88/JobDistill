@@ -1,0 +1,3985 @@
+Skill,Count,Category
+Python,1479,Languages
+JavaScript,676,Languages
+Java,674,Languages
+SQL,621,Databases
+C++,615,Languages
+Agile,597,Other
+Git,575,Cloud & DevOps
+Linux,480,Cloud & DevOps
+Machine Learning,472,AI/ML
+AWS,440,Cloud & DevOps
+C#,415,Languages
+React,383,Frameworks / Libraries
+C,336,Languages
+Microsoft Excel,314,Other
+Azure,311,Cloud & DevOps
+Docker,305,Cloud & DevOps
+CI/CD,288,Cloud & DevOps
+REST,279,Frameworks / Libraries
+TypeScript,265,Languages
+HTML,256,Frameworks / Libraries
+CSS,253,Frameworks / Libraries
+Kubernetes,248,Cloud & DevOps
+Artificial Intelligence,217,AI/ML
+GCP,213,Cloud & DevOps
+Jira,211,Other
+DevOps,208,Cloud & DevOps
+Power BI,189,Other
+Angular,179,Frameworks / Libraries
+Go,179,Languages
+Jenkins,179,Cloud & DevOps
+Scrum,176,Other
+Microsoft PowerPoint,170,Other
+Node.js,167,Frameworks / Libraries
+Microsoft Word,157,Other
+GitHub,154,Cloud & DevOps
+Unit Testing,152,Testing
+API,150,Frameworks / Libraries
+PyTorch,148,AI/ML
+PostgreSQL,147,Databases
+Windows,145,Other
+Microservices,144,Frameworks / Libraries
+Object-Oriented Programming,140,Other
+Android,138,Frameworks / Libraries
+AI,137,AI/ML
+Large Language Models,135,AI/ML
+TensorFlow,132,AI/ML
+Tableau,129,Databases
+.NET,123,Languages
+Generative AI,123,AI/ML
+SQL Server,110,Databases
+Data Structures,109,Other
+R,109,Languages
+Microsoft Office,108,Other
+Algorithms,107,Other
+Bash,107,Languages
+iOS,105,Frameworks / Libraries
+Unix,104,Other
+Perl,97,Languages
+Selenium,92,Testing
+Microsoft Outlook,89,Other
+Deep Learning,88,AI/ML
+MySQL,87,Databases
+Computer Vision,86,AI/ML
+Embedded Systems,86,Cloud & DevOps
+Pandas,84,Databases
+Software Development Life Cycle,84,Other
+Terraform,84,Cloud & DevOps
+Test Automation,81,Testing
+scikit-learn,81,AI/ML
+Bitbucket,80,Cloud & DevOps
+GitLab,80,Cloud & DevOps
+Object-Oriented Design,80,Other
+Continuous Integration,78,Cloud & DevOps
+Kotlin,76,Frameworks / Libraries
+Spark,76,Databases
+Data Analysis,75,Databases
+SDLC,75,Other
+Vue.js,75,Frameworks / Libraries
+MongoDB,74,Databases
+Natural Language Processing,74,AI/ML
+Cloud,73,Cloud & DevOps
+Confluence,73,Other
+SharePoint,73,Other
+JSON,71,Other
+Kafka,71,Frameworks / Libraries
+Automated Testing,70,Testing
+XML,70,Other
+TCP/IP,69,Cloud & DevOps
+Ethernet,67,Cloud & DevOps
+Cloud Computing,66,Cloud & DevOps
+Ruby,66,Languages
+Networking,64,Cloud & DevOps
+Rust,64,Languages
+Hadoop,63,Databases
+VBA,63,Languages
+Microsoft Teams,62,Other
+Visual Studio,62,Other
+ETL,61,Databases
+Test-Driven Development,61,Testing
+GitHub Actions,60,Cloud & DevOps
+Data Modeling,59,Other
+Integration Testing,58,Testing
+Prompt Engineering,57,AI/ML
+Spring Boot,57,Frameworks / Libraries
+Django,56,Frameworks / Libraries
+NumPy,56,Databases
+MATLAB,54,Other
+NoSQL,54,Databases
+Swift,54,Frameworks / Libraries
+HTTP,51,Other
+Software Testing,51,Other
+Data Science,50,Other
+Code Review,49,Cloud & DevOps
+Next.js,49,Frameworks / Libraries
+Snowflake,49,Databases
+PowerShell,48,Languages
+Data Visualization,47,Other
+Infrastructure as Code,46,Cloud & DevOps
+Kanban,46,Other
+Azure DevOps,45,Cloud & DevOps
+Databricks,45,Databases
+PHP,45,Languages
+Automation,44,Languages
+Redis,44,Databases
+Shell Scripting,44,Languages
+Distributed Systems,43,Other
+LangChain,43,AI/ML
+Ansible,42,Cloud & DevOps
+Debugging,42,Other
+Design Patterns,42,Other
+Figma,42,Other
+JUnit,42,Testing
+Quality Assurance,42,Testing
+Microsoft 365,41,Other
+Oracle,41,Databases
+Scala,41,Languages
+GraphQL,40,Frameworks / Libraries
+Data Analytics,39,Databases
+Relational Databases,39,Databases
+Splunk,39,Cloud & DevOps
+pytest,39,Testing
+HTML5,38,Frameworks / Libraries
+Playwright,38,Testing
+AWS Lambda,37,Cloud & DevOps
+MLOps,37,AI/ML
+macOS,37,Other
+Google BigQuery,35,Databases
+OpenAI,35,AI/ML
+Redux,35,Frameworks / Libraries
+Reinforcement Learning,35,AI/ML
+TCL,35,Languages
+IoT,34,Cloud & DevOps
+Version Control,34,Cloud & DevOps
+Apache Airflow,33,Databases
+Grafana,33,Cloud & DevOps
+Matplotlib,33,Databases
+Helm,32,Cloud & DevOps
+FPGA,31,Cloud & DevOps
+Postman,31,Frameworks / Libraries
+SAP,31,Other
+RTOS,30,Cloud & DevOps
+React Native,30,Frameworks / Libraries
+Retrieval-Augmented Generation,30,AI/ML
+Spring,30,Frameworks / Libraries
+Android Studio,29,Frameworks / Libraries
+Groovy,29,Languages
+Power Automate,29,Languages
+Testing,29,Testing
+jQuery,29,Frameworks / Libraries
+ASP.NET,28,Frameworks / Libraries
+Elasticsearch,28,Databases
+GDB,28,Other
+Jest,28,Testing
+MPLS,28,Cloud & DevOps
+Bootstrap,27,Frameworks / Libraries
+Eclipse,27,Other
+Express.js,27,Frameworks / Libraries
+FastAPI,27,Frameworks / Libraries
+Flask,27,Frameworks / Libraries
+Raspberry Pi,27,Cloud & DevOps
+ServiceNow,27,Other
+Statistical Analysis,27,Databases
+Unreal Engine,27,Frameworks / Libraries
+5G,26,Cloud & DevOps
+Cybersecurity,26,Cloud & DevOps
+Cypress,26,Testing
+Data Warehousing,26,Databases
+Ruby on Rails,26,Frameworks / Libraries
+TLS,26,Cloud & DevOps
+Waterfall,26,Other
+BGP,25,Cloud & DevOps
+CSS3,25,Frameworks / Libraries
+Data Engineering,25,Databases
+Data Mining,25,Databases
+IP,25,Cloud & DevOps
+Lua,25,Languages
+Multithreading,25,Other
+Oscilloscope,25,Cloud & DevOps
+Statistics,25,Other
+Big Data,24,Databases
+ChatGPT,24,Other
+Containerization,24,Cloud & DevOps
+QNX,24,Cloud & DevOps
+Unity,24,Frameworks / Libraries
+Virtual Machines,24,Cloud & DevOps
+gRPC,24,Frameworks / Libraries
+.NET Core,23,Languages
+Design Thinking,23,Other
+Microsoft Access,23,Other
+Microsoft Office Suite,23,Other
+Project Management,23,Other
+SPI,23,Cloud & DevOps
+Databases,22,Databases
+Feature Engineering,22,AI/ML
+I2C,22,Cloud & DevOps
+LLM,22,AI/ML
+OSPF,22,Cloud & DevOps
+Xcode,22,Frameworks / Libraries
+Continuous Delivery,21,Cloud & DevOps
+Digital Signal Processing,21,Cloud & DevOps
+Maven,21,Languages
+Robotics,21,Cloud & DevOps
+TCP,21,Other
+VS Code,21,Other
+YANG,21,Cloud & DevOps
+CAN,20,Cloud & DevOps
+Google Sheets,20,Other
+IBM Cloud,20,Cloud & DevOps
+Lean,20,Other
+Operating Systems,20,Other
+Perforce,20,Cloud & DevOps
+Salesforce,20,Other
+T-SQL,20,Databases
+UML,20,Other
+Verilog,20,Cloud & DevOps
+Visual Basic,20,Languages
+API Testing,19,Frameworks / Libraries
+Active Directory,19,Cloud & DevOps
+Hugging Face,19,AI/ML
+OpenCV,19,Cloud & DevOps
+RISC-V,19,Cloud & DevOps
+Robot Framework,19,Testing
+SAS,19,Other
+Scripting,19,Languages
+A/B Testing,18,Other
+Amazon S3,18,Cloud & DevOps
+Arduino,18,Cloud & DevOps
+CUDA,18,Cloud & DevOps
+Data Pipelines,18,Databases
+Functional Programming,18,Other
+JMeter,18,Testing
+Looker,18,Other
+MLflow,18,AI/ML
+MVC,18,Frameworks / Libraries
+SwiftUI,18,Frameworks / Libraries
+Blockchain,17,Other
+Datadog,17,Cloud & DevOps
+Google Workspace,17,Other
+Neural Networks,17,AI/ML
+OSI Model,17,Other
+Power Apps,17,Other
+SASS,17,Frameworks / Libraries
+SVN,17,Cloud & DevOps
+Unsupervised Learning,17,AI/ML
+VB.NET,17,Languages
+Virtualization,17,Cloud & DevOps
+Yocto,17,Cloud & DevOps
+ARM,16,Cloud & DevOps
+Agile Scrum,16,Other
+Artifactory,16,Cloud & DevOps
+Claude,16,Other
+Firmware,16,Cloud & DevOps
+Firmware Development,16,Cloud & DevOps
+Haskell,16,Languages
+Image Processing,16,Cloud & DevOps
+Keras,16,AI/ML
+Microsoft Copilot,16,Other
+Mocha,16,Testing
+PCIe,16,Cloud & DevOps
+PySpark,16,Databases
+Regression Testing,16,Testing
+SDN,16,Cloud & DevOps
+SOAP,16,Frameworks / Libraries
+Signal Processing,16,Cloud & DevOps
+Spring Framework,16,Frameworks / Libraries
+UART,16,Cloud & DevOps
+Windows Server,16,Cloud & DevOps
+Data Governance,15,Databases
+GCC,15,Cloud & DevOps
+Gradle,15,Languages
+Jupyter Notebook,15,Databases
+Microsoft Project,15,Other
+Microsoft Visio,15,Other
+Predictive Analytics,15,Databases
+Qt,15,Frameworks / Libraries
+System Design,15,Other
+Troubleshooting,15,Other
+USB,15,Cloud & DevOps
+Web Development,15,Frameworks / Libraries
+Web Services,15,Frameworks / Libraries
+Webpack,15,Languages
+Wi-Fi,15,Cloud & DevOps
+dbt,15,Databases
+Bluetooth,14,Cloud & DevOps
+C/C++,14,Languages
+Classification,14,AI/ML
+Cursor,14,Other
+DWDM,14,Cloud & DevOps
+Exploratory Data Analysis,14,Databases
+GitHub Copilot,14,Other
+Google Test,14,Testing
+IS-IS,14,Cloud & DevOps
+MS Office,14,Other
+Manual Testing,14,Testing
+Microsoft Power Platform,14,Other
+Office 365,14,Other
+Performance Testing,14,Testing
+Predictive Modeling,14,Databases
+Real-time Systems,14,Cloud & DevOps
+Supervised Learning,14,AI/ML
+UDP,14,Other
+UI/UX Design,14,Other
+WPF,14,Frameworks / Libraries
+npm,14,Other
+Cloud Native,13,Cloud & DevOps
+Copilot,13,Other
+Database,13,Databases
+DynamoDB,13,Databases
+ERP,13,Other
+Embedded Linux,13,Cloud & DevOps
+ISO 13485,13,Other
+LLMs,13,AI/ML
+Mobile Development,13,Frameworks / Libraries
+OpenStack,13,Cloud & DevOps
+Plotly,13,Databases
+Slack,13,Other
+Software Engineering,13,Other
+Transformers,13,AI/ML
+Amplitude,12,Other
+Azure Data Factory,12,Cloud & DevOps
+CMake,12,Languages
+DevSecOps,12,Cloud & DevOps
+ELT,12,Databases
+End-to-End Testing,12,Testing
+GIS,12,Other
+GPU,12,Cloud & DevOps
+JAX,12,AI/ML
+LabVIEW,12,Other
+LangGraph,12,AI/ML
+Microcontrollers,12,Cloud & DevOps
+NETCONF,12,Cloud & DevOps
+New Relic,12,Cloud & DevOps
+Programming,12,Other
+Regression,12,AI/ML
+Relational Database,12,Databases
+SAFe,12,Other
+SaaS,12,Cloud & DevOps
+Software Design,12,Other
+SystemVerilog,12,Cloud & DevOps
+Tailwind CSS,12,Frameworks / Libraries
+UX Design,12,Other
+Visio,12,Other
+Vite,12,Languages
+WordPress,12,Frameworks / Libraries
+Appium,11,Testing
+BigQuery,11,Databases
+Claude Code,11,Other
+Cloud Platforms,11,Cloud & DevOps
+Clustering,11,AI/ML
+Computer Architecture,11,Other
+Computer Graphics,11,Other
+Containers,11,Cloud & DevOps
+Continuous Deployment,11,Cloud & DevOps
+Delta Lake,11,Databases
+Entity Framework,11,Databases
+Gerrit,11,Cloud & DevOps
+IntelliJ,11,Other
+Iterative Development,11,Other
+Jupyter,11,Databases
+Logic Analyzer,11,Cloud & DevOps
+OTN,11,Cloud & DevOps
+Optimization,11,Other
+Release Management,11,Other
+SciPy,11,Databases
+Service-Oriented Architecture,11,Other
+Software Development,11,Other
+SolidWorks,11,Cloud & DevOps
+Statistical Modeling,11,Databases
+Thrift,11,Frameworks / Libraries
+Time Series Forecasting,11,AI/ML
+Virtual Reality,11,Frameworks / Libraries
+WebSockets,11,Frameworks / Libraries
+XUnit,11,Testing
+Algorithm Design,10,Other
+Bamboo,10,Other
+Business Intelligence,10,Databases
+Data Lake,10,Databases
+Data Warehouse,10,Databases
+Database Management,10,Databases
+Gemini,10,Other
+Hibernate,10,Databases
+Hybrid Cloud,10,Cloud & DevOps
+IP Networking,10,Cloud & DevOps
+ITIL,10,Other
+Jetpack Compose,10,Frameworks / Libraries
+Load Testing,10,Testing
+Machine Vision,10,AI/ML
+MuleSoft,10,Frameworks / Libraries
+Multithreaded Programming,10,Other
+NIST,10,Cloud & DevOps
+Network Virtualization,10,Cloud & DevOps
+OAuth,10,Cloud & DevOps
+OOP,10,Other
+Objective-C,10,Frameworks / Libraries
+OpenShift,10,Cloud & DevOps
+PCoIP,10,Cloud & DevOps
+PL/SQL,10,Databases
+RIP,10,Cloud & DevOps
+Responsible AI,10,AI/ML
+SAP Analytics Cloud,10,Other
+SSL,10,Cloud & DevOps
+Shell,10,Languages
+Source Control,10,Cloud & DevOps
+System Testing,10,Testing
+Ubuntu,10,Cloud & DevOps
+VHDL,10,Cloud & DevOps
+AI/ML,9,AI/ML
+API Development,9,Frameworks / Libraries
+ArgoCD,9,Cloud & DevOps
+Business Analysis,9,Other
+CAD,9,Cloud & DevOps
+CLI,9,Other
+Code Reviews,9,Other
+Command Line Interface,9,Languages
+Configuration Management,9,Languages
+Cucumber,9,Testing
+DNS,9,Cloud & DevOps
+Data Preprocessing,9,Databases
+Data Processing,9,Databases
+Data Quality,9,Databases
+Database Design,9,Databases
+Elixir,9,Languages
+Functional Testing,9,Testing
+GNSS,9,Cloud & DevOps
+Google Analytics,9,Databases
+Google Docs,9,Other
+Hive,9,Databases
+ISO 14791,9,Other
+Katalon Studio,9,Testing
+MSTest,9,Testing
+OneDrive,9,Other
+OpenSearch,9,Databases
+PLC,9,Cloud & DevOps
+Penetration Testing,9,Cloud & DevOps
+Power Platform,9,Other
+RabbitMQ,9,Frameworks / Libraries
+Red Hat,9,Cloud & DevOps
+Remix,9,Frameworks / Libraries
+Risk Management,9,Other
+SQL Server Management Studio,9,Databases
+Seaborn,9,Databases
+Security-Driven Development,9,Cloud & DevOps
+Simulink,9,Other
+Site Reliability Engineering,9,Cloud & DevOps
+Sketch,9,Other
+Software Design Patterns,9,Other
+TeamCity,9,Cloud & DevOps
+Trello,9,Other
+User-Centered Design,9,Other
+AWS S3,8,Cloud & DevOps
+Advanced Analytics,8,Databases
+Amazon SQS,8,Cloud & DevOps
+Analytics,8,Databases
+Android SDK,8,Frameworks / Libraries
+ArcGIS,8,Other
+Azure OpenAI,8,Cloud & DevOps
+Backend Development,8,Frameworks / Libraries
+Black Box Testing,8,Testing
+Cloud Messaging,8,Cloud & DevOps
+Compiler,8,Other
+D3.js,8,Databases
+Data Cleaning,8,Databases
+Design Systems,8,Other
+Encryption,8,Cloud & DevOps
+Event-Driven Architecture,8,Frameworks / Libraries
+GPS,8,Cloud & DevOps
+GPT,8,AI/ML
+GitLab CI,8,Cloud & DevOps
+HBase,8,Databases
+Hardware-in-the-Loop (HIL),8,Cloud & DevOps
+Kibana,8,Cloud & DevOps
+LTE,8,Cloud & DevOps
+Less,8,Frameworks / Libraries
+MCP,8,AI/ML
+Make,8,Languages
+Microsoft Windows,8,Cloud & DevOps
+Multimeter,8,Cloud & DevOps
+Networking Protocols,8,Cloud & DevOps
+Orchestration,8,Cloud & DevOps
+Pinecone,8,Databases
+Prometheus,8,Cloud & DevOps
+RAG,8,AI/ML
+ROS,8,Cloud & DevOps
+Real-time Operating System,8,Cloud & DevOps
+Responsive Design,8,Other
+Risk Assessment,8,Other
+RxJS,8,Frameworks / Libraries
+SAP HANA,8,Other
+SCADA,8,Cloud & DevOps
+SNMP,8,Cloud & DevOps
+SPSS,8,Other
+Socket Programming,8,Frameworks / Libraries
+Spring MVC,8,Frameworks / Libraries
+Statistical Methods,8,Databases
+Streamlit,8,Databases
+Technical Documentation,8,Other
+Test Planning,8,Testing
+UI Testing,8,Testing
+User Acceptance Testing,8,Testing
+VMware,8,Cloud & DevOps
+Virtual Desktop Infrastructure,8,Cloud & DevOps
+Vulnerability Assessment,8,Cloud & DevOps
+Weights & Biases,8,AI/ML
+AI Agents,7,AI/ML
+API Design,7,Frameworks / Libraries
+ASP.NET MVC,7,Frameworks / Libraries
+AWS IAM,7,Cloud & DevOps
+Accessibility,7,Other
+Adobe Creative Suite,7,Other
+Adobe XD,7,Other
+Agentic AI,7,AI/ML
+Assembly,7,Cloud & DevOps
+Augmented Reality,7,Frameworks / Libraries
+Azure Functions,7,Cloud & DevOps
+Bloomberg,7,Other
+Causal Machine Learning,7,AI/ML
+Chromium,7,Frameworks / Libraries
+CircleCI,7,Testing
+Compilers,7,Other
+DOM,7,Frameworks / Libraries
+Data Integration,7,Databases
+Data Management,7,Databases
+Digital Logic,7,Cloud & DevOps
+Distributed Computing,7,Other
+Embedded Development,7,Cloud & DevOps
+GNU,7,Languages
+Google Slides,7,Other
+ISO 27001,7,Cloud & DevOps
+Incident Management,7,Cloud & DevOps
+Incident Response,7,Cloud & DevOps
+LLVM,7,Cloud & DevOps
+MQTT,7,Frameworks / Libraries
+Microsoft Fabric,7,Other
+Model Evaluation,7,AI/ML
+NVIDIA,7,Cloud & DevOps
+NestJS,7,Frameworks / Libraries
+Network Protocols,7,Other
+Object Detection,7,AI/ML
+Oscilloscopes,7,Cloud & DevOps
+Photoshop,7,Other
+Prototyping,7,Other
+RDBMS,7,Databases
+Red Hat Enterprise Linux,7,Cloud & DevOps
+Rush,7,Cloud & DevOps
+S3,7,Cloud & DevOps
+SONET/SDH,7,Cloud & DevOps
+SSIS,7,Databases
+Security Testing,7,Testing
+Sentiment Analysis,7,AI/ML
+SoapUI,7,Testing
+SonarQube,7,Testing
+Spinnaker,7,Cloud & DevOps
+Svelte,7,Frameworks / Libraries
+Time Series Analysis,7,AI/ML
+UI Design,7,Other
+UiPath,7,Languages
+User Experience,7,Other
+Vector Databases,7,Databases
+Vulnerability Management,7,Cloud & DevOps
+Web API,7,Frameworks / Libraries
+WebSocket,7,Frameworks / Libraries
+YAML,7,Languages
+.NET Framework,6,Languages
+API Integration,6,Frameworks / Libraries
+ASIC,6,Cloud & DevOps
+ASIC Design,6,Cloud & DevOps
+AWS Bedrock,6,Cloud & DevOps
+Adobe Creative Cloud,6,Other
+Agile Methodology,6,Other
+Alteryx,6,Databases
+Amazon CloudWatch,6,Cloud & DevOps
+Amazon DynamoDB,6,Databases
+Apache,6,Frameworks / Libraries
+AutoCAD,6,Cloud & DevOps
+Automation Testing,6,Testing
+Blender,6,Frameworks / Libraries
+Blue Prism,6,Languages
+Boost,6,Languages
+CAN bus,6,Cloud & DevOps
+CXL,6,Cloud & DevOps
+Cassandra,6,Databases
+Client-Server Architecture,6,Other
+Cloud Infrastructure,6,Cloud & DevOps
+Continuous Improvement,6,Other
+Copilot Studio,6,Other
+DB2,6,Databases
+DOORS,6,Other
+Data Wrangling,6,Databases
+Device Drivers,6,Cloud & DevOps
+Edge Computing,6,Cloud & DevOps
+Electron,6,Frameworks / Libraries
+Embedded Software,6,Cloud & DevOps
+Embedded Software Development,6,Cloud & DevOps
+Experimental Design,6,Other
+Exploratory Testing,6,Testing
+Extreme Programming,6,Other
+Financial Modeling,6,Other
+FreeRTOS,6,Cloud & DevOps
+Front-end Development,6,Frameworks / Libraries
+Full-stack Development,6,Other
+GitOps,6,Cloud & DevOps
+Google Suite,6,Other
+Gulp,6,Languages
+HMI,6,Cloud & DevOps
+Hugging Face Transformers,6,AI/ML
+Hypothesis Testing,6,Databases
+IDE,6,Other
+ISO 26262,6,Cloud & DevOps
+Imitation Learning,6,AI/ML
+Insight,6,Databases
+Internet of Things,6,Cloud & DevOps
+LDP,6,Cloud & DevOps
+Linear Algebra,6,Other
+LlamaIndex,6,AI/ML
+Logstash,6,Cloud & DevOps
+MS SQL,6,Databases
+Material-UI,6,Frameworks / Libraries
+Miro,6,Other
+Monitoring,6,Cloud & DevOps
+Multi-agent Systems,6,AI/ML
+Neo4j,6,Databases
+OAuth2,6,Cloud & DevOps
+Observability,6,Cloud & DevOps
+Ollama,6,AI/ML
+PNPM,6,Other
+Predictive Maintenance,6,Cloud & DevOps
+QA Methodologies,6,Testing
+Redshift,6,Databases
+Reporting,6,Databases
+Root Cause Analysis,6,Other
+SDK,6,Other
+Security,6,Cloud & DevOps
+Serial Communication,6,Cloud & DevOps
+Simulation,6,Cloud & DevOps
+Software Architecture,6,Other
+Software Quality Assurance,6,Testing
+Static Analysis,6,Testing
+System Integration,6,Other
+Systems Engineering,6,Other
+Transfer Learning,6,AI/ML
+UDS,6,Cloud & DevOps
+UIKit,6,Frameworks / Libraries
+User Experience Design,6,Other
+Vercel,6,Cloud & DevOps
+Version Control Systems,6,Cloud & DevOps
+Vertex AI,6,AI/ML
+Video Processing,6,Cloud & DevOps
+VxWorks,6,Cloud & DevOps
+WCAG,6,Other
+White Box Testing,6,Testing
+Wireshark,6,Cloud & DevOps
+Zoom,6,Other
+APIs,5,Frameworks / Libraries
+AWS EKS,5,Cloud & DevOps
+AWS RDS,5,Cloud & DevOps
+AWS Security Groups,5,Cloud & DevOps
+Agile Development,5,Other
+Agile methodologies,5,Other
+Amazon Redshift,5,Cloud & DevOps
+Android Jetpack,5,Frameworks / Libraries
+Anomaly Detection,5,AI/ML
+Apache Flink,5,Databases
+Asana,5,Other
+Assembler,5,Languages
+Azure Data Lake,5,Cloud & DevOps
+Azure Synapse Analytics,5,Cloud & DevOps
+Babel,5,Frameworks / Libraries
+Backbone.js,5,Frameworks / Libraries
+Behavior Driven Development,5,Testing
+CNNs,5,AI/ML
+CentOS,5,Cloud & DevOps
+Cloud Architecture,5,Cloud & DevOps
+CloudWatch,5,Cloud & DevOps
+Command Line,5,Languages
+Communication Protocols,5,Cloud & DevOps
+Contentful,5,Frameworks / Libraries
+Control Systems,5,Cloud & DevOps
+Cryptography,5,Cloud & DevOps
+D3,5,Databases
+DAX,5,Databases
+Data Architecture,5,Other
+Embeddings,5,AI/ML
+FME,5,Databases
+Figjam,5,Other
+Firebase,5,Frameworks / Libraries
+Firewall,5,Cloud & DevOps
+Flink,5,Databases
+Flow,5,Other
+GMP,5,Other
+Gherkin,5,Testing
+Google Compute Engine,5,Cloud & DevOps
+HDFS,5,Databases
+Hardware,5,Cloud & DevOps
+Hardware Design,5,Cloud & DevOps
+Heroku,5,Cloud & DevOps
+IAM,5,Cloud & DevOps
+Identity and Access Management,5,Cloud & DevOps
+Illustrator,5,Other
+Isaac Sim,5,Cloud & DevOps
+JNI,5,Frameworks / Libraries
+Java EE,5,Frameworks / Libraries
+Julia,5,Languages
+LAN,5,Cloud & DevOps
+LIN,5,Cloud & DevOps
+LLMOps,5,AI/ML
+Linear Programming,5,Other
+Lucidchart,5,Other
+MSBuild,5,Languages
+MapReduce,5,Databases
+MicroStrategy,5,Databases
+Mixed Reality,5,Frameworks / Libraries
+Mujoco,5,Cloud & DevOps
+NUnit,5,Testing
+NgRx,5,Frameworks / Libraries
+NoSQL Databases,5,Databases
+Nonlinear Optimization,5,Other
+OLAP,5,Databases
+OLTP,5,Databases
+Open RAN,5,Cloud & DevOps
+OpenGL,5,Frameworks / Libraries
+Page Object Model,5,Testing
+Power Query,5,Other
+Prisma,5,Databases
+Push Notifications,5,Frameworks / Libraries
+RHEL,5,Cloud & DevOps
+Radix UI,5,Frameworks / Libraries
+Recommendation Systems,5,AI/ML
+Rest Assured,5,Testing
+SCCM,5,Other
+SCSS,5,Frameworks / Libraries
+SEO,5,Frameworks / Libraries
+SIEM,5,Cloud & DevOps
+SIL,5,Cloud & DevOps
+SSH,5,Cloud & DevOps
+SSRS,5,Databases
+Secure Coding,5,Other
+Sensor Fusion,5,Cloud & DevOps
+Serverless,5,Frameworks / Libraries
+Serverless Computing,5,Cloud & DevOps
+ShadCN,5,Frameworks / Libraries
+SharePoint Online,5,Other
+Software Development Best Practices,5,Other
+Software Development Methodologies,5,Other
+Spectrum Analyzer,5,Cloud & DevOps
+Spring Cloud,5,Frameworks / Libraries
+Storybook,5,Frameworks / Libraries
+Tanstack,5,Frameworks / Libraries
+Test Automation Framework,5,Testing
+Text Analytics,5,AI/ML
+Transformer,5,AI/ML
+User Stories,5,Other
+VBScript,5,Languages
+VPN,5,Cloud & DevOps
+Vagrant,5,Cloud & DevOps
+WebAuthN,5,Cloud & DevOps
+WebGL,5,Frameworks / Libraries
+WebRTC,5,Cloud & DevOps
+WebdriverIO,5,Testing
+Windows 10,5,Cloud & DevOps
+Zapier,5,Languages
+Zephyr,5,Cloud & DevOps
+asyncio,5,Languages
+n8n,5,Languages
+3D Printing,4,Cloud & DevOps
+AI Tools,4,AI/ML
+AI/Machine Learning,4,AI/ML
+AJAX,4,Frameworks / Libraries
+ASP.NET Core,4,Frameworks / Libraries
+AWS CloudWatch,4,Cloud & DevOps
+AWS ElastiCache,4,Cloud & DevOps
+AWS Glue,4,Cloud & DevOps
+Adobe,4,Other
+Adobe Analytics,4,Other
+Amazon EC2,4,Cloud & DevOps
+Amazon EKS,4,Cloud & DevOps
+Amazon Kinesis,4,Cloud & DevOps
+Amazon Route 53,4,Cloud & DevOps
+Amazon SNS,4,Cloud & DevOps
+Amazon SageMaker,4,AI/ML
+Android NDK,4,Frameworks / Libraries
+Apache Superset,4,Databases
+Apache Tomcat,4,Frameworks / Libraries
+Apollo,4,Frameworks / Libraries
+Application Integration,4,Frameworks / Libraries
+Argus Enterprise,4,Other
+Azure Databricks,4,Cloud & DevOps
+Azure Machine Learning,4,Cloud & DevOps
+Azure SQL,4,Cloud & DevOps
+BIOS,4,Cloud & DevOps
+Batch,4,Databases
+Blueprints,4,Frameworks / Libraries
+CANApe,4,Cloud & DevOps
+CMM,4,Cloud & DevOps
+CSV,4,Other
+CVE,4,Cloud & DevOps
+Chrome DevTools,4,Frameworks / Libraries
+Chromebook,4,Other
+Cloud Storage,4,Cloud & DevOps
+Cloudflare,4,Cloud & DevOps
+Complexity Analysis,4,Other
+Component Testing,4,Testing
+Computer Networking,4,Other
+Control Theory,4,Cloud & DevOps
+Convolutional Neural Networks,4,AI/ML
+Cross-browser compatibility,4,Frameworks / Libraries
+DO-178C,4,Cloud & DevOps
+Data Pipeline,4,Databases
+Data Structures and Algorithms,4,Other
+Data Transformation,4,Databases
+Dataflow,4,Databases
+Debugger,4,Other
+Defect Management,4,Testing
+Defect Tracking,4,Testing
+Deployment,4,Cloud & DevOps
+Design of Experiments,4,Other
+Drupal,4,Frameworks / Libraries
+ECMP,4,Cloud & DevOps
+ERP Systems,4,Other
+FORTRAN,4,Languages
+Federated Learning,4,AI/ML
+FinOps,4,Other
+Flux,4,Frameworks / Libraries
+Fraud Detection,4,Databases
+GPU Programming,4,AI/ML
+GSM,4,Cloud & DevOps
+GTest,4,Testing
+Game Development,4,Frameworks / Libraries
+Google App Engine,4,Cloud & DevOps
+Google Vertex AI,4,AI/ML
+Graph Database,4,Databases
+Guidewire,4,Other
+HLSL,4,Frameworks / Libraries
+Hardware Troubleshooting,4,Cloud & DevOps
+High-Performance Computing,4,Cloud & DevOps
+Human-Computer Interaction,4,Other
+Information Retrieval,4,AI/ML
+Interaction Design,4,Other
+Isaac Gym,4,Cloud & DevOps
+Isaac Lab,4,Cloud & DevOps
+Istio,4,Frameworks / Libraries
+JDBC,4,Frameworks / Libraries
+JPA,4,Frameworks / Libraries
+JTAG,4,Cloud & DevOps
+Jinja,4,Frameworks / Libraries
+LaTeX,4,Other
+Laravel,4,Frameworks / Libraries
+Logging,4,Cloud & DevOps
+Low-code/No-code Development,4,Other
+ML Pipelines,4,AI/ML
+Mathematical Modeling,4,Other
+MediaPipe,4,AI/ML
+Memory Management,4,Other
+Micro Frontend,4,Frameworks / Libraries
+Microprocessors,4,Cloud & DevOps
+Microsoft,4,Other
+Microsoft Forms,4,Other
+Microsoft Planner,4,Other
+Mobile App Testing,4,Frameworks / Libraries
+Mobile Testing,4,Testing
+Model Training,4,AI/ML
+MongoDB Atlas,4,Databases
+NIST CSF,4,Cloud & DevOps
+NLP,4,AI/ML
+NuclearJS,4,Frameworks / Libraries
+ONNX,4,AI/ML
+ONNX Runtime,4,AI/ML
+Object-Oriented Analysis and Design,4,Other
+Object-Oriented Development,4,Other
+Oozie,4,Databases
+OpenCL,4,Cloud & DevOps
+Oracle Cloud,4,Cloud & DevOps
+Oracle Database,4,Databases
+PKI,4,Cloud & DevOps
+PMLC,4,Other
+Pair Programming,4,Other
+Performance Optimization,4,Other
+Presto,4,Databases
+Product Backlog,4,Other
+Protocol Buffers,4,Frameworks / Libraries
+QWEB,4,Frameworks / Libraries
+Quantum Computing,4,Cloud & DevOps
+RS-422,4,Cloud & DevOps
+RSVP,4,Cloud & DevOps
+Ray,4,AI/ML
+React Testing Library,4,Frameworks / Libraries
+Real-time Programming,4,Cloud & DevOps
+Regression Analysis,4,Databases
+Robotic Process Automation,4,Languages
+SAP BusinessObjects,4,Other
+SAP Concur,4,Other
+Scientific Computing,4,Other
+Segment Routing,4,Cloud & DevOps
+Semantic Kernel,4,AI/ML
+Server Administration,4,Cloud & DevOps
+Server-Sent Events,4,Frameworks / Libraries
+Smartsheet,4,Other
+Solaris,4,Cloud & DevOps
+Stata,4,Other
+Swagger,4,Frameworks / Libraries
+Synthetic Data Generation,4,AI/ML
+System Administration,4,Cloud & DevOps
+TDD,4,Testing
+TFS,4,Cloud & DevOps
+Technical Writing,4,Other
+TensorFlow Lite,4,AI/ML
+Testing Methodologies,4,Testing
+Testing Methodology,4,Testing
+Tomcat,4,Frameworks / Libraries
+UVM,4,Cloud & DevOps
+UX Research,4,Other
+UX/UI Design,4,Other
+Unit Testing Frameworks,4,Testing
+Usability Testing,4,Other
+Use Case,4,Other
+User Research,4,Other
+User Testing,4,Other
+VLAN,4,Cloud & DevOps
+VPC,4,Cloud & DevOps
+Video Analytics,4,AI/ML
+Vulnerability Scanning,4,Cloud & DevOps
+WCDMA,4,Cloud & DevOps
+WCF,4,Frameworks / Libraries
+Wiki,4,Other
+Wildfly,4,Frameworks / Libraries
+Wireless Communication,4,Cloud & DevOps
+XSL,4,Frameworks / Libraries
+Xamarin,4,Frameworks / Libraries
+gNMI,4,Cloud & DevOps
+iOS SDK,4,Frameworks / Libraries
+vSphere,4,Cloud & DevOps
+3D Geometry,3,Other
+3D Graphics,3,Frameworks / Libraries
+3D Modeling,3,Frameworks / Libraries
+3GPP,3,Cloud & DevOps
+ABAP,3,Other
+AR,3,Frameworks / Libraries
+AWS Fargate,3,Cloud & DevOps
+AWS Neuron,3,Cloud & DevOps
+AWS SageMaker,3,Cloud & DevOps
+AXIS,3,Cloud & DevOps
+Access Control,3,Cloud & DevOps
+Aha!,3,Other
+Alibaba Cloud,3,Cloud & DevOps
+Amazon RDS,3,Cloud & DevOps
+Angular Material,3,Frameworks / Libraries
+Apache NiFi,3,Databases
+Apple App Store,3,Frameworks / Libraries
+Application Lifecycle Management,3,Other
+Applications Integration,3,Frameworks / Libraries
+Assembly Language,3,Languages
+Atlassian,3,Other
+Atlassian Suite,3,Other
+Authentication,3,Cloud & DevOps
+AutoGen,3,AI/ML
+Automation Framework,3,Testing
+Axon,3,Other
+Azure AI,3,Cloud & DevOps
+Azure AI Services,3,Cloud & DevOps
+Azure App Services,3,Cloud & DevOps
+Azure Key Vault,3,Cloud & DevOps
+Azure Pipelines,3,Cloud & DevOps
+Azure SQL Database,3,Cloud & DevOps
+Azure Synapse,3,Cloud & DevOps
+BDD,3,Testing
+Bayesian Optimization,3,AI/ML
+Big Data Analytics,3,Databases
+Browser Developer Tools,3,Frameworks / Libraries
+Burp Suite,3,Cloud & DevOps
+CANalyzer,3,Cloud & DevOps
+CARLA,3,Cloud & DevOps
+CPU Architecture,3,Other
+CRM,3,Other
+CSS-in-JS,3,Frameworks / Libraries
+Canvas,3,Other
+Canvas LMS,3,Other
+Causal Inference,3,Databases
+Change Management,3,Other
+Chatbots,3,AI/ML
+Clang,3,Cloud & DevOps
+ClickUp,3,Other
+Cloud Security,3,Cloud & DevOps
+Cloud Services,3,Cloud & DevOps
+Cloud-Native Architecture,3,Other
+CloudFormation,3,Cloud & DevOps
+Code Generation,3,Other
+Codeium,3,AI/ML
+Codex,3,AI/ML
+Concurrency,3,Other
+Coroutines,3,Frameworks / Libraries
+Cosmos DB,3,Databases
+Cross Browser Testing,3,Testing
+Cross-Browser Development,3,Testing
+DCS,3,Cloud & DevOps
+DHCP,3,Cloud & DevOps
+DPDK,3,Cloud & DevOps
+DXL,3,Languages
+Dash,3,Databases
+Data Masking,3,Databases
+Data Migration,3,Databases
+Data Security,3,Cloud & DevOps
+Data Strategy,3,Databases
+Database Fundamentals,3,Databases
+Database Systems,3,Databases
+Detox,3,Frameworks / Libraries
+Digital Twin,3,Cloud & DevOps
+DirectX,3,Frameworks / Libraries
+Disaster Recovery,3,Cloud & DevOps
+Distributed Messaging,3,Frameworks / Libraries
+Docker Compose,3,Cloud & DevOps
+Document Classification,3,AI/ML
+Driver Development,3,Cloud & DevOps
+Drivers,3,Cloud & DevOps
+Dynamic Analysis,3,Testing
+EKS,3,Cloud & DevOps
+ES6,3,Languages
+ESXi,3,Cloud & DevOps
+ETL/ELT,3,Databases
+EVPN,3,Cloud & DevOps
+Elastic Stack,3,Cloud & DevOps
+Electronics,3,Cloud & DevOps
+Ember.js,3,Frameworks / Libraries
+Erlang,3,Languages
+Esri ArcGIS,3,Other
+Failure Analysis,3,Other
+Few-shot Learning,3,AI/ML
+Fiddler,3,Testing
+File Systems,3,Other
+Firewalls,3,Cloud & DevOps
+Flutter,3,Frameworks / Libraries
+Forecasting,3,Other
+Forensics,3,Cloud & DevOps
+Foundation Models,3,AI/ML
+GPIO,3,Cloud & DevOps
+GUI,3,Frameworks / Libraries
+GenAI,3,AI/ML
+Generative Adversarial Networks,3,AI/ML
+GetFeedback,3,Other
+GitLab CI/CD,3,Cloud & DevOps
+Glassfish,3,Frameworks / Libraries
+Google Gemini,3,AI/ML
+Google Play Store,3,Frameworks / Libraries
+Graph Databases,3,Databases
+Guice,3,Other
+HackerRank,3,Other
+Hardware Debugging,3,Cloud & DevOps
+Hardware Testing,3,Cloud & DevOps
+Hardware/Software Integration,3,Cloud & DevOps
+Houdini,3,Frameworks / Libraries
+Human-Centered Design,3,Other
+IIS,3,Frameworks / Libraries
+IMU,3,Cloud & DevOps
+ISO,3,Other
+IT Asset Management,3,Other
+IT Governance,3,Other
+IT Service Management,3,Other
+ITSM,3,Other
+InVision,3,Other
+Incident Handling,3,Cloud & DevOps
+Informatica,3,Databases
+Information Security,3,Cloud & DevOps
+IntelliJ IDEA,3,Other
+JSF,3,Frameworks / Libraries
+JSP,3,Frameworks / Libraries
+JWT,3,Cloud & DevOps
+Jasmine,3,Testing
+KNIME,3,Databases
+Kubeflow,3,AI/ML
+L2/L3 Services,3,Cloud & DevOps
+LDAP,3,Cloud & DevOps
+LLaMa,3,AI/ML
+Ladder Logic,3,Languages
+Lambda,3,Frameworks / Libraries
+Leaflet,3,Frameworks / Libraries
+Lean UX,3,Other
+LiDAR,3,Cloud & DevOps
+Linux command line,3,Other
+Lucene,3,Databases
+MISRA,3,Other
+ML,3,AI/ML
+MLIR,3,AI/ML
+MS Access,3,Other
+MUI,3,Frameworks / Libraries
+MVVM,3,Frameworks / Libraries
+MXNet,3,AI/ML
+Mac,3,Other
+Markdown,3,Other
+MassMotion,3,Other
+Maya,3,Frameworks / Libraries
+McCabe,3,Testing
+Mercurial,3,Cloud & DevOps
+Metaflow,3,Databases
+Metrology,3,Cloud & DevOps
+Micro Frontends,3,Frameworks / Libraries
+Microsoft Dynamics,3,Other
+Microsoft Power Apps,3,Other
+Microsoft Power Automate,3,Languages
+Microsoft Purview,3,Other
+Middleware,3,Cloud & DevOps
+Modbus,3,Cloud & DevOps
+Model Deployment,3,AI/ML
+Motion Planning,3,Cloud & DevOps
+Multi-core Programming,3,Cloud & DevOps
+Multimeters,3,Cloud & DevOps
+Multimodal AI,3,AI/ML
+Multimodal Models,3,AI/ML
+NFV,3,Cloud & DevOps
+NHibernate,3,Databases
+NIST Cybersecurity Framework,3,Cloud & DevOps
+NR,3,Cloud & DevOps
+Network Administration,3,Cloud & DevOps
+Network Security,3,Cloud & DevOps
+Non-Relational Databases,3,Databases
+Nutanix,3,Cloud & DevOps
+Nuxt.js,3,Frameworks / Libraries
+Nx,3,Cloud & DevOps
+OAuth 2.0,3,Frameworks / Libraries
+OpenAPI,3,Frameworks / Libraries
+OpenTelemetry,3,Cloud & DevOps
+Opsgenie,3,Cloud & DevOps
+PHIPA,3,Cloud & DevOps
+PHPUnit,3,Testing
+PID Control,3,Cloud & DevOps
+POSIX,3,Cloud & DevOps
+Packer,3,Cloud & DevOps
+Performance Analysis,3,Other
+Performance Profiling,3,Other
+Performance Tuning,3,Other
+Periscope,3,Databases
+Photogrammetry,3,Other
+PixiJS,3,Frameworks / Libraries
+Point Cloud Processing,3,Cloud & DevOps
+Power Supplies,3,Cloud & DevOps
+Process Automation,3,Languages
+Process Optimization,3,Other
+Proligent Analytics,3,Databases
+Pub/Sub,3,Frameworks / Libraries
+Pulumi,3,Cloud & DevOps
+Puppeteer,3,Testing
+PyQt,3,Frameworks / Libraries
+QA Automation,3,Testing
+QGIS,3,Other
+Qualcomm Snapdragon,3,Cloud & DevOps
+Qualitative Research,3,Other
+RAID,3,Cloud & DevOps
+REDCap,3,Other
+RF,3,Cloud & DevOps
+RPM,3,Other
+Rancher,3,Cloud & DevOps
+Random Forest,3,AI/ML
+Real-time Operating Systems,3,Other
+Remote Sensing,3,Other
+Responsive Web Design,3,Frameworks / Libraries
+Risk Analysis,3,Other
+Roadmap,3,Other
+SAE J1939,3,Cloud & DevOps
+SAE J3061,3,Cloud & DevOps
+SAP Business Technology Platform,3,Other
+SCOM,3,Cloud & DevOps
+SLAM,3,Cloud & DevOps
+SRE,3,Cloud & DevOps
+STL,3,Languages
+Security Operations,3,Cloud & DevOps
+Seldon Core,3,AI/ML
+Self-supervised Learning,3,AI/ML
+Semantic Search,3,AI/ML
+Semi-supervised Learning,3,AI/ML
+Serial Protocols,3,Cloud & DevOps
+Servers,3,Cloud & DevOps
+Service Design,3,Other
+Simulator,3,Other
+Sockets,3,Frameworks / Libraries
+Software Deployment,3,Other
+Soldering,3,Cloud & DevOps
+Solr,3,Databases
+SpecFlow,3,Testing
+State estimation,3,Cloud & DevOps
+Structured Text,3,Other
+Supabase,3,Databases
+Support Vector Machine,3,AI/ML
+Surveys,3,Other
+Survival Analysis,3,Other
+System Integration Testing,3,Testing
+System Monitoring,3,Cloud & DevOps
+System on Chip,3,Cloud & DevOps
+Systems Design,3,Frameworks / Libraries
+TVM,3,AI/ML
+Teradata,3,Databases
+Test Complete,3,Testing
+TestRail,3,Testing
+Testing Frameworks,3,Testing
+Threat Management,3,Cloud & DevOps
+Threat Modeling,3,Cloud & DevOps
+Topic Modeling,3,AI/ML
+UCMP,3,Cloud & DevOps
+UEFN,3,Frameworks / Libraries
+UI Development,3,Frameworks / Libraries
+Unity Catalog,3,Frameworks / Libraries
+User Interviews,3,Other
+V-Model,3,Other
+VMware ESX,3,Cloud & DevOps
+VMware NSX,3,Cloud & DevOps
+VR,3,Frameworks / Libraries
+Video Codecs,3,Cloud & DevOps
+Visual Design,3,Other
+Visual Studio Debugger,3,Other
+VoIP,3,Cloud & DevOps
+Vuex,3,Frameworks / Libraries
+WAN,3,Cloud & DevOps
+Walkme,3,Other
+Web,3,Frameworks / Libraries
+Web Design,3,Other
+Windows 11,3,Cloud & DevOps
+Windows Forms,3,Frameworks / Libraries
+Wireframing,3,Other
+Wireless Networks,3,Cloud & DevOps
+Wireless Protocols,3,Cloud & DevOps
+XLA,3,AI/ML
+XR,3,Frameworks / Libraries
+Xamarin Forms,3,Frameworks / Libraries
+Yocto Project,3,Cloud & DevOps
+YouTube,3,Other
+Zendesk,3,Other
+Zod,3,Frameworks / Libraries
+ZooKeeper,3,Databases
+esbuild,3,Frameworks / Libraries
+grep,3,Languages
+requests,3,Languages
+shadcn/ui,3,Frameworks / Libraries
+x86,3,Cloud & DevOps
+.NET MAUI,2,Frameworks / Libraries
+3D Visualization,2,Other
+3D programming,2,Frameworks / Libraries
+3GPP NR,2,Cloud & DevOps
+3ds Max,2,Frameworks / Libraries
+AEM,2,Other
+AI Governance,2,AI/ML
+AI Strategy,2,AI/ML
+AI4Code,2,AI/ML
+AIOps,2,Cloud & DevOps
+API Management,2,Frameworks / Libraries
+ARIMA,2,AI/ML
+ARIS,2,Other
+ASIC Verification,2,Cloud & DevOps
+ATOM,2,Other
+AWS Amplify,2,Cloud & DevOps
+AWS AppSync,2,Cloud & DevOps
+AWS Deep Learning AMIs,2,Cloud & DevOps
+AWS Deep Learning Containers,2,Cloud & DevOps
+AWS ECS,2,Cloud & DevOps
+AWS Inferentia,2,Cloud & DevOps
+AWS IoT,2,Cloud & DevOps
+AWS Route 53,2,Cloud & DevOps
+AWS Step Functions,2,Cloud & DevOps
+AWS Trainium,2,Cloud & DevOps
+Acceptance Test Driven Development,2,Testing
+Acceptance Testing,2,Testing
+Accessibility Testing,2,Testing
+Adobe Acrobat,2,Other
+Adobe Experience Manager,2,Other
+Adobe Illustrator,2,Other
+Adobe Photoshop,2,Other
+Agentic AI Framework,2,AI/ML
+Agile software development,2,Other
+Alerting,2,Cloud & DevOps
+Amazon Athena,2,Databases
+Amazon CloudFront,2,Cloud & DevOps
+Amazon ECS,2,Cloud & DevOps
+Amazon Q,2,Cloud & DevOps
+Anaconda,2,Databases
+Analog Circuit Design,2,Other
+Android OS,2,Frameworks / Libraries
+Android TV,2,Frameworks / Libraries
+Android Testing Framework,2,Frameworks / Libraries
+Ant,2,Languages
+Antivirus,2,Cloud & DevOps
+Anypoint Studio,2,Other
+Apache JMeter,2,Other
+Apache Parquet,2,Databases
+App Engine,2,Cloud & DevOps
+AppDynamics,2,Cloud & DevOps
+Apple TV,2,Frameworks / Libraries
+Application Orchestration,2,Cloud & DevOps
+Application Security,2,Cloud & DevOps
+Application Support,2,Other
+Argo Workflows,2,Other
+ArkUI,2,Frameworks / Libraries
+Asynchronous Programming,2,Other
+Athena,2,Databases
+Audio and Video Protocols,2,Cloud & DevOps
+AutoML,2,AI/ML
+Autonomous Driving,2,AI/ML
+Azure AI Search,2,Cloud & DevOps
+Azure Blob Storage,2,Cloud & DevOps
+Azure Machine Learning Studio,2,Cloud & DevOps
+BERT,2,AI/ML
+BLE,2,Cloud & DevOps
+BPMN,2,Other
+BSD,2,Cloud & DevOps
+Batch Processing,2,Databases
+Batch Scripting,2,Languages
+BigEye,2,Databases
+Bluetooth Low Energy,2,Cloud & DevOps
+Bug Tracking,2,Testing
+Bug Tracking Software,2,Testing
+Build Automation,2,Languages
+Builder.io,2,AI/ML
+Buildroot,2,Cloud & DevOps
+Business Continuity Planning,2,Other
+Business Objects,2,Other
+Business Process Analysis,2,Other
+CANoe,2,Cloud & DevOps
+CAPL,2,Cloud & DevOps
+CBTC,2,Cloud & DevOps
+CIS Controls,2,Cloud & DevOps
+CMDB,2,Other
+COSMOS,2,Cloud & DevOps
+CREO,2,Cloud & DevOps
+CSA,2,Other
+CVSS,2,Cloud & DevOps
+Calculus,2,Other
+Camtasia,2,Other
+Captions AI,2,AI/ML
+Cflowd,2,Cloud & DevOps
+Chai,2,Testing
+Change Control,2,Other
+Chef,2,Cloud & DevOps
+Chromecast,2,Frameworks / Libraries
+Ciena Planner Plus,2,Cloud & DevOps
+Cisco,2,Cloud & DevOps
+Cliosoft,2,Cloud & DevOps
+Cloud Development,2,Cloud & DevOps
+Cloud Tasks,2,Cloud & DevOps
+Code Analysis,2,Testing
+Code Coverage,2,Testing
+Codeception,2,Testing
+Codility,2,Other
+Cognos,2,Other
+CometML,2,AI/ML
+Compliance,2,Other
+Computational Design,2,Other
+Compute graph optimization,2,AI/ML
+Consul,2,Cloud & DevOps
+Container Orchestration,2,Cloud & DevOps
+Continuous Testing,2,Testing
+Conversational AI,2,AI/ML
+Coremetrics,2,Databases
+Crimson Hexagon,2,Databases
+Customer Behavior Analysis,2,Databases
+DDR,2,Cloud & DevOps
+DDR4,2,Cloud & DevOps
+DDS,2,Cloud & DevOps
+DOS Scripting,2,Languages
+Dashboards,2,Databases
+Data Acquisition Systems,2,Databases
+Data Augmentation,2,Databases
+Data Clustering,2,AI/ML
+Data Communication,2,Cloud & DevOps
+Data Lakes,2,Databases
+Data Lineage,2,Databases
+Data Mapping,2,Databases
+Data Patterns,2,Databases
+Data Platform,2,Databases
+Data Preparation,2,Databases
+Data Profiling,2,Databases
+Data Sheets,2,Cloud & DevOps
+Data Validation,2,Databases
+Database Management Systems,2,Databases
+Datastore,2,Databases
+Dayforce,2,Other
+Debug,2,Other
+DeepSpeed,2,AI/ML
+Deployment Automation,2,Cloud & DevOps
+Design System,2,Frameworks / Libraries
+Design Tools,2,Other
+Device Driver Development,2,Cloud & DevOps
+Devin,2,AI/ML
+Diffusion Models,2,AI/ML
+Digital Circuit Design,2,Other
+Digital Forensics,2,Cloud & DevOps
+Digital Multimeter,2,Cloud & DevOps
+Digital Oscilloscope,2,Cloud & DevOps
+Direct3D,2,Frameworks / Libraries
+Disaster Recovery Planning,2,Cloud & DevOps
+Discord,2,Other
+Discovery,2,Other
+DoIP,2,Cloud & DevOps
+Docling,2,AI/ML
+DocuSign,2,Other
+Dojo,2,Frameworks / Libraries
+DrawIO,2,Other
+Dynatrace,2,Cloud & DevOps
+ECMAScript,2,Languages
+EDA,2,Databases
+EF Core,2,Databases
+ESRI,2,Other
+Edge AI,2,AI/ML
+Elastic,2,Databases
+Elementary,2,Databases
+ElevenLabs,2,AI/ML
+Embedded Firmware,2,Cloud & DevOps
+Embedded Programming,2,Cloud & DevOps
+Entity Relationship Diagram (ERD),2,Other
+Exchange Online,2,Other
+Experiment Tracking,2,AI/ML
+Experimentation,2,Databases
+ExtJs,2,Frameworks / Libraries
+FAIR Principles,2,Cloud & DevOps
+FAISS,2,Databases
+FCC,2,Other
+FFMPEG,2,Other
+FPGA Design,2,Cloud & DevOps
+FTIR Spectroscopy,2,Other
+Facebook Insights,2,Databases
+Fastify,2,Frameworks / Libraries
+Feature Extraction,2,AI/ML
+File System,2,Other
+Financial Analysis,2,Other
+Fine-tuning,2,AI/ML
+Fire TV,2,Frameworks / Libraries
+Fivetran,2,Databases
+Flowcharts,2,Other
+Flume,2,Databases
+Formal Verification,2,Cloud & DevOps
+Foundation,2,Frameworks / Libraries
+Fourier Regression Analysis,2,Other
+Framer,2,Other
+Function Block Diagram,2,Languages
+Functionality Testing,2,Testing
+G-Suite,2,Other
+GANs,2,AI/ML
+GD&T,2,Cloud & DevOps
+GLSL,2,Frameworks / Libraries
+GPT-4o-mini,2,AI/ML
+GTK,2,Frameworks / Libraries
+GUI Development,2,Other
+Gas Chromatography,2,Other
+Gaussian Splatting,2,AI/ML
+Gazebo,2,Cloud & DevOps
+Geographic Information Systems,2,Other
+GitHub Workflows,2,Cloud & DevOps
+Godot,2,Frameworks / Libraries
+Good Documentation Practice,2,Other
+Good Manufacturing Practice,2,Other
+Google ADK,2,AI/ML
+Google Ads,2,Databases
+Google Apps Script,2,Other
+Google Cirq,2,Cloud & DevOps
+Google Tag Manager,2,Frameworks / Libraries
+Graph Neural Networks,2,AI/ML
+Graphic Design,2,Other
+Graphics,2,Frameworks / Libraries
+Graphics Programming,2,Frameworks / Libraries
+Group Policy,2,Cloud & DevOps
+Grunt,2,Languages
+Gurobi,2,Other
+Gym,2,Other
+HDLC,2,Cloud & DevOps
+HDMI,2,Cloud & DevOps
+HFSS,2,Cloud & DevOps
+HL7,2,Other
+HL7 FHIR,2,Other
+HP Anyware,2,Cloud & DevOps
+HTTPS,2,Cloud & DevOps
+Hardware Systems,2,Cloud & DevOps
+Hardware-Software Co-design,2,Cloud & DevOps
+Hardware-in-the-Loop (HIL) Testing,2,Cloud & DevOps
+Hashicorp Vault,2,Cloud & DevOps
+Heuristic Evaluation,2,Other
+Hightouch,2,Databases
+IATF 16949,2,Other
+IBM Qiskit,2,Cloud & DevOps
+IBM Rational DOORS,2,Other
+IFRS17,2,Other
+IGMP,2,Cloud & DevOps
+INS,2,Cloud & DevOps
+IRAM2,2,Other
+ISO 9001,2,Other
+IXIA,2,Cloud & DevOps
+Image Analysis,2,AI/ML
+Image Annotation Tools,2,AI/ML
+Image Segmentation,2,AI/ML
+Industry 4.0,2,Cloud & DevOps
+InfluxDB,2,Databases
+Information Visualization,2,Databases
+Infrastructure Security,2,Cloud & DevOps
+Intelligent Automation,2,AI/ML
+Interpretability and Explainability,2,AI/ML
+Interrupts,2,Cloud & DevOps
+Intrusion Detection System,2,Cloud & DevOps
+Intune,2,Cloud & DevOps
+Inventor,2,Cloud & DevOps
+Issue Tracking,2,Testing
+JD Edwards,2,Other
+JEE,2,Frameworks / Libraries
+JTBD,2,Other
+JavaFX,2,Frameworks / Libraries
+Jira Service Desk,2,Other
+Karl Fischer Titration,2,Other
+Karma,2,Testing
+Kepler.gl,2,Databases
+Kernel Development,2,Cloud & DevOps
+Keynote,2,Other
+Khoros,2,Other
+Kinematics,2,Cloud & DevOps
+Kivy,2,Frameworks / Libraries
+Knowledge Graphs,2,AI/ML
+LINQ,2,Databases
+LSTM,2,AI/ML
+LTspice,2,Cloud & DevOps
+Lakehouse,2,Databases
+Large Multimodal Models,2,AI/ML
+Lean Manufacturing,2,Other
+Linear,2,Other
+Linting,2,Testing
+Localization,2,Frameworks / Libraries
+Logic Analyzers,2,Cloud & DevOps
+Logistic Regression,2,AI/ML
+Long Short-Term Memory,2,AI/ML
+Looker Studio,2,Other
+Lovable,2,AI/ML
+Low-code,2,Other
+Low-code Development,2,Other
+MEMS,2,Cloud & DevOps
+MEMS IMU,2,Cloud & DevOps
+MLD,2,Cloud & DevOps
+MLDP,2,Cloud & DevOps
+MS Office Suite,2,Other
+Machine Learning Frameworks,2,AI/ML
+Machine Learning Lifecycle,2,AI/ML
+Magento,2,Frameworks / Libraries
+Mapbox,2,Databases
+MariaDB,2,Databases
+Marketing Analytics,2,Databases
+Materialize,2,Frameworks / Libraries
+Mathematics,2,Other
+Megatron,2,AI/ML
+Memcache,2,Databases
+Meta Quest,2,Frameworks / Libraries
+Micro:bit,2,Cloud & DevOps
+Microcontroller,2,Cloud & DevOps
+Microcontroller Programming,2,Cloud & DevOps
+Microsoft Copilot Studio,2,Other
+Microsoft Dynamics 365,2,Other
+Microsoft Entra,2,Other
+Microsoft Exchange,2,Other
+Microsoft Office 365,2,Other
+Minio,2,Cloud & DevOps
+Mixed-Effects Models,2,Other
+Mobile,2,Frameworks / Libraries
+Mobile Device Management,2,Cloud & DevOps
+Mockito,2,Testing
+Model Development,2,AI/ML
+Model Fine-Tuning,2,AI/ML
+Model Validation,2,AI/ML
+Model-Based Systems Engineering,2,Other
+Model-driven development,2,Other
+Modelling,2,Other
+Monday.com,2,Other
+Multifactor Authentication,2,Cloud & DevOps
+Multimedia,2,Cloud & DevOps
+Mural,2,Other
+NERC CIP,2,Cloud & DevOps
+NLTK,2,AI/ML
+NVD,2,Cloud & DevOps
+Nagios,2,Cloud & DevOps
+Navsim,2,AI/ML
+Neptune.ai,2,AI/ML
+Network Analyzer,2,Cloud & DevOps
+Network File System,2,Cloud & DevOps
+NetworkX,2,Databases
+Networking Switches,2,Cloud & DevOps
+Nginx,2,Frameworks / Libraries
+OCR,2,AI/ML
+OData,2,Frameworks / Libraries
+OIDC,2,Frameworks / Libraries
+OPC UA,2,Cloud & DevOps
+ORAN,2,Cloud & DevOps
+OWASP,2,Cloud & DevOps
+OWASP ZAP,2,Cloud & DevOps
+Object Storage,2,Cloud & DevOps
+Okta,2,Cloud & DevOps
+Omniverse Replicator,2,AI/ML
+Online learning,2,AI/ML
+OpenAI APIs,2,AI/ML
+OpenEmbedded,2,Cloud & DevOps
+Operating System,2,Cloud & DevOps
+Operational Technology,2,Cloud & DevOps
+Opnet,2,Cloud & DevOps
+Optical Spectrum Analyzer,2,Cloud & DevOps
+Optics,2,Cloud & DevOps
+Oracle APEX,2,Other
+Oracle SQL,2,Databases
+PC,2,Other
+PCI DSS,2,Cloud & DevOps
+PCL,2,Languages
+PID Tuning,2,Other
+PIM,2,Other
+PMBOK,2,Other
+PON,2,Cloud & DevOps
+POS,2,Other
+PWM,2,Cloud & DevOps
+Parallel Programming,2,Other
+Parallel Systems,2,Other
+Parquet,2,Databases
+Particle Systems,2,Frameworks / Libraries
+Patch Management,2,Cloud & DevOps
+PathWise,2,Other
+Pattern Recognition,2,AI/ML
+Perception,2,AI/ML
+Performance Engineering,2,Other
+Phishing Simulation,2,Cloud & DevOps
+Phoenix,2,AI/ML
+Phoenix Framework,2,Frameworks / Libraries
+Pinot,2,Databases
+Pivotal Cloud Foundry,2,Cloud & DevOps
+PlasticSCM,2,Cloud & DevOps
+Play Framework,2,Frameworks / Libraries
+PocketPC,2,Cloud & DevOps
+Podman,2,Cloud & DevOps
+Polymer,2,Frameworks / Libraries
+Potentiometric Titration,2,Other
+Power Pages,2,Other
+Power Supply,2,Cloud & DevOps
+Power Virtual Agents,2,Other
+Problem Management,2,Cloud & DevOps
+Process Mapping,2,Other
+Project Management Life Cycle,2,Other
+Project Management Methodology,2,Other
+Proof of Concept,2,Other
+Protobuf,2,Frameworks / Libraries
+Protocol Analyzer,2,Cloud & DevOps
+Protocol Stacks,2,Cloud & DevOps
+PyCharm,2,Other
+PyTorch Mobile,2,AI/ML
+Pyautogui,2,Languages
+QA Best Practices,2,Testing
+QA Processes,2,Testing
+QML,2,Languages
+QMS,2,Other
+Qlik,2,Other
+Quality Assurance and Testing,2,Testing
+Quality Control,2,Testing
+Quality Management System,2,Other
+Qualtrics,2,Other
+Quantitative Research,2,Databases
+Quarkus,2,Frameworks / Libraries
+R Shiny,2,Other
+RAG (Retrieval Augmented Generation),2,AI/ML
+RAG Pipelines,2,AI/ML
+RBAC,2,Cloud & DevOps
+RESTCONF,2,Cloud & DevOps
+RESTful Web Services,2,Frameworks / Libraries
+RFID,2,Cloud & DevOps
+RLlib,2,AI/ML
+RNNs,2,AI/ML
+RPA,2,Languages
+RPC,2,Frameworks / Libraries
+RS232,2,Cloud & DevOps
+RTL,2,Cloud & DevOps
+RTP,2,Cloud & DevOps
+Radio Access Network (RAN),2,Cloud & DevOps
+Radish,2,Other
+Reactive Programming,2,Other
+ReadyAPI,2,Testing
+Real-time Processing,2,Cloud & DevOps
+Recommender Systems,2,AI/ML
+Redux Toolkit,2,Frameworks / Libraries
+Refactoring,2,Other
+Relational Database Management System,2,Databases
+Reliability Analytics,2,Other
+Remote Desktop,2,Cloud & DevOps
+Rendering,2,Frameworks / Libraries
+Renesas RX,2,Cloud & DevOps
+Requirement Analysis,2,Other
+Requirements Analysis,2,Other
+Requirements Gathering,2,Other
+Resource scheduling,2,Cloud & DevOps
+Retool,2,Databases
+Reuters,2,Other
+Revit,2,Cloud & DevOps
+Robot kinematics,2,Cloud & DevOps
+Roku,2,Frameworks / Libraries
+Route53,2,Cloud & DevOps
+Routing,2,Cloud & DevOps
+RxJava,2,Frameworks / Libraries
+RxSwift,2,Frameworks / Libraries
+SAP Business Data Cloud,2,Other
+SAST,2,Cloud & DevOps
+SCA,2,Cloud & DevOps
+SCPI,2,Cloud & DevOps
+SGLang,2,AI/ML
+SHAP,2,AI/ML
+SKILL,2,Other
+SMS,2,Cloud & DevOps
+SOC 2,2,Cloud & DevOps
+SOME/IP,2,Cloud & DevOps
+SONET,2,Cloud & DevOps
+SQL Server Reporting Services,2,Databases
+SQLite,2,Databases
+SQS,2,Cloud & DevOps
+SR,2,Cloud & DevOps
+SRv6,2,Cloud & DevOps
+SSO,2,Cloud & DevOps
+STM32,2,Cloud & DevOps
+SYSBIOS,2,Cloud & DevOps
+Salesforce Marketing Cloud,2,Other
+Salesforce Sales Cloud,2,Other
+ScalaTest,2,Testing
+Scaled Agile Framework,2,Other
+Scaled Agile Framework (SAFe),2,Other
+Schematics,2,Cloud & DevOps
+Scientific Method,2,Other
+Secure Development,2,Cloud & DevOps
+Security Groups,2,Cloud & DevOps
+Security Information and Event Management,2,Cloud & DevOps
+Security Monitoring,2,Cloud & DevOps
+Segmentation,2,Other
+Sensor Simulation,2,Cloud & DevOps
+Shader Programming,2,Frameworks / Libraries
+Shell Script,2,Languages
+Shopify,2,Frameworks / Libraries
+Signal Generator,2,Cloud & DevOps
+SiteCatalyst,2,Databases
+Sitecore,2,Frameworks / Libraries
+Skyspark,2,Databases
+SocialBee,2,Other
+Software Development Kit,2,Other
+Software Troubleshooting,2,Other
+Software/Hardware Co-design,2,Cloud & DevOps
+Solid.js,2,Frameworks / Libraries
+Source Code Management,2,Cloud & DevOps
+SpaceClaim,2,Cloud & DevOps
+Spanner,2,Databases
+Sphinx,2,Other
+Spirent,2,Cloud & DevOps
+Spring Core,2,Frameworks / Libraries
+Stable Diffusion,2,AI/ML
+Standard Operating Procedures,2,Other
+Statistical Analysis Software,2,Databases
+Statistical Process Control (SPC),2,Other
+Stencil,2,Frameworks / Libraries
+Storage Systems,2,Cloud & DevOps
+Stream Processing,2,Databases
+Styled-components,2,Frameworks / Libraries
+Subversion,2,Cloud & DevOps
+Superset,2,Other
+Swift Concurrency,2,Other
+Switch,2,Cloud & DevOps
+Switching,2,Cloud & DevOps
+Symfony,2,Frameworks / Libraries
+System Architecture,2,Other
+System Development Lifecycle,2,Other
+System Scalability,2,Cloud & DevOps
+System and Technology Integration,2,Other
+TI DSP,2,Cloud & DevOps
+TI MSP430,2,Cloud & DevOps
+TOGAF,2,Other
+Talend,2,Databases
+TanStack Query,2,Frameworks / Libraries
+Target Trial Emulation,2,Other
+Telemetry,2,Cloud & DevOps
+TensorRT-LLM,2,AI/ML
+Test Automation Frameworks,2,Testing
+Test Design,2,Testing
+Test Management System,2,Testing
+Test Methodology,2,Testing
+TestCafe,2,Testing
+TestNG,2,Testing
+Text Embeddings,2,AI/ML
+Theano,2,AI/ML
+Thread,2,Cloud & DevOps
+Threat Intelligence,2,Cloud & DevOps
+Three.js,2,Frameworks / Libraries
+Tizen,2,Frameworks / Libraries
+Trajectory planning,2,Cloud & DevOps
+UI/UX,2,Other
+Unix Shell,2,Languages
+Usability,2,Other
+User Interface Design,2,Other
+User-centric design,2,Other
+VISA,2,Cloud & DevOps
+VLMs,2,AI/ML
+Vector Database,2,Databases
+Vector Stores,2,Databases
+Vehicle Simulator,2,Cloud & DevOps
+Veracode,2,Cloud & DevOps
+Verification,2,Testing
+Verse,2,Frameworks / Libraries
+VirtualBox,2,Cloud & DevOps
+Vision Systems,2,Other
+Vision-Language Models,2,AI/ML
+Visual Basic .NET,2,Cloud & DevOps
+Vitest,2,Testing
+Vivado,2,Cloud & DevOps
+Voltmeter,2,Cloud & DevOps
+Web Accessibility,2,Other
+Web Application Development,2,Frameworks / Libraries
+Web Experience Toolkit,2,Frameworks / Libraries
+Web Frameworks,2,Frameworks / Libraries
+Webdriver,2,Testing
+Webhook,2,Frameworks / Libraries
+Webhooks,2,Frameworks / Libraries
+Wet Chemistry Titration,2,Other
+Windows CE,2,Frameworks / Libraries
+Windows Mobile,2,Frameworks / Libraries
+Windows PowerShell,2,Languages
+Wiz,2,Cloud & DevOps
+Workday,2,Other
+Workflow Automation,2,Languages
+Wwise,2,Frameworks / Libraries
+X-Ray,2,Other
+XGBoost,2,AI/ML
+XRP Ledger,2,Other
+Xanadu PennyLane,2,Cloud & DevOps
+Xilinx,2,Cloud & DevOps
+YOLO,2,AI/ML
+Zeplin,2,Other
+Zero Trust,2,Cloud & DevOps
+Zero-shot Learning,2,AI/ML
+Zigbee,2,Cloud & DevOps
+Zoho Deluge,2,Other
+Zustand,2,Frameworks / Libraries
+boto3,2,Languages
+cGMP,2,Other
+cal.com,2,Other
+dltHub,2,Databases
+ggplot2,2,Other
+gmake,2,Other
+pgvector,2,Databases
+spaCy,2,AI/ML
+statsmodels,2,Databases
+tidyverse,2,Other
+uDeploy,2,Cloud & DevOps
+vLLM,2,AI/ML
+x86/64,2,Cloud & DevOps
+.NET 8,1,Languages
+.NET Xaml,1,Languages
+10 Gigabit Ethernet,1,Cloud & DevOps
+21 CFR Part 11,1,Other
+21 CFR Part 820,1,Other
+2D Visualization,1,Other
+2D/3D Geometry Representation Learning,1,Other
+3 Lines of Defense Model,1,Other
+3D Graphics API,1,Frameworks / Libraries
+3D Math,1,Other
+3D Point Cloud Rendering,1,Cloud & DevOps
+3D Sensing,1,Cloud & DevOps
+3D Slicer,1,Other
+3D Vision,1,AI/ML
+3DEXPERIENCE,1,Other
+4G,1,Cloud & DevOps
+5G NR,1,Cloud & DevOps
+6-DoF Pose Estimation,1,Cloud & DevOps
+6G,1,Cloud & DevOps
+7250 Interconnect Router,1,Cloud & DevOps
+7330 SXR,1,Cloud & DevOps
+7750 Service Router,1,Cloud & DevOps
+@Risk,1,Other
+AAA,1,Cloud & DevOps
+ABB,1,Cloud & DevOps
+ACH,1,Other
+ACL,1,Cloud & DevOps
+ADQL,1,Other
+AI Code Assistant,1,AI/ML
+AI Debuggers,1,AI/ML
+AI Model Fine-tuning,1,AI/ML
+AI Orchestration,1,AI/ML
+AI Pair Programming,1,Other
+AI Platform,1,AI/ML
+AI Services,1,AI/ML
+AI agentic frameworks,1,AI/ML
+AI-900,1,AI/ML
+AI-Assisted Development Tools,1,AI/ML
+AI-assisted coding tools,1,AI/ML
+AI-assisted development workflows,1,AI/ML
+AIX,1,Cloud & DevOps
+ALM,1,Other
+ALSA,1,Cloud & DevOps
+AMD,1,Cloud & DevOps
+AMPL,1,Other
+ANYsec,1,Cloud & DevOps
+AOSP,1,Frameworks / Libraries
+API Gateway,1,Frameworks / Libraries
+API Programming,1,Frameworks / Libraries
+API Security,1,Frameworks / Libraries
+AR/VR,1,Frameworks / Libraries
+AR/VR Development,1,Frameworks / Libraries
+ARAP,1,Other
+ARINC 429,1,Cloud & DevOps
+ARM Assembly,1,Languages
+ARM Microcontroller,1,Cloud & DevOps
+ARM processors,1,Cloud & DevOps
+ARP,1,Cloud & DevOps
+ARP-4754,1,Cloud & DevOps
+ARP-4761,1,Other
+ASIC Integration,1,Cloud & DevOps
+ASIC Layout,1,Cloud & DevOps
+ASME Y14,1,Cloud & DevOps
+ASP.NET Core MVC,1,Frameworks / Libraries
+ASPX,1,Frameworks / Libraries
+ATAC-seq,1,Other
+ATE,1,Cloud & DevOps
+ATPG,1,Cloud & DevOps
+AUTOSAR,1,Cloud & DevOps
+AUTOSAR Adaptive Platform,1,Cloud & DevOps
+AVEVA,1,Other
+AVEVA PI,1,Other
+AVEVA PI System,1,Other
+AVRO,1,Frameworks / Libraries
+AWS API Gateway,1,Frameworks / Libraries
+AWS Batch,1,Cloud & DevOps
+AWS CLI,1,Languages
+AWS Cloud Development Kit (CDK),1,Cloud & DevOps
+AWS CloudFormation,1,Cloud & DevOps
+AWS CodePipeline,1,Cloud & DevOps
+AWS Cognito,1,Cloud & DevOps
+AWS EMR,1,Cloud & DevOps
+AWS EventBridge,1,Cloud & DevOps
+AWS Q,1,Cloud & DevOps
+AWS Redshift,1,Cloud & DevOps
+AWS SQS,1,Frameworks / Libraries
+AZ-900,1,Cloud & DevOps
+Accelerometer,1,Cloud & DevOps
+Accelerometers,1,Cloud & DevOps
+Access Management,1,Cloud & DevOps
+Access Point,1,Cloud & DevOps
+Accessibility Review,1,Frameworks / Libraries
+Accounting,1,Other
+Active Directory Certificate Services (ADCS),1,Cloud & DevOps
+Active Learning,1,AI/ML
+ActiveMQ,1,Frameworks / Libraries
+AdWords,1,Databases
+Adaptive Difficulty Balancing,1,Frameworks / Libraries
+Adaptive SoC,1,Cloud & DevOps
+Adaptive SoCs,1,Cloud & DevOps
+Addressables,1,Frameworks / Libraries
+Adobe InDesign,1,Other
+Adobe Premiere,1,Other
+Adobe Suite,1,Other
+Aeron,1,Other
+Aerospike,1,Databases
+After Effects,1,Other
+Agent Development,1,AI/ML
+Agentforce,1,Other
+Agentic Frameworks,1,AI/ML
+Agentic Protocols,1,AI/ML
+Agentic Systems,1,AI/ML
+Agentic Workflows,1,AI/ML
+Agents,1,AI/ML
+Agile Kanban,1,Other
+Agile Project Management,1,Other
+AgilePlace,1,Other
+AgilePoint,1,Other
+Air,1,Other
+Airbus ABD,1,Cloud & DevOps
+Airtable,1,Other
+Akamai,1,Cloud & DevOps
+Alarm Lists,1,Cloud & DevOps
+AlertOps,1,Cloud & DevOps
+Algorithm Development,1,Other
+Algorithmic Foundations of Optimization,1,Other
+Algorithmics,1,Other
+Alias,1,Other
+Allegro,1,Cloud & DevOps
+Allegro APD,1,Cloud & DevOps
+Allen-Bradley PLCs,1,Cloud & DevOps
+Allure,1,Testing
+Altium,1,Cloud & DevOps
+Amazon API Gateway,1,Frameworks / Libraries
+Amazon Aurora,1,Databases
+Amazon Bedrock,1,Cloud & DevOps
+Amazon QuickSight,1,Cloud & DevOps
+Amazon SES,1,Cloud & DevOps
+Amplify,1,Cloud & DevOps
+Analog Board Design,1,Cloud & DevOps
+Analog Hardware Design,1,Cloud & DevOps
+Analog Mixed-Signal,1,Cloud & DevOps
+Analytical Modeling,1,Other
+Analytical Pipelines,1,Databases
+Analytics Interpretation,1,Databases
+Analytics Platforms,1,Databases
+Android Audio System,1,Frameworks / Libraries
+Android Multimedia Framework,1,Frameworks / Libraries
+AndroidX,1,Frameworks / Libraries
+Ant Design,1,Frameworks / Libraries
+Anthropic,1,AI/ML
+Anthropic API,1,AI/ML
+Anthropic Claude,1,AI/ML
+Anthropic Claude Code,1,AI/ML
+Anti-malware,1,Cloud & DevOps
+Antivirus Software,1,Cloud & DevOps
+Apache Beam,1,Databases
+Apache Camel,1,Databases
+Apache Flume,1,Databases
+Apache Hop,1,Databases
+Apache ZooKeeper,1,Databases
+Apex,1,Other
+Apollo Android,1,Other
+App Builder,1,Other
+AppSync,1,Cloud & DevOps
+Appian,1,Other
+Apple,1,Frameworks / Libraries
+Apple Notarization,1,Frameworks / Libraries
+Application Administration,1,Cloud & DevOps
+Application Architecture,1,Other
+Application Development,1,Other
+Application Logging,1,Cloud & DevOps
+Application Monitoring,1,Cloud & DevOps
+Application Security Testing,1,Cloud & DevOps
+Application Servers,1,Frameworks / Libraries
+Applications Architecture,1,Other
+Applied AI,1,AI/ML
+Applied Product Research,1,Other
+Applitools,1,Testing
+Apptio,1,Other
+Aqua Security,1,Cloud & DevOps
+ArcGIS Enterprise,1,Other
+ArcGIS Field Maps,1,Other
+ArcGIS Pro,1,Other
+ArcPy,1,Other
+Architectural Reviews,1,Other
+ArduPilot,1,Cloud & DevOps
+Arena PLM,1,Other
+Argo,1,Other
+Argo Workflow,1,Other
+Arista EOS,1,Cloud & DevOps
+Articulate 360,1,Other
+Ascend,1,Other
+AspenTech Inmation,1,Other
+Aspentech IP.21,1,Other
+Assemblers,1,Other
+AssetBundles,1,Other
+Atlas Platform,1,Other
+Atlassian Tools,1,Other
+Atomic,1,Other
+Attribution,1,Databases
+Attrition Modeling,1,Databases
+Audio,1,Cloud & DevOps
+Audio Codecs,1,Cloud & DevOps
+Audio Generation,1,AI/ML
+Audio Processing,1,Cloud & DevOps
+Audio Protocol,1,Cloud & DevOps
+Audiovisual Equipment,1,Cloud & DevOps
+Audit,1,Other
+Augmentation,1,AI/ML
+Aura Components,1,Other
+Aurora,1,Databases
+Aurora PostgreSQL,1,Databases
+Auth0 Platform,1,Cloud & DevOps
+Authentication Protocols,1,Cloud & DevOps
+Authentication/Authorization,1,Cloud & DevOps
+Authorization Protocols,1,Cloud & DevOps
+AutoCAD Electrical,1,Other
+AutoCAD LT,1,Other
+Autodesk,1,Cloud & DevOps
+Autodesk Inventor,1,Cloud & DevOps
+Autogen Studio,1,AI/ML
+Automate,1,Other
+Automated Deployment,1,Cloud & DevOps
+Automated Quality Gates,1,Testing
+Automated Reasoning,1,AI/ML
+Automated Tests,1,Testing
+Automated Unit Testing,1,Testing
+Automated Unit Testing Frameworks,1,Testing
+Automated software testing,1,Testing
+Automation APIs,1,Other
+Automation Anywhere,1,Languages
+Automation Platforms,1,Other
+Automation Test Framework,1,Testing
+Automotive Software,1,Cloud & DevOps
+Autonomous Systems,1,Cloud & DevOps
+Autonomous Vehicles,1,Cloud & DevOps
+Avigilon Control Center,1,Cloud & DevOps
+Awk,1,Languages
+Azure AD,1,Other
+Azure AI Document Intelligence,1,Cloud & DevOps
+Azure AI Foundry,1,Cloud & DevOps
+Azure AI Studio,1,Cloud & DevOps
+Azure AI Vision,1,Cloud & DevOps
+Azure Active Directory,1,Other
+Azure App Service,1,Cloud & DevOps
+Azure Application Insights,1,Cloud & DevOps
+Azure CLI,1,Languages
+Azure Cognitive Services,1,Cloud & DevOps
+Azure Data Pipelines,1,Cloud & DevOps
+Azure DevOps Server,1,Cloud & DevOps
+Azure Foundry,1,Cloud & DevOps
+Azure Integration Services,1,Cloud & DevOps
+Azure Maps,1,Cloud & DevOps
+Azure Monitor,1,Cloud & DevOps
+Azure Power Platform,1,Cloud & DevOps
+Azure Storage,1,Cloud & DevOps
+Azure Storage Insights,1,Cloud & DevOps
+BACnet,1,Cloud & DevOps
+BER Tester,1,Cloud & DevOps
+BIM,1,Cloud & DevOps
+BIST,1,Cloud & DevOps
+BMC Remedy,1,Other
+BPMN 2.0,1,Languages
+Bandit,1,Cloud & DevOps
+Bare Metal,1,Cloud & DevOps
+Bash Scripting,1,Languages
+Batch Data Processing,1,Databases
+Batch File,1,Languages
+Bayesian Inference,1,Other
+Bayesian Machine Learning,1,AI/ML
+Bayesian Statistics,1,Other
+Bazel,1,Languages
+BeagleBoard,1,Cloud & DevOps
+BeagleBone Black,1,Cloud & DevOps
+Beats,1,Other
+BeautifulSoup,1,Languages
+Beeline,1,Databases
+Behat,1,Testing
+Behavioral Analytics,1,Other
+Bentley,1,Other
+BiCMOS,1,Cloud & DevOps
+Bias Mitigation,1,AI/ML
+Bioconductor,1,Other
+Biosensors,1,Cloud & DevOps
+BitLocker,1,Cloud & DevOps
+Blackduck,1,Cloud & DevOps
+Blazor,1,Frameworks / Libraries
+Bloomberg Terminal,1,Other
+Bluebeam,1,Other
+Blueprint,1,Other
+Bluetooth Mesh,1,Cloud & DevOps
+Board Design,1,Cloud & DevOps
+Board-level Debug,1,Cloud & DevOps
+Boeing D6,1,Other
+Botpress,1,AI/ML
+Bourne Shell,1,Languages
+Brain-Computer Interface,1,AI/ML
+Brain-Computer Interfaces,1,AI/ML
+Budgeting,1,Other
+Bug Tracking System,1,Testing
+Buildbot,1,Cloud & DevOps
+Building Automation,1,Cloud & DevOps
+Building Information Modeling,1,Cloud & DevOps
+Bundle Adjustment,1,Cloud & DevOps
+Business Analytics,1,Databases
+Business Automation,1,Languages
+Business Continuity,1,Other
+Business Data Cloud,1,Other
+Business Design,1,Other
+Business Intelligence (BI) Dashboard Design,1,Databases
+Business Process Management,1,Other
+Business Requirements Analysis,1,Other
+Business Valuation,1,Other
+C shell,1,Languages
+C/C+,1,Languages
+CA TDM,1,Other
+CADC,1,Other
+CANopen,1,Cloud & DevOps
+CAPA,1,Other
+CATIA,1,Cloud & DevOps
+CCPA,1,Cloud & DevOps
+CDK,1,Cloud & DevOps
+CDMA,1,Cloud & DevOps
+CDN,1,Cloud & DevOps
+CDS,1,Other
+CE,1,Other
+CI Helpers,1,Other
+CI/CD Pipelines,1,Cloud & DevOps
+CIS,1,Cloud & DevOps
+CIS Framework,1,Cloud & DevOps
+CISM,1,Cloud & DevOps
+CISSP,1,Cloud & DevOps
+CIVA,1,Cloud & DevOps
+CLR,1,Other
+CMD,1,Languages
+CMM Programming,1,Cloud & DevOps
+CMOS,1,Cloud & DevOps
+CMS,1,Other
+CNN,1,AI/ML
+CPPUnit,1,Testing
+CPU Debugger,1,Cloud & DevOps
+CPU Hardware Architectures,1,Other
+CPU/GPU Performance Analysis,1,Other
+CQRS,1,Other
+CS Explorer,1,Other
+CSS Frameworks,1,Frameworks / Libraries
+CTF,1,Cloud & DevOps
+CVS,1,Cloud & DevOps
+CWE,1,Cloud & DevOps
+CWL,1,Other
+CYME,1,Cloud & DevOps
+CYME TCC,1,Cloud & DevOps
+Caching technologies,1,Databases
+Caffe,1,AI/ML
+Calibration,1,Cloud & DevOps
+Calibrators,1,Other
+Calibre,1,Cloud & DevOps
+Cameo,1,Other
+Canadian Medical Device Regulations,1,Other
+Cannex,1,Other
+Capacitor,1,Frameworks / Libraries
+Capstone DataPARC,1,Other
+Carbon Design System,1,Other
+Case Management Systems,1,Other
+CatBoost,1,AI/ML
+Cause and Effects,1,Other
+Cellular,1,Cloud & DevOps
+Cellular Communication Simulators,1,Frameworks / Libraries
+Cellular Connectivity,1,Frameworks / Libraries
+Ceres Solver,1,Cloud & DevOps
+ChIP-seq,1,Other
+Chain of Custody,1,Other
+Chain-of-Thought Prompting,1,AI/ML
+Chakra UI,1,Frameworks / Libraries
+Channel Simulator,1,Cloud & DevOps
+Chaos Engineering,1,Cloud & DevOps
+Charles River,1,Other
+ChatGPT Codex,1,AI/ML
+Chatter,1,Other
+Chip Layout,1,Other
+Chroma,1,Databases
+Chromatin Accessibility,1,Frameworks / Libraries
+Chrome,1,Frameworks / Libraries
+Circana,1,Databases
+Circuit Debugging,1,Cloud & DevOps
+Circuit Design,1,Cloud & DevOps
+Citavi,1,Other
+Citrix,1,Other
+CiviCRM,1,Other
+Clarity PC,1,Other
+Clarity PPM,1,Other
+Classical Computer Vision,1,AI/ML
+Classical Machine Learning,1,AI/ML
+Claude Code Cursor,1,AI/ML
+Claude Sonnet 4.5,1,AI/ML
+Clean Code,1,Other
+ClickHouse,1,Databases
+ClickOnce,1,Other
+Climatic Chamber,1,Cloud & DevOps
+Clinical Data Management,1,Other
+Closure,1,Languages
+Cloud APIs,1,Cloud & DevOps
+Cloud Build,1,Cloud & DevOps
+Cloud Computing Architecture,1,Cloud & DevOps
+Cloud Data Engineering,1,Databases
+Cloud Dataflow,1,Databases
+Cloud Datastore,1,Cloud & DevOps
+Cloud Endpoints,1,Cloud & DevOps
+Cloud Engineering,1,Cloud & DevOps
+Cloud IAM,1,Cloud & DevOps
+Cloud Pub/Sub,1,Cloud & DevOps
+Cloud Run,1,Cloud & DevOps
+Cloud SQL,1,Cloud & DevOps
+Cloud Spanner,1,Databases
+Cloud Technologies,1,Cloud & DevOps
+CloudFront,1,Cloud & DevOps
+CloudVision Appliance,1,Other
+CloudVision Portal,1,Other
+Cloudant,1,Other
+Cobalt,1,Cloud & DevOps
+Code Assistants,1,AI/ML
+Code Deployment,1,Other
+Code Management,1,Cloud & DevOps
+Code Management Tools,1,Cloud & DevOps
+Code Tracing,1,Other
+Code pilot,1,Other
+CodeIgniter,1,Frameworks / Libraries
+Codecs,1,Other
+Codespaces,1,Cloud & DevOps
+Codex API,1,AI/ML
+Coding Practices,1,Other
+Cognitive Ergonomics,1,Other
+Cohere,1,AI/ML
+Combinatorial Algorithms,1,Other
+ComitML,1,Other
+Communication Technologies,1,Cloud & DevOps
+Communication Theory,1,Cloud & DevOps
+CompTIA A*,1,Other
+CompTIA Network*,1,Cloud & DevOps
+CompTIA Network+,1,Cloud & DevOps
+CompTIA Security+,1,Cloud & DevOps
+Compiler Design,1,Other
+Complexity Theory,1,Other
+Compliance Management,1,Cloud & DevOps
+Compliance Testing,1,Testing
+Component Libraries,1,Other
+Component Selection,1,Other
+Component-Driven Development,1,Other
+Compose,1,Frameworks / Libraries
+Composer,1,Other
+Computational Biology,1,Other
+Computational Geometry,1,Other
+Computational Intelligence,1,AI/ML
+Compute Engine,1,Cloud & DevOps
+Computer Forensics,1,Cloud & DevOps
+Computer Imaging,1,Other
+Computer Modeling,1,Other
+Computer Science,1,Other
+Computer Security,1,Cloud & DevOps
+Computer Systems,1,Other
+Computer Vision Algorithms,1,AI/ML
+Conan,1,Other
+Concur,1,Other
+Conda,1,Databases
+Configuration Hardening,1,Cloud & DevOps
+Confluent Kafka,1,Databases
+Content Inspectors,1,Other
+Content Management System,1,Other
+Content Moderation,1,Other
+Context Engineering,1,AI/ML
+Continual Learning,1,AI/ML
+Continuous Integration and Continuous Delivery,1,Cloud & DevOps
+Continuous Monitoring,1,Cloud & DevOps
+Contrastive Learning,1,AI/ML
+Control Automation,1,Other
+Control Systems Engineering,1,Cloud & DevOps
+ControlNet,1,AI/ML
+Controls,1,Other
+Copilot Chat,1,Other
+Copilot for Power BI,1,Databases
+Copperleaf AIP,1,Other
+Core Network,1,Cloud & DevOps
+Core Web Vitals,1,Frameworks / Libraries
+Corel Draw,1,Other
+Coverity,1,Testing
+Coverlet,1,Testing
+Cross-Site Request Forgery (CSRF),1,Cloud & DevOps
+Cross-Site Scripting (XSS),1,Cloud & DevOps
+Cross-platform,1,Frameworks / Libraries
+Crossplane,1,Cloud & DevOps
+Cryptographic Algorithms,1,Other
+Crystal Reports,1,Databases
+Curser,1,Other
+Customer Journey Mapping,1,Other
+Cyber Investigations,1,Cloud & DevOps
+Cyber Kill Chain,1,Cloud & DevOps
+Cybersecurity principles,1,Cloud & DevOps
+DAQ,1,Cloud & DevOps
+DAST,1,Cloud & DevOps
+DDR5,1,Cloud & DevOps
+DFD,1,Other
+DITA,1,Other
+DMA,1,Cloud & DevOps
+DNDAF,1,Other
+DO-254,1,Other
+DO-326A,1,Cloud & DevOps
+DOORS NG,1,Other
+DRM,1,Frameworks / Libraries
+DTC,1,Other
+DWARF,1,Other
+Dagger,1,Frameworks / Libraries
+Dagster,1,Databases
+Dart,1,Languages
+Dask,1,Databases
+Data Acquisition Units,1,Cloud & DevOps
+Data Analysis Tools,1,Databases
+Data Annotation,1,Databases
+Data Anonymization,1,Databases
+Data Automation,1,Databases
+Data Cataloguing,1,Databases
+Data Center Operations,1,Cloud & DevOps
+Data Cleansing,1,Databases
+Data Cloud,1,Other
+Data Collection,1,Databases
+Data Communication Protocols,1,Other
+Data Concurrency,1,Other
+Data Documentation,1,Databases
+Data Encryption,1,Cloud & DevOps
+Data Enrichment,1,Databases
+Data Ingestion,1,Databases
+Data Labelling,1,Databases
+Data Lifecycles,1,Databases
+Data Logger,1,Cloud & DevOps
+Data Logging,1,Cloud & DevOps
+Data Loss Prevention,1,Cloud & DevOps
+Data Manipulation,1,Other
+Data Modelling,1,Databases
+Data Normalization,1,Databases
+Data Orchestration,1,Databases
+Data Parsing,1,Other
+Data Pipelining,1,Databases
+Data Platforms,1,Databases
+Data Preservation,1,Other
+Data Privacy,1,Cloud & DevOps
+Data Protection,1,Databases
+Data Quality Assessment,1,Databases
+Data Quality Assurance,1,Databases
+Data Quality Management,1,Databases
+Data Streaming,1,Databases
+Data Visualization Tools,1,Databases
+Data Warehouses,1,Databases
+Data-as-a-Service,1,Databases
+DataGrip,1,Other
+DataOps,1,Cloud & DevOps
+Database Administration,1,Databases
+Database Development,1,Databases
+Database Kernel Development,1,Databases
+Database Queries,1,Databases
+Database Schema Design,1,Databases
+Database Scripting,1,Databases
+Database Testing,1,Testing
+Database methodologies,1,Databases
+Databricks Platform,1,Databases
+Datacenter Networks,1,Cloud & DevOps
+Dataiku,1,Databases
+Dataiku DSS,1,Databases
+Datalayer Tracking,1,Other
+Datameer,1,Databases
+Dataset Creation,1,Other
+Dataset Management,1,Other
+Debuggers,1,Other
+Declarative UI,1,Frameworks / Libraries
+Deep Generative Models,1,AI/ML
+Deep Learning Fine-tuning,1,AI/ML
+Deep Neural Networks,1,AI/ML
+Deep Q-Network,1,AI/ML
+DeepLab,1,AI/ML
+Deepseek,1,AI/ML
+Defensive Coding,1,Cloud & DevOps
+DejaGnu,1,Testing
+Delphix,1,Other
+Depth Estimation,1,AI/ML
+Depth Sensing,1,Cloud & DevOps
+Descriptive Statistics,1,Databases
+Design Control,1,Other
+Design Copilots,1,Other
+Design Documentation,1,Other
+Design Principles,1,Other
+Design Techniques,1,Other
+Design Verification,1,Cloud & DevOps
+Design of Experiment (DoE),1,Other
+Desktop Application Development,1,Languages
+Desktop Simulators,1,Cloud & DevOps
+Desktop Support,1,Other
+DevExpress,1,Frameworks / Libraries
+Deviation Management,1,Other
+Differentiable Rendering,1,AI/ML
+Dify,1,AI/ML
+Digital Audio,1,Cloud & DevOps
+Digital Board Design,1,Cloud & DevOps
+Digital Design,1,Cloud & DevOps
+Digital Design Verification,1,Cloud & DevOps
+Digital Electronics,1,Cloud & DevOps
+Digital Hardware Design,1,Cloud & DevOps
+Digital Image Processing,1,Other
+Digital Imaging,1,Cloud & DevOps
+Digital Mail,1,Other
+Digital Marketing,1,Databases
+Digital Signal Processors (DSPs),1,Cloud & DevOps
+Digital Video,1,Cloud & DevOps
+Digital analytics,1,Databases
+Dijkstra's Algorithm,1,Other
+Display Systems,1,Cloud & DevOps
+DisplayPort,1,Cloud & DevOps
+Distributed Analysis,1,Databases
+Distributed Control System,1,Cloud & DevOps
+Distributed Energy Resources (DER) analysis,1,Cloud & DevOps
+Distributed System Design,1,Other
+Distribution protection schemes,1,Cloud & DevOps
+Django REST Framework,1,Frameworks / Libraries
+DoDAF,1,Other
+Docker Hub,1,Cloud & DevOps
+Documentation,1,Other
+Domain Adaptation,1,AI/ML
+Domain Registration,1,Cloud & DevOps
+Domain-Driven Design,1,Other
+Domain-Specific Language,1,Languages
+Drift Detection,1,Databases
+Drizzle ORM,1,Databases
+Dropbox,1,Other
+Dynamic Context Management,1,Other
+Dynamic Testing,1,Testing
+Dynamics 365,1,Other
+E1,1,Other
+EAS,1,Other
+EC2,1,Cloud & DevOps
+ECM,1,Other
+ECMAScript 6,1,Languages
+ECS,1,Cloud & DevOps
+EDA Tools,1,Cloud & DevOps
+EDGE,1,Cloud & DevOps
+EDM,1,Other
+EDR,1,Cloud & DevOps
+EMX,1,Cloud & DevOps
+EN50128,1,Cloud & DevOps
+ETL Testing,1,Databases
+ETL Tools,1,Databases
+ETRM,1,Other
+ETSI,1,Other
+EU AI Act,1,AI/ML
+Eagle,1,Cloud & DevOps
+Early Stopping,1,Other
+Editor Debuggers,1,Other
+Editor Tooling,1,Other
+EduClaud,1,AI/ML
+Eigen,1,Other
+ElastiCache,1,Databases
+Elastic Beanstalk,1,Cloud & DevOps
+Electric Spectrum Analyzer,1,Cloud & DevOps
+Electrical Engineering,1,Cloud & DevOps
+Electrical Schematics,1,Cloud & DevOps
+Electrical Systems,1,Cloud & DevOps
+Electromagnetism,1,Cloud & DevOps
+Electromechanical Design,1,Cloud & DevOps
+Electronic Assembly,1,Cloud & DevOps
+Electronic Control Unit (ECU),1,Cloud & DevOps
+Electronic Data Analysis,1,Databases
+Electronic Hardware Development,1,Cloud & DevOps
+Electronic Load,1,Cloud & DevOps
+Electronic Loads,1,Other
+Electronic Schematics,1,Cloud & DevOps
+Electronic Schematics Reading,1,Cloud & DevOps
+Electronics Manufacturing,1,Cloud & DevOps
+Element Plus,1,Frameworks / Libraries
+Emacs,1,Other
+Email,1,Cloud & DevOps
+Email Security,1,Cloud & DevOps
+Embedded Android,1,Cloud & DevOps
+Embedded C,1,Cloud & DevOps
+Embedded Debugging Tools,1,Cloud & DevOps
+Embedded Development Tools,1,Cloud & DevOps
+Embedded Devices,1,Cloud & DevOps
+Embedded Firmware Development,1,Cloud & DevOps
+Embedded Systems Development,1,Cloud & DevOps
+Embedded Systems Security,1,Cloud & DevOps
+Embedded Toolchains,1,Cloud & DevOps
+Emerson DeltaV,1,Cloud & DevOps
+Emotion,1,AI/ML
+Empirical Research,1,Other
+Emulation,1,Other
+Encoder-Decoder,1,AI/ML
+End-to-End Automation,1,Testing
+Endpoint Protection,1,Cloud & DevOps
+Endpoint Security,1,Cloud & DevOps
+Enhanced Input,1,Other
+Enterprise Architecture,1,Other
+Enterprise Resource Planning,1,Other
+Entity Framework Core,1,Databases
+Entity Relationship Diagrams,1,Other
+Epigenomics,1,Other
+Error Proofing,1,Other
+Espresso,1,Frameworks / Libraries
+Esri ArcGIS Pro,1,Other
+Esri Enterprise,1,Other
+EtherCAT,1,Cloud & DevOps
+Ethical Hacking,1,Cloud & DevOps
+Euroclear,1,Other
+Excel Macros,1,Other
+Excel VBA,1,Other
+Exchange,1,Other
+Expect,1,Testing
+Experiment Design,1,Other
+Experiment Tracing,1,AI/ML
+Experiment Tracking Frameworks,1,AI/ML
+Exploit Development,1,Cloud & DevOps
+Expo,1,Frameworks / Libraries
+Exponential Smoothing,1,Databases
+FEA,1,Other
+FEAF,1,Other
+FHIR,1,Other
+FINCAD,1,Other
+FITS,1,Other
+FIX Protocol,1,Other
+FME AI Service,1,Other
+FME Account,1,Other
+FME Flow Hosted,1,Other
+FME Hub,1,Other
+FMEA,1,Other
+FP5,1,Other
+FP8,1,Other
+FPGAs,1,Cloud & DevOps
+FSL,1,Other
+FTA,1,Other
+Facebook,1,Other
+FactoryTalk Optix,1,Cloud & DevOps
+Failure Mode and Effects Analysis,1,Other
+Fault calculations,1,Cloud & DevOps
+Feature Store,1,AI/ML
+Fiber Fusion Splicer,1,Cloud & DevOps
+Fiber Optics,1,Cloud & DevOps
+Field II,1,Other
+FigJam AI,1,Other
+Figma Make,1,Other
+FileShare,1,Cloud & DevOps
+Finout,1,Other
+Firefox,1,Frameworks / Libraries
+Firestore,1,Databases
+Firmware Security,1,Cloud & DevOps
+Firmware Troubleshooting,1,Cloud & DevOps
+Fisheye,1,Other
+Flame,1,Other
+Flat File Storage,1,Databases
+Flexbox,1,Frameworks / Libraries
+Flow Designer,1,Other
+Flowise,1,AI/ML
+Folium,1,Databases
+Forensic Analysis,1,Cloud & DevOps
+ForgeRock,1,Cloud & DevOps
+Formal Specification,1,Other
+Formik,1,Frameworks / Libraries
+FpML,1,Other
+Frameworks,1,Other
+FreeSync,1,Other
+Freescale,1,Cloud & DevOps
+Frontend,1,Frameworks / Libraries
+Frostbite,1,Frameworks / Libraries
+Full Matrix Capture (FMC),1,Cloud & DevOps
+Function Block Diagrams,1,Other
+Function Calling,1,Other
+Functional Verification,1,Cloud & DevOps
+FundServ,1,Other
+Fusion 360,1,Other
+Fusion Algorithms,1,Cloud & DevOps
+G&W,1,Cloud & DevOps
+GA4,1,Frameworks / Libraries
+GA4GH,1,Other
+GAMS,1,Other
+GCP Cloud Functions,1,Other
+GDPR,1,Cloud & DevOps
+GLMs,1,Other
+GMock,1,Other
+GNN,1,AI/ML
+GNSS/INS,1,Cloud & DevOps
+GPP,1,Other
+GPRS,1,Cloud & DevOps
+GPT-5,1,AI/ML
+GPU Architecture,1,AI/ML
+GPU Drivers,1,Cloud & DevOps
+GPU Tools,1,Cloud & DevOps
+GR00T,1,AI/ML
+GStreamer,1,Cloud & DevOps
+GTSAM,1,Cloud & DevOps
+GUI Programming,1,Other
+GUI Testing,1,Testing
+GV AMPP,1,Cloud & DevOps
+Game Console,1,Frameworks / Libraries
+Game Design,1,Frameworks / Libraries
+Game Engines,1,Frameworks / Libraries
+Gameplay Ability System,1,Frameworks / Libraries
+Gameplay Debugger,1,Frameworks / Libraries
+Gantt charts,1,Other
+Gatsby,1,Frameworks / Libraries
+Gauge Repeatability and Reproducibility (GRR),1,Other
+Gauntlet,1,AI/ML
+Gemini 2.5 Flash Image,1,AI/ML
+GenICam,1,Other
+General-Purpose Processors (GPPs),1,Other
+Generative AI IDE,1,AI/ML
+Generative Image Models,1,AI/ML
+Generative Models,1,AI/ML
+Geographical Information Systems,1,Other
+Geometric Dimensioning and Tolerancing (GD&T),1,Cloud & DevOps
+Geometry Processing,1,Other
+Geospatial,1,Other
+Geospatial Analysis,1,Other
+Geospatial Data,1,Other
+Geotab Platform,1,Other
+Gesture Recognition,1,Other
+GitHub Pages,1,Cloud & DevOps
+GitHub Runners,1,Cloud & DevOps
+GitLab Pipelines,1,Cloud & DevOps
+GitLeaks,1,Cloud & DevOps
+Glue,1,Cloud & DevOps
+Gmail,1,Other
+Good Clinical Practice,1,Other
+Google AI,1,AI/ML
+Google Agent Development Kit,1,AI/ML
+Google Cloud ML,1,Cloud & DevOps
+Google Cloud Storage,1,Cloud & DevOps
+Google Contact Center AI,1,AI/ML
+Google Data Studio,1,Other
+Google DeepMind,1,AI/ML
+Google G-Suite,1,Other
+Google LiveAPI,1,AI/ML
+Google Maps API,1,Frameworks / Libraries
+Google Maps Platform,1,Frameworks / Libraries
+Google Meet,1,Other
+Google Pub/Sub,1,Cloud & DevOps
+Google Research,1,AI/ML
+Google Search Console,1,Databases
+Google SketchUp,1,Other
+Google Tensor,1,AI/ML
+Governance,1,Other
+Gradescope,1,Other
+Graph Data Analysis,1,Databases
+GraphQL API,1,Frameworks / Libraries
+Graphene,1,Cloud & DevOps
+Graphs and Optimization,1,Other
+Gray Box Testing,1,Testing
+Green Hills,1,Cloud & DevOps
+Greensock,1,Frameworks / Libraries
+Grey Box Testing,1,Testing
+Grok 4,1,AI/ML
+Groq APIs,1,AI/ML
+HACCP,1,Other
+HANA Data Lake,1,Databases
+HAZOP,1,Other
+HBM,1,Cloud & DevOps
+HDR,1,Cloud & DevOps
+HEVC,1,Cloud & DevOps
+HIP,1,Cloud & DevOps
+HIPA,1,Other
+HIPAA,1,Cloud & DevOps
+HP ALM,1,Testing
+HP-UX,1,Cloud & DevOps
+HPLC,1,Other
+HSDPA,1,Cloud & DevOps
+HSUPA,1,Cloud & DevOps
+HTC Vive,1,Frameworks / Libraries
+Hand tools,1,Cloud & DevOps
+Hardware Abstraction Layer,1,Cloud & DevOps
+Hardware Architecture,1,Cloud & DevOps
+Hardware Bring-up,1,Cloud & DevOps
+Hardware Debugging Tools,1,Cloud & DevOps
+Hardware Development,1,Cloud & DevOps
+Hardware Drivers,1,Cloud & DevOps
+Hardware Installation,1,Cloud & DevOps
+Hardware-in-Loop,1,Cloud & DevOps
+HarmonyOS,1,Frameworks / Libraries
+Harvester,1,Cloud & DevOps
+HashiCorp Configuration Language,1,Cloud & DevOps
+Hazelcast,1,Databases
+Headless,1,Other
+Headless CMS,1,Frameworks / Libraries
+Healenium,1,Testing
+High Assurance Guards,1,Other
+High-Level Design,1,Frameworks / Libraries
+High-Performance Liquid Chromatography,1,Other
+High-speed Design,1,Cloud & DevOps
+High-speed Optical and Electrical Test Equipment,1,Other
+Hilt,1,Frameworks / Libraries
+Honeywell Forge,1,Other
+Horde,1,Other
+Horizontal Scaling,1,Cloud & DevOps
+Human Factors,1,Other
+Human Machine Interface,1,Other
+Hybrid Solver Service,1,Other
+Hyper-V,1,Cloud & DevOps
+Hyperion,1,Databases
+Hypervisor,1,Cloud & DevOps
+I2S,1,Cloud & DevOps
+IBIS AMI,1,Cloud & DevOps
+IBM Cloud Paks,1,Other
+IBM Data Studio,1,Other
+IBM Granite,1,AI/ML
+IEC 61508,1,Other
+IEC 62304,1,Other
+IEC 62443,1,Cloud & DevOps
+IP Addressing,1,Cloud & DevOps
+IP Infrastructure,1,Cloud & DevOps
+IP Routing,1,Cloud & DevOps
+IP Telephony,1,Cloud & DevOps
+IP VPN,1,Cloud & DevOps
+IPC,1,Other
+IPsec,1,Cloud & DevOps
+IPv4,1,Cloud & DevOps
+IPv6,1,Cloud & DevOps
+IPython,1,Databases
+IQR,1,Other
+ISA,1,Other
+ISA/IEC 62443,1,Cloud & DevOps
+ISED,1,Other
+ISO 14001,1,Other
+ISO 14971,1,Other
+ISO 17025,1,Other
+ISO 21434,1,Cloud & DevOps
+ISO 27002,1,Cloud & DevOps
+ISO 27005,1,Cloud & DevOps
+ISO 9001:2015,1,Other
+ISOBUS,1,Cloud & DevOps
+ISTQB,1,Testing
+IT Change Management,1,Other
+IT Compliance,1,Cloud & DevOps
+IT Controls,1,Other
+IT Infrastructure Management,1,Other
+IT Networking,1,Cloud & DevOps
+IT Operations,1,Other
+IT Security,1,Cloud & DevOps
+IT Security Testing Tools,1,Cloud & DevOps
+IT Standards,1,Cloud & DevOps
+IT Ticketing System,1,Other
+ITIL Foundations,1,Other
+ITSG-33,1,Cloud & DevOps
+ITSM tools,1,Cloud & DevOps
+Ideagen,1,Other
+Ideation,1,Other
+Identity & Access Management,1,Cloud & DevOps
+Identity Access Management,1,Cloud & DevOps
+Identity Management,1,Cloud & DevOps
+Ignition,1,Cloud & DevOps
+Image Annotation,1,AI/ML
+Image Compression,1,Cloud & DevOps
+Image Deployment,1,Cloud & DevOps
+Image Generation,1,AI/ML
+Image Manipulation,1,Other
+Image Optimization,1,Frameworks / Libraries
+Image Pipelines,1,AI/ML
+Imagery,1,Other
+Immutable.js,1,Frameworks / Libraries
+Index Optimization,1,Databases
+Industrial Control Systems,1,Cloud & DevOps
+Industrial Internet of Things,1,Cloud & DevOps
+Industry Canada,1,Other
+Inference,1,AI/ML
+Inferential Statistics,1,Databases
+Information Architecture,1,Other
+Infrastructure Automation,1,Cloud & DevOps
+Infrastructure Management,1,Cloud & DevOps
+Infrastructure Provisioning,1,Cloud & DevOps
+Infrastructure as a Service,1,Cloud & DevOps
+Input/Output Lists,1,Cloud & DevOps
+Instagram,1,Other
+Instrumentation,1,Cloud & DevOps
+Instrumentation and Automation,1,Other
+Instruments,1,Frameworks / Libraries
+Integrated Development Environment,1,Other
+Integrity,1,Cloud & DevOps
+Intel,1,Cloud & DevOps
+Intel Xeon,1,Cloud & DevOps
+Inter-Process Communication,1,Other
+Interface Standards,1,Other
+Internationalization,1,Other
+Internet Explorer,1,Frameworks / Libraries
+Interviews,1,Other
+Intrusion Detection Systems,1,Cloud & DevOps
+Intrusion Prevention Systems,1,Cloud & DevOps
+IoT (Internet of Things),1,Cloud & DevOps
+Iterative,1,Other
+Iterative Closest Point,1,Cloud & DevOps
+J1939,1,Cloud & DevOps
+J2EE,1,Frameworks / Libraries
+JAAS,1,Cloud & DevOps
+JBOD,1,Cloud & DevOps
+JBOG,1,Cloud & DevOps
+JBoss,1,Frameworks / Libraries
+JD Edwards EnterpriseOne,1,Other
+JD Edwards World,1,Other
+JDK,1,Languages
+JESD204b,1,Cloud & DevOps
+JFrog,1,Cloud & DevOps
+JFrog Xray,1,Cloud & DevOps
+JMP,1,Other
+JSON Schema,1,Frameworks / Libraries
+JSON-LD,1,Frameworks / Libraries
+JVM,1,Other
+Jabber,1,Other
+Jama,1,Other
+Java Native Interface,1,Other
+Java Web Services,1,Other
+Javadocs,1,Other
+Jelly,1,Other
+Jetson,1,Cloud & DevOps
+Jira Service Management,1,Other
+Jira Software,1,Other
+Jira Xray,1,Other
+Job Scheduling,1,Languages
+Jobs to be Done,1,Other
+Jotai,1,Frameworks / Libraries
+Jutro,1,Other
+K-S Test,1,Other
+K-Wave,1,Other
+Kaizen,1,Other
+Kaltura,1,Other
+Kernel,1,Cloud & DevOps
+Key-value store,1,Databases
+Keycloak,1,Cloud & DevOps
+KeystoneJS,1,Other
+Knative,1,Cloud & DevOps
+Knockout.js,1,Frameworks / Libraries
+Knowledge Graph,1,AI/ML
+Knowledge Management,1,Other
+Koin,1,Frameworks / Libraries
+KornShell,1,Languages
+Kysely,1,Other
+Kyverno,1,Cloud & DevOps
+L4T,1,Cloud & DevOps
+LAN/WAN,1,Cloud & DevOps
+LG,1,Other
+LIMS,1,Other
+LLBLGen,1,Databases
+LLDB,1,Other
+LLM APIs,1,AI/ML
+LLM Application Development,1,AI/ML
+LLM Evaluation,1,AI/ML
+LLM Inference,1,AI/ML
+LLM Prompt Engineering,1,AI/ML
+LLM Prompting,1,AI/ML
+LLM-as-a-Judge,1,AI/ML
+LMM,1,AI/ML
+LORAs,1,AI/ML
+LPDDR4,1,Cloud & DevOps
+LPDDR5,1,Cloud & DevOps
+LPU,1,AI/ML
+Lab Debugging,1,Cloud & DevOps
+Lab Equipment,1,Cloud & DevOps
+Lab Management,1,Other
+Lambda Expressions,1,Frameworks / Libraries
+LangFuse,1,AI/ML
+LangSmith,1,AI/ML
+Laser Engraving,1,Other
+Latency Based Routing,1,Other
+Lattice,1,Cloud & DevOps
+Layer 1,1,Cloud & DevOps
+Layer 2,1,Other
+Lazy Loading,1,Other
+Lean Development,1,Other
+LeanIX,1,Other
+Learning Rate Tuning,1,Other
+Lifecycle Governance,1,Other
+Lifecycle Planning,1,Other
+LightGBM,1,AI/ML
+Lightdash,1,Databases
+Lighting,1,Frameworks / Libraries
+Lightning Web Components,1,Other
+Linear Regression,1,AI/ML
+Link Budgets,1,Cloud & DevOps
+Linked Data,1,Frameworks / Libraries
+Linker,1,Cloud & DevOps
+Linux Kernel,1,Cloud & DevOps
+Linux Kernel Module Development,1,Other
+Linux Shell,1,Other
+Linux Shell Script,1,Languages
+Linux/Unix shell,1,Languages
+Liquibase,1,Other
+Live Service Development,1,Other
+Livelink,1,Other
+LoRA,1,Cloud & DevOps
+LoRaWAN,1,Cloud & DevOps
+Load Balancing,1,Cloud & DevOps
+Load flow analysis,1,Cloud & DevOps
+Log Correlation,1,Other
+Logging as a Service,1,Cloud & DevOps
+Logic Design,1,Cloud & DevOps
+LogicMonitor,1,Cloud & DevOps
+Longview,1,Other
+Loop closure,1,Other
+Lottie,1,Frameworks / Libraries
+Low-Level Design,1,Frameworks / Libraries
+Low-code/No-code,1,Other
+Lucid Charts,1,Other
+MACsec,1,Cloud & DevOps
+MCDST,1,Cloud & DevOps
+MCP Server,1,AI/ML
+MCSE,1,Cloud & DevOps
+MDIO,1,Cloud & DevOps
+MDSAP,1,Other
+MDT,1,Other
+MIL Standards,1,Cloud & DevOps
+MIL-STD-100,1,Cloud & DevOps
+MIL-STD-1472G,1,Cloud & DevOps
+MIL-STD-1553,1,Cloud & DevOps
+MIL-STD-461,1,Cloud & DevOps
+MIL-STD-810,1,Cloud & DevOps
+MIPI,1,Other
+MIPS,1,Cloud & DevOps
+ML Evaluation Metrics,1,AI/ML
+ML Libraries,1,AI/ML
+MMSIM,1,Cloud & DevOps
+MPEG,1,Cloud & DevOps
+MR,1,Frameworks / Libraries
+MRP Systems,1,Other
+MS Copilot,1,Other
+MSFT 365 Copilot,1,Other
+MSIX,1,Other
+MVC Architecture,1,Frameworks / Libraries
+Mabl,1,Testing
+Machine Learning Libraries,1,AI/ML
+Macro,1,Other
+Makefile,1,Languages
+Makefiles,1,Languages
+Manufacturing,1,Other
+Manufacturing Automation,1,Cloud & DevOps
+Manufacturing Test,1,Cloud & DevOps
+Mapping,1,Other
+Mapping API,1,Frameworks / Libraries
+Marketing Automation,1,Other
+Marketing Cloud,1,Other
+Mask R-CNN,1,AI/ML
+Mass Spectrometry,1,Other
+Master Data Management,1,Databases
+Matching,1,Other
+Material CSS,1,Frameworks / Libraries
+Matlab Simulink,1,Languages
+Maximo,1,Other
+Measurement Instruments,1,Cloud & DevOps
+Mechanical Design,1,Cloud & DevOps
+Mechanical Testing,1,Other
+Mechatronics,1,Cloud & DevOps
+Medical Imaging,1,Other
+Memcached,1,Databases
+Memory Mapping,1,Cloud & DevOps
+Memory Profiling,1,Testing
+Mentor CAD,1,Cloud & DevOps
+Message Bus,1,Other
+Meta-Learning,1,AI/ML
+Meta-analysis,1,Other
+Metabase,1,Other
+Metal,1,Frameworks / Libraries
+Metasploit,1,Cloud & DevOps
+Metrix,1,Other
+Micro-kernel,1,Other
+Microanimations,1,Other
+Microchip PIC32,1,Cloud & DevOps
+Microcontroller Architectures,1,Cloud & DevOps
+Microcontrollers programming,1,Cloud & DevOps
+Microprocessor Programming,1,Cloud & DevOps
+Microsegmentation,1,Cloud & DevOps
+Microsimulation Modeling,1,Other
+Microsoft .NET,1,Languages
+Microsoft 365 Copilot,1,Other
+Microsoft Active Directory,1,Cloud & DevOps
+Microsoft Agent Framework,1,AI/ML
+Microsoft Authentication,1,Cloud & DevOps
+Microsoft Azure AI Foundry,1,Cloud & DevOps
+Microsoft Azure DevOps,1,Cloud & DevOps
+Microsoft CSP,1,Cloud & DevOps
+Microsoft Dataverse,1,Other
+Microsoft Defender for Endpoint,1,Cloud & DevOps
+Microsoft Dynamics CRM,1,Other
+Microsoft Entra ID,1,Other
+Microsoft Foundation Classes,1,Languages
+Microsoft Graph,1,Other
+Microsoft IDEs,1,Other
+Microsoft Intune,1,Other
+Microsoft Loop,1,Other
+Microsoft Meeting Room Technologies,1,Other
+Microsoft Project Online,1,Other
+Microsoft SSRS,1,Databases
+Microsoft Security Suite,1,Cloud & DevOps
+Microsoft Sentinel,1,Other
+Microsoft Team Foundation Services,1,Cloud & DevOps
+Microwaves,1,Cloud & DevOps
+Midjourney,1,AI/ML
+Milvus,1,Databases
+Minecraft,1,Other
+Minitab,1,Other
+Mistral,1,AI/ML
+Mixed-Signal Circuit Design,1,Other
+Mixed-Signal Design,1,Cloud & DevOps
+Mixpanel,1,Databases
+Mixture of Experts,1,AI/ML
+Mob Programming,1,Other
+Mobile App Development,1,Frameworks / Libraries
+Mobile Application Design,1,Frameworks / Libraries
+Mobile Application Testing,1,Frameworks / Libraries
+Mobile Design,1,Frameworks / Libraries
+Mobile Technologies,1,Frameworks / Libraries
+Mobile-First Design,1,Other
+Mobile-First Development,1,Frameworks / Libraries
+Mockups,1,Other
+Model Builder,1,Other
+Model Customization Platforms,1,AI/ML
+Model Inference,1,AI/ML
+Model Lifecycle Management,1,AI/ML
+Model Optimization,1,Other
+Model Registry,1,AI/ML
+Model Versioning,1,AI/ML
+Model-Based Design,1,Other
+Model-Based Engineering,1,Cloud & DevOps
+Model-Based Testing,1,Other
+ModelOps,1,AI/ML
+Modeling and Simulation,1,Other
+Modelling Software,1,Other
+Modem,1,Other
+Modems,1,Other
+Moderated Testing,1,Testing
+Module Federation,1,Frameworks / Libraries
+Mongoose,1,Databases
+Monitoring Systems,1,Cloud & DevOps
+Monolithic Architecture,1,Other
+Motion Design,1,Other
+Motion Graphics,1,Other
+Motorola,1,Cloud & DevOps
+Multi-instance Learning,1,AI/ML
+Multi-modal Architectures,1,AI/ML
+Multi-omics,1,Other
+Multi-threaded Systems,1,Cloud & DevOps
+Multi-tiered Architecture,1,Other
+Multicast,1,Other
+Multimodal Foundation Models,1,AI/ML
+Multimodal Representation Learning,1,AI/ML
+Multimodality,1,AI/ML
+Multiprocessing,1,Other
+Multivariate Statistics,1,Databases
+MyGeotab,1,Other
+MySQL Heatwave,1,Databases
+NAND,1,Cloud & DevOps
+NFC,1,Cloud & DevOps
+NI-DAQ,1,Cloud & DevOps
+NIST 800-53,1,Cloud & DevOps
+NIST Framework,1,Cloud & DevOps
+NL-to-Analytics,1,Other
+NMAP,1,Cloud & DevOps
+NPU,1,Cloud & DevOps
+NTFS File Access Management,1,Cloud & DevOps
+NVIDIA Omniverse,1,Cloud & DevOps
+Native Mobile Applications,1,Frameworks / Libraries
+Natural Language Understanding,1,AI/ML
+NeRF,1,AI/ML
+NetSuite,1,Other
+NetSuite ERP,1,Other
+NetWorks GIS Explorer,1,Other
+Netcode,1,Frameworks / Libraries
+Network,1,Cloud & DevOps
+Network Automation,1,Cloud & DevOps
+Network Communication,1,Other
+Network Design,1,Cloud & DevOps
+Network Development,1,Cloud & DevOps
+Network Management,1,Cloud & DevOps
+Network Orchestration,1,Cloud & DevOps
+Network Policy Server (NPS),1,Cloud & DevOps
+Network Programming,1,Other
+Network Routing,1,Cloud & DevOps
+Network Security Protocols,1,Cloud & DevOps
+Network Services,1,Cloud & DevOps
+Network Simulators,1,Cloud & DevOps
+Network Storage,1,Cloud & DevOps
+Network Switching,1,Cloud & DevOps
+Network Systems,1,Cloud & DevOps
+Network Troubleshooting,1,Cloud & DevOps
+Network Video Management,1,Cloud & DevOps
+Networked Communication,1,Other
+Networked data communication,1,Other
+Networking Routers,1,Cloud & DevOps
+Networks,1,Cloud & DevOps
+Neural Fields,1,AI/ML
+NeuralSeek,1,AI/ML
+Nexpose,1,Cloud & DevOps
+Nextflow,1,Other
+Nexus,1,Other
+Ngrok,1,Other
+Nipype,1,Other
+No-code Tools,1,Other
+Noise Figure Analyzer,1,Other
+Nokia 7x50 Service Routers,1,Cloud & DevOps
+Notion,1,Other
+NuGet,1,Frameworks / Libraries
+NumFOCUS,1,Other
+Numerical Methods,1,Other
+Numerical Optimization,1,Other
+Nvidia Jetpack SDK,1,AI/ML
+Nvidia Jetson AGX,1,Cloud & DevOps
+Nvidia Jetson NX,1,Cloud & DevOps
+Nvidia TensorRT,1,AI/ML
+OAM,1,Cloud & DevOps
+OBD-II,1,Cloud & DevOps
+OEM,1,Cloud & DevOps
+OHDSI,1,Other
+OOS,1,Other
+ORC,1,Databases
+OS Hardening,1,Cloud & DevOps
+OS Provisioning,1,Cloud & DevOps
+OS and system software,1,Cloud & DevOps
+OS/Storage Systems,1,Cloud & DevOps
+OSR,1,Other
+OSS/BSS,1,Cloud & DevOps
+OT Networking,1,Cloud & DevOps
+OT/ICS Security,1,Cloud & DevOps
+OTA,1,Cloud & DevOps
+OWASP Top 10,1,Cloud & DevOps
+Object Recognition,1,Other
+Object-Oriented Design Patterns,1,Other
+Object-level security (OLS),1,Cloud & DevOps
+Observation,1,Other
+Ocean,1,Other
+Oculus Integration,1,Frameworks / Libraries
+Oculus Passthrough,1,Frameworks / Libraries
+Odroid,1,Cloud & DevOps
+Offensive Security,1,Cloud & DevOps
+OkHttp,1,Frameworks / Libraries
+Okta Platform,1,Cloud & DevOps
+OmniScan,1,Cloud & DevOps
+On-premise Infrastructure,1,Cloud & DevOps
+OneDrive for Business,1,Other
+OneLake,1,Other
+OneNote,1,Other
+OnePipeline,1,Other
+OneTrust,1,Cloud & DevOps
+Onshape,1,Cloud & DevOps
+Open Source,1,Other
+Open-source Development,1,Other
+Open3d,1,Cloud & DevOps
+OpenAI Agents SDK,1,AI/ML
+OpenAI GPT,1,AI/ML
+OpenAI Platform,1,AI/ML
+OpenConfig,1,Cloud & DevOps
+OpenGL ES,1,Frameworks / Libraries
+OpenID Connect,1,Frameworks / Libraries
+OpenMAX,1,Other
+OpenSSL,1,Cloud & DevOps
+OpenSpaces,1,Other
+OpenTofu,1,Cloud & DevOps
+OpenWebUI,1,AI/ML
+OpenXR,1,Frameworks / Libraries
+Openlink,1,Other
+Openrouter API,1,AI/ML
+Operating System Concepts,1,Other
+Operating System Security,1,Other
+Operational Efficiency Improvement,1,Other
+Operational Excellence,1,Other
+Optical Networks,1,Cloud & DevOps
+Optical Power Meter,1,Cloud & DevOps
+Optical Systems,1,Cloud & DevOps
+Optical Testing,1,Other
+Optimization Techniques,1,Other
+Opus Studio,1,Cloud & DevOps
+Oracle DB,1,Databases
+Oracle Hyperion,1,Databases
+Oracle Internet Developer Suite,1,Other
+Organizational Change Management,1,Other
+Over-the-Air Update,1,Cloud & DevOps
+Oxygen,1,Other
+Ozobot,1,Cloud & DevOps
+Ozobots,1,Cloud & DevOps
+P4,1,Cloud & DevOps
+PACS,1,Other
+PCB Design,1,Cloud & DevOps
+PCB Manufacturing,1,Cloud & DevOps
+PCI Express,1,Frameworks / Libraries
+PDCP,1,Cloud & DevOps
+PDF,1,Other
+PEFT,1,AI/ML
+PGP,1,Cloud & DevOps
+PI Planning,1,Other
+PII Redaction,1,Other
+PIPEDA,1,Cloud & DevOps
+PLC Logic,1,Cloud & DevOps
+PMP,1,Other
+PRISM,1,Other
+PRTG Network Monitor,1,Other
+PSIM,1,Other
+PX4,1,Cloud & DevOps
+PYNQ,1,Cloud & DevOps
+PaaS,1,Cloud & DevOps
+PaperCut,1,Other
+ParaView,1,Cloud & DevOps
+Parallel Computing,1,Other
+Parallel Inferencing,1,AI/ML
+Parallelism,1,Other
+Parallelized Workflows,1,Other
+Pareto Analysis,1,Other
+Passport.js,1,Cloud & DevOps
+Peer Code Review,1,Other
+Per unit analysis,1,Cloud & DevOps
+Performance Analytics,1,Databases
+Performance Models,1,Other
+Perplexity,1,AI/ML
+Persistent Memory,1,Cloud & DevOps
+PetaLinux,1,Cloud & DevOps
+Physical Design,1,Cloud & DevOps
+Physics Simulation,1,Other
+Pillow,1,Other
+Pinia,1,Frameworks / Libraries
+Pipeline Management,1,Other
+Piping and Instrumentation Diagrams,1,Cloud & DevOps
+Pivot Tables,1,Other
+Place and Route,1,Cloud & DevOps
+Plane Wave Imaging (PWI),1,Cloud & DevOps
+PlannerPlus,1,Other
+Planning Algorithms,1,Other
+Planview,1,Other
+Platform Engineering,1,Cloud & DevOps
+Platform as a Service,1,Cloud & DevOps
+Platforms,1,Cloud & DevOps
+PlayStation,1,Other
+PlayStation 4,1,Frameworks / Libraries
+PlayStation 5,1,Frameworks / Libraries
+Playwright MCP,1,Testing
+Point Cloud Library,1,Cloud & DevOps
+Polarion,1,Other
+Polars,1,Databases
+Policy Learning,1,AI/ML
+Policy-as-code,1,Cloud & DevOps
+Portfolio Construction,1,Other
+Portfolio+,1,Other
+Pose Graph Optimization,1,Cloud & DevOps
+PostGIS,1,Other
+PostgREST,1,Other
+Power Analyzer,1,Cloud & DevOps
+Power Electronics,1,Cloud & DevOps
+Power Grid Analysis,1,Cloud & DevOps
+Power Meter,1,Cloud & DevOps
+Power Pivot,1,Other
+Power tools,1,Cloud & DevOps
+PowerBuilder,1,Other
+PowerMock,1,Testing
+Practical Process Improvement,1,Other
+Prediction,1,AI/ML
+Prefect,1,Databases
+PrimeNG,1,Frameworks / Libraries
+Principal Component Analysis,1,AI/ML
+Principle,1,Other
+Prisma.js,1,Other
+Privacy,1,Cloud & DevOps
+Privacy and Fairness,1,Other
+Private Cloud,1,Cloud & DevOps
+Procedural Content Generation,1,Frameworks / Libraries
+Process Documentation,1,Other
+Process Improvement,1,Other
+Process Modeling,1,Other
+Process and Instrumentation Diagram,1,Cloud & DevOps
+Product Analytics,1,Other
+Product Design,1,Other
+Product Lifecycle Management,1,Other
+Product Thinking,1,Other
+Programmable Logic Controller,1,Other
+Programming Language Theory,1,Languages
+Programming Languages,1,Other
+Progressive Delivery,1,Other
+Progressive Enhancement,1,Other
+Project Delivery,1,Other
+Project Lifecycle,1,Other
+Project Management Frameworks,1,Other
+Prompting,1,AI/ML
+Prompting strategies,1,AI/ML
+Propensity Modeling,1,Other
+Prophet,1,AI/ML
+Protocol Analyzers,1,Cloud & DevOps
+Prototyping Tools,1,Other
+Pruning,1,AI/ML
+Pull Requests,1,Cloud & DevOps
+Puppet,1,Cloud & DevOps
+Pygame,1,Frameworks / Libraries
+Pyproject,1,Other
+Python 3,1,Languages
+QA Methodology,1,Testing
+QA Testing,1,Testing
+QEMU,1,Cloud & DevOps
+QLoRA,1,AI/ML
+QNX Multimedia Framework,1,Other
+QoS,1,Cloud & DevOps
+Qualcomm,1,Cloud & DevOps
+Qualitative Data Analysis,1,Databases
+Quality Assurance Principles,1,Testing
+Quantitative Data Analysis,1,Databases
+Quantization,1,AI/ML
+Quantum Information Science,1,Other
+Quantum Key Distribution,1,Other
+Quantum Mechanics,1,Other
+Quartus,1,Cloud & DevOps
+Quasar,1,Frameworks / Libraries
+Query Optimization,1,Databases
+Query Processing,1,Databases
+Query Processing and Optimization,1,Databases
+Querying,1,Databases
+Questa,1,Cloud & DevOps
+QuickBooks,1,Other
+RADIUS,1,Cloud & DevOps
+RCS,1,Other
+RDS,1,Cloud & DevOps
+REST Architecture,1,Frameworks / Libraries
+RESTful Services,1,Frameworks / Libraries
+RF Circuit Design,1,Cloud & DevOps
+RF Connectivity,1,Cloud & DevOps
+RF Design,1,Cloud & DevOps
+RF Power Meter,1,Cloud & DevOps
+RLC,1,Other
+RNA-seq,1,Other
+RNN,1,AI/ML
+ROCm,1,Cloud & DevOps
+ROS2,1,Cloud & DevOps
+RPG,1,Frameworks / Libraries
+RRM,1,Other
+RStudio,1,Other
+RTCA/DO-160,1,Cloud & DevOps
+RTL Design,1,Cloud & DevOps
+Radar,1,Cloud & DevOps
+Radeon Graphics,1,Cloud & DevOps
+Radio Technologies,1,Cloud & DevOps
+Ragas,1,AI/ML
+Rapid Prototyping,1,Other
+Rational Team Concert,1,Cloud & DevOps
+Raylab,1,Other
+Razor,1,Frameworks / Libraries
+React Hook Form,1,Frameworks / Libraries
+React Native Testing Library,1,Frameworks / Libraries
+Read the Docs,1,Other
+Real-time Communication,1,Other
+Real-time Data Acquisition,1,Cloud & DevOps
+Real-time Data Processing,1,Cloud & DevOps
+Real-time OS,1,Cloud & DevOps
+Real-time Oscilloscope,1,Cloud & DevOps
+Real-time Rendering,1,Frameworks / Libraries
+Reasoning Systems,1,AI/ML
+Recurrent Neural Networks,1,AI/ML
+Red Hat Data Grid,1,Other
+Red Hat Satellite,1,Other
+Red/Blue Team Operations,1,Cloud & DevOps
+Redgate SQL Source Control,1,Cloud & DevOps
+Regex,1,Languages
+Register-Transfer Level,1,Cloud & DevOps
+Regression Methods,1,Other
+Relational Data Modeling,1,Databases
+Reliability Engineering,1,Other
+Render,1,Cloud & DevOps
+Rendering Algorithms,1,Frameworks / Libraries
+Renishaw Equator,1,Cloud & DevOps
+Renishaw Modus,1,Cloud & DevOps
+Replicate,1,AI/ML
+Report Builder,1,Databases
+Reporting Tools,1,Other
+Representation Learning,1,AI/ML
+Requirements,1,Other
+Requirements Engineering,1,Other
+Requirements Management,1,Other
+Requirements Management Tools,1,Other
+Research,1,Other
+Research Data Management,1,Other
+Research Design,1,Other
+Residue on Evaporation,1,Other
+Residue on Ignition,1,Other
+Resolver,1,Other
+Resource Management,1,Frameworks / Libraries
+Resource-based policies,1,Cloud & DevOps
+Respondus LockDown Browser,1,Other
+Retell,1,AI/ML
+Retell AI,1,AI/ML
+Retrieval-Augmented Language Models,1,AI/ML
+Retrofit,1,Frameworks / Libraries
+Rewind Debugger,1,Other
+Rider,1,Other
+Rigging,1,Frameworks / Libraries
+Risk Quantification,1,Other
+Risk-Based Testing,1,Testing
+Rivian Cloud,1,Other
+Robolectric,1,Frameworks / Libraries
+Robot Control,1,Cloud & DevOps
+Robot Operating System,1,Other
+Robot Programming,1,Cloud & DevOps
+Robotic Control Algorithms,1,Cloud & DevOps
+Rockwell,1,Cloud & DevOps
+Router,1,Cloud & DevOps
+Routers,1,Cloud & DevOps
+Routing Protocols,1,Cloud & DevOps
+Row-level security (RLS),1,Cloud & DevOps
+Rtems,1,Cloud & DevOps
+Ryzen,1,Cloud & DevOps
+S&P Capital IQ,1,Other
+SAE Standards,1,Cloud & DevOps
+SAML,1,Frameworks / Libraries
+SANS,1,Cloud & DevOps
+SAP BW/4HANA,1,Other
+SAP Cloud ALM,1,Other
+SAP Cloud for Analytics,1,Other
+SAP Converged Cloud,1,Other
+SAP Customer Experience,1,Other
+SAP ECC,1,Other
+SAP HANA Cloud,1,Other
+SAP S/4HANA Cloud,1,Other
+SAR,1,Cloud & DevOps
+SARUS,1,Cloud & DevOps
+SAS/IXR Satellites,1,Cloud & DevOps
+SATA,1,Cloud & DevOps
+SCSI,1,Cloud & DevOps
+SD,1,Cloud & DevOps
+SDIO,1,Cloud & DevOps
+SEM,1,Other
+SERDES,1,Cloud & DevOps
+SFTP,1,Cloud & DevOps
+SHA,1,Cloud & DevOps
+SIP,1,Cloud & DevOps
+SLURM,1,Cloud & DevOps
+SMBus,1,Cloud & DevOps
+SOC Operations,1,Cloud & DevOps
+SOLID Principles,1,Other
+SOQL,1,Other
+SOSL,1,Other
+SOSS,1,Other
+SOTI MobiControl,1,Cloud & DevOps
+SPM,1,Frameworks / Libraries
+SQL Decoder,1,Databases
+SQL Developer,1,Databases
+SQL Injection,1,Cloud & DevOps
+SQL Server Integration Services,1,Databases
+SQL query optimization,1,Databases
+SQLAlchemy,1,Databases
+SR-MPLS,1,Cloud & DevOps
+SSAS,1,Databases
+SSAS Tabular Model,1,Databases
+SSM Methodology,1,Other
+SSOPs,1,Other
+STAR-RC,1,Cloud & DevOps
+STPA,1,Other
+SWIG,1,Other
+Safety-Critical Systems,1,Cloud & DevOps
+SageMaker,1,AI/ML
+SageMaker Studio,1,AI/ML
+SailPoint,1,Cloud & DevOps
+Sales Cloud,1,Other
+Sales Methodology,1,Other
+Salesforce Service Cloud,1,Other
+SaltStack,1,Cloud & DevOps
+Sampling Oscilloscope,1,Other
+Satellite Imagery,1,Other
+Scalability Testing,1,Testing
+Schema Markup,1,Frameworks / Libraries
+Schematic Capture,1,Cloud & DevOps
+Schneider Electric,1,Cloud & DevOps
+Scrapy,1,Languages
+Screenmeet,1,Other
+Scriptable Render Pipeline,1,Other
+Scripting Languages,1,Languages
+Scrum Certification,1,Other
+Search,1,Databases
+Search Engine Optimization,1,Other
+Secure Coding Practices,1,Cloud & DevOps
+Secure System Design,1,Other
+Security Architecture Design,1,Cloud & DevOps
+Security Audit,1,Other
+Security Awareness Training,1,Cloud & DevOps
+Security Development Lifecycle,1,Cloud & DevOps
+Security Event Monitoring,1,Cloud & DevOps
+Security Incident Response,1,Cloud & DevOps
+Security Monitoring Tools,1,Cloud & DevOps
+Security Operations Center (SOC),1,Cloud & DevOps
+Security Scanning,1,Cloud & DevOps
+Security+,1,Cloud & DevOps
+SelTrac CBTC,1,Cloud & DevOps
+Self-healing Systems,1,Other
+Semantic Communication,1,Other
+Semantic HTML Markup,1,Frameworks / Libraries
+Semiconductor Design,1,Cloud & DevOps
+Semrush,1,Other
+SendGrid,1,Other
+Sensor Integration,1,Cloud & DevOps
+Sensor Processing,1,Cloud & DevOps
+Sensors,1,Cloud & DevOps
+Sensu,1,Cloud & DevOps
+Sentence Transformers,1,AI/ML
+Sequential Learning,1,AI/ML
+Serial,1,Cloud & DevOps
+Serial data communication,1,Other
+Serial/RS232,1,Other
+Server Configuration,1,Cloud & DevOps
+Server Maintenance,1,Cloud & DevOps
+Server Monitoring,1,Cloud & DevOps
+Server Operating Systems,1,Other
+Server-Driven UI,1,Frameworks / Libraries
+Serverless Architecture,1,Cloud & DevOps
+Service Cloud,1,Other
+Service Design Mapping,1,Other
+Service Desk,1,Other
+Service Mesh,1,Frameworks / Libraries
+Service Orchestration,1,Other
+Services-based Architecture,1,Other
+Servlet,1,Frameworks / Libraries
+Shader development,1,Frameworks / Libraries
+Shakudo,1,Other
+SharePoint Designer,1,Other
+Shift-Left Testing,1,Testing
+ShotGrid,1,Other
+Siemens,1,Cloud & DevOps
+Siemens NX,1,Cloud & DevOps
+Sigma,1,Other
+Signal Analyzer,1,Cloud & DevOps
+Signal Generators,1,Cloud & DevOps
+Signal Integrity,1,Cloud & DevOps
+SikuliX,1,Languages
+Simulation Software,1,Other
+Simulation Tools,1,Other
+Simulators,1,Other
+Single Line Diagrams,1,Cloud & DevOps
+Single Page Application,1,Frameworks / Libraries
+Single Sign-On,1,Cloud & DevOps
+Singularity,1,Cloud & DevOps
+Sitemap,1,Frameworks / Libraries
+Six Sigma,1,Other
+SketchUp,1,Other
+Sliding Windows,1,Other
+Snakemake,1,Other
+Snapdragon,1,Cloud & DevOps
+Snowplow,1,Databases
+SoC,1,Cloud & DevOps
+SoC Design,1,Cloud & DevOps
+Social Science Research,1,Other
+Software,1,Other
+Software Analysis,1,Other
+Software Configuration,1,Other
+Software Control,1,Other
+Software Development Practices,1,Other
+Software Development Processes,1,Other
+Software Engineering Methodologies,1,Other
+Software Engineering Principles,1,Other
+Software Installation,1,Other
+Software Instrumentation,1,Other
+Software Provisioning,1,Other
+Software QA,1,Testing
+Software Quality Analysis,1,Other
+Software Security,1,Other
+Software State Machines,1,Cloud & DevOps
+Software Systems,1,Other
+Software Test Automation,1,Testing
+Software Verification,1,Other
+Solace,1,Other
+SolarWinds,1,Cloud & DevOps
+Solidity,1,Other
+SonarCloud,1,Testing
+Sophos Central,1,Cloud & DevOps
+SoundSeed,1,Frameworks / Libraries
+Source Control Management,1,Cloud & DevOps
+Spark SQL,1,Databases
+Spatial Analysis,1,Other
+Spatial Computing,1,Cloud & DevOps
+Spatial Data Algorithms,1,Other
+Spatial Data Analysis,1,Databases
+Spatial Databases,1,Databases
+Specific Rotation,1,Other
+Spectral Analysis,1,Other
+Spectrum Analyzers,1,Cloud & DevOps
+Speech Recognition,1,AI/ML
+Speech and Audio Processing,1,AI/ML
+Speedybee,1,Cloud & DevOps
+Split Learning,1,AI/ML
+Splunk ITSI,1,Cloud & DevOps
+Spotfire,1,Databases
+Spreadsheet Analysis,1,Databases
+Sprint Planning,1,Other
+Sqoop,1,Databases
+Stack Traces,1,Other
+Stackdriver,1,Cloud & DevOps
+Stackify,1,Other
+Stakeholder Management,1,Other
+Star Schema,1,Databases
+State Machines,1,Frameworks / Libraries
+Static Testing,1,Testing
+Statistical Software,1,Other
+SteamVR,1,Frameworks / Libraries
+Storage,1,Cloud & DevOps
+Storage Management,1,Cloud & DevOps
+Storage Network,1,Cloud & DevOps
+Storage Networks,1,Cloud & DevOps
+Story Points,1,Other
+Storyboarding,1,Other
+Strata,1,Databases
+Strategy & Risk,1,Other
+Streaming Pipelines,1,Databases
+Streamsets,1,Databases
+Stripe,1,Frameworks / Libraries
+Structured Software Design,1,Other
+Structured design,1,Other
+Supertest,1,Testing
+Supervised Machine Learning,1,AI/ML
+Supply Chain Risk Management,1,Other
+Survey Methodology,1,Other
+Survey123,1,Other
+SurveyMonkey,1,Other
+Swift Package Manager,1,Frameworks / Libraries
+Symantec,1,Cloud & DevOps
+Symantec Ghost,1,Other
+Synthesis,1,Cloud & DevOps
+System Center Configuration Manager,1,Cloud & DevOps
+System Center Operations Manager,1,Cloud & DevOps
+System Hardening,1,Cloud & DevOps
+System Implementation,1,Other
+System Maintenance,1,Cloud & DevOps
+System Reliability Engineering,1,Cloud & DevOps
+System Requirements Derivation,1,Other
+System Software Development,1,Other
+System modeling,1,Other
+System on Chip (SoC),1,Cloud & DevOps
+System programming,1,Other
+System-Level Testing,1,Testing
+System-on-Chip Integration,1,Cloud & DevOps
+System-on-a-Chip (SoC),1,Cloud & DevOps
+SystemC,1,Cloud & DevOps
+Systems Engineering Standards,1,Cloud & DevOps
+Systems Hardware,1,Cloud & DevOps
+Systems Integration,1,Other
+Systems Thinking,1,Other
+TBDR GPU,1,Cloud & DevOps
+TI,1,Cloud & DevOps
+TI C2000,1,Cloud & DevOps
+TIBCO Spotfire,1,Other
+TIG Stack,1,Cloud & DevOps
+TLS/SSL,1,Cloud & DevOps
+TPU,1,Cloud & DevOps
+TRAC,1,Cloud & DevOps
+TSN,1,Cloud & DevOps
+TWS API,1,Other
+Tableau Prep,1,Databases
+Tableau Server,1,Databases
+Taegis XDR/MDR,1,Other
+Tailwind,1,Frameworks / Libraries
+Tauri,1,Frameworks / Libraries
+Taurus,1,Testing
+Tcl/Tk,1,Other
+TeamViewer,1,Other
+Teamcenter Active Workspace,1,Other
+Teamcenter Product Data Management,1,Other
+Teamcenter Visualization Mockup,1,Other
+Teams,1,Other
+Technical Design,1,Other
+Technical Requirements Definition,1,Other
+"Technology Business Requirements Definition, Analysis and Mapping",1,Other
+Technology Service Management,1,Other
+Telecommunications,1,Other
+TensorRT,1,Cloud & DevOps
+Test Automation Tools,1,Testing
+Test Case Creation,1,Testing
+Test Case Management,1,Testing
+Test Cases,1,Testing
+Test Data Management,1,Testing
+Test Documentation,1,Testing
+Test Equipment,1,Cloud & DevOps
+Test Framework,1,Testing
+Test Harness,1,Testing
+Test Harnesses,1,Testing
+Test Management Systems,1,Testing
+Test Plan Development,1,Testing
+Test Plans,1,Testing
+Test Practices,1,Testing
+Test Script Development,1,Testing
+Test Station Fabrication,1,Cloud & DevOps
+Test Studio,1,Testing
+Test-Driven Design,1,Testing
+TestGorilla,1,Other
+TestRails,1,Frameworks / Libraries
+TestStand,1,Cloud & DevOps
+Testim,1,Testing
+Text data preprocessing,1,Other
+Text-to-SQL,1,Other
+Texturing,1,Other
+Thermal Testing,1,Cloud & DevOps
+Thermalhydraulics Analysis,1,Other
+ThoughtSpot,1,Databases
+Threading,1,Other
+Threat Analysis,1,Cloud & DevOps
+Threat Assessment,1,Cloud & DevOps
+Threat Containment,1,Cloud & DevOps
+Threat Detection,1,Cloud & DevOps
+Threat Monitoring,1,Cloud & DevOps
+Threat Risk Assessment,1,Cloud & DevOps
+Three Lines of Defense Model,1,Other
+TiLFA,1,Cloud & DevOps
+Tika,1,Other
+Time Series Database,1,Databases
+Time-series modeling,1,Databases
+TimescaleDB,1,Databases
+Timing Analysis,1,Cloud & DevOps
+TinkerPop,1,Databases
+Tkinter,1,Frameworks / Libraries
+Tokio,1,Frameworks / Libraries
+Toolchain,1,Cloud & DevOps
+Topaz,1,Other
+Tosca,1,Testing
+Total Focusing Method (TFM),1,Other
+TraceGains,1,Other
+Tracing,1,Cloud & DevOps
+Tracking,1,Other
+Trade Study,1,Other
+Trajectory Optimization,1,Cloud & DevOps
+Transcriptomics,1,Other
+Travis CI,1,Cloud & DevOps
+Trifacta,1,Databases
+Trino,1,Databases
+Triton,1,AI/ML
+Triton Inference Server,1,AI/ML
+Trivy,1,Cloud & DevOps
+Tuleap,1,Cloud & DevOps
+Twitter,1,Other
+Type Checking,1,Other
+TypeORM,1,Databases
+U-Net,1,AI/ML
+UALink,1,Cloud & DevOps
+UAT Testing,1,Testing
+UDP/IP,1,Other
+UFS,1,Cloud & DevOps
+UI,1,Other
+UI Kits,1,Other
+UMG,1,Frameworks / Libraries
+UN-R155,1,Other
+USD,1,Other
+UWB,1,Cloud & DevOps
+UX Writing,1,Other
+UiPath Task Capture,1,Other
+Uncrewed Aerial Vehicles,1,Cloud & DevOps
+Unity ECS/DOTS,1,Frameworks / Libraries
+Unity Netcode,1,Frameworks / Libraries
+Unity UI Toolkit,1,Frameworks / Libraries
+Unity VFX Graph,1,Frameworks / Libraries
+Unity Visual Scripting Graph,1,Frameworks / Libraries
+Unity XR Interaction Toolkit,1,Frameworks / Libraries
+Unity3D,1,Frameworks / Libraries
+Universal Verification Methodology,1,Cloud & DevOps
+Unix Scripting,1,Languages
+Unix-like OS,1,Languages
+Unmoderated Testing,1,Testing
+Unreal Blueprint,1,Frameworks / Libraries
+Unreal Editor,1,Frameworks / Libraries
+Unreal Engine 5,1,Frameworks / Libraries
+Unreal Motion Graphics,1,Frameworks / Libraries
+Unsupervised Machine Learning,1,AI/ML
+Use Cases,1,Other
+User Account Administration,1,Cloud & DevOps
+User Flows,1,Other
+User Interface,1,Other
+User Interface Development,1,Frameworks / Libraries
+User Personas,1,Other
+User Research Methodologies,1,Other
+V0,1,AI/ML
+VB Scripting,1,Languages
+VCS,1,Cloud & DevOps
+VFX Pipelines,1,Frameworks / Libraries
+VLM,1,AI/ML
+VLOOKUP,1,Other
+VLSI,1,Cloud & DevOps
+VPLS,1,Cloud & DevOps
+VTM,1,Cloud & DevOps
+VVC,1,Cloud & DevOps
+Valgrind,1,Cloud & DevOps
+Validation,1,Testing
+Validation Rules,1,Other
+Value Added Chain Diagram,1,Other
+Value Added Chain Notation,1,Other
+ValueLens,1,Other
+Valve Index,1,Other
+Variance Analysis,1,Other
+Variational Autoencoder,1,AI/ML
+VeRL,1,Other
+Veeam Backup & Replication,1,Cloud & DevOps
+Vehicle systems,1,Cloud & DevOps
+Veo 3,1,AI/ML
+Verasonics,1,Cloud & DevOps
+Verification and Validation,1,Other
+Vespa,1,Databases
+Video Image Processing,1,Other
+Video Interfaces,1,Cloud & DevOps
+Video Production,1,Other
+Video Protocol,1,Cloud & DevOps
+Vim,1,Other
+Virtual Agents,1,Other
+Virtual Desktop Technologies,1,Other
+Virtual Environments,1,Other
+Virtual Machine,1,Cloud & DevOps
+Virtual Simulation Machine,1,Other
+Virtuoso,1,Cloud & DevOps
+Visual Basic 6,1,Cloud & DevOps
+Visual Basic for Applications,1,Cloud & DevOps
+Visual Regression Testing,1,Testing
+Visual Scripting,1,Frameworks / Libraries
+Visual Studio .NET,1,Other
+Visual Studio Unit Test Framework,1,Testing
+Visualforce,1,Other
+Visualization,1,Other
+Vitis AI,1,Cloud & DevOps
+Vivado Design Suite,1,Other
+Vizio,1,Other
+Voice Recognition,1,AI/ML
+Volumetric Additive Manufacturing,1,Other
+Vox,1,Other
+Vuetify,1,Frameworks / Libraries
+Vulkan,1,Frameworks / Libraries
+Vulnerability Remediation,1,Cloud & DevOps
+Vulnerability Scanner,1,Cloud & DevOps
+Vulnerability Scanners,1,Cloud & DevOps
+Vulnerability Testing,1,Cloud & DevOps
+W3C Standards,1,Other
+WCAG 2,1,Other
+WDDM,1,Cloud & DevOps
+WDL,1,Other
+WSDL,1,Frameworks / Libraries
+Warp,1,Frameworks / Libraries
+Watson,1,AI/ML
+Watson API,1,AI/ML
+Watson APIs,1,Other
+Watsonx,1,AI/ML
+WeBWorK,1,Other
+WealthServ,1,Other
+Weaviate,1,Databases
+Web APIs,1,Frameworks / Libraries
+Web Accessibility Standards,1,Frameworks / Libraries
+Web Analytics,1,Databases
+Web Application,1,Frameworks / Libraries
+Web Application Testing,1,Testing
+Web Applications,1,Frameworks / Libraries
+Web Browsers,1,Frameworks / Libraries
+Web Components,1,Frameworks / Libraries
+Web Mapping,1,Other
+Web Parts,1,Other
+Web Performance,1,Frameworks / Libraries
+Web Profiling,1,Other
+Web Security,1,Cloud & DevOps
+Web Server,1,Cloud & DevOps
+Web Technologies,1,Frameworks / Libraries
+Web Testing,1,Other
+WebAssembly,1,Frameworks / Libraries
+Webflow,1,Other
+Webflux,1,Frameworks / Libraries
+Website Performance Optimization,1,Other
+Win32 API,1,Frameworks / Libraries
+WinForms,1,Frameworks / Libraries
+Windows 7,1,Cloud & DevOps
+Windows Active Directory,1,Cloud & DevOps
+Windows Application,1,Languages
+Windows CE/Embedded,1,Cloud & DevOps
+Windows Operating Systems,1,Other
+Windows Server 2012,1,Cloud & DevOps
+Windsurf,1,AI/ML
+Wireframing Tools,1,Other
+Wireless,1,Cloud & DevOps
+Wireless Communication Systems,1,Other
+Wireless M2M,1,Cloud & DevOps
+Wix,1,Other
+Wix Studio,1,Other
+WolfSSL,1,Cloud & DevOps
+WooCommerce,1,Frameworks / Libraries
+Workflow Editor,1,Other
+Workflow Orchestration,1,Cloud & DevOps
+Workiva,1,Other
+Workstation Administration,1,Other
+World Model,1,AI/ML
+Wrike,1,Other
+Wwise Automotive,1,Frameworks / Libraries
+X.509,1,Cloud & DevOps
+XCMS,1,Other
+XMPro,1,Other
+XP,1,Other
+XPath,1,Languages
+XSD,1,Frameworks / Libraries
+XSLT,1,Languages
+XUL,1,Other
+Xbox,1,Frameworks / Libraries
+Xbox One,1,Frameworks / Libraries
+Xbox Series S,1,Frameworks / Libraries
+Xbox Series X,1,Frameworks / Libraries
+Xilinx DSP,1,Cloud & DevOps
+Xplor Recreation,1,Other
+Yard Smart,1,Other
+Yardi,1,Other
+Zeiss CMM,1,Cloud & DevOps
+ag-grid,1,Frameworks / Libraries
+clang-format,1,Cloud & DevOps
+clang-tidy,1,Cloud & DevOps
+computer networking principles,1,Cloud & DevOps
+crewAI,1,AI/ML
+cuBLAS,1,AI/ML
+eEDGE,1,Cloud & DevOps
+g2o,1,Cloud & DevOps
+gRIBI,1,Cloud & DevOps
+glTF,1,Frameworks / Libraries
+iClicker,1,Other
+iMovie,1,Other
+iPad,1,Frameworks / Libraries
+iPeer,1,Other
+iPhone,1,Frameworks / Libraries
+matchms,1,Other
+mobile applications testing,1,Frameworks / Libraries
+mongodb-memory-server,1,Databases
+os,1,Cloud & DevOps
+pdfplumber,1,Other
+plumber,1,Databases
+pyodbc,1,Databases
+qTest,1,Testing
+rLLM,1,AI/ML
+renv,1,Other
+rippled,1,Other
+rmarkdown,1,Other
+scikit-image,1,AI/ML
+spec2vec,1,Other
+systemd,1,Languages
+tSQLt,1,Testing
+test strategies,1,Testing
+torchserve,1,AI/ML
+usertesting.com,1,Testing
+web applications testing,1,Testing
+web services testing,1,Testing
+wxWidgets,1,Frameworks / Libraries
+xSPI,1,Cloud & DevOps

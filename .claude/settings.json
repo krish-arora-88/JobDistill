@@ -1,0 +1,47 @@
+{
+  "enabledPlugins": {
+    "claude-code-setup@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$TOOL_INPUT\" | grep -qE '(Summer_20|Fall_20|Winter_20)'; then echo 'BLOCKED: Do not edit PDF data directories' && exit 2; fi; exit 0",
+            "statusMessage": "Checking for PDF directory edits..."
+          }
+        ]
+      },
+      {
+        "matcher": "Bash(git commit*)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if git diff --cached 2>/dev/null | grep -qi 'GEMINI_API_KEY.*=.*AI'; then echo 'BLOCKED: API key detected in staged changes' && exit 2; fi; exit 0",
+            "statusMessage": "Checking for API key leaks..."
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd \"$PROJECT_DIR\" && python -m pytest tests/ -x -q --tb=short 2>&1 | tail -20",
+            "timeout": 30,
+            "statusMessage": "Running tests..."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,187 +1,107 @@
 {
-  "num_pdfs_total": 50,
-  "num_pdfs_extracted_ok": 50,
+  "num_pdfs_total": 3261,
+  "num_pdfs_extracted_ok": 3261,
   "num_pdfs_empty_text": 0,
-  "avg_chars_per_pdf": 4094.0,
-  "p95_chars_per_pdf": 7452.349999999998,
-  "extraction_seconds_total": 83.8,
-  "pdfs_per_second": 0.6,
-  "avg_candidates_per_pdf": 57.04,
-  "avg_skills_per_pdf": 7.34,
+  "avg_chars_per_pdf": 5242.561177552898,
+  "p95_chars_per_pdf": 8683.0,
+  "extraction_seconds_total": 1453.3,
+  "pdfs_per_second": 2.24,
+  "avg_candidates_per_pdf": 10.091076356945722,
+  "avg_skills_per_pdf": 10.091076356945722,
   "boilerplate": {
-    "lines_total": 5963,
-    "lines_removed_total": 3456,
-    "lines_removed_ratio": 0.5796,
-    "top_removed_lines": [
-      {
-        "line": "co-op work term posted:",
-        "doc_freq": 50
-      },
-      {
-        "line": "<NUM> - summer",
-        "doc_freq": 50
-      },
-      {
-        "line": "app deadline",
-        "doc_freq": 50
-      },
-      {
-        "line": "application method:",
-        "doc_freq": 50
-      },
-      {
-        "line": "posting goes live:",
-        "doc_freq": 50
-      },
-      {
-        "line": "job posting status:",
-        "doc_freq": 50
-      },
-      {
-        "line": "organization information",
-        "doc_freq": 50
-      },
-      {
-        "line": "organization",
-        "doc_freq": 50
-      },
-      {
-        "line": "country",
-        "doc_freq": 50
-      },
-      {
-        "line": "job posting information",
-        "doc_freq": 50
-      },
-      {
-        "line": "placement term",
-        "doc_freq": 50
-      },
-      {
-        "line": "<b> job title <b>",
-        "doc_freq": 50
-      },
-      {
-        "line": "position type",
-        "doc_freq": 50
-      },
-      {
-        "line": "job location",
-        "doc_freq": 50
-      },
-      {
-        "line": "duration",
-        "doc_freq": 50
-      },
-      {
-        "line": "salary currency",
-        "doc_freq": 50
-      },
-      {
-        "line": "salary",
-        "doc_freq": 50
-      },
-      {
-        "line": "co-op position",
-        "doc_freq": 50
-      },
-      {
-        "line": "citizenship requirement",
-        "doc_freq": 50
-      },
-      {
-        "line": "n/a",
-        "doc_freq": 50
-      }
-    ]
+    "lines_total": 0,
+    "lines_removed_total": 0,
+    "lines_removed_ratio": 0.0,
+    "top_removed_lines": []
   },
   "diagnostics": {
-    "pct_skills_with_space": 0.6,
-    "pct_skills_all_lowercase": 100.0,
-    "pct_skills_containing_apply_terms": 0.0,
+    "pct_skills_with_space": 56.4,
+    "pct_skills_all_lowercase": 1.5,
+    "pct_skills_containing_apply_terms": 0.5,
     "top_rejected_phrases": []
   },
-  "classifier_floor_triggered_count": 50,
+  "gemini_request_count": 3261,
+  "gemini_error_count": 0,
   "top20_skills": [
     {
-      "skill": "python",
-      "count": 27
+      "skill": "Python",
+      "count": 1479
     },
     {
-      "skill": "c++",
-      "count": 17
+      "skill": "JavaScript",
+      "count": 676
     },
     {
-      "skill": "java",
-      "count": 12
+      "skill": "Java",
+      "count": 674
     },
     {
-      "skill": "cloud",
-      "count": 10
+      "skill": "SQL",
+      "count": 621
     },
     {
-      "skill": "javascript",
-      "count": 10
+      "skill": "C++",
+      "count": 615
     },
     {
-      "skill": "linux",
-      "count": 10
+      "skill": "Agile",
+      "count": 597
     },
     {
-      "skill": "aws",
-      "count": 9
+      "skill": "Git",
+      "count": 569
     },
     {
-      "skill": "sql",
-      "count": 8
+      "skill": "Linux",
+      "count": 480
     },
     {
-      "skill": "devops",
-      "count": 7
+      "skill": "Machine Learning",
+      "count": 472
     },
     {
-      "skill": "programming",
-      "count": 6
+      "skill": "AWS",
+      "count": 438
     },
     {
-      "skill": "windows",
-      "count": 6
+      "skill": "C#",
+      "count": 415
     },
     {
-      "skill": "agile",
-      "count": 5
+      "skill": "React",
+      "count": 351
     },
     {
-      "skill": "ai",
-      "count": 5
+      "skill": "C",
+      "count": 336
     },
     {
-      "skill": "automation",
-      "count": 5
+      "skill": "Docker",
+      "count": 305
     },
     {
-      "skill": "docker",
-      "count": 5
+      "skill": "CI/CD",
+      "count": 285
     },
     {
-      "skill": "git",
-      "count": 5
+      "skill": "Azure",
+      "count": 271
     },
     {
-      "skill": "security",
-      "count": 5
+      "skill": "TypeScript",
+      "count": 264
     },
     {
-      "skill": "api",
-      "count": 4
+      "skill": "HTML",
+      "count": 256
     },
     {
-      "skill": "business",
-      "count": 4
+      "skill": "CSS",
+      "count": 253
     },
     {
-      "skill": "c#",
-      "count": 4
+      "skill": "Kubernetes",
+      "count": 248
     }
   ],
   "quality_guardrail": {

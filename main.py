@@ -10,8 +10,6 @@ import os
 import random
 import sys
 
-import numpy as np
-
 from jobdistill.cli import parse_args
 from jobdistill.pipeline import build_extractor, collect_pdf_files, run_pipeline
 
@@ -27,7 +25,6 @@ def main() -> None:
     args = parse_args()
 
     random.seed(args.seed)
-    np.random.seed(args.seed)
 
     pdf_files = collect_pdf_files(args.pdf_dirs, max_docs=args.max_docs)
     if not pdf_files:
@@ -41,24 +38,18 @@ def main() -> None:
 
     extractor = build_extractor(
         extractor_name=args.extractor,
-        model_dir=args.model_dir if args.extractor == "ml" else None,
-        top_k=args.top_k_phrases,
-        min_confidence=args.min_confidence,
+        gemini_model=args.gemini_model,
     )
     print(f"Using extractor: {extractor.name}")
 
     metrics_out = args.metrics_out if args.metrics_out else None
-    df, metrics = run_pipeline(
+    df, metrics, categories = run_pipeline(
         pdf_files=pdf_files,
         extractor=extractor,
         batch_size=args.batch_size,
         cache_dir=args.cache_dir,
-        include_confidence=args.include_confidence_cols,
         metrics_out=metrics_out,
-        boilerplate_df_threshold=args.boilerplate_df_threshold,
-        disable_boilerplate=args.disable_boilerplate_removal,
-        debug_samples=args.debug_samples,
-        debug_dump_path=args.debug_dump_path,
+        concurrency=args.concurrency,
     )
 
     print("\nSkill Counts:")
@@ -75,6 +66,23 @@ def main() -> None:
 
     df.to_csv(output_path, index=False)
     print(f"\nResults saved to: {output_path}")
+
+    # Persist categories for offline dashboard regeneration
+    import json
+    cats_path = output_path.replace(".csv", "_categories.json")
+    if categories:
+        with open(cats_path, "w") as f:
+            json.dump(categories, f, indent=2)
+        print(f"Categories saved to: {cats_path}")
+
+    if args.dashboard:
+        from jobdistill.dashboard import generate_dashboard
+
+        metrics_dict = metrics.to_dict(
+            top_skills=list(zip(df["Skill"].tolist(), df["Count"].tolist()))
+        )
+        generate_dashboard(df, metrics_dict, args.dashboard, num_pdfs=total, categories=categories)
+        print(f"Dashboard saved to: {args.dashboard}")
 
 
 if __name__ == "__main__":
