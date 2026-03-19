@@ -414,6 +414,142 @@ SKILL_ALIASES: dict[str, str] = {
     # --- Python version variants ---
     "Python 3": "Python",
     "Python 2": "Python",
+    # --- Claude variants → Claude ---
+    "Claude Code": "Claude",
+    "Anthropic Claude": "Claude",
+    "Anthropic Claude Code": "Claude",
+    "Claude Code Cursor": "Claude",
+    "Claude Sonnet 4.5": "Claude",
+    # --- ChatGPT/GPT variants → ChatGPT ---
+    "GPT": "ChatGPT",
+    "ChatGPT Codex": "ChatGPT",
+    "GPT-5": "ChatGPT",
+    "GPT-4o-mini": "ChatGPT",
+    "OpenAI GPT": "ChatGPT",
+    # --- OpenAI variants → OpenAI ---
+    "OpenAI API": "OpenAI",
+    "OpenAI APIs": "OpenAI",
+    "OpenAI Platform": "OpenAI",
+    "OpenAI Agents SDK": "OpenAI",
+    # --- Google Gemini → Gemini ---
+    "Google Gemini": "Gemini",
+    "Gemini 2.5 Flash Image": "Gemini",
+    # --- Copilot variants → GitHub Copilot ---
+    "Microsoft Copilot": "GitHub Copilot",
+    "Copilot": "GitHub Copilot",
+    "Co-Pilot": "GitHub Copilot",
+    "CoPilot": "GitHub Copilot",
+    "MS Copilot": "GitHub Copilot",
+    "MSFT 365 Copilot": "GitHub Copilot",
+    "Microsoft 365 Copilot": "GitHub Copilot",
+    "Copilot Chat": "GitHub Copilot",
+    "Copilot for Power BI": "GitHub Copilot",
+    "Microsoft Copilot Studio": "GitHub Copilot",
+    "Copilot Studio": "GitHub Copilot",
+    # --- Cursor variants → Cursor ---
+    "Curser": "Cursor",
+    # --- Agentic AI variants → Agentic AI ---
+    "Agentic AI Framework": "Agentic AI",
+    "Agentic Frameworks": "Agentic AI",
+    "Agentic Protocols": "Agentic AI",
+    "Agentic Systems": "Agentic AI",
+    "Agentic Workflows": "Agentic AI",
+    "AI agentic frameworks": "Agentic AI",
+    # --- RAG variants → Retrieval-Augmented Generation ---
+    "RAG": "Retrieval-Augmented Generation",
+    "RAG (Retrieval Augmented Generation)": "Retrieval-Augmented Generation",
+    "RAG Pipelines": "Retrieval-Augmented Generation",
+    # --- LLM variants → Large Language Models ---
+    "LLM": "Large Language Models",
+    "LLMs": "Large Language Models",
+    # --- GenAI → Generative AI ---
+    "GenAI": "Generative AI",
+    # --- Microsoft Office variants → Microsoft Office ---
+    "Microsoft Office Suite": "Microsoft Office",
+    "MS Office": "Microsoft Office",
+    "MS Office Suite": "Microsoft Office",
+    "Office 365": "Microsoft Office",
+    "Microsoft Office 365": "Microsoft Office",
+    "Microsoft 365": "Microsoft Office",
+    # --- Visio standalone → Microsoft Visio ---
+    "Visio": "Microsoft Visio",
+    # --- VS/Visual Studio → Visual Studio ---
+    "Microsoft Visual Studio": "Visual Studio",
+    # --- Code Review variants ---
+    "Code Reviews": "Code Review",
+    # --- GitLab CI variants → GitLab CI ---
+    "GitLab CI/CD": "GitLab CI",
+    "GitLab Pipelines": "GitLab CI",
+    # --- Shell variants → Shell Scripting ---
+    "Shell": "Shell Scripting",
+    "Shell Script": "Shell Scripting",
+    "Unix Shell": "Shell Scripting",
+    "Unix Scripting": "Shell Scripting",
+    "Linux Shell": "Shell Scripting",
+    "Linux Shell Script": "Shell Scripting",
+    "Bash Scripting": "Bash",
+    # --- Source Control → Version Control ---
+    "Source Control": "Version Control",
+    "Source Code Management": "Version Control",
+    "Source Control Management": "Version Control",
+    "VCS": "Version Control",
+    # --- Spring variants → Spring ---
+    "Spring Framework": "Spring",
+    "Spring Core": "Spring",
+    # --- SDLC variants ---
+    "SDLC": "Software Development Life Cycle",
+    "System Development Lifecycle": "Software Development Life Cycle",
+    # --- Docker Compose → Docker ---
+    "Docker Compose": "Docker",
+    "Docker Hub": "Docker",
+    # --- Incident variants → Incident Response ---
+    "Incident Management": "Incident Response",
+    "Incident Handling": "Incident Response",
+    # --- Quality Assurance variants ---
+    "Quality Assurance and Testing": "Quality Assurance",
+    "Quality Assurance Principles": "Quality Assurance",
+    "Quality Control": "Quality Assurance",
+    # --- Test-Driven Development ---
+    "TDD": "Test-Driven Development",
+    # --- React.js ecosystem (keep React Native separate) ---
+    "React Testing Library": "React",
+    "React Hook Form": "React",
+    # --- Windows variants → Windows ---
+    "Microsoft Windows": "Windows",
+    "Windows 10": "Windows",
+    "Windows 11": "Windows",
+    "Windows 7": "Windows",
+    "Windows Operating Systems": "Windows",
+    # --- Linux variants → Linux ---
+    "Linux command line": "Linux",
+    "Linux Kernel": "Linux",
+    # --- Red Hat → Red Hat ---
+    "Red Hat Enterprise Linux": "Red Hat",
+    # --- Tableau variants → Tableau ---
+    "Tableau Prep": "Tableau",
+    "Tableau Server": "Tableau",
+    # --- Unreal variants → Unreal Engine ---
+    "Unreal Engine 5": "Unreal Engine",
+    "Unreal Blueprint": "Unreal Engine",
+    "Unreal Editor": "Unreal Engine",
+    "Unreal Motion Graphics": "Unreal Engine",
+    # --- VMware variants ---
+    "VMware ESX": "VMware",
+    "VMware NSX": "VMware",
+    # --- Statistical variants → Statistical Analysis ---
+    "Statistical Modeling": "Statistical Analysis",
+    "Statistical Methods": "Statistical Analysis",
+    "Statistical Software": "Statistical Analysis",
+    # --- Automated Testing → Test Automation ---
+    "Automated Testing": "Test Automation",
+    "Automation Testing": "Test Automation",
+    "Software Test Automation": "Test Automation",
+    "Automated software testing": "Test Automation",
+    # --- Time Series → Time Series Analysis ---
+    "Time Series Forecasting": "Time Series Analysis",
+    # --- Anthropic → Claude ---
+    "Anthropic": "Claude",
+    "Anthropic API": "Claude",
 }
 
 # Skills to remove — too vague/generic to be useful

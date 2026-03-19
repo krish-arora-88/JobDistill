@@ -6,14 +6,14 @@ Java,674
 Agile,633
 SQL,621
 Git,575
-Linux,480
+Linux,484
 Machine Learning,479
 AWS,440
 C#,415
-React,383
+React,388
 Microsoft Excel,314
 Azure,311
-Docker,305
+Docker,309
 CI/CD,288
 REST,281
 TypeScript,265
@@ -24,13 +24,18 @@ Artificial Intelligence,234
 DevOps,220
 GCP,213
 Jira,211
+Microsoft Office,204
 Power BI,189
 Angular,179
 Go,179
 Jenkins,179
 Scrum,176
+Large Language Models,170
 Microsoft PowerPoint,170
 Node.js,167
+Windows,163
+Software Development Life Cycle,161
+Test Automation,159
 .NET,158
 Microsoft Word,157
 GitHub,154
@@ -38,20 +43,17 @@ Unit Testing,152
 Object-Oriented Programming,150
 PyTorch,148
 PostgreSQL,147
-Windows,145
 Microservices,144
 Android,138
 AI,137
-Large Language Models,135
 TensorFlow,132
-Tableau,129
-Generative AI,123
+Tableau,131
+Generative AI,126
 SQL Server,110
 Data Structures,109
 R,109
-Microsoft Office,108
+Bash,108
 Algorithms,107
-Bash,107
 iOS,105
 Unix,104
 Perl,97
@@ -61,9 +63,7 @@ Deep Learning,88
 MySQL,87
 Computer Vision,86
 Pandas,84
-Software Development Life Cycle,84
 Terraform,84
-Test Automation,81
 scikit-learn,81
 Bitbucket,80
 GitLab,80
@@ -72,7 +72,6 @@ Continuous Integration,78
 Kotlin,76
 Spark,76
 Data Analysis,75
-SDLC,75
 Vue.js,75
 MongoDB,74
 Natural Language Processing,74
@@ -80,42 +79,46 @@ Confluence,73
 SharePoint,73
 JSON,71
 Kafka,71
-Automated Testing,70
 XML,70
 TCP/IP,69
 Ethernet,67
 Cloud Computing,66
 Ruby,66
+Test-Driven Development,65
 Rust,64
 Hadoop,63
 VBA,63
 Microsoft Teams,62
 Visual Studio,62
 ETL,61
-Test-Driven Development,61
+Shell Scripting,61
 GitHub Actions,60
 Data Modeling,59
+Code Review,58
 Integration Testing,58
 Prompt Engineering,57
 Spring Boot,57
 Django,56
+GitHub Copilot,56
 NumPy,56
 MATLAB,54
 NoSQL,54
 Swift,54
 HTTP,51
-Code Review,49
 Next.js,49
 Snowflake,49
 PowerShell,48
+Spring,48
+Version Control,48
 Data Visualization,47
+Quality Assurance,47
+Statistical Analysis,47
 Infrastructure as Code,46
 Kanban,46
 Azure DevOps,45
 Databricks,45
 PHP,45
 Redis,44
-Shell Scripting,44
 Distributed Systems,43
 LangChain,43
 Ansible,42
@@ -123,38 +126,37 @@ Debugging,42
 Design Patterns,42
 Figma,42
 JUnit,42
-Quality Assurance,42
+Retrieval-Augmented Generation,42
 ASP.NET,41
-Microsoft 365,41
 Oracle,41
 Scala,41
 GraphQL,40
 Data Analytics,39
+OpenAI,39
 Splunk,39
 pytest,39
 HTML5,38
 Playwright,38
 AWS Lambda,37
+ChatGPT,37
 MLOps,37
 macOS,37
 Google BigQuery,35
-OpenAI,35
 Redux,35
 Reinforcement Learning,35
 TCL,35
 IoT,34
-Version Control,34
 Apache Airflow,33
+Claude,33
 Grafana,33
 Matplotlib,33
 Helm,32
 FPGA,31
 Postman,31
 SAP,31
+Unreal Engine,31
 RTOS,30
 React Native,30
-Retrieval-Augmented Generation,30
-Spring,30
 Android Studio,29
 Groovy,29
 Power Automate,29
@@ -168,10 +170,9 @@ Eclipse,27
 Express.js,27
 FastAPI,27
 Flask,27
+Microsoft Visio,27
 Raspberry Pi,27
 ServiceNow,27
-Statistical Analysis,27
-Unreal Engine,27
 5G,26
 Cybersecurity,26
 Cypress,26
@@ -188,7 +189,6 @@ Multithreading,25
 Oscilloscope,25
 Statistics,25
 Big Data,24
-ChatGPT,24
 Containerization,24
 QNX,24
 Unity,24
@@ -196,12 +196,10 @@ Virtual Machines,24
 gRPC,24
 Design Thinking,23
 Microsoft Access,23
-Microsoft Office Suite,23
 Project Management,23
 SPI,23
 Feature Engineering,22
 I2C,22
-LLM,22
 OSPF,22
 Xcode,22
 Continuous Delivery,21
@@ -240,9 +238,11 @@ Looker,18
 MLflow,18
 MVC,18
 SwiftUI,18
+Time Series Analysis,18
 Blockchain,17
 Datadog,17
 Google Workspace,17
+Incident Response,17
 Neural Networks,17
 OSI Model,17
 Power Apps,17
@@ -253,27 +253,25 @@ Virtualization,17
 Yocto,17
 ARM,16
 Artifactory,16
-Claude,16
 Haskell,16
 Image Processing,16
 Keras,16
-Microsoft Copilot,16
 Mocha,16
 PCIe,16
 PySpark,16
+Red Hat,16
 Regression Testing,16
 SDN,16
 SOAP,16
 Signal Processing,16
-Spring Framework,16
 UART,16
 Windows Server,16
+Cursor,15
 Data Governance,15
 GCC,15
 Gradle,15
 Jupyter Notebook,15
 Microsoft Project,15
-Microsoft Visio,15
 Predictive Analytics,15
 Qt,15
 System Design,15
@@ -282,33 +280,30 @@ USB,15
 Webpack,15
 Wi-Fi,15
 dbt,15
+Agentic AI,14
 Bluetooth,14
 Classification,14
-Cursor,14
 DWDM,14
 Exploratory Data Analysis,14
-GitHub Copilot,14
+Gemini,14
 Google Test,14
 IS-IS,14
-MS Office,14
 Manual Testing,14
 Microsoft Power Platform,14
-Office 365,14
 Performance Testing,14
 Predictive Modeling,14
 Real-time Systems,14
 Supervised Learning,14
 UDP,14
 UI/UX Design,14
+VMware,14
 WPF,14
 npm,14
 Cloud Native,13
-Copilot,13
 DynamoDB,13
 ERP,13
 Embedded Linux,13
 ISO 13485,13
-LLMs,13
 OpenStack,13
 Plotly,13
 Slack,13
@@ -320,6 +315,7 @@ ELT,12
 End-to-End Testing,12
 GIS,12
 GPU,12
+GitLab CI,12
 JAX,12
 LabVIEW,12
 LangGraph,12
@@ -332,12 +328,10 @@ SaaS,12
 SystemVerilog,12
 Tailwind CSS,12
 UX Design,12
-Visio,12
 Vite,12
 WordPress,12
 Appium,11
 BigQuery,11
-Claude Code,11
 Clustering,11
 Computer Architecture,11
 Computer Graphics,11
@@ -355,9 +349,7 @@ Release Management,11
 SciPy,11
 Service-Oriented Architecture,11
 SolidWorks,11
-Statistical Modeling,11
 Thrift,11
-Time Series Forecasting,11
 Virtual Reality,11
 WebSockets,11
 XUnit,11
@@ -366,7 +358,6 @@ Bamboo,10
 Business Intelligence,10
 Data Lake,10
 Data Warehouse,10
-Gemini,10
 Hibernate,10
 Hybrid Cloud,10
 IP Networking,10
@@ -387,8 +378,6 @@ RIP,10
 Responsible AI,10
 SAP Analytics Cloud,10
 SSL,10
-Shell,10
-Source Control,10
 System Testing,10
 Ubuntu,10
 VHDL,10
@@ -396,7 +385,6 @@ API Development,9
 ArgoCD,9
 Business Analysis,9
 CAD,9
-Code Reviews,9
 Command Line Interface,9
 Configuration Management,9
 Cucumber,9
@@ -419,7 +407,6 @@ PLC,9
 Penetration Testing,9
 Power Platform,9
 RabbitMQ,9
-Red Hat,9
 Remix,9
 Risk Management,9
 SQL Server Management Studio,9
@@ -446,8 +433,6 @@ Design Systems,8
 Encryption,8
 Event-Driven Architecture,8
 GPS,8
-GPT,8
-GitLab CI,8
 HBase,8
 Hardware-in-the-Loop (HIL),8
 Kibana,8
@@ -455,11 +440,9 @@ LTE,8
 Less,8
 MCP,8
 Make,8
-Microsoft Windows,8
 Multimeter,8
 Pinecone,8
 Prometheus,8
-RAG,8
 ROS,8
 Real-time Operating System,8
 Responsive Design,8
@@ -471,13 +454,11 @@ SNMP,8
 SPSS,8
 Socket Programming,8
 Spring MVC,8
-Statistical Methods,8
 Streamlit,8
 Technical Documentation,8
 Test Planning,8
 UI Testing,8
 User Acceptance Testing,8
-VMware,8
 Virtual Desktop Infrastructure,8
 Vulnerability Assessment,8
 Weights & Biases,8
@@ -487,7 +468,6 @@ AWS IAM,7
 Accessibility,7
 Adobe Creative Suite,7
 Adobe XD,7
-Agentic AI,7
 Assembly,7
 Augmented Reality,7
 Azure Functions,7
@@ -502,8 +482,6 @@ Distributed Computing,7
 GNU,7
 Google Slides,7
 ISO 27001,7
-Incident Management,7
-Incident Response,7
 LLVM,7
 MQTT,7
 Microsoft Fabric,7
@@ -515,7 +493,6 @@ Oscilloscopes,7
 Photoshop,7
 Prototyping,7
 RDBMS,7
-Red Hat Enterprise Linux,7
 Rush,7
 S3,7
 SONET/SDH,7
@@ -526,7 +503,6 @@ SoapUI,7
 SonarQube,7
 Spinnaker,7
 Svelte,7
-Time Series Analysis,7
 UI Design,7
 UiPath,7
 User Experience,7
@@ -544,7 +520,6 @@ Amazon CloudWatch,6
 Amazon DynamoDB,6
 Apache,6
 AutoCAD,6
-Automation Testing,6
 Blender,6
 Blue Prism,6
 Boost,6
@@ -554,7 +529,6 @@ Cassandra,6
 Client-Server Architecture,6
 Cloud Infrastructure,6
 Continuous Improvement,6
-Copilot Studio,6
 DB2,6
 DOORS,6
 Data Wrangling,6
@@ -707,7 +681,6 @@ WebAuthN,5
 WebGL,5
 WebRTC,5
 WebdriverIO,5
-Windows 10,5
 Zapier,5
 Zephyr,5
 asyncio,5
@@ -825,7 +798,6 @@ Quantum Computing,4
 RS-422,4
 RSVP,4
 Ray,4
-React Testing Library,4
 Real-time Programming,4
 Regression Analysis,4
 Robotic Process Automation,4
@@ -842,7 +814,6 @@ Stata,4
 Swagger,4
 Synthetic Data Generation,4
 System Administration,4
-TDD,4
 TFS,4
 Technical Writing,4
 TensorFlow Lite,4
@@ -948,7 +919,6 @@ Digital Twin,3
 DirectX,3
 Disaster Recovery,3
 Distributed Messaging,3
-Docker Compose,3
 Document Classification,3
 Driver Development,3
 Dynamic Analysis,3
@@ -971,12 +941,9 @@ Forecasting,3
 Forensics,3
 Foundation Models,3
 GPIO,3
-GenAI,3
 Generative Adversarial Networks,3
 GetFeedback,3
-GitLab CI/CD,3
 Glassfish,3
-Google Gemini,3
 Google Play Store,3
 Guice,3
 HackerRank,3
@@ -993,7 +960,6 @@ IT Governance,3
 IT Service Management,3
 ITSM,3
 InVision,3
-Incident Handling,3
 Informatica,3
 Information Security,3
 IntelliJ IDEA,3
@@ -1011,7 +977,6 @@ Lambda,3
 Leaflet,3
 Lean UX,3
 LiDAR,3
-Linux command line,3
 Lucene,3
 MISRA,3
 MLIR,3
@@ -1131,8 +1096,6 @@ UI Development,3
 Unity Catalog,3
 User Interviews,3
 V-Model,3
-VMware ESX,3
-VMware NSX,3
 VR,3
 Video Codecs,3
 Visual Design,3
@@ -1142,7 +1105,6 @@ Vuex,3
 WAN,3
 Walkme,3
 Web Design,3
-Windows 11,3
 Windows Forms,3
 Wireframing,3
 Wireless Networks,3
@@ -1191,7 +1153,6 @@ Adobe Acrobat,2
 Adobe Experience Manager,2
 Adobe Illustrator,2
 Adobe Photoshop,2
-Agentic AI Framework,2
 Alerting,2
 Amazon Athena,2
 Amazon CloudFront,2
@@ -1354,7 +1315,6 @@ G-Suite,2
 GANs,2
 GD&T,2
 GLSL,2
-GPT-4o-mini,2
 GTK,2
 GUI Development,2
 Gas Chromatography,2
@@ -1447,7 +1407,6 @@ MEMS,2
 MEMS IMU,2
 MLD,2
 MLDP,2
-MS Office Suite,2
 Magento,2
 Mapbox,2
 MariaDB,2
@@ -1460,11 +1419,9 @@ Meta Quest,2
 Micro:bit,2
 Microcontroller,2
 Microcontroller Programming,2
-Microsoft Copilot Studio,2
 Microsoft Dynamics 365,2
 Microsoft Entra,2
 Microsoft Exchange,2
-Microsoft Office 365,2
 Minio,2
 Mixed-Effects Models,2
 Mobile Device Management,2
@@ -1500,7 +1457,6 @@ Object Storage,2
 Okta,2
 Omniverse Replicator,2
 Online learning,2
-OpenAI APIs,2
 OpenEmbedded,2
 Operating System,2
 Operational Technology,2
@@ -1557,15 +1513,11 @@ QA Processes,2
 QML,2
 QMS,2
 Qlik,2
-Quality Assurance and Testing,2
-Quality Control,2
 Quality Management System,2
 Qualtrics,2
 Quantitative Research,2
 Quarkus,2
 R Shiny,2
-RAG (Retrieval Augmented Generation),2
-RAG Pipelines,2
 RBAC,2
 RESTCONF,2
 RFID,2
@@ -1633,7 +1585,6 @@ Security Monitoring,2
 Segmentation,2
 Sensor Simulation,2
 Shader Programming,2
-Shell Script,2
 Shopify,2
 Signal Generator,2
 SiteCatalyst,2
@@ -1644,12 +1595,10 @@ Software Development Kit,2
 Software Troubleshooting,2
 Software/Hardware Co-design,2
 Solid.js,2
-Source Code Management,2
 SpaceClaim,2
 Spanner,2
 Sphinx,2
 Spirent,2
-Spring Core,2
 Stable Diffusion,2
 Standard Operating Procedures,2
 Statistical Analysis Software,2
@@ -1665,7 +1614,6 @@ Switch,2
 Switching,2
 Symfony,2
 System Architecture,2
-System Development Lifecycle,2
 System Scalability,2
 System and Technology Integration,2
 TI DSP,2
@@ -1690,7 +1638,6 @@ Three.js,2
 Tizen,2
 Trajectory planning,2
 UI/UX,2
-Unix Shell,2
 Usability,2
 User Interface Design,2
 User-centric design,2
@@ -1779,7 +1726,6 @@ AI Orchestration,1
 AI Pair Programming,1
 AI Platform,1
 AI Services,1
-AI agentic frameworks,1
 AI-900,1
 AI-Assisted Development Tools,1
 AI-assisted coding tools,1
@@ -1851,10 +1797,6 @@ Aerospike,1
 After Effects,1
 Agent Development,1
 Agentforce,1
-Agentic Frameworks,1
-Agentic Protocols,1
-Agentic Systems,1
-Agentic Workflows,1
 Agents,1
 AgilePlace,1
 AgilePoint,1
@@ -1890,10 +1832,6 @@ Android Audio System,1
 Android Multimedia Framework,1
 AndroidX,1
 Ant Design,1
-Anthropic,1
-Anthropic API,1
-Anthropic Claude,1
-Anthropic Claude Code,1
 Anti-malware,1
 Antivirus Software,1
 Apache Beam,1
@@ -1969,7 +1907,6 @@ Automated Reasoning,1
 Automated Tests,1
 Automated Unit Testing,1
 Automated Unit Testing Frameworks,1
-Automated software testing,1
 Automation APIs,1
 Automation Anywhere,1
 Automation Platforms,1
@@ -2006,7 +1943,6 @@ BMC Remedy,1
 BPMN 2.0,1
 Bandit,1
 Bare Metal,1
-Bash Scripting,1
 Batch Data Processing,1
 Batch File,1
 Bayesian Inference,1
@@ -2117,7 +2053,6 @@ Chakra UI,1
 Channel Simulator,1
 Chaos Engineering,1
 Charles River,1
-ChatGPT Codex,1
 Chatter,1
 Chip Layout,1
 Chroma,1
@@ -2133,8 +2068,6 @@ Clarity PC,1
 Clarity PPM,1
 Classical Computer Vision,1
 Classical Machine Learning,1
-Claude Code Cursor,1
-Claude Sonnet 4.5,1
 Clean Code,1
 ClickHouse,1
 ClickOnce,1
@@ -2218,8 +2151,6 @@ Control Automation,1
 Control Systems Engineering,1
 ControlNet,1
 Controls,1
-Copilot Chat,1
-Copilot for Power BI,1
 Copperleaf AIP,1
 Core Network,1
 Core Web Vitals,1
@@ -2232,7 +2163,6 @@ Cross-platform,1
 Crossplane,1
 Cryptographic Algorithms,1
 Crystal Reports,1
-Curser,1
 Customer Journey Mapping,1
 Cyber Investigations,1
 Cyber Kill Chain,1
@@ -2361,7 +2291,6 @@ Distributed System Design,1
 Distribution protection schemes,1
 Django REST Framework,1
 DoDAF,1
-Docker Hub,1
 Documentation,1
 Domain Adaptation,1
 Domain Registration,1
@@ -2524,7 +2453,6 @@ GNN,1
 GNSS/INS,1
 GPP,1
 GPRS,1
-GPT-5,1
 GPU Architecture,1
 GPU Drivers,1
 GPU Tools,1
@@ -2543,7 +2471,6 @@ Gantt charts,1
 Gatsby,1
 Gauge Repeatability and Reproducibility (GRR),1
 Gauntlet,1
-Gemini 2.5 Flash Image,1
 GenICam,1
 General-Purpose Processors (GPPs),1
 Generative AI IDE,1
@@ -2559,7 +2486,6 @@ Geotab Platform,1
 Gesture Recognition,1
 GitHub Pages,1
 GitHub Runners,1
-GitLab Pipelines,1
 GitLeaks,1
 Glue,1
 Gmail,1
@@ -2817,10 +2743,7 @@ Linear Regression,1
 Link Budgets,1
 Linked Data,1
 Linker,1
-Linux Kernel,1
 Linux Kernel Module Development,1
-Linux Shell,1
-Linux Shell Script,1
 Linux/Unix shell,1
 Liquibase,1
 Live Service Development,1
@@ -2860,8 +2783,6 @@ MMSIM,1
 MPEG,1
 MR,1
 MRP Systems,1
-MS Copilot,1
-MSFT 365 Copilot,1
 MSIX,1
 MVC Architecture,1
 Mabl,1
@@ -2907,7 +2828,6 @@ Microcontrollers programming,1
 Microprocessor Programming,1
 Microsegmentation,1
 Microsimulation Modeling,1
-Microsoft 365 Copilot,1
 Microsoft Active Directory,1
 Microsoft Agent Framework,1
 Microsoft Authentication,1
@@ -3080,9 +3000,6 @@ Onshape,1
 Open Source,1
 Open-source Development,1
 Open3d,1
-OpenAI Agents SDK,1
-OpenAI GPT,1
-OpenAI Platform,1
 OpenConfig,1
 OpenGL ES,1
 OpenID Connect,1
@@ -3228,7 +3145,6 @@ QNX Multimedia Framework,1
 QoS,1
 Qualcomm,1
 Qualitative Data Analysis,1
-Quality Assurance Principles,1
 Quantitative Data Analysis,1
 Quantization,1
 Quantum Information Science,1
@@ -3269,7 +3185,6 @@ Rapid Prototyping,1
 Rational Team Concert,1
 Raylab,1
 Razor,1
-React Hook Form,1
 React Native Testing Library,1
 Read the Docs,1
 Real-time Communication,1
@@ -3484,7 +3399,6 @@ Software Quality Analysis,1
 Software Security,1
 Software State Machines,1
 Software Systems,1
-Software Test Automation,1
 Software Verification,1
 Solace,1
 SolarWinds,1
@@ -3492,7 +3406,6 @@ Solidity,1
 SonarCloud,1
 Sophos Central,1
 SoundSeed,1
-Source Control Management,1
 Spark SQL,1
 Spatial Analysis,1
 Spatial Computing,1
@@ -3518,7 +3431,6 @@ Stakeholder Management,1
 Star Schema,1
 State Machines,1
 Static Testing,1
-Statistical Software,1
 SteamVR,1
 Storage,1
 Storage Management,1
@@ -3572,8 +3484,6 @@ TPU,1
 TRAC,1
 TSN,1
 TWS API,1
-Tableau Prep,1
-Tableau Server,1
 Taegis XDR/MDR,1
 Tailwind,1
 Tauri,1
@@ -3677,13 +3587,8 @@ Unity Visual Scripting Graph,1
 Unity XR Interaction Toolkit,1
 Unity3D,1
 Universal Verification Methodology,1
-Unix Scripting,1
 Unix-like OS,1
 Unmoderated Testing,1
-Unreal Blueprint,1
-Unreal Editor,1
-Unreal Engine 5,1
-Unreal Motion Graphics,1
 Unsupervised Machine Learning,1
 Use Cases,1
 User Account Administration,1
@@ -3694,7 +3599,6 @@ User Personas,1
 User Research Methodologies,1
 V0,1
 VB Scripting,1
-VCS,1
 VFX Pipelines,1
 VLM,1
 VLOOKUP,1
@@ -3783,11 +3687,9 @@ Webflux,1
 Website Performance Optimization,1
 Win32 API,1
 WinForms,1
-Windows 7,1
 Windows Active Directory,1
 Windows Application,1
 Windows CE/Embedded,1
-Windows Operating Systems,1
 Windows Server 2012,1
 Windsurf,1
 Wireframing Tools,1
